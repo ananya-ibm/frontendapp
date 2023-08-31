@@ -1,0 +1,38 @@
+# This is for configuring the global environment setup - which impacts things like
+#
+# - What is the default theme used for Storybook
+# - What is the global overrides used in testing etc
+#
+# These are variables you would change in a client project. Note that changing some of
+# these will impact JEST snapshots - and thus introduce large number of local changes
+# making upstream merge and contribution difficult
+#
+# You can place a file named `client-packages/globalenv` which will
+# override the global definition
+#
+# Besides the variables document in here, you can put any
+# variable used in .env files
+
+# Webpack aliases and config
+WEBPACK_OVERRIDES=@exo/frontend-common-app-shell
+
+# Storybook aliases and config
+STORYBOOK_PROVIDERS_THEME=packages/themes/default-theme/src/index.ts
+
+ESLINT_PROVIDERS_THEME=packages/themes/default-theme/src/index.ts
+
+TSCONFIG_PROVIDERS_THEME=packages/themes/default-theme/src/index.ts
+
+
+# You probably want to leave the JEST config as changing it will
+# render most if not all snapshots invalid
+
+# Jest config and aliases
+JEST_PROVIDERS_THEME=packages/themes/default-theme/src/index.ts
+
+# This setting only applies to tests in the client-packages folder
+# and can thus be changed without impacting the snapshots
+# too much
+JEST_CLIENT_PACKAGES_PROVIDERS_THEME=packages/themes/default-theme/src/index.ts
+
+

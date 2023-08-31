@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StoreHeader /> component its snapshot matches story Default 1`] = `
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c8 {
+  color: #f4f4f4;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2.5rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 10rem;
+  max-width: 10rem;
+  overflow: hidden;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: #161616;
+  font: 700 2rem/2.5rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-bottom: unset;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0.5rem;
+  text-overflow: ellipsis;
+}
+
+.c5 {
+  color: #161616;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-bottom: unset;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0.5rem;
+  text-overflow: ellipsis;
+}
+
+.c3 {
+  padding: 0.5rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          alt="Store"
+          class="image"
+          src="http://placeimg.com/640/480/abstract"
+        />
+      </div>
+      <div
+        class="c3"
+      >
+        <h3
+          class="c4"
+        >
+          My Second store
+        </h3>
+        <span
+          class="c5"
+        >
+          Big sale!
+        </span>
+      </div>
+    </div>
+    <div
+      class="c6"
+    >
+      <span
+        class="c5"
+      >
+        023264 sales
+      </span>
+      <span
+        class="c5"
+      >
+        <div
+          class="c7"
+        >
+          <svg
+            aria-label="icon"
+            class="c8"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c8"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c8"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c8"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c8"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </div>
+      </span>
+      <span
+        class="c5"
+      >
+        <svg
+          aria-label="icon"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="16"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+        Reichelport, undefined
+      </span>
+    </div>
+  </div>
+</div>
+`;

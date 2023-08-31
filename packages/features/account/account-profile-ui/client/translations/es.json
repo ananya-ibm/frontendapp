@@ -1,0 +1,142 @@
+{ 
+    "features.account.account-profile-ui" : {
+        "pages": 
+        {
+            "SecurityPage":
+            {
+                "Dashboard.title" : "Seguridad de la cuenta"
+            },
+            "AddressesPage":
+            {
+                "Addresses.title" : "Direcciones"
+            },
+            "MyOrdersPage":
+            {
+               "Myorder.Title" : "Mis ordenes"
+            },
+            "PaymentPage":
+            {
+                "Paymentmethod.Title": "Métodos de pago"
+            },
+            "PersonalDetailsPage":
+            {
+                "Title": "Detalles personales"
+            },
+            "PreferencesPage":
+            {
+                "Title":"Preferencias"
+            },
+            "ProfilePage":
+            {
+                "Title":"Mi perfil"
+            },
+            "RegisterPage":
+            {
+                "Title": "Registrarse"
+            }
+         },
+            "components": 
+            {
+                "AddressForm" :
+                 {
+                    "Firstname.label": "Su nombre",
+                    "Lastname.label" : "Tu apellido",
+                    "Email.label"    : "Tu correo electrónico",
+                    "Phonenumber.label":"Su número de teléfono",
+                    "Address.label" : "Su dirección",
+                    "Additional.address.label": "Línea de dirección adicional",
+                    "Country.label": "País",
+                    "City.label" : "Ciudad",
+                    "State.Province.label":"Provincia del estado",
+                    "Postal.zipcode.label":"Postal / Código postal",
+
+                    "AddressForm.Firstname.placeholder":"Nombre",
+                    "AddressForm.Lastname.placeholder":"Apellido",
+                    "AddressForm.Email.placeholder":"Dirección de correo electrónico",
+                    "AddressForm.Phonenumber.placeholder":"Número de teléfono",
+                    "AddressForm.Address.placeholder":"Su dirección",
+                    "AddressForm.Additional.address.placeholder":"Línea de dirección 2",
+                    "AddressForm.Country.placeholder":"País",
+                    "AddressForm.City.placeholder":"Ciudad",
+                    "AddressForm.State.Province.placeholder":"Estado / Provincia",
+                    "AddressForm.Postal.zipcode.placeholder":"Código postal"     
+                 },
+                "Dashboard":
+                {
+                    "LogoutButton":"Cerrar sesión"
+                },
+                "ResetPassword" :
+                {
+                    "Password" : "Contraseña",
+                    "Confirm.Password":"confirmar Contraseña",
+                    "Update.Button": "Actualizar",
+                    "Current.Password":"Contraseña actual",
+                    "Password.text": "Tu contraseña ha sido cambiada"
+                },
+                "ManageAddresses" :
+                {
+                    "Addnewaddress" : "agregar nueva dirección",
+                    "Button.Cancel":"cancelar",
+                    "Button.Save": "ahorrar",
+                    "Title":"Por favor ingrese sus datos de contacto"
+                },
+                "PaymentForm":
+                {
+                    "Cardtype": "Tipo de tarjeta",
+                    "Cardtype.Placeholder": "Elija su tipo de tarjeta ...",
+                    "Cardnumber": "Número de tarjeta",
+                    "Cardholdername":"Nombre del titular de la tarjeta",
+                    "Expirydate":"Fecha de caducidad",
+                    "Button.cancel":"cancelar",
+                    "Button.UpadatePaymentMethod" : "Actualizar método de pago",
+                    "PaymentMethod.Title":"Por favor complete sus datos de pago",
+                    "Button.save":"Ahorrar",
+                    "PaymentMethod.Label":"Agregar nuevo método de pago"
+                },
+                "PersonalDetails":
+                {
+                    "Button.Save": "Ahorrar"
+                },
+                 "Preferences":
+                 {
+                     "Title":"Preferencias",
+                     "EmailPreferences": "Preferencias de correo electrónico",
+                     "EmailAddress":"Tu dirección de correo electrónico es",
+                     "Wanttochange":"Si quieres cambiarlo",
+                     "clickhere":"haga clic aquí.",
+                     "Marketing":"Márketing",
+                     "Contacby":"Quiero ser contactado por",
+                     "SelectOption":"Seleccione una opción",
+                     "SavePreferences": "Guardar preferencias"
+                 },
+                 "AccountOverview":
+                {
+                    "SubTitle":"Tus últimos pedidos"
+                },
+                "RegistrationForm":
+                {
+                    "Button.Register":"Registrarse",
+                    "YourFirstname":"Su nombre",
+                    "Firstname":"Nombre de pila",
+                    "YourLastname":"Tu apellido",
+                    "Lastname":"apellido",
+                    "YouremailAddress":"Tu correo electrónico",
+                    "emailAddress":"Dirección de correo electrónico",
+                    "Password": "Contraseña",
+                    "ConfirmPassword":"confirmar Contraseña",
+                    "Title":"Título",
+                    "YourPhonenumber":"Su número de teléfono",
+                    "phonenumber":"número de teléfono",
+                    "YourAddress":"Su dirección",
+                    "Address":"Dirección",
+                    "Country":"País",
+                    "City":"Ciudad",
+                    "Stateprovince":"Provincia del estado",
+                    "Postalzipcode":"Código postal",
+                    "Aggrement": "He leído y acepto nuestros términos y condiciones"
+                }
+     
+            }
+            
+        }
+    }

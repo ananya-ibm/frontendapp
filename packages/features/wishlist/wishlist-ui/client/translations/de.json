@@ -1,0 +1,10 @@
+{ 
+    "features.wishlist.wishlist-ui" : {
+        "pages.WishlistPage": {
+            "WishList.header" : "Wunschzettel",
+            "AddToCart.Button" :"In den Warenkorb legen"
+        }
+    }
+    }
+    
+    

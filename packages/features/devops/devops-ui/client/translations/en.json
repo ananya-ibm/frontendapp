@@ -1,0 +1,13 @@
+{
+  "features.devops.devops-ui": {
+    "pages.DeploymentsPage": {
+      "page.title": "Deployments"
+    },
+    "components.Deployments": {
+      "deployments.title": "Deployments"
+    },
+    "pages.DashboardPage": {
+      "page.title": "Dashboard"
+    }
+  }
+}

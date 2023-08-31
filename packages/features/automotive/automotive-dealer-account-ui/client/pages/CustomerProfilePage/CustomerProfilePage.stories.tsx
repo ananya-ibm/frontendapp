@@ -1,0 +1,79 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+import React from 'react';
+import { ContainerWrapper } from '@exo/frontend-common-storybook';
+import { SessionContextProvider } from '@exo/frontend-common-session-context';
+import { CustomerProfilePage } from './CustomerProfilePage';
+import App from '../../App';
+import autoProfileMock from '../../../mocks/auto-profile';
+
+export default {
+  title: 'Features/Automotive/Pages/CustomerProfilePage',
+  component: CustomerProfilePage,
+  decorators: [
+    Story => {
+      return (
+        <div style={{ margin: '-1em' }}>
+          <Story />
+        </div>
+      );
+    }
+  ]
+};
+
+export const Default = args => (
+  <ContainerWrapper
+    app={App}
+    type="auto"
+    mocks={autoProfileMock.me()}
+    urlPath="/account-automotive/profile"
+  >
+    <SessionContextProvider state={{ roles: ['user', 'customer'] }}>
+      <CustomerProfilePage {...args} />
+    </SessionContextProvider>
+  </ContainerWrapper>
+);
+Default.args = {};
+
+// -----------------------------------------------------------------------
+export const Loading = args => (
+  <ContainerWrapper
+    app={App}
+    type="auto"
+    mocks={autoProfileMock.me()}
+    mockState="loading"
+    urlPath="/account-automotive/profile"
+  >
+    <SessionContextProvider state={{ roles: ['user', 'customer'] }}>
+      <CustomerProfilePage {...args} />
+    </SessionContextProvider>
+  </ContainerWrapper>
+);
+Loading.args = {
+  ...Default.args
+};
+
+// -----------------------------------------------------------------------
+export const Error = args => (
+  <ContainerWrapper
+    app={App}
+    type="auto"
+    mocks={autoProfileMock.me()}
+    mockState="error"
+    urlPath="/account-automotive/profile"
+  >
+    <CustomerProfilePage {...args} />
+  </ContainerWrapper>
+);
+Error.args = {
+  ...Default.args
+};
+
+// -----------------------------------------------------------------------

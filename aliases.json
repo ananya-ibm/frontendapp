@@ -1,0 +1,35 @@
+{
+  "providers": {
+    "@exo-provider/frontend-content-provider": "packages/features/content/content-provider-noop/lib/index.ts",
+    "@exo-provider/frontend-additional-configs-provider": "packages/features/dev/dev-toolbar-extension-config-switch/client/defaultAdditionalConfigs.ts",
+    "@exo-provider/frontend-theme": "packages/themes/default-theme/src/index.ts",
+    "@exo-provider/frontend-theme-0": "buildUtils/theme/fakeTheme0.js",
+    "@exo-provider/frontend-theme-1": "buildUtils/theme/fakeTheme1.js",
+    "@exo-provider/frontend-theme-2": "buildUtils/theme/fakeTheme2.js",
+    "@exo-provider/frontend-theme-3": "buildUtils/theme/fakeTheme3.js",
+    "@exo-provider/frontend-theme-4": "buildUtils/theme/fakeTheme4.js",
+    "@exo-provider/frontend-theme-5": "buildUtils/theme/fakeTheme5.js",
+    "@exo-provider/frontend-theme-6": "buildUtils/theme/fakeTheme6.js",
+    "@exo-provider/frontend-theme-7": "buildUtils/theme/fakeTheme7.js",
+    "@exo-provider/frontend-theme-8": "buildUtils/theme/fakeTheme8.js",
+    "@exo-provider/frontend-theme-9": "buildUtils/theme/fakeTheme9.js"
+  },
+  "overrides": {
+    "@exo/frontend-common-app-shell": {
+      "package": "@exo/frontend-common-link",
+      "path": "packages\\common\\app-shell\\client\\index.ts"
+    },
+    "@exo/frontend-common-hooks": {
+      "package": "@exo/frontend-common-link",
+      "path": "packages\\common\\hooks\\lib\\index.ts"
+    },
+    "@exo/frontend-components-base-react-aria": {
+      "package": "@exo/frontend-components-base",
+      "path": "packages\\components\\base-react-aria\\src\\index.ts"
+    }
+  },
+  "overridden": {
+    "@exo/frontend-common-link": "packages\\common\\link\\lib\\index.ts",
+    "@exo/frontend-components-base": "packages\\components\\base\\src\\index.ts"
+  }
+}

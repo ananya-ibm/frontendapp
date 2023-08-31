@@ -1,0 +1,95 @@
+{
+  "name": "Page / Content page",
+  "description": "",
+  "displayField": "slug",
+  "fields": [
+    {
+      "id": "slug",
+      "name": "Slug",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "name",
+      "name": "Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "content",
+      "name": "Content",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "componentDepartmentSelector",
+              "componentHero"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "f45y5cbscf95"
+      }
+    },
+    "id": "pageContentPage",
+    "type": "ContentType",
+    "createdAt": "2020-04-28T15:54:00.168Z",
+    "updatedAt": "2022-05-17T06:17:48.264Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 17,
+    "publishedAt": "2022-05-17T06:17:48.264Z",
+    "firstPublishedAt": "2020-04-28T15:54:00.495Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "3HP7Rlb7FPIODfwLV33KHD"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "3HP7Rlb7FPIODfwLV33KHD"
+      }
+    },
+    "publishedCounter": 9,
+    "version": 18,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "3HP7Rlb7FPIODfwLV33KHD"
+      }
+    }
+  }
+}

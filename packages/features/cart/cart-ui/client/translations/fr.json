@@ -1,0 +1,50 @@
+{ 
+    "features.cart.cart-ui" : {
+        "pages.CartPage": {
+            "Cart.header": "Chariot",
+            "Title" :"Votre carte est actuellement vide",
+            "EmptyCart.primaryText" : "Continuer vos achats",
+            "CartButtons.next" : "Vérifier"
+            },
+        "components" : {
+            "Delivery" : 
+            {
+                "Options.Home" : "Livraison à domicile",
+                "Options.Store" : "Cueillette au magasin"
+            },
+            "HomeDeliverySelector":
+            {
+                "labeltext" : "méthode de livraison"
+            },
+            "CartSubtotal" :
+            {
+                "Head.SubtotalRow.label" : "Total",
+                "Foot.SubtotalRow.label" : "Le Total",
+                "Body.SubtotalRow.SalesTax.label" : "Taxe de vente",
+                "Body.SubtotalRow.Shipping.label" : "Expédition", 
+                "Body.SubtotalRow.ShippingTax.label" : "Taxe d'expédition",
+                "Body.SubtotalRow.Adjustments.label" : "Ajustements"
+            },
+            "ZipDeliveryOptions" :
+            {
+                "Title": "Expédition",
+                "div.Text":"Méthodes d'expédition disponibles pour",
+                "SubTitle":"Cliquez et collectez",
+                "SubTitle.HomeDelivery": "Livraison à domicile",
+                "Button.Label" : "Avoir"
+
+            },
+            "MiniCart":
+            {
+                "Title": "Mini-chariot"
+            },
+            "CartItem":
+            {
+                "PropertyName.Quantity" : "Quantité"
+            }
+
+            
+        }
+        
+    }
+}

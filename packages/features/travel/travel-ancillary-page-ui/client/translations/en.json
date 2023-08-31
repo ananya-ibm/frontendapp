@@ -1,0 +1,7 @@
+{
+  "features.travel-ancillary-page-ui.travel-ancillary-page-ui": {
+    "pages.SamplePage": {
+      "page.title": "I am a generated feature"
+    }
+  }
+}

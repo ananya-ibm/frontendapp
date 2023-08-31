@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetailCase /> component its snapshot matches story Default 1`] = `
+.c3 {
+  grid-area: content;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.c0 {
+  padding: 1rem;
+  background: white;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+  grid-template-areas: "content image";
+  margin: 0 -1rem;
+}
+
+.c0 .c2 {
+  padding-left: 1rem;
+}
+
+.c1 {
+  grid-area: image;
+  width: 100%;
+  overflow: hidden;
+  padding-right: 4rem;
+}
+
+.c1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.c6 {
+  margin-bottom: 0.5rem;
+}
+
+.c4 {
+  margin-bottom: 1rem;
+}
+
+.c5 {
+  font: 400 0.74375rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-bottom: 0.5rem;
+}
+
+.c8 {
+  display: none;
+}
+
+.c9 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c9 svg {
+  max-height: 100%;
+}
+
+.c7 {
+  height: 1rem;
+}
+
+@media (min-width:672px) {
+  .c0 .c2 {
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width:672px) {
+  .c0 {
+    margin: 0 -2rem;
+  }
+}
+
+@media (min-width:672px) {
+  .c8 {
+    display: block;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <img
+        src="https://picsum.photos/1200/1200"
+      />
+    </div>
+    <div
+      class="c2 c3"
+    >
+      <h1
+        class="c4"
+      >
+        Lorem ipsum
+      </h1>
+      <p
+        class="c5"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+            
+      <h2
+        class="c6"
+      >
+        Benefits
+      </h2>
+      <p
+        class="c5"
+      >
+        <svg
+          viewBox="0 0 16 12"
+          width="16px"
+        >
+          <g
+            fill="none"
+            fill-rule="evenodd"
+            stroke="none"
+            stroke-width="1"
+          >
+            <g
+              transform="translate(-1032.000000, -387.000000)"
+            >
+              <g
+                transform="translate(844.000000, 293.000000)"
+              >
+                <g
+                  transform="translate(184.000000, 87.000000)"
+                >
+                  <g
+                    transform="translate(0.000000, 1.000000)"
+                  >
+                    <rect
+                      fill-rule="nonzero"
+                      height="24"
+                      width="24"
+                      x="0"
+                      y="0"
+                    />
+                    <path
+                      d="M9,15.5857864 L18.2928932,6.29289322 C18.6834175,5.90236893 19.3165825,5.90236893 19.7071068,6.29289322 C20.0976311,6.68341751 20.0976311,7.31658249 19.7071068,7.70710678 L9.70710678,17.7071068 C9.31658249,18.0976311 8.68341751,18.0976311 8.29289322,17.7071068 L4.29289322,13.7071068 C3.90236893,13.3165825 3.90236893,12.6834175 4.29289322,12.2928932 C4.68341751,11.9023689 5.31658249,11.9023689 5.70710678,12.2928932 L9,15.5857864 Z"
+                      fill="currentColor"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+         
+        Lorem ipsum dolor sit amet.
+      </p>
+      <p
+        class="c5"
+      >
+        <svg
+          viewBox="0 0 16 12"
+          width="16px"
+        >
+          <g
+            fill="none"
+            fill-rule="evenodd"
+            stroke="none"
+            stroke-width="1"
+          >
+            <g
+              transform="translate(-1032.000000, -387.000000)"
+            >
+              <g
+                transform="translate(844.000000, 293.000000)"
+              >
+                <g
+                  transform="translate(184.000000, 87.000000)"
+                >
+                  <g
+                    transform="translate(0.000000, 1.000000)"
+                  >
+                    <rect
+                      fill-rule="nonzero"
+                      height="24"
+                      width="24"
+                      x="0"
+                      y="0"
+                    />
+                    <path
+                      d="M9,15.5857864 L18.2928932,6.29289322 C18.6834175,5.90236893 19.3165825,5.90236893 19.7071068,6.29289322 C20.0976311,6.68341751 20.0976311,7.31658249 19.7071068,7.70710678 L9.70710678,17.7071068 C9.31658249,18.0976311 8.68341751,18.0976311 8.29289322,17.7071068 L4.29289322,13.7071068 C3.90236893,13.3165825 3.90236893,12.6834175 4.29289322,12.2928932 C4.68341751,11.9023689 5.31658249,11.9023689 5.70710678,12.2928932 L9,15.5857864 Z"
+                      fill="currentColor"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+         
+        Lorem ipsum dolor sit amet.
+      </p>
+      <p
+        class="c5"
+      >
+        <svg
+          viewBox="0 0 16 12"
+          width="16px"
+        >
+          <g
+            fill="none"
+            fill-rule="evenodd"
+            stroke="none"
+            stroke-width="1"
+          >
+            <g
+              transform="translate(-1032.000000, -387.000000)"
+            >
+              <g
+                transform="translate(844.000000, 293.000000)"
+              >
+                <g
+                  transform="translate(184.000000, 87.000000)"
+                >
+                  <g
+                    transform="translate(0.000000, 1.000000)"
+                  >
+                    <rect
+                      fill-rule="nonzero"
+                      height="24"
+                      width="24"
+                      x="0"
+                      y="0"
+                    />
+                    <path
+                      d="M9,15.5857864 L18.2928932,6.29289322 C18.6834175,5.90236893 19.3165825,5.90236893 19.7071068,6.29289322 C20.0976311,6.68341751 20.0976311,7.31658249 19.7071068,7.70710678 L9.70710678,17.7071068 C9.31658249,18.0976311 8.68341751,18.0976311 8.29289322,17.7071068 L4.29289322,13.7071068 C3.90236893,13.3165825 3.90236893,12.6834175 4.29289322,12.2928932 C4.68341751,11.9023689 5.31658249,11.9023689 5.70710678,12.2928932 L9,15.5857864 Z"
+                      fill="currentColor"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+         
+        Lorem ipsum dolor sit amet.
+      </p>
+      <p
+        class="c5"
+      >
+        <svg
+          viewBox="0 0 16 12"
+          width="16px"
+        >
+          <g
+            fill="none"
+            fill-rule="evenodd"
+            stroke="none"
+            stroke-width="1"
+          >
+            <g
+              transform="translate(-1032.000000, -387.000000)"
+            >
+              <g
+                transform="translate(844.000000, 293.000000)"
+              >
+                <g
+                  transform="translate(184.000000, 87.000000)"
+                >
+                  <g
+                    transform="translate(0.000000, 1.000000)"
+                  >
+                    <rect
+                      fill-rule="nonzero"
+                      height="24"
+                      width="24"
+                      x="0"
+                      y="0"
+                    />
+                    <path
+                      d="M9,15.5857864 L18.2928932,6.29289322 C18.6834175,5.90236893 19.3165825,5.90236893 19.7071068,6.29289322 C20.0976311,6.68341751 20.0976311,7.31658249 19.7071068,7.70710678 L9.70710678,17.7071068 C9.31658249,18.0976311 8.68341751,18.0976311 8.29289322,17.7071068 L4.29289322,13.7071068 C3.90236893,13.3165825 3.90236893,12.6834175 4.29289322,12.2928932 C4.68341751,11.9023689 5.31658249,11.9023689 5.70710678,12.2928932 L9,15.5857864 Z"
+                      fill="currentColor"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+         
+        Lorem ipsum dolor sit amet.
+      </p>
+      <p
+        class="c5"
+      >
+        <svg
+          viewBox="0 0 16 12"
+          width="16px"
+        >
+          <g
+            fill="none"
+            fill-rule="evenodd"
+            stroke="none"
+            stroke-width="1"
+          >
+            <g
+              transform="translate(-1032.000000, -387.000000)"
+            >
+              <g
+                transform="translate(844.000000, 293.000000)"
+              >
+                <g
+                  transform="translate(184.000000, 87.000000)"
+                >
+                  <g
+                    transform="translate(0.000000, 1.000000)"
+                  >
+                    <rect
+                      fill-rule="nonzero"
+                      height="24"
+                      width="24"
+                      x="0"
+                      y="0"
+                    />
+                    <path
+                      d="M9,15.5857864 L18.2928932,6.29289322 C18.6834175,5.90236893 19.3165825,5.90236893 19.7071068,6.29289322 C20.0976311,6.68341751 20.0976311,7.31658249 19.7071068,7.70710678 L9.70710678,17.7071068 C9.31658249,18.0976311 8.68341751,18.0976311 8.29289322,17.7071068 L4.29289322,13.7071068 C3.90236893,13.3165825 3.90236893,12.6834175 4.29289322,12.2928932 C4.68341751,11.9023689 5.31658249,11.9023689 5.70710678,12.2928932 L9,15.5857864 Z"
+                      fill="currentColor"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+         
+        Lorem ipsum dolor sit amet.
+      </p>
+      <div
+        class="c7"
+      />
+      <div
+        class="c8"
+      >
+        <button
+          class="c9 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="button"
+        >
+          CTA text
+           
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

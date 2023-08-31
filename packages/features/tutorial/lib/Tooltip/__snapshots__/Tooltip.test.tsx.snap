@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> component its snapshot matches story Default 1`] = `
+.c3 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c3 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  background: #ffffff;
+  border-radius: 0.3rem;
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  padding: 1.5rem 1.5rem;
+}
+
+.c1 {
+  font: 700 1.25rem/1.75rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  max-height: 2rem;
+  min-width: unset;
+}
+
+<div>
+  <div
+    aria-modal="true"
+    class="c0"
+    role="alertdialog"
+  >
+    <div
+      class="c1"
+    >
+      Welcome to nextgen!
+    </div>
+    <div
+      class="Tooltipstyles__Content-sc-23w7aw-2"
+    >
+      Here you can browse the main categories
+    </div>
+    <div
+      class="c2"
+    >
+      <button
+        aria-label="Back"
+        class="c3 c4 cds--btn cds--btn--primary"
+        data-action="back"
+        role="button"
+        tabindex="0"
+        title="Back"
+        type="button"
+      >
+        Back
+         
+      </button>
+      <button
+        aria-label="Close"
+        class="c3 c4 cds--btn cds--btn--primary"
+        data-action="close"
+        role="button"
+        tabindex="0"
+        title="Close"
+        type="button"
+      >
+        Close
+         
+      </button>
+    </div>
+  </div>
+</div>
+`;

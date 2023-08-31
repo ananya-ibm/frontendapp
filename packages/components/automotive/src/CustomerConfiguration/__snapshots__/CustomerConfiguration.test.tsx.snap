@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomerConfiguration /> component its snapshot matches 1`] = `
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3:hover {
+  color: #0043ce;
+}
+
+.c3 svg {
+  color: #161616;
+}
+
+.c0 {
+  border-bottom: 0.0625rem solid #d6d6d6;
+  border-left: 0.5rem solid #0062ff;
+  border-radius: 0.25rem;
+  border-right: 0.0625rem solid #d6d6d6;
+  border-top: 0.0625rem solid #d6d6d6;
+  font: 400 1rem/1.45rem 'IBM Plex Sans',Arial,sans-serif;
+  padding: 1rem;
+  -webkit-transition: box-shadow 100ms ease-in-out;
+  transition: box-shadow 100ms ease-in-out;
+}
+
+.c0 .bold {
+  font-weight: 700;
+}
+
+.c0 .brand-color {
+  color: #0062ff;
+  fill: #0062ff;
+}
+
+.c0 .warning-color {
+  color: #da1e28;
+  fill: #da1e28;
+}
+
+.c0 .with-spacing {
+  padding: 1rem 0;
+}
+
+.c0 .icon {
+  margin-right: 0.75rem;
+}
+
+.c0:hover {
+  box-shadow: 0 0 1rem rgba(0,0,0,0.2),0 0 1rem rgba(0,0,0,0.2);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 0;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div>
+      Product and Configuration: 
+      DMCDeLorean
+       with 
+      DeLorean description
+      <p />
+    </div>
+  </div>
+  <div
+    class="c2"
+  >
+    <svg
+      aria-label="icon"
+      class="brand-color icon"
+      fill="currentColor"
+      focusable="false"
+      height="20"
+      preserveAspectRatio="xMidYMid meet"
+      role="img"
+      size="16"
+      viewBox="0 0 32 32"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    />
+    <a
+      class="c3"
+    >
+      View Configuration
+    </a>
+  </div>
+</div>
+`;

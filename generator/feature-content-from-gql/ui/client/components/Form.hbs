@@ -1,0 +1,91 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+import React from 'react';
+import { Mode, useForm } from 'react-hook-form';
+import { ObjectSchema } from 'yup';
+import { onChangeResolver, BaseForm, Field, TextInput, isRequired, requiredLabelText } from '@exo/frontend-components-forms';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { useIntl } from '@exo/frontend-common-i18n';
+import { {{ properCase formName }} } from '{{ featureLogicPackage }}';
+
+export const {{ properCase formName }}Form = React.forwardRef<HTMLFormElement>(
+  (
+    {
+      onSubmit,
+      onChange,
+      onError,
+      children,
+      error,
+      renderFooter,
+      renderBody,
+      intlPrefix = '{{ camelCase formName}}Form',
+      mode = 'onBlur',
+      idPrefix = '{{ camelCase formName}}',
+      schema,
+      data
+    }: Props, 
+    ref
+  ) => {
+    const { register, handleSubmit, formState, control, reset } = useForm({
+      mode,
+      ...(schema && { resolver: onChangeResolver(onChange, yupResolver(schema)) })
+    });
+    const intl = useIntl(intlPrefix);
+  
+    return (
+      <BaseForm
+        onSubmit={onSubmit}
+        onError={onError}
+        error={error}
+        renderFooter={renderFooter}
+        renderBody={renderBody}
+        data={data}
+        intlPrefix={intlPrefix}
+        form={({ handleSubmit, formState, reset })}
+        ref={ref}
+      >
+      {{#each attributes}}
+        <Field>
+          <TextInput
+            id={`${idPrefix}_{{ name }}`}
+            {...register('{{ name }}', { required: true, minLength: 6 })}
+            isRequired={isRequired(schema, '{{ name }}', true)}
+            requiredLabelText={requiredLabelText(intl)}
+            control={control}
+            value={data?.{{ name }} }
+            errorText={intl.error(formState.errors.{{ name }})}
+            labelText={intl.msg('{{ name }}.label', '{{ sentenceCase name }}')}
+            placeholderText={intl.msg('{{ name }}.placeholder', '{{ sentenceCase name }}')}
+          />
+        </Field>    
+
+      {{/each}}
+        {children}
+      </BaseForm>
+    );
+
+  }
+);
+
+type Props = {
+  onSubmit: (data: any) => void;
+  onError?: (error: any) => void;
+  onCancel?: () => void;
+  onChange?: (data: any) => void;
+  error?: string;
+  intlPrefix?: string;
+  children?: any;
+  renderFooter?: (state: any) => React.ReactElement;
+  renderBody?: (state: any) => React.ReactElement;
+  data?: {{ properCase formName }};
+  mode?: Mode;
+  schema?: ObjectSchema;
+  idPrefix?: string;
+}

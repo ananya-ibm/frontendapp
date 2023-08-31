@@ -1,0 +1,68 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+import { gql } from '@apollo/client';
+import {
+  renderDefaultError,
+  renderDefaultLoading,
+  SmartComponentProps
+} from '@exo/frontend-common-utils';
+import { use{{ properCase queryName }} } from '../../hooks/use{{ properCase queryName }}';
+
+export const {{ properCase queryName }}Container = ({
+{{#each args}}
+  {{ name }},
+{{/each}}
+  render,
+  renderLoading = renderDefaultLoading,
+  renderError = renderDefaultError
+}: Props) => {
+  {{#if args.length}}
+  const { loading, data, error } = use{{ properCase queryName }}<{{ properCase queryName }}Response{{#if returnType.isList}}[]{{/if}}>(
+    { {{ argNames }} },
+    {{ properCase queryName }}Container.fragment
+  );
+  {{else}}
+  const { loading, data, error } = use{{ properCase queryName }}<{{ properCase queryName }}Response{{#if returnType.isList}}[]{{/if}}>(
+    {{ properCase queryName }}Container.fragment  
+  );
+  {{/if}}
+
+  if (loading || !data) return renderLoading();
+  if (error) return renderError(error);
+
+  return render({ data });
+};
+
+{{ properCase queryName }}Container.fragment = gql`
+  fragment {{ properCase queryName }}Container on {{ returnType.name }} {
+    # TODO: Add additional fields
+    {{#each returnType.attributes}}
+    {{ name }}
+    {{/each}}
+  }
+`;
+
+type {{ properCase queryName }}Response = {
+  // TODO: Add additional fields
+  {{#each returnType.attributes}}
+  {{ name }}{{#if type.isOptional }}?{{/if}}: {{ type.tsName }};
+  {{/each}}
+};
+
+export type {{ properCase queryName }}ContainerRenderProps = {
+  data: {{ properCase queryName }}Response{{#if returnType.isList}}[]{{/if}};
+};
+
+type Props = SmartComponentProps<{
+{{#each args}}
+  {{ name }}{{#if tsType.isOptional}}?{{/if}}: {{ tsType.typename }}{{#if tsType.isList}}[]{{/if}};
+{{/each}}
+  render: (props: {{ properCase queryName }}ContainerRenderProps) => JSX.Element;
+}>;

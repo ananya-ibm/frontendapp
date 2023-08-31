@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExpandButton /> component its snapshot matches 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.75rem 0 rgba(0,0,0,0.14);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: 400 1rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-width: 9rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  text-transform: none;
+}
+
+.c0:hover {
+  font: 700 1rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+<button
+  class="c0"
+>
+  See Less
+  <svg
+    aria-label="icon"
+    fill="currentColor"
+    focusable="false"
+    height="20"
+    preserveAspectRatio="xMidYMid meet"
+    role="img"
+    size="24"
+    viewBox="0 0 32 32"
+    width="20"
+    xmlns="http://www.w3.org/2000/svg"
+  />
+</button>
+`;

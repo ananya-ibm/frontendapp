@@ -1,0 +1,10 @@
+{
+  "features.content.homepage-ui": {
+    "pages.HomePage": {
+      "hero.title": "EXO STARTER KIT",
+      "hero.subtitle": "IBM iX",
+      "hero.body": "Starting a new EXO project? Welcome to the party, pal.",
+      "hero.cta": "Get Started"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@exo/frontend-theme-ibm-consulting",
+  "version": "1.0.0",
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "description": "## Features",
+  "main": "src/index.ts",
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "author": "Magnus Johansson",
+  "scripts": {
+    "build-theme": "root-exec webpack --config webpack.config.js && rm src/main.js",
+    "prettier": "root-exec prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "npm run prettier -- --write",
+    "rebuild-css": "root-exec webpack --config carbon/webpack.config.js && rm carbon/main.js"
+  },
+  "dependencies": {
+    "@exo/frontend-theme-base-carbon-theme": "^1.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0"
+  }
+}

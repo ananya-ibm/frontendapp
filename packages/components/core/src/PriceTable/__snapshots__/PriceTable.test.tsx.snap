@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PriceTable /> component its snapshot matches 1`] = `
+.c4 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c0 {
+  padding-right: 2rem;
+}
+
+.c1 {
+  border-bottom: 0.0625rem solid #f4f4f4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+
+.c2 {
+  padding: 1rem 0;
+}
+
+.c3 {
+  border-bottom: 0;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  right: -2rem;
+  top: 0;
+  width: 2rem;
+}
+
+.c5 svg {
+  margin: auto;
+  max-width: 1rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      Base Price
+    </div>
+    <div
+      class="c3"
+    >
+      <span
+        class="c4"
+      >
+        <span
+          class="prefix"
+        >
+          +
+        </span>
+        <span
+          class="value"
+        >
+          £500
+        </span>
+      </span>
+    </div>
+    <div
+      class="c5"
+      title="Helpful info about Base Price"
+    >
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="32"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+      <span
+        class="sr"
+      >
+        Helpful info about Base Price
+      </span>
+    </div>
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      Exterior Additions
+    </div>
+    <div
+      class="c3"
+    >
+      <span
+        class="c4"
+      >
+        <span
+          class="prefix"
+        >
+          +
+        </span>
+        <span
+          class="value"
+        >
+          £300
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      Interior Additions
+    </div>
+    <div
+      class="c3"
+    >
+      <span
+        class="c4"
+      >
+        <span
+          class="prefix"
+        >
+          +
+        </span>
+        <span
+          class="value"
+        >
+          £50,000
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      Total cost
+    </div>
+    <div
+      class="c3"
+    >
+      <span
+        class="c4"
+      >
+        <span
+          class="prefix"
+        >
+          +
+        </span>
+        <span
+          class="value"
+        >
+          £35,500
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;

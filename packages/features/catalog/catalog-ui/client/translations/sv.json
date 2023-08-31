@@ -1,0 +1,52 @@
+{
+    "features.catalog.catalog-ui": {
+         "components.AddToCart": {
+        
+            "button.addtocart":"Lägg till i kundvagn"
+         },
+         "components.Filters": {
+
+            "button.clearallfilters":"Rensa alla filter"
+         },
+         "components.ListingSortBy":{
+
+             "list.chooseoption":"Välj alternativ",
+             "list.sortby":"Sortera efter:",
+             "sortoption.relevance":"Relevans",
+             "sortoption.pricelowtohigh":"Pris (lågt till högt)",
+             "sortoption.pricehightolow":"Pris (högt till lågt)",
+             "sortoption.name":"Namn"
+         },
+         "components.ProductAvailibility":{
+             "title.availability":"Tillgänglighet",
+             "title.availabilitynote":"Ingen information om produkttillgänglighet",
+             "title.instock":"I lager",
+             "title.outofstock":"Inte i lager",
+             "title.availableon":"Tillgänglig på"
+         },
+         "components.ProductBundleOverview":{
+             "title.itembundle":"Objekt i detta paket"
+         },
+         "components.ProductDetails":{
+            
+             "title.productattributes":"Inga produktattribut tillgängliga"
+         },
+         "components.SearchForm":{
+
+            "textinput.search":"söka"
+         },
+         "pages.ProductDetailsPage":{
+
+             "title.productadded":"Produkten har lagts till i kundvagnen",
+             "tab.productattribute":"Produktfunktioner",
+             "tab.reviews":"recensioner",
+             "tab.attachments":"Bilagor",
+             "button.loadmore":"Ladda mer..."
+         },
+         "pages.SearchPage":{
+             "label.search":"söka"
+         }
+}
+}
+    
+    

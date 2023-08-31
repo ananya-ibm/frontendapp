@@ -1,0 +1,583 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewList /> component its snapshot matches story Default 1`] = `
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c6 {
+  color: #161616;
+}
+
+.c7 {
+  color: #f4f4f4;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.c1 {
+  border-bottom: 0.125rem solid #e0e0e0;
+  display: grid;
+  grid-template-areas: 'avatar name' 'avatar stars' 'avatar review';
+  grid-template-columns: 4rem 1fr;
+  padding-bottom: 1.5rem;
+}
+
+.c1:last-child {
+  border-bottom-width: 0;
+}
+
+.c2 {
+  background-color: #f4f4f4;
+  background-image: url(https://cdn.fakercloud.com/avatars/mandalareopens_128.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 0.125rem solid #f4f4f4;
+  border-radius: 100%;
+  grid-area: avatar;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c9 {
+  background-color: #f4f4f4;
+  background-image: url(https://cdn.fakercloud.com/avatars/r_oy_128.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 0.125rem solid #f4f4f4;
+  border-radius: 100%;
+  grid-area: avatar;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c10 {
+  background-color: #f4f4f4;
+  background-image: url(https://cdn.fakercloud.com/avatars/imammuht_128.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 0.125rem solid #f4f4f4;
+  border-radius: 100%;
+  grid-area: avatar;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c11 {
+  background-color: #f4f4f4;
+  background-image: url(https://cdn.fakercloud.com/avatars/imsoper_128.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 0.125rem solid #f4f4f4;
+  border-radius: 100%;
+  grid-area: avatar;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c12 {
+  background-color: #f4f4f4;
+  background-image: url(https://cdn.fakercloud.com/avatars/smaczny_128.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 0.125rem solid #f4f4f4;
+  border-radius: 100%;
+  grid-area: avatar;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c3 {
+  font: 600 1rem/1.5rem 'IBM Plex Sans',Arial,sans-serif;
+  grid-area: name;
+  margin-bottom: 0.5rem;
+}
+
+.c4 {
+  grid-area: stars;
+  margin-bottom: 0.5rem;
+}
+
+.c8 {
+  color: #525252;
+  grid-area: review;
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+        src="https://cdn.fakercloud.com/avatars/mandalareopens_128.jpg"
+      />
+      <div
+        class="c3"
+      >
+        Maurine Ratke
+      </div>
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <svg
+            aria-label="icon"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </div>
+      </div>
+      <div
+        class="c8"
+      >
+        Eligendi omnis quisquam quisquam. Nihil dolor voluptatibus velit nobis culpa. Eos reprehenderit in nisi et qui. Odio et inventore eligendi in.
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c9"
+        src="https://cdn.fakercloud.com/avatars/r_oy_128.jpg"
+      />
+      <div
+        class="c3"
+      >
+        Myrna Murray
+      </div>
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <svg
+            aria-label="icon"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </div>
+      </div>
+      <div
+        class="c8"
+      >
+        Vitae provident quo provident. Harum ullam pariatur quos est quod. Ea quisquam esse quia expedita commodi autem. Ut exercitationem doloribus harum.
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c10"
+        src="https://cdn.fakercloud.com/avatars/imammuht_128.jpg"
+      />
+      <div
+        class="c3"
+      >
+        Audreanne Sanford
+      </div>
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <svg
+            aria-label="icon"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </div>
+      </div>
+      <div
+        class="c8"
+      >
+        Quia quos sequi molestiae beatae enim. Molestiae placeat saepe eligendi rerum excepturi et laudantium fuga similique. Corporis voluptatem dolores.
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c11"
+        src="https://cdn.fakercloud.com/avatars/imsoper_128.jpg"
+      />
+      <div
+        class="c3"
+      >
+        Marjorie Streich
+      </div>
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <svg
+            aria-label="icon"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </div>
+      </div>
+      <div
+        class="c8"
+      >
+        Atque dolores maiores. Occaecati iusto laborum facere. Deleniti dolorem quibusdam. Veniam perspiciatis et nisi aut corporis laboriosam.
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c12"
+        src="https://cdn.fakercloud.com/avatars/smaczny_128.jpg"
+      />
+      <div
+        class="c3"
+      >
+        Marty Parker
+      </div>
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <svg
+            aria-label="icon"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </div>
+      </div>
+      <div
+        class="c8"
+      >
+        Excepturi blanditiis libero ut qui. Fuga enim tempore non voluptas quia vitae ipsam voluptas. Et dolor adipisci dolores sunt non explicabo occaecati rerum nesciunt. Sint est asperiores sit voluptatum mollitia enim iste. Nesciunt minima sequi voluptas optio aut voluptatem. Eligendi voluptates iste eius iure commodi molestiae.
+      </div>
+    </li>
+  </ul>
+</div>
+`;

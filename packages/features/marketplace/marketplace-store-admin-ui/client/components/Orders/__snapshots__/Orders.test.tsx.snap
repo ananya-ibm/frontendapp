@@ -1,0 +1,1279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Orders /> component its snapshot matches story Default 1`] = `
+.c0 .icon {
+  cursor: pointer;
+  margin: 0.5rem 0.9rem 0;
+  width: 1.2rem;
+}
+
+.c0 .icons:hover {
+  background-color: #e8e8e8;
+}
+
+.c0 .paginationMargin {
+  margin: 0;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="cds--data-table-container"
+    >
+      <div
+        class="cds--data-table-header"
+      >
+        <h4
+          class="cds--data-table-header__title"
+        >
+          Orders
+        </h4>
+        <p
+          class="cds--data-table-header__description"
+        />
+      </div>
+      <section
+        aria-label="data table toolbar"
+        class="cds--table-toolbar"
+      >
+        <div
+          class="cds--toolbar-content"
+        >
+          <div
+            aria-labelledby="1-search"
+            class="cds--search cds--search--lg cds--toolbar-search-container-active cds--toolbar-search-container-expandable"
+            role="search"
+          >
+            <div
+              class="cds--search-magnifier"
+            >
+              <svg
+                aria-hidden="true"
+                class="cds--search-magnifier-icon"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15,14.3L10.7,10c1.9-2.3,1.6-5.8-0.7-7.7S4.2,0.7,2.3,3S0.7,8.8,3,10.7c2,1.7,5,1.7,7,0l4.3,4.3L15,14.3z M2,6.5 C2,4,4,2,6.5,2S11,4,11,6.5S9,11,6.5,11S2,9,2,6.5z"
+                />
+              </svg>
+            </div>
+            <label
+              class="cds--label"
+              for="1"
+              id="1-search"
+            >
+              Search
+            </label>
+            <input
+              autocomplete="off"
+              class="cds--search-input"
+              id="1"
+              placeholder="Search"
+              role="searchbox"
+              tabindex="0"
+              type="text"
+              value=""
+            />
+            <button
+              aria-label="Clear search input"
+              class="cds--search-close cds--search-close--hidden"
+              title="Clear search input"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="icons"
+          >
+            <svg
+              aria-label="Import"
+              class="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+          <div
+            class="icons"
+          >
+            <svg
+              aria-label="Settings"
+              class="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+        </div>
+      </section>
+      <div
+        class="cds--data-table-content"
+      >
+        <table
+          class="cds--data-table"
+          role="table"
+        >
+          <thead>
+            <tr>
+              <th
+                aria-sort="none"
+                colspan="1"
+                scope="col"
+              >
+                <div
+                  id="table-sort-2"
+                  style="display: none;"
+                >
+                  Click to sort rows by Order number header in ascending order
+                </div>
+                <button
+                  aria-describedby="table-sort-2"
+                  class="cds--table-sort"
+                  role="columnheader"
+                  style="cursor: pointer;"
+                  title="Toggle SortBy"
+                  type="button"
+                >
+                  <span
+                    class="cds--table-sort__flex"
+                  >
+                    <div
+                      class="cds--table-header-label"
+                    >
+                      Order number
+                    </div>
+                    <svg
+                      aria-hidden="true"
+                      class="cds--table-sort__icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16 4L6 14 7.41 15.41 15 7.83 15 28 17 28 17 7.83 24.59 15.41 26 14 16 4z"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="cds--table-sort__icon-unsorted"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M27.6 20.6L24 24.2 24 4 22 4 22 24.2 18.4 20.6 17 22 23 28 29 22zM9 4L3 10 4.4 11.4 8 7.8 8 28 10 28 10 7.8 13.6 11.4 15 10z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </th>
+              <th
+                aria-sort="none"
+                colspan="1"
+                scope="col"
+              >
+                <div
+                  id="table-sort-3"
+                  style="display: none;"
+                >
+                  Click to sort rows by Date order placed header in ascending order
+                </div>
+                <button
+                  aria-describedby="table-sort-3"
+                  class="cds--table-sort"
+                  role="columnheader"
+                  style="cursor: pointer;"
+                  title="Toggle SortBy"
+                  type="button"
+                >
+                  <span
+                    class="cds--table-sort__flex"
+                  >
+                    <div
+                      class="cds--table-header-label"
+                    >
+                      Date order placed
+                    </div>
+                    <svg
+                      aria-hidden="true"
+                      class="cds--table-sort__icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16 4L6 14 7.41 15.41 15 7.83 15 28 17 28 17 7.83 24.59 15.41 26 14 16 4z"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="cds--table-sort__icon-unsorted"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M27.6 20.6L24 24.2 24 4 22 4 22 24.2 18.4 20.6 17 22 23 28 29 22zM9 4L3 10 4.4 11.4 8 7.8 8 28 10 28 10 7.8 13.6 11.4 15 10z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </th>
+              <th
+                aria-sort="none"
+                colspan="1"
+                scope="col"
+              >
+                <div
+                  id="table-sort-4"
+                  style="display: none;"
+                >
+                  Click to sort rows by Order status header in ascending order
+                </div>
+                <button
+                  aria-describedby="table-sort-4"
+                  class="cds--table-sort"
+                  role="columnheader"
+                  style="cursor: pointer;"
+                  title="Toggle SortBy"
+                  type="button"
+                >
+                  <span
+                    class="cds--table-sort__flex"
+                  >
+                    <div
+                      class="cds--table-header-label"
+                    >
+                      Order status
+                    </div>
+                    <svg
+                      aria-hidden="true"
+                      class="cds--table-sort__icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16 4L6 14 7.41 15.41 15 7.83 15 28 17 28 17 7.83 24.59 15.41 26 14 16 4z"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="cds--table-sort__icon-unsorted"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M27.6 20.6L24 24.2 24 4 22 4 22 24.2 18.4 20.6 17 22 23 28 29 22zM9 4L3 10 4.4 11.4 8 7.8 8 28 10 28 10 7.8 13.6 11.4 15 10z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </th>
+              <th
+                aria-sort="none"
+                colspan="1"
+                scope="col"
+              >
+                <div
+                  id="table-sort-5"
+                  style="display: none;"
+                >
+                  Click to sort rows by Customer name header in ascending order
+                </div>
+                <button
+                  aria-describedby="table-sort-5"
+                  class="cds--table-sort"
+                  role="columnheader"
+                  style="cursor: pointer;"
+                  title="Toggle SortBy"
+                  type="button"
+                >
+                  <span
+                    class="cds--table-sort__flex"
+                  >
+                    <div
+                      class="cds--table-header-label"
+                    >
+                      Customer name
+                    </div>
+                    <svg
+                      aria-hidden="true"
+                      class="cds--table-sort__icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16 4L6 14 7.41 15.41 15 7.83 15 28 17 28 17 7.83 24.59 15.41 26 14 16 4z"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="cds--table-sort__icon-unsorted"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M27.6 20.6L24 24.2 24 4 22 4 22 24.2 18.4 20.6 17 22 23 28 29 22zM9 4L3 10 4.4 11.4 8 7.8 8 28 10 28 10 7.8 13.6 11.4 15 10z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </th>
+              <th
+                aria-sort="none"
+                colspan="1"
+                scope="col"
+              >
+                <div
+                  id="table-sort-6"
+                  style="display: none;"
+                >
+                  Click to sort rows by Order value header in ascending order
+                </div>
+                <button
+                  aria-describedby="table-sort-6"
+                  class="cds--table-sort"
+                  role="columnheader"
+                  style="cursor: pointer;"
+                  title="Toggle SortBy"
+                  type="button"
+                >
+                  <span
+                    class="cds--table-sort__flex"
+                  >
+                    <div
+                      class="cds--table-header-label"
+                    >
+                      Order value
+                    </div>
+                    <svg
+                      aria-hidden="true"
+                      class="cds--table-sort__icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16 4L6 14 7.41 15.41 15 7.83 15 28 17 28 17 7.83 24.59 15.41 26 14 16 4z"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="cds--table-sort__icon-unsorted"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M27.6 20.6L24 24.2 24 4 22 4 22 24.2 18.4 20.6 17 22 23 28 29 22zM9 4L3 10 4.4 11.4 8 7.8 8 28 10 28 10 7.8 13.6 11.4 15 10z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </th>
+              <th
+                scope="col"
+              />
+            </tr>
+          </thead>
+          <tbody
+            aria-live="polite"
+          >
+            <tr
+              role="row"
+            >
+              <td>
+                0
+              </td>
+              <td>
+                Sun May 16 2021
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Mervin Grant
+              </td>
+              <td>
+                429.00
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                1
+              </td>
+              <td>
+                Sun Mar 07 2021
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Maryse Lubowitz
+              </td>
+              <td>
+                720.00
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                2
+              </td>
+              <td>
+                Wed May 19 2021
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Jennings Kassulke
+              </td>
+              <td>
+                781.00
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                3
+              </td>
+              <td>
+                Mon Jun 28 2021
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Hallie Paucek
+              </td>
+              <td>
+                580.00
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                4
+              </td>
+              <td>
+                Wed Apr 14 2021
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Brook Huel
+              </td>
+              <td>
+                402.00
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                5
+              </td>
+              <td>
+                Wed Mar 24 2021
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Liza Rempel
+              </td>
+              <td>
+                325.00
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                6
+              </td>
+              <td>
+                Wed Apr 07 2021
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Deja Beier
+              </td>
+              <td>
+                695.00
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                7
+              </td>
+              <td>
+                Thu Apr 01 2021
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Laurel Ritchie
+              </td>
+              <td>
+                632.00
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                8
+              </td>
+              <td>
+                Sun Feb 28 2021
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Idella Daniel
+              </td>
+              <td>
+                84.00
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                9
+              </td>
+              <td>
+                Wed Apr 21 2021
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Merritt Lemke
+              </td>
+              <td>
+                428.00
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        class="cds--pagination cds--pagination--md"
+      >
+        <div
+          class="cds--pagination__left"
+        >
+          <label
+            class="cds--pagination__text"
+            for="cds-pagination-select-id-12"
+            id="cds-pagination-select-id-12-count-label"
+          >
+            Items per page:
+          </label>
+          <div
+            class="cds--form-item cds--select__item-count"
+          >
+            <div
+              class="cds--select cds--select--inline"
+            >
+              <div
+                class="cds--select-input--inline__wrapper"
+              >
+                <div
+                  class="cds--select-input__wrapper"
+                >
+                  <select
+                    class="cds--select-input"
+                    id="cds-pagination-select-id-12"
+                  >
+                    <option
+                      class="cds--select-option"
+                      value="10"
+                    >
+                      10
+                    </option>
+                    <option
+                      class="cds--select-option"
+                      value="20"
+                    >
+                      20
+                    </option>
+                    <option
+                      class="cds--select-option"
+                      value="30"
+                    >
+                      30
+                    </option>
+                    <option
+                      class="cds--select-option"
+                      value="40"
+                    >
+                      40
+                    </option>
+                  </select>
+                  <svg
+                    aria-hidden="true"
+                    class="cds--select__arrow"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span
+            class="cds--pagination__text cds--pagination__items-count"
+          >
+            1–10 of 10 items
+          </span>
+        </div>
+        <div
+          class="cds--pagination__right"
+        >
+          <div
+            class="cds--form-item cds--select__page-number"
+          >
+            <div
+              class="cds--select cds--select--inline"
+            >
+              <label
+                class="cds--label cds--visually-hidden"
+                for="cds-pagination-select-id-12-right"
+              >
+                Page number, of 1 pages
+              </label>
+              <div
+                class="cds--select-input--inline__wrapper"
+              >
+                <div
+                  class="cds--select-input__wrapper"
+                >
+                  <select
+                    class="cds--select-input"
+                    id="cds-pagination-select-id-12-right"
+                  >
+                    <option
+                      class="cds--select-option"
+                      value="1"
+                    >
+                      1
+                    </option>
+                  </select>
+                  <svg
+                    aria-hidden="true"
+                    class="cds--select__arrow"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span
+            class="cds--pagination__text"
+          >
+            of 1 page
+          </span>
+          <div
+            class="cds--pagination__control-buttons"
+          >
+            <span
+              class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top cds--tooltip cds--icon-tooltip"
+            >
+              <button
+                aria-labelledby="tooltip-9"
+                class="cds--btn--icon-only cds--pagination__button cds--pagination__button--backward cds--pagination__button--no-index cds--btn cds--btn--md cds--btn--ghost cds--btn--disabled"
+                disabled=""
+                tabindex="0"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 32 32"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 24L10 16 20 8z"
+                  />
+                </svg>
+              </button>
+              <span
+                aria-hidden="true"
+                class="cds--popover"
+                id="tooltip-9"
+                role="tooltip"
+              >
+                <span
+                  class="cds--popover-content cds--tooltip-content"
+                >
+                  Previous page
+                </span>
+                <span
+                  class="cds--popover-caret"
+                />
+              </span>
+            </span>
+            <span
+              class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top-right cds--tooltip cds--icon-tooltip"
+            >
+              <button
+                aria-labelledby="tooltip-11"
+                class="cds--btn--icon-only cds--pagination__button cds--pagination__button--forward cds--pagination__button--no-index cds--btn cds--btn--md cds--btn--ghost cds--btn--disabled"
+                disabled=""
+                tabindex="0"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 32 32"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 8L22 16 12 24z"
+                  />
+                </svg>
+              </button>
+              <span
+                aria-hidden="true"
+                class="cds--popover"
+                id="tooltip-11"
+                role="tooltip"
+              >
+                <span
+                  class="cds--popover-content cds--tooltip-content"
+                >
+                  Next page
+                </span>
+                <span
+                  class="cds--popover-caret"
+                />
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,29 @@
+<!--- Checkbox.stories.mdx -->
+
+import { Meta, Story, Canvas } from '@storybook/addon-docs';
+import B2CImageFile from '!!raw-loader!./b2c.drawio.svg';
+import B2BImageFile from '!!raw-loader!./b2b.drawio.svg';
+import AutomotiveImageFile from '!!raw-loader!./automotive.drawio.svg';
+import AutoDealerImageFile from '!!raw-loader!./auto-dealer.drawio.svg';
+
+export const Raw = ({ html }) => {
+  return <div style={{ marginBottom: '6em' }} dangerouslySetInnerHTML={{ __html: html }} />;
+};
+
+<Meta title="Features/Overview" />
+
+# B2C Commerce
+
+<Raw html={B2CImageFile} />
+
+# B2B Commerce
+
+<Raw html={B2BImageFile} />
+
+# Automotive Commerce
+
+<Raw html={AutomotiveImageFile} />
+
+# Automotive Dealer 
+
+<Raw html={AutoDealerImageFile} />

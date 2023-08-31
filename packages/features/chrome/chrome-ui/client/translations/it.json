@@ -1,0 +1,25 @@
+{
+    "features.chrome.chrome-ui": {
+        "smart-components.Footer": {
+       
+          "title.helpandinfo" : "Aide et informations",
+          "title.help": "Aide",
+          "title.trackorder": "Suivre la commande",
+          "title.deliverandreturns":"Livraison et retours",
+          "title.ourstores":"Nos magasins",
+          "title.about":"À propos",
+          "title.ourproduct":"Nos produits",
+          "title.aboutus":"À propos de nous",
+          "title.contactus":"Contactez-nous",
+          "title.careers": "Carrière",
+          "header.subscribenewsletter":"Inscrivez-vous à notre newsletter",
+          "buttontext.signup":"Inscription",
+          "header.Home":"home"
+          },
+          "smart-components.Header": {
+       
+          "profilelink.signin": "Connexion"
+          }
+      }
+    }
+    

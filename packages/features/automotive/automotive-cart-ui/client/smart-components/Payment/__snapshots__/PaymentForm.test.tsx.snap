@@ -1,0 +1,505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentForm /> component its snapshot matches 1`] = `
+.c6 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c6 svg {
+  max-height: 100%;
+}
+
+.c1 {
+  height: 1rem;
+}
+
+.c2 {
+  margin-bottom: 1.5rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 4rem 0 0;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+}
+
+.c0 .billingInfo {
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  margin: 1rem 0;
+}
+
+.c3 {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div
+  class="c0"
+>
+  <h4>
+    Your billing address
+  </h4>
+  <div
+    class="billingInfo"
+  >
+    Please ensure the billing address matches the registered address of the card being used for the reservation fee payment.
+  </div>
+  <label
+    id="useShipping"
+  >
+    <input
+      id="useShipping"
+      name="useShipping"
+      type="checkbox"
+    />
+     
+    Is the billing address the same as the shipping address?
+  </label>
+  <div
+    class="c1"
+  />
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="cds--dropdown__wrapper cds--list-box__wrapper"
+        >
+          <label
+            class="cds--label"
+            for="downshift-0-toggle-button"
+            id="downshift-0-label"
+          >
+            Title
+          </label>
+          <div
+            class="cds--dropdown cds--list-box"
+            id="title"
+          >
+            <button
+              aria-disabled="false"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="downshift-0-label downshift-0-toggle-button"
+              class="cds--list-box__field"
+              id="downshift-0-toggle-button"
+              title="Choose an option"
+              type="button"
+            >
+              <span
+                class="cds--list-box__label"
+              >
+                Choose an option
+              </span>
+              <div
+                class="cds--list-box__menu-icon"
+              >
+                <svg
+                  aria-label="Open menu"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  name="chevron--down"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                  />
+                  <title>
+                    Open menu
+                  </title>
+                </svg>
+              </div>
+            </button>
+            <div
+              aria-labelledby="downshift-0-label"
+              class="cds--list-box__menu"
+              id="downshift-0-menu"
+              role="listbox"
+              tabindex="-1"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="firstName"
+          >
+            First name
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="firstName"
+                name="firstName"
+                placeholder="First name"
+                required=""
+                title="First name"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="lastName"
+          >
+            Last name
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="lastName"
+                name="lastName"
+                placeholder="Last name"
+                required=""
+                title="Last name"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="zip"
+          >
+            Postcode
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="zip"
+                name="zip"
+                placeholder="Postcode"
+                required=""
+                title="Postcode"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address1"
+          >
+            Address line 1
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address1"
+                name="address1"
+                placeholder="Address line 1"
+                required=""
+                title="Address line 1"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address2"
+          >
+            Address line 2 (optional)
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address2"
+                name="address2"
+                placeholder="Address line 2"
+                title="Address line 2"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="city"
+          >
+            Town
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="city"
+                name="city"
+                placeholder="Town"
+                required=""
+                title="Town"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="province"
+          >
+            County (optional)
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="province"
+                name="province"
+                placeholder="County"
+                title="County"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="cds--dropdown__wrapper cds--list-box__wrapper"
+        >
+          <label
+            class="cds--label"
+            for="downshift-1-toggle-button"
+            id="downshift-1-label"
+          >
+            Country
+          </label>
+          <div
+            class="cds--dropdown cds--list-box"
+            id="country"
+          >
+            <button
+              aria-disabled="false"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="downshift-1-label downshift-1-toggle-button"
+              class="cds--list-box__field"
+              id="downshift-1-toggle-button"
+              title="Choose an option"
+              type="button"
+            >
+              <span
+                class="cds--list-box__label"
+              >
+                Choose an option
+              </span>
+              <div
+                class="cds--list-box__menu-icon"
+              >
+                <svg
+                  aria-label="Open menu"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  name="chevron--down"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                  />
+                  <title>
+                    Open menu
+                  </title>
+                </svg>
+              </div>
+            </button>
+            <div
+              aria-labelledby="downshift-1-label"
+              class="cds--list-box__menu"
+              id="downshift-1-menu"
+              role="listbox"
+              tabindex="-1"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1"
+      />
+      <h4>
+        Your payment details
+      </h4>
+      <div>
+        Card Element
+      </div>
+      <div
+        class="c1"
+      />
+      <label
+        id="confirm"
+      >
+        <input
+          data-testid="confirm"
+          id="confirm"
+          name="confirm"
+          type="checkbox"
+        />
+         
+        I agree to the 
+        <span
+          class="c3"
+        >
+          Terms and Conditions
+        </span>
+         and have read your
+         
+        <span
+          class="c3"
+        >
+          Privacy Policy
+        </span>
+      </label>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <button
+          class="c6 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Back
+           
+        </button>
+        <button
+          class="c6 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Confirm payment
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

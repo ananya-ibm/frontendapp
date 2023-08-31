@@ -1,0 +1,1378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuickOrder /> component its snapshot matches story Default 1`] = `
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c7:hover {
+  color: #0043ce;
+}
+
+.c7 svg {
+  color: #161616;
+}
+
+.c6 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c6 svg {
+  max-height: 100%;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  color: #161616;
+}
+
+.c1 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 1rem 0;
+}
+
+.c2 {
+  background: #f4f4f4;
+  margin: 1.5rem 0;
+  table-layout: auto;
+  text-align: left;
+  width: 100%;
+}
+
+.c3 {
+  background: #f4f4f4;
+  color: #161616;
+  padding: 1rem 1rem;
+}
+
+.c4 {
+  box-shadow: inset 0 -0.06rem 0.06rem #ffffff,inset 0 0 0 transparent;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+@media (min-width:672px) {
+  .c5 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <h2>
+      Quick Order
+    </h2>
+    <p
+      class="c1"
+    >
+      You can add up to 25 valid SKUs below and add to cart. Stock is reserved once products are added to cart.
+    </p>
+    <table
+      class="c2"
+    >
+      <tbody>
+        <tr>
+          <th
+            class="c3"
+          >
+            <span
+              class="sr"
+            >
+              Search
+            </span>
+          </th>
+          <th
+            class="c3"
+          >
+            Product
+          </th>
+          <th
+            class="c3"
+          >
+            Price
+          </th>
+          <th
+            class="c3"
+          >
+            Qty
+          </th>
+          <th
+            class="c3"
+          >
+            Total
+          </th>
+          <th
+            class="c3"
+          >
+            <span
+              class="sr"
+            >
+              Action
+            </span>
+          </th>
+        </tr>
+        <tr>
+          <td
+            class="c4"
+          >
+            <form
+              id="quickorder-search"
+            >
+              <div
+                class="cds--form-item cds--text-input-wrapper"
+              >
+                <label
+                  class="cds--label"
+                  for="quick-search-id"
+                >
+                  Search Product SKU
+                </label>
+                <div
+                  class="cds--text-input__field-outer-wrapper"
+                >
+                  <div
+                    class="cds--text-input__field-wrapper"
+                  >
+                    <input
+                      class="cds--text-input cds--text__input cds--text-input--md"
+                      id="quick-search-id"
+                      name="quick-search-id"
+                      placeholder="Enter SKU"
+                      title="Enter SKU"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </td>
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c5"
+    >
+      <button
+        class="c6 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="button"
+      >
+        Add to cart
+         
+      </button>
+      <a
+        class="c7"
+      >
+        Reset form
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<QuickOrder /> component its snapshot matches story error 1`] = `
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c7:hover {
+  color: #0043ce;
+}
+
+.c7 svg {
+  color: #161616;
+}
+
+.c6 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c6 svg {
+  max-height: 100%;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  color: #161616;
+}
+
+.c1 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 1rem 0;
+}
+
+.c2 {
+  background: #f4f4f4;
+  margin: 1.5rem 0;
+  table-layout: auto;
+  text-align: left;
+  width: 100%;
+}
+
+.c3 {
+  background: #f4f4f4;
+  color: #161616;
+  padding: 1rem 1rem;
+}
+
+.c4 {
+  box-shadow: inset 0 -0.06rem 0.06rem #ffffff,inset 0 0 0 transparent;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+@media (min-width:672px) {
+  .c5 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <h2>
+      Quick Order
+    </h2>
+    <p
+      class="c1"
+    >
+      You can add up to 25 valid SKUs below and add to cart. Stock is reserved once products are added to cart.
+    </p>
+    <table
+      class="c2"
+    >
+      <tbody>
+        <tr>
+          <th
+            class="c3"
+          >
+            <span
+              class="sr"
+            >
+              Search
+            </span>
+          </th>
+          <th
+            class="c3"
+          >
+            Product
+          </th>
+          <th
+            class="c3"
+          >
+            Price
+          </th>
+          <th
+            class="c3"
+          >
+            Qty
+          </th>
+          <th
+            class="c3"
+          >
+            Total
+          </th>
+          <th
+            class="c3"
+          >
+            <span
+              class="sr"
+            >
+              Action
+            </span>
+          </th>
+        </tr>
+        <tr>
+          <td
+            class="c4"
+          >
+            <form
+              id="quickorder-search"
+            >
+              <div
+                class="cds--form-item cds--text-input-wrapper"
+              >
+                <label
+                  class="cds--label"
+                  for="quick-search-id"
+                >
+                  Search Product SKU
+                </label>
+                <div
+                  class="cds--text-input__field-outer-wrapper"
+                >
+                  <div
+                    class="cds--text-input__field-wrapper"
+                    data-invalid="true"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="cds--text-input__invalid-icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="16"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8,1C4.2,1,1,4.2,1,8s3.2,7,7,7s7-3.1,7-7S11.9,1,8,1z M7.5,4h1v5h-1C7.5,9,7.5,4,7.5,4z M8,12.2 c-0.4,0-0.8-0.4-0.8-0.8s0.3-0.8,0.8-0.8c0.4,0,0.8,0.4,0.8,0.8S8.4,12.2,8,12.2z"
+                      />
+                      <path
+                        d="M7.5,4h1v5h-1C7.5,9,7.5,4,7.5,4z M8,12.2c-0.4,0-0.8-0.4-0.8-0.8s0.3-0.8,0.8-0.8 c0.4,0,0.8,0.4,0.8,0.8S8.4,12.2,8,12.2z"
+                        data-icon-path="inner-path"
+                        opacity="0"
+                      />
+                    </svg>
+                    <input
+                      aria-describedby="quick-search-id-error-msg"
+                      aria-invalid="true"
+                      class="cds--text-input cds--text__input cds--text-input--invalid cds--text-input--md"
+                      data-invalid="true"
+                      id="quick-search-id"
+                      name="quick-search-id"
+                      placeholder="Enter SKU"
+                      title="Enter SKU"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="cds--form-requirement"
+                    id="quick-search-id-error-msg"
+                  >
+                    Can't find product
+                  </div>
+                </div>
+              </div>
+            </form>
+          </td>
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c5"
+    >
+      <button
+        class="c6 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="button"
+      >
+        Add to cart
+         
+      </button>
+      <a
+        class="c7"
+      >
+        Reset form
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<QuickOrder /> component its snapshot matches story loading 1`] = `
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c8:hover {
+  color: #0043ce;
+}
+
+.c8 svg {
+  color: #161616;
+}
+
+.c7 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c7 svg {
+  max-height: 100%;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  color: #161616;
+}
+
+.c1 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 1rem 0;
+}
+
+.c2 {
+  background: #f4f4f4;
+  margin: 1.5rem 0;
+  table-layout: auto;
+  text-align: left;
+  width: 100%;
+}
+
+.c3 {
+  background: #f4f4f4;
+  color: #161616;
+  padding: 1rem 1rem;
+}
+
+.c4 {
+  box-shadow: inset 0 -0.06rem 0.06rem #ffffff,inset 0 0 0 transparent;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 0.5rem 0;
+}
+
+@media (min-width:672px) {
+  .c6 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <h2>
+      Quick Order
+    </h2>
+    <p
+      class="c1"
+    >
+      You can add up to 25 valid SKUs below and add to cart. Stock is reserved once products are added to cart.
+    </p>
+    <table
+      class="c2"
+    >
+      <tbody>
+        <tr>
+          <th
+            class="c3"
+          >
+            <span
+              class="sr"
+            >
+              Search
+            </span>
+          </th>
+          <th
+            class="c3"
+          >
+            Product
+          </th>
+          <th
+            class="c3"
+          >
+            Price
+          </th>
+          <th
+            class="c3"
+          >
+            Qty
+          </th>
+          <th
+            class="c3"
+          >
+            Total
+          </th>
+          <th
+            class="c3"
+          >
+            <span
+              class="sr"
+            >
+              Action
+            </span>
+          </th>
+        </tr>
+        <tr>
+          <td
+            class="c4"
+          >
+            <form
+              id="quickorder-search"
+            >
+              <div
+                class="cds--form-item cds--text-input-wrapper"
+              >
+                <label
+                  class="cds--label"
+                  for="quick-search-id"
+                >
+                  Search Product SKU
+                </label>
+                <div
+                  class="cds--text-input__field-outer-wrapper"
+                >
+                  <div
+                    class="cds--text-input__field-wrapper"
+                  >
+                    <input
+                      class="cds--text-input cds--text__input cds--text-input--md"
+                      id="quick-search-id"
+                      name="quick-search-id"
+                      placeholder="Enter SKU"
+                      title="Enter SKU"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c5"
+              >
+                <div
+                  aria-live="assertive"
+                  class="cds--inline-loading"
+                >
+                  <div
+                    class="cds--inline-loading__animation"
+                  >
+                    <div
+                      aria-atomic="true"
+                      aria-labelledby="loading-id-1"
+                      aria-live="assertive"
+                      class="cds--loading cds--loading--small"
+                    >
+                      <label
+                        class="cds--visually-hidden"
+                        id="loading-id-1"
+                      >
+                        Active loading indicator
+                      </label>
+                      <svg
+                        class="cds--loading__svg"
+                        viewBox="0 0 100 100"
+                      >
+                        <title>
+                          Active loading indicator
+                        </title>
+                        <circle
+                          class="cds--loading__background"
+                          cx="50%"
+                          cy="50%"
+                          r="44"
+                        />
+                        <circle
+                          class="cds--loading__stroke"
+                          cx="50%"
+                          cy="50%"
+                          r="44"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="cds--inline-loading__text"
+                  >
+                    Searching...
+                  </div>
+                </div>
+              </div>
+            </form>
+          </td>
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c6"
+    >
+      <button
+        class="c7 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="button"
+      >
+        Add to cart
+         
+      </button>
+      <a
+        class="c8"
+      >
+        Reset form
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<QuickOrder /> component its snapshot matches story withProducts 1`] = `
+.c11 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c11:hover {
+  color: #0043ce;
+}
+
+.c11 svg {
+  color: #161616;
+}
+
+.c9 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c9 svg {
+  max-height: 100%;
+}
+
+.c10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  color: #161616;
+}
+
+.c1 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 1rem 0;
+}
+
+.c2 {
+  background: #f4f4f4;
+  margin: 1.5rem 0;
+  table-layout: auto;
+  text-align: left;
+  width: 100%;
+}
+
+.c3 {
+  background: #f4f4f4;
+  color: #161616;
+  padding: 1rem 1rem;
+}
+
+.c4 {
+  box-shadow: inset 0 -0.06rem 0.06rem #ffffff,inset 0 0 0 transparent;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c6 {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  height: auto;
+  max-height: 4rem;
+  max-width: 4rem;
+}
+
+.c7 {
+  font: 700 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 0.5rem 0 0 0.5rem;
+}
+
+.c8 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+@media (min-width:672px) {
+  .c10 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <h2>
+      Quick Order
+    </h2>
+    <p
+      class="c1"
+    >
+      You can add up to 25 valid SKUs below and add to cart. Stock is reserved once products are added to cart.
+    </p>
+    <table
+      class="c2"
+    >
+      <tbody>
+        <tr>
+          <th
+            class="c3"
+          >
+            <span
+              class="sr"
+            >
+              Search
+            </span>
+          </th>
+          <th
+            class="c3"
+          >
+            Product
+          </th>
+          <th
+            class="c3"
+          >
+            Price
+          </th>
+          <th
+            class="c3"
+          >
+            Qty
+          </th>
+          <th
+            class="c3"
+          >
+            Total
+          </th>
+          <th
+            class="c3"
+          >
+            <span
+              class="sr"
+            >
+              Action
+            </span>
+          </th>
+        </tr>
+        <tr>
+          <td
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="form-for-power-drill"
+              >
+                Product SKU
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="form-for-power-drill"
+                    name="form-for-power-drill"
+                    type="text"
+                    value="power-drill"
+                  />
+                </div>
+              </div>
+            </div>
+          </td>
+          <td
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <img
+                alt="Power drill"
+                class="c6"
+                src="static/commerce/tool.jpeg"
+              />
+              <h3
+                class="c7"
+              >
+                Power drill
+              </h3>
+            </div>
+          </td>
+          <td
+            class="c4"
+          >
+            <span
+              class="c8"
+            >
+              <div
+                class="price-list"
+              >
+                <span
+                  class="value"
+                >
+                  £79
+                </span>
+              </div>
+              <div
+                class="price-offer"
+              >
+                <span
+                  class="value"
+                >
+                  £72
+                </span>
+              </div>
+            </span>
+          </td>
+          <td
+            class="c4"
+          >
+            2
+          </td>
+          <td
+            class="c4"
+          >
+            <span
+              class="c8"
+            >
+              <div
+                class="price-list"
+              >
+                <span
+                  class="value"
+                >
+                  £158
+                </span>
+              </div>
+              <div
+                class="price-offer"
+              >
+                <span
+                  class="value"
+                >
+                  £144
+                </span>
+              </div>
+            </span>
+          </td>
+          <td
+            class="c4"
+          >
+            <span
+              class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top cds--tooltip cds--icon-tooltip"
+            >
+              <button
+                aria-describedby="danger-description-6"
+                aria-label="delete"
+                aria-labelledby="tooltip-5"
+                class="cds--btn--icon-only c9 cds--btn cds--btn--danger cds--btn--icon-only cds--btn cds--btn--danger"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="cds--visually-hidden"
+                  id="danger-description-6"
+                >
+                  danger
+                </span>
+                 
+                <div
+                  class="cds--btn__icon"
+                >
+                  <svg
+                    aria-label="icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="20"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    size="16"
+                    viewBox="0 0 32 32"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  />
+                </div>
+              </button>
+              <span
+                aria-hidden="true"
+                class="cds--popover"
+                id="tooltip-5"
+                role="tooltip"
+              >
+                <span
+                  class="cds--popover-content cds--tooltip-content"
+                >
+                  icon
+                </span>
+                <span
+                  class="cds--popover-caret"
+                />
+              </span>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="form-for-super-stereo"
+              >
+                Product SKU
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="form-for-super-stereo"
+                    name="form-for-super-stereo"
+                    type="text"
+                    value="super-stereo"
+                  />
+                </div>
+              </div>
+            </div>
+          </td>
+          <td
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <img
+                alt="Stereo"
+                class="c6"
+                src="static/commerce/tool.jpeg"
+              />
+              <h3
+                class="c7"
+              >
+                Stereo
+              </h3>
+            </div>
+          </td>
+          <td
+            class="c4"
+          >
+            <span
+              class="c8"
+            >
+              <span
+                class="value"
+              >
+                £120
+              </span>
+            </span>
+          </td>
+          <td
+            class="c4"
+          >
+            1
+          </td>
+          <td
+            class="c4"
+          >
+            <span
+              class="c8"
+            >
+              <span
+                class="value"
+              >
+                £120
+              </span>
+            </span>
+          </td>
+          <td
+            class="c4"
+          >
+            <span
+              class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top cds--tooltip cds--icon-tooltip"
+            >
+              <button
+                aria-describedby="danger-description-9"
+                aria-label="delete"
+                aria-labelledby="tooltip-8"
+                class="cds--btn--icon-only c9 cds--btn cds--btn--danger cds--btn--icon-only cds--btn cds--btn--danger"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="cds--visually-hidden"
+                  id="danger-description-9"
+                >
+                  danger
+                </span>
+                 
+                <div
+                  class="cds--btn__icon"
+                >
+                  <svg
+                    aria-label="icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="20"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    size="16"
+                    viewBox="0 0 32 32"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  />
+                </div>
+              </button>
+              <span
+                aria-hidden="true"
+                class="cds--popover"
+                id="tooltip-8"
+                role="tooltip"
+              >
+                <span
+                  class="cds--popover-content cds--tooltip-content"
+                >
+                  icon
+                </span>
+                <span
+                  class="cds--popover-caret"
+                />
+              </span>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="c4"
+          >
+            <form
+              id="quickorder-search"
+            >
+              <div
+                class="cds--form-item cds--text-input-wrapper"
+              >
+                <label
+                  class="cds--label"
+                  for="quick-search-id"
+                >
+                  Search Product SKU
+                </label>
+                <div
+                  class="cds--text-input__field-outer-wrapper"
+                >
+                  <div
+                    class="cds--text-input__field-wrapper"
+                  >
+                    <input
+                      class="cds--text-input cds--text__input cds--text-input--md"
+                      id="quick-search-id"
+                      name="quick-search-id"
+                      placeholder="Enter SKU"
+                      title="Enter SKU"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </td>
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+          <td
+            class="c4"
+          />
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c10"
+    >
+      <button
+        class="c9 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="button"
+      >
+        Add to cart
+         
+      </button>
+      <a
+        class="c11"
+      >
+        Reset form
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,93 @@
+{
+  "features.checkout.checkout-ui": {
+    "pages.CheckoutPage": {
+      "breadcrumb.Home": "inicio",
+      "breadcrumb.Checkout": "Pagar",
+      "grid.Checkout": "Pago",
+      "billingaddresspanel.billingaddress": "Dirección de facturación",
+      "initial": "Inicial",
+      "label.Shoppingcart": "Carrito de la compra",
+      "secondaryLabel.step1": "Paso 1",
+      "label.billing": "Factura",
+      "label.payment": "Pago",
+      "label.initial": "Inicial",
+      "default.ordertotal": "total del pedido"
+    },
+    "panels.Paymentpanel": {
+      "paymentpanel.payment": "Pago",
+      "paymentpanel.note": "Este pago no requiere entradas adicionales"
+    },
+    "panels.ShippingAddressPanel": {
+      "shippingadresspanel.shippingaddress": "Dirección de envío"
+    },
+    "pages.ConfirmationPage": {
+      "Checkoutaddress.shippingaddress": "Dirección de entrega",
+      "Checkoutaddress.billingaddress": "Dirección de facturación",
+      "header.confirmation": "Confirmación"
+    },
+    "components.CheckoutSidebar": {
+      "title.shippingaddress": "Dirección de entrega",
+      "title.billingaddress": "Dirección de facturación",
+      "addressdetail.title": "Título",
+      "addressdetail.firstname": "Nombre:",
+      "addressdetail.lastname": "Apellido:",
+      "addressdetail.company": "Företag:",
+      "addressdetail.addressline1": "Rueda de direcciones 1:",
+      "addressdetail.addressline2": "Rueda de direcciones 2:",
+      "addressdetail.city": "Stad:",
+      "addressdetail.province": "Provins:",
+      "addressdetail.county": "Distrito:",
+      "addressdetail.country": "País:",
+      "addressdetail.zip": "POSTKOD:"
+    },
+    "components.AddressInput": {
+      "AddressForm.Firstname.label": "Su nombre",
+      "AddressForm.Firstname.placeholder": "Nombre",
+      "AddressForm.Lastname.label": "Su apellido",
+      "AddressForm.Lastname.placeholder": "Apellido",
+      "AddressForm.Email.label": "su dirección de correo electrónico",
+      "AddressForm.Email.placeholder": "Dirección de correo electrónico",
+      "AddressForm.Phonenumber.label": "Su número de teléfono",
+      "AddressForm.Phonenumber.placeholder": "Número de teléfono",
+      "title.label": "Título",
+      "title.placeholder": "Título",
+      "addressSearch.label": "Busca tu dirección",
+      "addressSearch.placeholder": "13 nombre de la calle",
+      "AddressForm.Address.label": "Su dirección",
+      "AddressForm.Address.placeholder": "Su dirección",
+      "AddressForm.Additional.address.label": "Barra de direcciones adicional",
+      "AddressForm.Additional.address.placeholder": "Línea de dirección 2",
+      "AddressForm.Country.label": "País",
+      "AddressForm.Country.placeholder": "País",
+      "AddressForm.City.label": "Ciudad",
+      "AddressForm.City.placeholder": "Ciudad",
+      "AddressForm.State.Province.label": "Estado / Provincia",
+      "AddressForm.State.Province.placeholder": "Estado / Provincia",
+      "AddressForm.Postal.zipcode.label": "Código postal",
+      "AddressForm.Postal.zipcode.placeholder": "Código postal",
+      "exoaddressform.back": "Atrás",
+      "exoaddressform.continue": "Continuar"
+    },
+    "components.CartSummary": {
+      "group.yourordersummary": "Resumen de su pedido",
+      "group.youritemsummary": "Resumen de sus artículos",
+      "group.estimateddeliverydate": "Fecha de entrega estimada:",
+      "group.termsandcondition": "Condiciones",
+      "default.ordertotal": "suma total",
+      "default.adjustments": "Configuración",
+      "default.salestax": "IVA",
+      "default.shipping": "Envío",
+      "default.shippingtax": "Impuesto de envío",
+      "default.sybtotal": "Subtotal de objetos"
+    },
+    "components.InvoicePDF": {
+      "invoice.generatepdf": "Generar PDF"
+    },
+    "component.BillingAddressEnableCheckbox": {
+      "checkbox.usediffbillingadd": "¿Está usando una dirección de facturación diferente?"
+    },
+    "panels.BillingAddressPanel": {
+      "h1.billingaddress": "Dirección de facturación"
+    }
+  }
+}

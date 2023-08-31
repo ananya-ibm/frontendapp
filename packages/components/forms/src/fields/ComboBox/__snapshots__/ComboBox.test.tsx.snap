@@ -1,0 +1,746 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ComboBox /> component its snapshot matches story Default 1`] = `
+<div>
+  <div
+    class="cds--list-box__wrapper"
+  >
+    <label
+      class="cds--label"
+      dir="auto"
+      for="id"
+      id="downshift-0-label"
+    >
+      Some label (optional)
+    </label>
+    <div
+      class="cds--combo-box cds--list-box"
+    >
+      <div
+        class="cds--list-box__field"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="cds--text-input cds--text-input--empty"
+          id="id"
+          placeholder="Some label"
+          role="combobox"
+          tabindex="0"
+          type="text"
+          value=""
+        />
+        <button
+          aria-haspopup="true"
+          aria-label="Open"
+          class="cds--list-box__menu-icon"
+          data-toggle="true"
+          role="button"
+          tabindex="-1"
+          title="Open"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        aria-label="Choose an item"
+        class="cds--list-box__menu"
+        id="downshift-0-menu"
+        role="listbox"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ComboBox /> component its snapshot matches story OnFieldPanel 1`] = `
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.c2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="cds--layer-two c1"
+    >
+      <div
+        class="c2"
+      >
+        A fieldpanel
+      </div>
+      <div
+        class="cds--list-box__wrapper"
+      >
+        <label
+          class="cds--label"
+          dir="auto"
+          for="id"
+          id="downshift-1-label"
+        >
+          Some label (optional)
+        </label>
+        <div
+          class="cds--combo-box cds--list-box"
+        >
+          <div
+            class="cds--list-box__field"
+          >
+            <input
+              aria-autocomplete="list"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              autocomplete="off"
+              class="cds--text-input cds--text-input--empty"
+              id="id"
+              placeholder="Some label"
+              role="combobox"
+              tabindex="0"
+              type="text"
+              value=""
+            />
+            <button
+              aria-haspopup="true"
+              aria-label="Open"
+              class="cds--list-box__menu-icon"
+              data-toggle="true"
+              role="button"
+              tabindex="-1"
+              title="Open"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            aria-label="Choose an item"
+            class="cds--list-box__menu"
+            id="downshift-1-menu"
+            role="listbox"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ComboBox /> component its snapshot matches story TestOnForm 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        react-hook-form
+      </div>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <div>
+          <div
+            class="cds--list-box__wrapper"
+          >
+            <label
+              class="cds--label"
+              dir="auto"
+              for="id"
+              id="downshift-2-label"
+            >
+              Some label (optional)
+            </label>
+            <div
+              class="cds--combo-box cds--list-box"
+            >
+              <div
+                class="cds--list-box__field"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  autocomplete="off"
+                  class="cds--text-input"
+                  id="id"
+                  placeholder="Some label"
+                  role="combobox"
+                  tabindex="0"
+                  title="Green"
+                  type="text"
+                  value="Green"
+                />
+                <button
+                  aria-label="Clear selected item"
+                  class="cds--list-box__selection"
+                  tabindex="0"
+                  title="Clear selected item"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-haspopup="true"
+                  aria-label="Open"
+                  class="cds--list-box__menu-icon"
+                  data-toggle="true"
+                  role="button"
+                  tabindex="-1"
+                  title="Open"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                aria-label="Choose an item"
+                class="cds--list-box__menu"
+                id="downshift-2-menu"
+                role="listbox"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 25%; padding: 1rem; background: rgb(238, 238, 238);"
+        >
+          <div>
+            "green"
+          </div>
+          <div
+            style="margin-top: 1rem;"
+          >
+            <input
+              id="formData"
+              style="padding: 0.5rem;"
+              type="text"
+            />
+            <button
+              style="padding: 0.5rem;"
+            >
+              Set
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style="margin-top: 2rem;"
+    >
+      <div>
+        as standalone field
+      </div>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <div>
+          <div
+            class="cds--list-box__wrapper"
+          >
+            <label
+              class="cds--label"
+              dir="auto"
+              for="id"
+              id="downshift-3-label"
+            >
+              Some label (optional)
+            </label>
+            <div
+              class="cds--combo-box cds--list-box"
+            >
+              <div
+                class="cds--list-box__field"
+              >
+                <input
+                  aria-autocomplete="list"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  autocomplete="off"
+                  class="cds--text-input"
+                  id="id"
+                  placeholder="Some label"
+                  role="combobox"
+                  tabindex="0"
+                  title="Green"
+                  type="text"
+                  value="Green"
+                />
+                <button
+                  aria-label="Clear selected item"
+                  class="cds--list-box__selection"
+                  tabindex="0"
+                  title="Clear selected item"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"
+                    />
+                  </svg>
+                </button>
+                <button
+                  aria-haspopup="true"
+                  aria-label="Open"
+                  class="cds--list-box__menu-icon"
+                  data-toggle="true"
+                  role="button"
+                  tabindex="-1"
+                  title="Open"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                aria-label="Choose an item"
+                class="cds--list-box__menu"
+                id="downshift-3-menu"
+                role="listbox"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 25%; padding: 1rem; background: rgb(238, 238, 238);"
+        >
+          <div>
+            "green"
+          </div>
+          <div
+            style="margin-top: 1rem;"
+          >
+            <input
+              id="sData"
+              style="padding: 0.5rem;"
+              type="text"
+            />
+            <button
+              style="padding: 0.5rem;"
+            >
+              Set
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ComboBox /> component its snapshot matches story WithDynamicList 1`] = `
+<div>
+  <div
+    class="cds--list-box__wrapper"
+  >
+    <label
+      class="cds--label"
+      dir="auto"
+      for="id"
+      id="downshift-4-label"
+    >
+      Some label (optional)
+    </label>
+    <div
+      class="cds--combo-box cds--list-box"
+    >
+      <div
+        class="cds--list-box__field"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="cds--text-input cds--text-input--empty"
+          id="id"
+          placeholder="Some label"
+          role="combobox"
+          tabindex="0"
+          title=""
+          type="text"
+          value=""
+        />
+        <button
+          aria-haspopup="true"
+          aria-label="Open"
+          class="cds--list-box__menu-icon"
+          data-toggle="true"
+          role="button"
+          tabindex="-1"
+          title="Open"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        aria-label="Choose an item"
+        class="cds--list-box__menu"
+        id="downshift-4-menu"
+        role="listbox"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ComboBox /> component its snapshot matches story WithDynamicListAndSelectedValue 1`] = `
+<div>
+  <div
+    class="cds--list-box__wrapper"
+  >
+    <label
+      class="cds--label"
+      dir="auto"
+      for="id"
+      id="downshift-5-label"
+    >
+      Some label (optional)
+    </label>
+    <div
+      class="cds--combo-box cds--list-box"
+    >
+      <div
+        class="cds--list-box__field"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="cds--text-input"
+          id="id"
+          placeholder="Some label"
+          role="combobox"
+          tabindex="0"
+          title="Lucas"
+          type="text"
+          value="Lucas"
+        />
+        <button
+          aria-label="Clear selected item"
+          class="cds--list-box__selection"
+          tabindex="0"
+          title="Clear selected item"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 32 32"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-haspopup="true"
+          aria-label="Open"
+          class="cds--list-box__menu-icon"
+          data-toggle="true"
+          role="button"
+          tabindex="-1"
+          title="Open"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        aria-label="Choose an item"
+        class="cds--list-box__menu"
+        id="downshift-5-menu"
+        role="listbox"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ComboBox /> component its snapshot matches story WithError 1`] = `
+<div>
+  <div
+    class="cds--list-box__wrapper"
+  >
+    <label
+      class="cds--label"
+      dir="auto"
+      for="id"
+      id="downshift-6-label"
+    >
+      Some label (optional)
+    </label>
+    <div
+      class="cds--combo-box cds--list-box"
+      data-invalid="true"
+    >
+      <div
+        class="cds--list-box__field"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="cds--text-input cds--text-input--empty"
+          id="id"
+          placeholder="Some label"
+          role="combobox"
+          tabindex="0"
+          type="text"
+          value=""
+        />
+        <svg
+          aria-hidden="true"
+          class="cds--list-box__invalid-icon"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8,1C4.2,1,1,4.2,1,8s3.2,7,7,7s7-3.1,7-7S11.9,1,8,1z M7.5,4h1v5h-1C7.5,9,7.5,4,7.5,4z M8,12.2 c-0.4,0-0.8-0.4-0.8-0.8s0.3-0.8,0.8-0.8c0.4,0,0.8,0.4,0.8,0.8S8.4,12.2,8,12.2z"
+          />
+          <path
+            d="M7.5,4h1v5h-1C7.5,9,7.5,4,7.5,4z M8,12.2c-0.4,0-0.8-0.4-0.8-0.8s0.3-0.8,0.8-0.8 c0.4,0,0.8,0.4,0.8,0.8S8.4,12.2,8,12.2z"
+            data-icon-path="inner-path"
+            opacity="0"
+          />
+        </svg>
+        <button
+          aria-haspopup="true"
+          aria-label="Open"
+          class="cds--list-box__menu-icon"
+          data-toggle="true"
+          role="button"
+          tabindex="-1"
+          title="Open"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        aria-label="Choose an item"
+        class="cds--list-box__menu"
+        id="downshift-6-menu"
+        role="listbox"
+      />
+    </div>
+    <div
+      class="cds--form-requirement"
+    >
+      Some error text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ComboBox /> component its snapshot matches story WithHelpText 1`] = `
+<div>
+  <div
+    class="cds--list-box__wrapper"
+  >
+    <label
+      class="cds--label"
+      dir="auto"
+      for="id"
+      id="downshift-7-label"
+    >
+      Some label (optional)
+    </label>
+    <div
+      class="cds--combo-box cds--list-box"
+    >
+      <div
+        class="cds--list-box__field"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="cds--text-input cds--text-input--empty"
+          id="id"
+          placeholder="Some label"
+          role="combobox"
+          tabindex="0"
+          type="text"
+          value=""
+        />
+        <button
+          aria-haspopup="true"
+          aria-label="Open"
+          class="cds--list-box__menu-icon"
+          data-toggle="true"
+          role="button"
+          tabindex="-1"
+          title="Open"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        aria-label="Choose an item"
+        class="cds--list-box__menu"
+        id="downshift-7-menu"
+        role="listbox"
+      />
+    </div>
+    <div
+      class="cds--form__helper-text"
+      dir="auto"
+      id="combobox-helper-text-21"
+    >
+      Some help text
+    </div>
+  </div>
+</div>
+`;

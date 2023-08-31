@@ -1,0 +1,22 @@
+{
+  "features.banking.banking-ui": {
+    "components.BnkAccount": {
+      "account-detail.account-type": "Account Type: ",
+      "account-detail.account-number": "Account Number: ",
+      "account-detail.sort-code": "Sort Code: ",
+      "account-detail.opened-date": "Opened Date: "
+    },
+    "components.BnkBalance": {
+      "balance.credit-line": "Arranged overdraft limit: "
+    },
+    "components.BnkTransactions": {
+      "transactions.title": "Transactions"
+    },
+    "pages.BnkAccountPage": {
+      "hero.title": "View Account"
+    },
+    "pages.BnkAccountsPage": {
+      "hero.title": "Accounts"
+    }
+  }
+}

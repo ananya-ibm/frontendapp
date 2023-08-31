@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavMobile /> component its snapshot matches story normal 1`] = `
+.c0 {
+  background-color: white;
+  bottom: 0;
+  box-shadow: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 2rem;
+  position: fixed;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  -webkit-transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  width: 100vw;
+  z-index: 16;
+  left: calc(-100vw - 1rem);
+  -webkit-transform: translateX(calc(100vw + 1rem));
+  -ms-transform: translateX(calc(100vw + 1rem));
+  transform: translateX(calc(100vw + 1rem));
+  max-width: 80vw;
+}
+
+.c0 ~ .SidePanelstyles__SidePanelMain-sc-18iyri2-0 {
+  -webkit-transition: -webkit-transform 0.25s ease-out,margin 0.25s ease-out;
+  -webkit-transition: transform 0.25s ease-out,margin 0.25s ease-out;
+  transition: transform 0.25s ease-out,margin 0.25s ease-out;
+}
+
+.c3 {
+  background: transparent;
+  position: fixed;
+  left: 0;
+  top: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  overscroll-behavior: none;
+  -webkit-transition: background 0.25s ease-out;
+  transition: background 0.25s ease-out;
+}
+
+.c1 {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas: 'secondary' 'primary';
+  grid-template-rows: auto auto;
+  padding: 0 2rem;
+  font: 600 0.875rem/1.2499987499999998rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c1 .action {
+  font: 600 0.875rem/1.2499987499999998rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  color: #525252;
+  border: none;
+}
+
+.c1 .action [role='img'] {
+  display: inline;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1rem;
+  grid-area: primary;
+}
+
+.c2 .action {
+  padding: 0;
+}
+
+@media (min-width:672px) {
+  .c0 {
+    width: 20rem;
+    left: calc(-20rem - 1rem);
+    -webkit-transform: translateX(calc(20rem + 1rem));
+    -ms-transform: translateX(calc(20rem + 1rem));
+    transform: translateX(calc(20rem + 1rem));
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    mode="onTop"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          aria-label="Lorem"
+          class="action  "
+          href="#"
+        >
+          Lorem
+        </a>
+        <a
+          aria-label="Ipsum"
+          class="action  "
+          href="#"
+        >
+          Ipsum
+        </a>
+        <a
+          aria-label="Dolor"
+          class="action  "
+          href="#"
+        >
+          Dolor
+        </a>
+        <a
+          aria-label="Sit"
+          class="action  "
+          href="#"
+        >
+          Sit
+        </a>
+        <a
+          aria-label="Amet"
+          class="action  "
+          href="#"
+        >
+          Amet
+        </a>
+        <a
+          aria-label="Consectetuer"
+          class="action  "
+          href="#"
+        >
+          Consectetuer
+        </a>
+        <a
+          aria-label="Consectetuer"
+          class="action  "
+          href="#"
+        >
+          Consectetuer
+        </a>
+        <a
+          aria-label="Consectetuer"
+          class="action  "
+          href="#"
+        >
+          Consectetuer
+        </a>
+        <a
+          aria-label="Consectetuer"
+          class="action  "
+          href="#"
+        >
+          Consectetuer
+        </a>
+        <a
+          aria-label="Consectetuer"
+          class="action  "
+          href="#"
+        >
+          Consectetuer
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="c3"
+  />
+</div>
+`;

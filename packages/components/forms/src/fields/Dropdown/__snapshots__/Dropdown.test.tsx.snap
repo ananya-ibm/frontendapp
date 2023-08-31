@@ -1,0 +1,524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> component its snapshot matches story Default 1`] = `
+<div>
+  <div
+    class="cds--dropdown__wrapper cds--list-box__wrapper"
+  >
+    <label
+      class="cds--label"
+      for="downshift-0-toggle-button"
+      id="downshift-0-label"
+    >
+      Some label (optional)
+    </label>
+    <div
+      class="cds--dropdown cds--list-box"
+      id="id"
+    >
+      <button
+        aria-disabled="false"
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-0-label downshift-0-toggle-button"
+        class="cds--list-box__field"
+        id="downshift-0-toggle-button"
+        title="Some label"
+        type="button"
+      >
+        <span
+          class="cds--list-box__label"
+        >
+          Some label
+        </span>
+        <div
+          class="cds--list-box__menu-icon"
+        >
+          <svg
+            aria-label="Open menu"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            name="chevron--down"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+            />
+            <title>
+              Open menu
+            </title>
+          </svg>
+        </div>
+      </button>
+      <div
+        aria-labelledby="downshift-0-label"
+        class="cds--list-box__menu"
+        id="downshift-0-menu"
+        role="listbox"
+        tabindex="-1"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Dropdown /> component its snapshot matches story OnFieldPanel 1`] = `
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.c2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="cds--layer-two c1"
+    >
+      <div
+        class="c2"
+      >
+        A fieldset
+      </div>
+      <div
+        class="cds--dropdown__wrapper cds--list-box__wrapper"
+      >
+        <label
+          class="cds--label"
+          for="downshift-1-toggle-button"
+          id="downshift-1-label"
+        >
+          Some label (optional)
+        </label>
+        <div
+          class="cds--dropdown cds--list-box"
+          id="id"
+        >
+          <button
+            aria-disabled="false"
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-labelledby="downshift-1-label downshift-1-toggle-button"
+            class="cds--list-box__field"
+            id="downshift-1-toggle-button"
+            title="Some label"
+            type="button"
+          >
+            <span
+              class="cds--list-box__label"
+            >
+              Some label
+            </span>
+            <div
+              class="cds--list-box__menu-icon"
+            >
+              <svg
+                aria-label="Open menu"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                name="chevron--down"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                />
+                <title>
+                  Open menu
+                </title>
+              </svg>
+            </div>
+          </button>
+          <div
+            aria-labelledby="downshift-1-label"
+            class="cds--list-box__menu"
+            id="downshift-1-menu"
+            role="listbox"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Dropdown /> component its snapshot matches story TestOnForm 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        react-hook-form
+      </div>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <div>
+          <div
+            class="cds--dropdown__wrapper cds--list-box__wrapper"
+          >
+            <label
+              class="cds--label"
+              for="downshift-2-toggle-button"
+              id="downshift-2-label"
+            >
+              Some label (optional)
+            </label>
+            <div
+              class="cds--dropdown cds--list-box"
+              id="id"
+            >
+              <button
+                aria-disabled="false"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="downshift-2-label downshift-2-toggle-button"
+                class="cds--list-box__field"
+                id="downshift-2-toggle-button"
+                title="Green"
+                type="button"
+              >
+                <span
+                  class="cds--list-box__label"
+                >
+                  Green
+                </span>
+                <div
+                  class="cds--list-box__menu-icon"
+                >
+                  <svg
+                    aria-label="Open menu"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    name="chevron--down"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                    <title>
+                      Open menu
+                    </title>
+                  </svg>
+                </div>
+              </button>
+              <div
+                aria-labelledby="downshift-2-label"
+                class="cds--list-box__menu"
+                id="downshift-2-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 25%; padding: 1rem; background: rgb(238, 238, 238);"
+        >
+          <div>
+            "green"
+          </div>
+          <div
+            style="margin-top: 1rem;"
+          >
+            <input
+              id="formData"
+              style="padding: 0.5rem;"
+              type="text"
+            />
+            <button
+              style="padding: 0.5rem;"
+            >
+              Set
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style="margin-top: 2rem;"
+    >
+      <div>
+        as standalone field
+      </div>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <div>
+          <div
+            class="cds--dropdown__wrapper cds--list-box__wrapper"
+          >
+            <label
+              class="cds--label"
+              for="downshift-3-toggle-button"
+              id="downshift-3-label"
+            >
+              Some label (optional)
+            </label>
+            <div
+              class="cds--dropdown cds--list-box"
+              id="id"
+            >
+              <button
+                aria-disabled="false"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="downshift-3-label downshift-3-toggle-button"
+                class="cds--list-box__field"
+                id="downshift-3-toggle-button"
+                title="Green"
+                type="button"
+              >
+                <span
+                  class="cds--list-box__label"
+                >
+                  Green
+                </span>
+                <div
+                  class="cds--list-box__menu-icon"
+                >
+                  <svg
+                    aria-label="Open menu"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    name="chevron--down"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                    <title>
+                      Open menu
+                    </title>
+                  </svg>
+                </div>
+              </button>
+              <div
+                aria-labelledby="downshift-3-label"
+                class="cds--list-box__menu"
+                id="downshift-3-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 25%; padding: 1rem; background: rgb(238, 238, 238);"
+        >
+          <div>
+            "green"
+          </div>
+          <div
+            style="margin-top: 1rem;"
+          >
+            <input
+              id="sData"
+              style="padding: 0.5rem;"
+              type="text"
+            />
+            <button
+              style="padding: 0.5rem;"
+            >
+              Set
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Dropdown /> component its snapshot matches story WithError 1`] = `
+<div>
+  <div
+    class="cds--dropdown__wrapper cds--list-box__wrapper"
+  >
+    <label
+      class="cds--label"
+      for="downshift-6-toggle-button"
+      id="downshift-6-label"
+    >
+      Some label (optional)
+    </label>
+    <div
+      class="cds--dropdown cds--dropdown--invalid cds--list-box"
+      data-invalid="true"
+      id="id"
+    >
+      <svg
+        aria-hidden="true"
+        class="cds--list-box__invalid-icon"
+        fill="currentColor"
+        focusable="false"
+        height="16"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8,1C4.2,1,1,4.2,1,8s3.2,7,7,7s7-3.1,7-7S11.9,1,8,1z M7.5,4h1v5h-1C7.5,9,7.5,4,7.5,4z M8,12.2 c-0.4,0-0.8-0.4-0.8-0.8s0.3-0.8,0.8-0.8c0.4,0,0.8,0.4,0.8,0.8S8.4,12.2,8,12.2z"
+        />
+        <path
+          d="M7.5,4h1v5h-1C7.5,9,7.5,4,7.5,4z M8,12.2c-0.4,0-0.8-0.4-0.8-0.8s0.3-0.8,0.8-0.8 c0.4,0,0.8,0.4,0.8,0.8S8.4,12.2,8,12.2z"
+          data-icon-path="inner-path"
+          opacity="0"
+        />
+      </svg>
+      <button
+        aria-disabled="false"
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-6-label downshift-6-toggle-button"
+        class="cds--list-box__field"
+        id="downshift-6-toggle-button"
+        title="Green"
+        type="button"
+      >
+        <span
+          class="cds--list-box__label"
+        >
+          Green
+        </span>
+        <div
+          class="cds--list-box__menu-icon"
+        >
+          <svg
+            aria-label="Open menu"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            name="chevron--down"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+            />
+            <title>
+              Open menu
+            </title>
+          </svg>
+        </div>
+      </button>
+      <div
+        aria-labelledby="downshift-6-label"
+        class="cds--list-box__menu"
+        id="downshift-6-menu"
+        role="listbox"
+        tabindex="-1"
+      />
+    </div>
+    <div
+      class="cds--form-requirement"
+    >
+      Some error text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Dropdown /> component its snapshot matches story WithHelpText 1`] = `
+<div>
+  <div
+    class="cds--dropdown__wrapper cds--list-box__wrapper"
+  >
+    <label
+      class="cds--label"
+      for="downshift-7-toggle-button"
+      id="downshift-7-label"
+    >
+      Some label (optional)
+    </label>
+    <div
+      class="cds--dropdown cds--list-box"
+      id="id"
+    >
+      <button
+        aria-disabled="false"
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-7-label downshift-7-toggle-button"
+        class="cds--list-box__field"
+        id="downshift-7-toggle-button"
+        title="Some label"
+        type="button"
+      >
+        <span
+          class="cds--list-box__label"
+        >
+          Some label
+        </span>
+        <div
+          class="cds--list-box__menu-icon"
+        >
+          <svg
+            aria-label="Open menu"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            name="chevron--down"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+            />
+            <title>
+              Open menu
+            </title>
+          </svg>
+        </div>
+      </button>
+      <div
+        aria-labelledby="downshift-7-label"
+        class="cds--list-box__menu"
+        id="downshift-7-menu"
+        role="listbox"
+        tabindex="-1"
+      />
+    </div>
+    <div
+      class="cds--form__helper-text"
+    >
+      Some help text
+    </div>
+  </div>
+</div>
+`;

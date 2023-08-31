@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HorizontalContentCard /> component its snapshot matches 1`] = `
+.c1 {
+  background-image: url(https://images.unsplash.com/photo-1476286768413-e7051cdb2179?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-top: 56.25%;
+}
+
+.c5 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  margin: 2rem;
+  text-align: right;
+}
+
+.c3 {
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.c4 {
+  margin-bottom: 1rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 .card-image {
+  width: 50%;
+  padding-right: 0;
+}
+
+.c0 .card-content {
+  width: 50%;
+  padding-left: 0;
+}
+
+.c0:hover {
+  box-shadow: 0.125rem 0.125rem 1rem rgba(0,0,0,0.1), -0.125rem -0.125rem 1rem rgba(0,0,0,0.1);
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="card-image"
+  >
+    <div
+      class="c1"
+    />
+  </div>
+  <div
+    class="card-content"
+  >
+    <div
+      class="c2"
+    >
+      <h3
+        class="c3"
+      >
+        New Offer
+      </h3>
+      <h5
+        class="c4"
+      >
+        Check out the latest offer
+      </h5>
+      <div
+        class="c5"
+      >
+        Isn't it a great offer. I bet you've never seen one like it.
+      </div>
+      <a
+        class="HorizontalContentCardstyles__Link-sc-6ymr3b-2"
+        href="#"
+      >
+        Learn More
+      </a>
+    </div>
+  </div>
+</div>
+`;

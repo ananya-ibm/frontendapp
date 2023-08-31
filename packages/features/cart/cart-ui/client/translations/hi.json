@@ -1,0 +1,50 @@
+{ 
+    "features.cart.cart-ui" : {
+        "pages.CartPage": {
+            "Cart.header" : "कार्ट",
+            "Title" :"फिलहाल आपका कार्ट खाली है",
+            "EmptyCart.primaryText" : "खरीदारी जारी रखें",
+            "CartButtons.next" : "चेक आउट" 
+        },
+        "components" : {
+            "CartSubtotal":
+            {
+                "Head.SubtotalRow.label" : "उप-योग",
+                "Foot.SubtotalRow.label" : "कुल",
+                "Body.SubtotalRow.SalesTax.label" : "बिक्री कर",
+                "Body.SubtotalRow.Shipping.label" : "शिपिंग", 
+                "Body.SubtotalRow.ShippingTax.label" : "शिपिंग टैक्स",
+                "Body.SubtotalRow.Adjustments.label" : "समायोजन"
+            },
+            "Delivery":
+            {
+                "Options.Home" : "घर पहुँचाना",
+                "Options.Store" : "स्टोर से सामान उठाना"
+            },
+            "HomeDeliverySelector":
+            {
+                "labeltext" : "डिलिवरी विधि"
+            },
+            "ZipDeliveryOptions" :
+            {
+                "Title": "शिपिंग",
+                "div.Text":"के लिए उपलब्ध शिपिंग विधियां",
+                "SubTitle":"क्लिक करें और इकट्ठा करें",
+                "SubTitle.HomeDelivery": "घर पहुँचाना",
+                "Button.Label" : "पाना"
+
+            },
+            "MiniCart":
+            {
+                "Title": "मिनी गाड़ी"
+            },
+            "CartItem":
+            {
+                "PropertyName.Quantity" : "मात्रा"
+            }
+     
+
+        }
+        
+    }
+}

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FinanceSelector /> component its snapshot matches 1`] = `
+.c0 {
+  background: #ffffff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c2 {
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  font: 400 0.875rem/1.2499987499999998rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  outline: none;
+  padding: 0.75rem 1.75rem;
+  width: 100%;
+  box-shadow: inset 0 -0.125rem #0062ff;
+  font-weight: 700;
+}
+
+.c3 {
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  font: 400 0.875rem/1.2499987499999998rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  outline: none;
+  padding: 0.75rem 1.75rem;
+  width: 100%;
+  box-shadow: inset 0 -0.125rem #d6d6d6;
+  font-weight: 400;
+}
+
+.c4 {
+  padding: 2rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <button
+      class="c2"
+      id="pcp"
+    >
+      PCP
+    </button>
+    <button
+      class="c3"
+      id="cash"
+    >
+      Cash
+    </button>
+  </div>
+  <div
+    class="c4"
+  >
+    <div>
+      this is PCP content
+    </div>
+  </div>
+</div>
+`;

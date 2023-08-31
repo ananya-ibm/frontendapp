@@ -1,0 +1,35 @@
+{ 
+    "features.utilities.utilities-ui" : {
+        "pages.HomePage": {
+            "Hero.Text" : "Wagen",
+            "Hero.Title" :"Ihr Warenkorb ist derzeit leer",
+            "Cards.Title" :"",
+            "Card1.Title" :"",
+            "Card1.Body" :"",
+            "Card2.Title" :"",
+            "Card2.Body" :"",
+            "Card3.Title" :"",
+            "Card3.Body" :"",
+            "Section3.Title": "",
+            "DetailCase.SubTitle" :"",
+            "DetailCase.Title" :"",
+            "DetailCase.Body1" :"",
+            "DetailCase.Body2" :"",
+            "DetailCase.Body3" :"",
+            "DetailCase.Body4" :"",
+            "DetailCase.Body5" :"",
+            "DetailCase.Body6" :"",
+            "DetailCase.ctaText": "",
+            "FullWidthTile.Body": "",
+            "FullWidthTile.ctaText": "",
+            "FullWidthTile.ctaTextMobile": "",
+            "FullWidthTile.Title": "",
+            "ContentTile1.Body": "",
+            "ContentTile1.ctaText": "",
+            "ContentTile1.Title": "",
+            "ContentTile2.Body": "",
+            "ContentTile2.ctaText": "",
+            "ContentTile2.Title": ""
+        }
+    }
+}

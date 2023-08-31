@@ -1,0 +1,141 @@
+{ 
+    "features.account.account-profile-ui" : {
+        "pages": 
+        {
+            "SecurityPage":
+            {
+                "Dashboard.title" : "खाते की सुरक्षा"
+            },
+            "AddressesPage":
+            {
+                "Addresses.title" : "पतों"
+            },
+            "MyOrdersPage":
+            {
+               "Myorder.Title" : "मेरे आदेश"
+            },
+            "PaymentPage":
+            {
+                "Paymentmethod.Title": "भुगतान की विधि"
+            },
+            "PersonalDetailsPage":
+            {
+                "Title": "व्यक्तिगत विवरण"
+            },
+            "PreferencesPage":
+            {
+                "Title":"पसंद"
+            },
+            "ProfilePage":
+            {
+                "Title":"मेरी प्रोफाइल"
+            },
+            "RegisterPage":
+            {
+                "Title": "रजिस्टर करें"
+            }
+        },
+        "components": 
+        {
+            "AddressForm" :
+            {
+               "Firstname.label": "आपका पहला नाम",
+               "Lastname.label" : "आपका अंतिम नाम",
+               "Email.label"    : "आपका ईमेल पता",
+               "Phonenumber.label":"आपका फोन नंबरe",
+               "Address.label" : "तुम्हारा पता",
+               "Additional.address.label": "अतिरिक्त पता पंक्ति",
+               "Country.label": "देश",
+               "City.label" : "शहर",
+               "State.Province.label":"राज्य/प्रांत",
+               "Postal.zipcode.label":"डाक का / ज़िप कोड",
+
+               "AddressForm.Firstname.placeholder":"प्रथम नाम",
+               "AddressForm.Lastname.placeholder":"अंतिम नाम",
+               "AddressForm.Email.placeholder":"ई-पोस्टड्रेस",
+               "AddressForm.Phonenumber.placeholder":"टेलीफ़ोननमर",
+               "AddressForm.Address.placeholder":"आपका पता",
+               "AddressForm.Additional.address.placeholder":"आपका पता 2",
+               "AddressForm.Country.placeholder":"देश",
+               "AddressForm.City.placeholder":"शहर",
+               "AddressForm.State.Province.placeholder":"स्टेट / प्रांत",   
+               "AddressForm.Postal.zipcode.placeholder":"पोस्ट नंबर"
+              },
+                "Dashboard":
+                {
+                    "LogoutButton":"लॉग आउट"
+                },
+                "ResetPassword" :
+                {
+                    "Password" : "पासवर्ड",
+                    "Confirm.Password":"पासवर्ड की पुष्टि कीजिये",
+                    "Update.Button": "अद्यतन",
+                    "Current.Password":"वर्तमान पासवर्ड",
+                    "Password.text": "आपका पासवर्ड बदल दिया गया है"
+                },
+                "ManageAddresses" :
+                 {
+                   "Addnewaddress" : "नया पता जोड़ें",
+                   "Button.Cancel":"रद्द करना",
+                   "Button.Save": "बचा ले",
+                   "Title":"कृपया अपना संपर्क विवरण भरें"
+                 },
+                 "PaymentForm":
+                 {
+                     "Cardtype": "कार्ड के प्रकार",
+                     "Cardtype.Placeholder": "अपने कार्ड का प्रकार चुनें...",
+                     "Cardnumber": "कार्ड संख्या",
+                     "Cardholdername":"कार्डधारक का नाम",
+                     "Expirydate":"समाप्ति तिथि",
+                     "Button.cancel":"रद्द करना",
+                     "Button.UpadatePaymentMethod" : "भुगतान विधि अपडेट करें",
+                     "PaymentMethod.Title":"कृपया अपना भुगतान विवरण भरें",
+                     "Button.save":"सहेजें",
+                    "PaymentMethod.Label":"नई भुगतान विधि जोड़ें"
+                 },
+                 "PersonalDetails":
+                 {
+                     "Button.Save": "सहेजें"
+                 },
+                 "Preferences":
+                {
+                "Title":"पसंद",
+                "EmailPreferences": "ईमेल प्राथमिकताएं",
+                "EmailAddress":"आपका ईमेल पता",
+                "Wanttochange":"अगर आप इसे बदलना चाहते हैं",
+                "clickhere":"यहाँ क्लिक करें.",
+                "Marketing":"विपणन",
+                "Contacby":"मैं द्वारा संपर्क किया जाना चाहता हूँ",
+                "SelectOption":"एक विकल्प चुनें",
+                "SavePreferences": "वरीयताएँ सहेजें"
+              },
+              "AccountOverview":
+              {
+                  "SubTitle":"आपके नवीनतम आदेश"
+              },
+              "RegistrationForm":
+              {
+                  "Button.Register":"रजिस्टर करें",
+                  "YourFirstname":"आपका पहला नाम",
+                  "Firstname":"पहला नाम",
+                  "YourLastname":"आपका अंतिम नाम",
+                  "Lastname":"उपनाम",
+                  "YouremailAddress":"आपका ईमेल पता",
+                  "emailAddress":"ईमेल पता",
+                  "Password": "पासवर्ड",
+                  "ConfirmPassword":"पासवर्ड की पुष्टि कीजिये",
+                  "Title":"शीर्षक",
+                  "YourPhonenumber":"आपका फोन नंबर",
+                  "phonenumber":"फ़ोन नंबर",
+                  "YourAddress":"तुम्हारा पता",
+                  "Address":"पता",
+                  "Country":"देश",
+                  "City":"शहर",
+                  "Stateprovince":"राज्य/प्रांत",
+                  "Postalzipcode":"डाक का / ज़िप कोडl",
+                  "Aggrement": "मैंने हमारे नियम और शर्तों को पढ़ लिया है और उनसे सहमत हूं"
+              }
+            }
+            
+        }
+    }

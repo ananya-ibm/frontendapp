@@ -1,0 +1,30 @@
+{
+  "name": "@exo/frontend-features-dev-toolbar-extension-config-switch",
+  "version": "1.0.0",
+  "description": "## Features",
+  "main": "client/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:ixliberty/ix-liberty-boilerplate.git"
+  },
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "exo": {
+    "providers": {
+      "@exo-provider/frontend-additional-configs-provider": "packages/features/dev/dev-toolbar-extension-config-switch/client/defaultAdditionalConfigs.ts"
+    }
+  },
+  "author": "Magnus Johansson",
+  "dependencies": {
+    "@exo/frontend-common-apollo": "^1.0.0",
+    "@exo/frontend-common-session-context": "^1.0.0",
+    "@exo/frontend-features-dev-toolbar-ui": "^1.0.0",
+    "@exo/frontend-common-app-shell": "^1.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0"
+  }
+}

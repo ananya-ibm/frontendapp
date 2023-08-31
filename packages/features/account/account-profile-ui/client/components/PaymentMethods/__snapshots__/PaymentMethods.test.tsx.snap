@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentMethods /> component its snapshot matches story Default 1`] = `
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3:hover {
+  color: #0043ce;
+}
+
+.c3 svg {
+  color: #161616;
+}
+
+.c4 {
+  line-height: 100%;
+  margin-left: 0.6rem;
+  margin-top: 0.2rem;
+}
+
+.c9 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c9 svg {
+  max-height: 100%;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.c5 {
+  margin: -1rem -1rem -1rem -1rem;
+}
+
+.c6 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c7 {
+  height: 1rem;
+}
+
+.c8 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+  <div
+    class="PaymentMethodsstyles__PaymentMethods-sc-mwkya5-0"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <h4
+        class="c1"
+      >
+        <div>
+          Visa Debit Card
+           
+          4242424242424242
+        </div>
+        <div
+          class="c2"
+        >
+          <a
+            class="c3"
+          >
+            Edit
+            <span
+              class="c4"
+            >
+              <svg
+                viewBox="0 0 20 20"
+                width="0.875rem"
+              >
+                <g
+                  fill="none"
+                  fill-rule="evenodd"
+                  stroke="none"
+                  stroke-width="1"
+                >
+                  <g
+                    transform="translate(-407.000000, -477.000000)"
+                  >
+                    <g
+                      transform="translate(284.000000, 293.000000)"
+                    >
+                      <g
+                        transform="translate(32.000000, 88.000000)"
+                      >
+                        <g
+                          transform="translate(89.000000, 94.000000)"
+                        >
+                          <g>
+                            <rect
+                              fill-rule="nonzero"
+                              height="24"
+                              width="24"
+                              x="0"
+                              y="0"
+                            />
+                            <path
+                              d="M8.70710678,20.7071068 C8.56750624,20.8467073 8.38970726,20.9418625 8.19611614,20.9805807 L3.19611614,21.9805807 C2.496395,22.1205249 1.8794751,21.503605 2.01941932,20.8038839 L3.01941932,15.8038839 C3.05813755,15.6102927 3.15329267,15.4324938 3.29289322,15.2928932 L15.2928932,3.29289322 C16.787987,1.79779943 19.212013,1.79779943 20.7071068,3.29289322 C22.2022006,4.78798701 22.2022006,7.21201299 20.7071068,8.70710678 L8.70710678,20.7071068 Z M14.999444,6.41357288 L4.92120149,16.4930121 L4.27475488,19.7252451 L7.50698793,19.0787985 L17.585444,8.99957288 L14.999444,6.41357288 Z M16.7071068,4.70710678 L16.413444,4.99957288 L18.999444,7.58557288 L19.2928932,7.29289322 C20.0069384,6.57884801 20.0069384,5.42115199 19.2928932,4.70710678 C18.578848,3.99306157 17.421152,3.99306157 16.7071068,4.70710678 Z"
+                              fill="currentColor"
+                              fill-rule="nonzero"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </span>
+          </a>
+          <div
+            class="c5"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-label="Actions"
+              class="cds--overflow-menu cds--overflow-menu--md"
+              type="button"
+            >
+              <svg
+                aria-label="open and close list of options"
+                class="cds--overflow-menu__icon"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                viewBox="0 0 32 32"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="16"
+                  cy="8"
+                  r="2"
+                />
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="2"
+                />
+                <circle
+                  cx="16"
+                  cy="24"
+                  r="2"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </h4>
+      <div
+        class="c6 card-section-undefined"
+      >
+        <div>
+          Someone
+           
+          Something
+        </div>
+        <div>
+          Expires: 
+          00/24
+        </div>
+      </div>
+    </div>
+    <div
+      class="c7"
+    />
+    <div
+      class="cds--layer-two c0"
+    >
+      <h4
+        class="c1"
+      >
+        <div>
+          Visa Debit Card
+           
+          4242424242424242
+        </div>
+        <div
+          class="c2"
+        >
+          <a
+            class="c3"
+          >
+            Edit
+            <span
+              class="c4"
+            >
+              <svg
+                viewBox="0 0 20 20"
+                width="0.875rem"
+              >
+                <g
+                  fill="none"
+                  fill-rule="evenodd"
+                  stroke="none"
+                  stroke-width="1"
+                >
+                  <g
+                    transform="translate(-407.000000, -477.000000)"
+                  >
+                    <g
+                      transform="translate(284.000000, 293.000000)"
+                    >
+                      <g
+                        transform="translate(32.000000, 88.000000)"
+                      >
+                        <g
+                          transform="translate(89.000000, 94.000000)"
+                        >
+                          <g>
+                            <rect
+                              fill-rule="nonzero"
+                              height="24"
+                              width="24"
+                              x="0"
+                              y="0"
+                            />
+                            <path
+                              d="M8.70710678,20.7071068 C8.56750624,20.8467073 8.38970726,20.9418625 8.19611614,20.9805807 L3.19611614,21.9805807 C2.496395,22.1205249 1.8794751,21.503605 2.01941932,20.8038839 L3.01941932,15.8038839 C3.05813755,15.6102927 3.15329267,15.4324938 3.29289322,15.2928932 L15.2928932,3.29289322 C16.787987,1.79779943 19.212013,1.79779943 20.7071068,3.29289322 C22.2022006,4.78798701 22.2022006,7.21201299 20.7071068,8.70710678 L8.70710678,20.7071068 Z M14.999444,6.41357288 L4.92120149,16.4930121 L4.27475488,19.7252451 L7.50698793,19.0787985 L17.585444,8.99957288 L14.999444,6.41357288 Z M16.7071068,4.70710678 L16.413444,4.99957288 L18.999444,7.58557288 L19.2928932,7.29289322 C20.0069384,6.57884801 20.0069384,5.42115199 19.2928932,4.70710678 C18.578848,3.99306157 17.421152,3.99306157 16.7071068,4.70710678 Z"
+                              fill="currentColor"
+                              fill-rule="nonzero"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </span>
+          </a>
+          <div
+            class="c5"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-label="Actions"
+              class="cds--overflow-menu cds--overflow-menu--md"
+              type="button"
+            >
+              <svg
+                aria-label="open and close list of options"
+                class="cds--overflow-menu__icon"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                viewBox="0 0 32 32"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="16"
+                  cy="8"
+                  r="2"
+                />
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="2"
+                />
+                <circle
+                  cx="16"
+                  cy="24"
+                  r="2"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </h4>
+      <div
+        class="c6 card-section-undefined"
+      >
+        <div>
+          Someone
+           
+          Something
+        </div>
+        <div>
+          Expires: 
+          00/24
+        </div>
+      </div>
+    </div>
+    <div
+      class="c7"
+    />
+  </div>
+  <div
+    class="c7"
+  />
+  <div
+    class="c8"
+  >
+    <button
+      class="c9 cds--btn cds--btn--md cds--btn--secondary"
+      tabindex="0"
+      type="button"
+    >
+      Add new payment method
+       
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<PaymentMethods /> component its snapshot matches story Skeleton 1`] = `
+<div>
+  <div>
+    Loading...
+  </div>
+</div>
+`;

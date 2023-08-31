@@ -1,0 +1,66 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+metadata:
+  name: ixl-frontend-storybook-template
+objects:
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: ixl-frontend-storybook-deployment
+  spec:
+    selector:
+      matchLabels:
+        app: ixl-frontend-storybook
+    replicas: 1
+    template:
+      metadata:
+        labels:
+          app: ixl-frontend-storybook
+      spec:
+        containers:
+          - name: ixl-frontend-storybook
+            image: ${IMAGE}
+            imagePullPolicy: Always
+            ports:
+              - containerPort: 8080
+            # env:
+            # - name: HOST
+            #   value: localhost
+            # - name: port
+            #   value: 3000
+            # - name: GRAPHQL_ENDPOINT
+            #   value: 'http://wcs-dev1.kkckkchosts.com:4000/graphql'
+            # - name: GRAPHQL_BATCH
+            #   value: 'false'
+            # - name: NODE_ENV
+            #   value: production
+- apiVersion: v1
+  kind: Service
+  metadata:
+    name: ixl-frontend-storybook
+  spec:
+    selector:
+      app: ixl-frontend-storybook
+    ports:
+      - protocol: 'TCP'
+        port: 8080
+        targetPort: 8080
+    type: NodePort
+- kind: Route
+  apiVersion: route.openshift.io/v1
+  metadata:
+    name: storybook-route
+  spec:
+    to:
+      kind: Service
+      name: ixl-frontend-storybook
+      weight: 100
+    port:
+      targetPort: 8080
+    tls:
+      termination: edge
+      insecureEdgeTerminationPolicy: Redirect
+    wildcardPolicy: None    
+parameters:
+- displayName: Image Location
+  name: IMAGE

@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "ixl-frontend-automotive-commerce.name" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    {{- include "ixl-frontend-automotive-commerce.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "ixl-frontend-automotive-commerce.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "ixl-frontend-automotive-commerce.selectorLabels" . | nindent 8 }}
+      annotations:
+        {{- include "ixl-frontend-automotive-commerce.deploymentAnnotations" . | nindent 8 }}
+    spec:
+      containers:
+        - name: {{ .Values.containers.containerName }}
+          securityContext:
+            {{- toYaml .Values.securityContext | nindent 12 }}
+          image: {{ .Values.image.repository }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          envFrom:
+            - configMapRef:
+                name: {{ .Values.configMap }}
+          ports:
+            - name: http
+              containerPort: {{ .Values.ports.containerPort }}
+              protocol: {{ .Values.ports.protocol }}
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}

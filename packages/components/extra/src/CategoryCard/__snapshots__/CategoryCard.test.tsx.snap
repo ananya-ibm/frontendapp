@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CategoryCard /> component its snapshot matches 1`] = `
+.c9 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c9 svg {
+  max-height: 100%;
+}
+
+.c5 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.c0:hover {
+  box-shadow: 0.125rem 0.125rem 1rem rgba(0,0,0,0.1),-0.125rem -0.125rem 1rem rgba(0,0,0,0.1);
+}
+
+.c0 .category-image {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.c1 .imgSize {
+  max-height: 20rem;
+  max-width: 26.25rem;
+}
+
+.c6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+}
+
+.c2 {
+  margin: 2rem 1rem 1rem 2rem;
+  text-align: left;
+}
+
+.c3 {
+  font-weight: 700;
+  text-align: left;
+}
+
+.c3:after {
+  background: #0062ff;
+  content: '';
+  display: block;
+  height: 0.1rem;
+  margin-top: 0.5rem;
+  width: 10rem;
+}
+
+.c4 {
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.c7 {
+  margin-top: 2rem;
+}
+
+.c8 {
+  padding-left: 0rem;
+}
+
+.c10 {
+  padding-right: 0rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="category-image cds--row"
+  >
+    <div
+      class="col1 cds--col-sm-2"
+    >
+      <div
+        class="c1"
+      >
+        <img
+          alt="X34Landspeeder"
+          class="imgSize"
+          src="/static/automotive/products/thumbnails/X34Landspeeder.png"
+        />
+      </div>
+    </div>
+    <div
+      class="col2 cds--col-sm-2"
+    >
+      <div
+        class="c2"
+      >
+        <h3
+          class="c3"
+        >
+          Lorem ipsum dolor sit amet
+        </h3>
+        <p
+          class="c4"
+        >
+          From
+           
+          <span
+            class="c5"
+          >
+            <span
+              class="value"
+            >
+              £20,000
+            </span>
+          </span>
+        </p>
+        <div
+          class="c6"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        </div>
+        <div
+          class="c7"
+        >
+          <div
+            class="cds--row"
+          >
+            <div
+              class="c8"
+            >
+              <div
+                class="cds--col"
+              >
+                <button
+                  class="c9 cds--btn cds--btn--primary"
+                  tabindex="0"
+                  type="button"
+                >
+                  Discover the model
+                   
+                </button>
+              </div>
+            </div>
+            <div
+              class="c10"
+            >
+              <div
+                class="cds--col"
+              >
+                <button
+                  class="c9 cds--btn cds--btn--secondary"
+                  tabindex="0"
+                  type="button"
+                >
+                  Download brochure
+                   
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

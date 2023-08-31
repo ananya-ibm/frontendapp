@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountHero /> component its snapshot matches story Default 1`] = `
+.c2 {
+  background-color: #393939;
+  padding: 1rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.c4 {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.c5 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.c6 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+}
+
+.c1 {
+  padding: 1rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <h2
+      class="c1"
+    />
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="#"
+        >
+          <div
+            class="c5"
+          >
+            <svg
+              aria-label="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+          <div
+            class="c6"
+          >
+            Make a payment
+          </div>
+        </a>
+        <a
+          class="c4"
+          href="#"
+        >
+          <div
+            class="c5"
+          >
+            <svg
+              aria-label="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+          <div
+            class="c6"
+          >
+            Manage payees
+          </div>
+        </a>
+        <a
+          class="c4"
+          href="#"
+        >
+          <div
+            class="c5"
+          >
+            <svg
+              aria-label="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+          <div
+            class="c6"
+          >
+            Statements
+          </div>
+        </a>
+        <a
+          class="c4"
+          href="#"
+        >
+          <div
+            class="c5"
+          >
+            <svg
+              aria-label="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+          <div
+            class="c6"
+          >
+            Documents
+          </div>
+        </a>
+        <a
+          class="c4"
+          href="#"
+        >
+          <div
+            class="c5"
+          >
+            <svg
+              aria-label="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+          <div
+            class="c6"
+          >
+            Direct debits
+          </div>
+        </a>
+        <a
+          class="c4"
+          href="#"
+        >
+          <div
+            class="c5"
+          >
+            <svg
+              aria-label="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+          <div
+            class="c6"
+          >
+            Standing orders
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

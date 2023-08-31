@@ -1,0 +1,1258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Products /> component its snapshot matches story Default 1`] = `
+.c1 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c1 svg {
+  max-height: 100%;
+}
+
+.c0 .add-button {
+  line-height: 1.45rem;
+}
+
+.c0 .icon {
+  cursor: pointer;
+  margin: 0.5rem 0.9rem 0;
+  width: 1.2rem;
+}
+
+.c0 .icons:hover {
+  background-color: #e8e8e8;
+}
+
+.c0 .paginationMargin {
+  margin: 0;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="cds--data-table-container"
+    >
+      <section
+        aria-label="data table toolbar"
+        class="cds--table-toolbar"
+      >
+        <div
+          class="cds--toolbar-content"
+        >
+          <div
+            aria-labelledby="1-search"
+            class="cds--search cds--search--lg cds--toolbar-search-container-active cds--toolbar-search-container-expandable"
+            role="search"
+          >
+            <div
+              class="cds--search-magnifier"
+            >
+              <svg
+                aria-hidden="true"
+                class="cds--search-magnifier-icon"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15,14.3L10.7,10c1.9-2.3,1.6-5.8-0.7-7.7S4.2,0.7,2.3,3S0.7,8.8,3,10.7c2,1.7,5,1.7,7,0l4.3,4.3L15,14.3z M2,6.5 C2,4,4,2,6.5,2S11,4,11,6.5S9,11,6.5,11S2,9,2,6.5z"
+                />
+              </svg>
+            </div>
+            <label
+              class="cds--label"
+              for="1"
+              id="1-search"
+            >
+              Search
+            </label>
+            <input
+              autocomplete="off"
+              class="cds--search-input"
+              id="1"
+              placeholder="Search"
+              role="searchbox"
+              tabindex="0"
+              type="text"
+              value=""
+            />
+            <button
+              aria-label="Clear search input"
+              class="cds--search-close cds--search-close--hidden"
+              title="Clear search input"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="icons"
+          >
+            <svg
+              aria-label="Export"
+              class="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+          <div
+            class="icons"
+          >
+            <svg
+              aria-label="Import"
+              class="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+          <div
+            class="icons"
+          >
+            <svg
+              aria-label="Settings"
+              class="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="32"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+          <button
+            class="c1 cds--btn cds--btn--md cds--btn--primary"
+            tabindex="0"
+            type="button"
+          >
+            Add Product
+             
+            <div
+              class="cds--btn__icon"
+            >
+              <svg
+                aria-label="Add"
+                fill="currentColor"
+                focusable="false"
+                height="20"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                size="20"
+                viewBox="0 0 32 32"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              />
+            </div>
+          </button>
+        </div>
+      </section>
+      <div
+        class="cds--data-table-content"
+      >
+        <table
+          class="cds--data-table"
+          role="table"
+        >
+          <thead>
+            <tr>
+              <th
+                colspan="1"
+                role="columnheader"
+                scope="col"
+              >
+                <div
+                  class="cds--table-header-label"
+                >
+                  Product name
+                </div>
+              </th>
+              <th
+                colspan="1"
+                role="columnheader"
+                scope="col"
+              >
+                <div
+                  class="cds--table-header-label"
+                >
+                  Price
+                </div>
+              </th>
+              <th
+                colspan="1"
+                role="columnheader"
+                scope="col"
+              >
+                <div
+                  class="cds--table-header-label"
+                >
+                  Category
+                </div>
+              </th>
+              <th
+                colspan="1"
+                role="columnheader"
+                scope="col"
+              >
+                <div
+                  class="cds--table-header-label"
+                >
+                  Inventory
+                </div>
+              </th>
+              <th
+                colspan="1"
+                role="columnheader"
+                scope="col"
+              >
+                <div
+                  class="cds--table-header-label"
+                >
+                  Listing status
+                </div>
+              </th>
+              <th
+                scope="col"
+              />
+            </tr>
+          </thead>
+          <tbody
+            aria-live="polite"
+          >
+            <tr
+              role="row"
+            >
+              <td>
+                Watch
+              </td>
+              <td>
+                630
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Round robin
+              </td>
+              <td
+                class="la-listing_status"
+                id="listing_status"
+              >
+                <div
+                  class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+                >
+                  <div
+                    class="cds--form-item cds--checkbox-wrapper"
+                  >
+                    <input
+                      class="cds--checkbox"
+                      id="check-listing_status-0"
+                      type="checkbox"
+                    />
+                    <label
+                      class="cds--checkbox-label"
+                      for="check-listing_status-0"
+                    >
+                      <span
+                        class="cds--checkbox-label-text"
+                        dir="auto"
+                      >
+                        Inactive
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                Kids Shoes
+              </td>
+              <td>
+                264
+              </td>
+              <td>
+                Shipped
+              </td>
+              <td>
+                Robin Hood
+              </td>
+              <td
+                class="la-listing_status"
+                id="listing_status"
+              >
+                <div
+                  class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+                >
+                  <div
+                    class="cds--form-item cds--checkbox-wrapper"
+                  >
+                    <input
+                      class="cds--checkbox"
+                      id="check-listing_status-1"
+                      type="checkbox"
+                    />
+                    <label
+                      class="cds--checkbox-label"
+                      for="check-listing_status-1"
+                    >
+                      <span
+                        class="cds--checkbox-label-text"
+                        dir="auto"
+                      >
+                        Inactive
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                Bag
+              </td>
+              <td>
+                310
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Robert
+              </td>
+              <td
+                class="la-listing_status"
+                id="listing_status"
+              >
+                <div
+                  class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+                >
+                  <div
+                    class="cds--form-item cds--checkbox-wrapper"
+                  >
+                    <input
+                      checked=""
+                      class="cds--checkbox"
+                      id="check-listing_status-2"
+                      type="checkbox"
+                    />
+                    <label
+                      class="cds--checkbox-label"
+                      for="check-listing_status-2"
+                    >
+                      <span
+                        class="cds--checkbox-label-text"
+                        dir="auto"
+                      >
+                        Active
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                Trousers
+              </td>
+              <td>
+                260
+              </td>
+              <td>
+                Shipped
+              </td>
+              <td>
+                Angelina
+              </td>
+              <td
+                class="la-listing_status"
+                id="listing_status"
+              >
+                <div
+                  class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+                >
+                  <div
+                    class="cds--form-item cds--checkbox-wrapper"
+                  >
+                    <input
+                      checked=""
+                      class="cds--checkbox"
+                      id="check-listing_status-3"
+                      type="checkbox"
+                    />
+                    <label
+                      class="cds--checkbox-label"
+                      for="check-listing_status-3"
+                    >
+                      <span
+                        class="cds--checkbox-label-text"
+                        dir="auto"
+                      >
+                        Active
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                Dress
+              </td>
+              <td>
+                520
+              </td>
+              <td>
+                Refunded
+              </td>
+              <td>
+                Surekha
+              </td>
+              <td
+                class="la-listing_status"
+                id="listing_status"
+              >
+                <div
+                  class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+                >
+                  <div
+                    class="cds--form-item cds--checkbox-wrapper"
+                  >
+                    <input
+                      checked=""
+                      class="cds--checkbox"
+                      id="check-listing_status-4"
+                      type="checkbox"
+                    />
+                    <label
+                      class="cds--checkbox-label"
+                      for="check-listing_status-4"
+                    >
+                      <span
+                        class="cds--checkbox-label-text"
+                        dir="auto"
+                      >
+                        Active
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                Television
+              </td>
+              <td>
+                740
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Lobita
+              </td>
+              <td
+                class="la-listing_status"
+                id="listing_status"
+              >
+                <div
+                  class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+                >
+                  <div
+                    class="cds--form-item cds--checkbox-wrapper"
+                  >
+                    <input
+                      class="cds--checkbox"
+                      id="check-listing_status-5"
+                      type="checkbox"
+                    />
+                    <label
+                      class="cds--checkbox-label"
+                      for="check-listing_status-5"
+                    >
+                      <span
+                        class="cds--checkbox-label-text"
+                        dir="auto"
+                      >
+                        Inactive
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                Refrigerator
+              </td>
+              <td>
+                1000
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                Reshma
+              </td>
+              <td
+                class="la-listing_status"
+                id="listing_status"
+              >
+                <div
+                  class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+                >
+                  <div
+                    class="cds--form-item cds--checkbox-wrapper"
+                  >
+                    <input
+                      checked=""
+                      class="cds--checkbox"
+                      id="check-listing_status-6"
+                      type="checkbox"
+                    />
+                    <label
+                      class="cds--checkbox-label"
+                      for="check-listing_status-6"
+                    >
+                      <span
+                        class="cds--checkbox-label-text"
+                        dir="auto"
+                      >
+                        Active
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                Machine
+              </td>
+              <td>
+                350
+              </td>
+              <td>
+                New
+              </td>
+              <td>
+                King John
+              </td>
+              <td
+                class="la-listing_status"
+                id="listing_status"
+              >
+                <div
+                  class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+                >
+                  <div
+                    class="cds--form-item cds--checkbox-wrapper"
+                  >
+                    <input
+                      checked=""
+                      class="cds--checkbox"
+                      id="check-listing_status-7"
+                      type="checkbox"
+                    />
+                    <label
+                      class="cds--checkbox-label"
+                      for="check-listing_status-7"
+                    >
+                      <span
+                        class="cds--checkbox-label-text"
+                        dir="auto"
+                      >
+                        Active
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                Pants
+              </td>
+              <td>
+                220
+              </td>
+              <td>
+                Refunded
+              </td>
+              <td>
+                Albert
+              </td>
+              <td
+                class="la-listing_status"
+                id="listing_status"
+              >
+                <div
+                  class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+                >
+                  <div
+                    class="cds--form-item cds--checkbox-wrapper"
+                  >
+                    <input
+                      class="cds--checkbox"
+                      id="check-listing_status-8"
+                      type="checkbox"
+                    />
+                    <label
+                      class="cds--checkbox-label"
+                      for="check-listing_status-8"
+                    >
+                      <span
+                        class="cds--checkbox-label-text"
+                        dir="auto"
+                      >
+                        Inactive
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </td>
+              <td
+                class="cds--table-column-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        class="cds--pagination cds--pagination--md"
+      >
+        <div
+          class="cds--pagination__left"
+        >
+          <label
+            class="cds--pagination__text"
+            for="cds-pagination-select-id-13"
+            id="cds-pagination-select-id-13-count-label"
+          >
+            Items per page:
+          </label>
+          <div
+            class="cds--form-item cds--select__item-count"
+          >
+            <div
+              class="cds--select cds--select--inline"
+            >
+              <div
+                class="cds--select-input--inline__wrapper"
+              >
+                <div
+                  class="cds--select-input__wrapper"
+                >
+                  <select
+                    class="cds--select-input"
+                    id="cds-pagination-select-id-13"
+                  >
+                    <option
+                      class="cds--select-option"
+                      value="10"
+                    >
+                      10
+                    </option>
+                    <option
+                      class="cds--select-option"
+                      value="20"
+                    >
+                      20
+                    </option>
+                    <option
+                      class="cds--select-option"
+                      value="30"
+                    >
+                      30
+                    </option>
+                    <option
+                      class="cds--select-option"
+                      value="40"
+                    >
+                      40
+                    </option>
+                  </select>
+                  <svg
+                    aria-hidden="true"
+                    class="cds--select__arrow"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span
+            class="cds--pagination__text cds--pagination__items-count"
+          >
+            1–9 of 9 items
+          </span>
+        </div>
+        <div
+          class="cds--pagination__right"
+        >
+          <div
+            class="cds--form-item cds--select__page-number"
+          >
+            <div
+              class="cds--select cds--select--inline"
+            >
+              <label
+                class="cds--label cds--visually-hidden"
+                for="cds-pagination-select-id-13-right"
+              >
+                Page number, of 1 pages
+              </label>
+              <div
+                class="cds--select-input--inline__wrapper"
+              >
+                <div
+                  class="cds--select-input__wrapper"
+                >
+                  <select
+                    class="cds--select-input"
+                    id="cds-pagination-select-id-13-right"
+                  >
+                    <option
+                      class="cds--select-option"
+                      value="1"
+                    >
+                      1
+                    </option>
+                  </select>
+                  <svg
+                    aria-hidden="true"
+                    class="cds--select__arrow"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span
+            class="cds--pagination__text"
+          >
+            of 1 page
+          </span>
+          <div
+            class="cds--pagination__control-buttons"
+          >
+            <span
+              class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top cds--tooltip cds--icon-tooltip"
+            >
+              <button
+                aria-labelledby="tooltip-10"
+                class="cds--btn--icon-only cds--pagination__button cds--pagination__button--backward cds--pagination__button--no-index cds--btn cds--btn--md cds--btn--ghost cds--btn--disabled"
+                disabled=""
+                tabindex="0"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 32 32"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 24L10 16 20 8z"
+                  />
+                </svg>
+              </button>
+              <span
+                aria-hidden="true"
+                class="cds--popover"
+                id="tooltip-10"
+                role="tooltip"
+              >
+                <span
+                  class="cds--popover-content cds--tooltip-content"
+                >
+                  Previous page
+                </span>
+                <span
+                  class="cds--popover-caret"
+                />
+              </span>
+            </span>
+            <span
+              class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top-right cds--tooltip cds--icon-tooltip"
+            >
+              <button
+                aria-labelledby="tooltip-12"
+                class="cds--btn--icon-only cds--pagination__button cds--pagination__button--forward cds--pagination__button--no-index cds--btn cds--btn--md cds--btn--ghost cds--btn--disabled"
+                disabled=""
+                tabindex="0"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 32 32"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 8L22 16 12 24z"
+                  />
+                </svg>
+              </button>
+              <span
+                aria-hidden="true"
+                class="cds--popover"
+                id="tooltip-12"
+                role="tooltip"
+              >
+                <span
+                  class="cds--popover-content cds--tooltip-content"
+                >
+                  Next page
+                </span>
+                <span
+                  class="cds--popover-caret"
+                />
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

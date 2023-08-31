@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeroPageTitle /> component its snapshot matches 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  color: #161616;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 4.75rem;
+  width: 100%;
+  background: url(image.jpg) no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.c1 {
+  font: 600 2.625rem/3.12375rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.07rem;
+  -moz-letter-spacing: 0.07rem;
+  -ms-letter-spacing: 0.07rem;
+  letter-spacing: 0.07rem;
+  text-align: center;
+}
+
+@media (min-width:672px) {
+  .c1 {
+    line-height: 4.887499999999999rem;
+    font-size: 4.25rem;
+  }
+}
+
+@media (min-width:1056px) {
+  .c1 {
+    line-height: 6.3825rem;
+    font-size: 5.75rem;
+    -webkit-letter-spacing: -0.64px;
+    -moz-letter-spacing: -0.64px;
+    -ms-letter-spacing: -0.64px;
+    letter-spacing: -0.64px;
+  }
+}
+
+@media (min-width:1312px) {
+  .c1 {
+    line-height: 8.158750000000001rem;
+    font-size: 7.625rem;
+    -webkit-letter-spacing: -0.64px;
+    -moz-letter-spacing: -0.64px;
+    -ms-letter-spacing: -0.64px;
+    letter-spacing: -0.64px;
+  }
+}
+
+@media (min-width:1584px) {
+  .c1 {
+    line-height: 10.2375rem;
+    font-size: 9.75rem;
+    -webkit-letter-spacing: -0.96px;
+    -moz-letter-spacing: -0.96px;
+    -ms-letter-spacing: -0.96px;
+    letter-spacing: -0.96px;
+  }
+}
+
+<div
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    A title
+  </h1>
+  some children
+</div>
+`;

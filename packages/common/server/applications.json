@@ -1,0 +1,9 @@
+{
+  "redirects": {
+    "/": "/content/homepage"
+  },
+  "applications": {
+    "/content": "#local",
+    "/catalog": "#local"
+  }
+}

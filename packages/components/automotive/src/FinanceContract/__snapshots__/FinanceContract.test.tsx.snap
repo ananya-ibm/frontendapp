@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FinanceContract /> component its snapshot matches 1`] = `
+.c3 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c6 {
+  padding-right: 2rem;
+}
+
+.c7 {
+  border-bottom: 0.0625rem solid #f4f4f4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+
+.c8 {
+  padding: 1rem 0;
+}
+
+.c9 {
+  border-bottom: 0;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  right: -2rem;
+  top: 0;
+  width: 2rem;
+}
+
+.c10 svg {
+  margin: auto;
+  max-width: 1rem;
+}
+
+.c0 {
+  max-width: 37.5rem;
+}
+
+.c4 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 0.5rem 0 0;
+}
+
+.c1 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 2rem 0 0;
+}
+
+.c2 {
+  font-weight: 700;
+}
+
+.c5 {
+  margin: 2rem 0 0;
+}
+
+<div
+  class="c0"
+>
+  <p
+    class="c1"
+  >
+    Your selected finance option is:
+    <br />
+    <span
+      class="c2"
+    >
+      Personal Contract Purchase
+    </span>
+  </p>
+  <p
+    class="c1"
+  >
+    Monthly price:
+     
+    <span
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <span
+          class="value"
+        >
+          £1,200
+        </span>
+      </span>
+    </span>
+  </p>
+  <div
+    class="c4"
+  >
+    <a
+      href="#"
+    >
+      Terms and conditions
+    </a>
+  </div>
+  <div
+    class="c5"
+  >
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          Listing Price
+        </div>
+        <div
+          class="c9"
+        >
+          <span
+            class="c3"
+          >
+            <span
+              class="prefix"
+            >
+              +
+            </span>
+            <span
+              class="value"
+            >
+              £500
+            </span>
+          </span>
+        </div>
+        <div
+          class="c10"
+          title="The listing price"
+        >
+          <svg
+            aria-label="icon"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="32"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <span
+            class="sr"
+          >
+            The listing price
+          </span>
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          Duration
+        </div>
+        <div
+          class="c9"
+        >
+          <span
+            class="c3"
+          >
+            <span
+              class="prefix"
+            >
+              +
+            </span>
+            <span
+              class="value"
+            >
+              £500
+            </span>
+          </span>
+        </div>
+        <div
+          class="c9"
+        >
+          12months
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          Deposit
+        </div>
+        <div
+          class="c9"
+        >
+          <span
+            class="c3"
+          >
+            <span
+              class="value"
+            >
+              £5,000
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          Optional final payment
+        </div>
+        <div
+          class="c9"
+        >
+          <span
+            class="c3"
+          >
+            <span
+              class="value"
+            >
+              £5,000
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          APR
+        </div>
+        <div
+          class="c9"
+        >
+          <span
+            class="c3"
+          >
+            <span
+              class="prefix"
+            >
+              +
+            </span>
+            <span
+              class="value"
+            >
+              £500
+            </span>
+          </span>
+        </div>
+        <div
+          class="c9"
+        >
+          2.1% APR
+        </div>
+        <div
+          class="c10"
+          title="annual percentage rate"
+        >
+          <svg
+            aria-label="icon"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="32"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <span
+            class="sr"
+          >
+            annual percentage rate
+          </span>
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          Fixed Rate of Interest
+        </div>
+        <div
+          class="c9"
+        >
+          <span
+            class="c3"
+          >
+            <span
+              class="prefix"
+            >
+              +
+            </span>
+            <span
+              class="value"
+            >
+              £500
+            </span>
+          </span>
+        </div>
+        <div
+          class="c9"
+        >
+          2.1% p.a.
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          Cost of credit
+        </div>
+        <div
+          class="c9"
+        >
+          <span
+            class="c3"
+          >
+            <span
+              class="value"
+            >
+              £100
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,63 @@
+/*
+ Licensed Materials - Property of IBM
+ 694906H
+ (c) Copyright IBM Corp.  2020 All Rights Reserved
+
+ US Government Users Restricted Rights - Use, duplication or disclosure restricted
+ by GSA ADP Schedule Contract with IBM Corp.
+ */
+
+ import { useQuery } from '@apollo/client';
+ import { assembleQuery, Fragments, handleApolloError, State } from '@exo/frontend-common-apollo';
+
+ const transformResponse = <T>(data: any): T => {
+   {{#if returnType.isList}}
+   return data?.{{ query.name }} ?? [];
+   {{else}}
+   return data?.{{ query.name }};
+   {{/if}}
+ }
+
+ export const use{{ properCase queryName }} = <T>({{#if args.length}}args: Args, {{/if}}fragments: Fragments): Result<T> => {
+   {{#if args.length}}
+   const variables = { ...args };
+
+   {{/if}}
+   const { called, loading, data, error } = useQuery(
+     assembleQuery(
+       fragmentNames => `
+         query {{ properCase queryName }}{{#if queryArgs.length}}({{ queryArgs }}){{/if}} {
+           {{ query.name }}{{#if queryArgs.length}}({{ argBinding }}){{/if}} {
+             ${fragmentNames}
+           }
+         }
+       `,
+       fragments
+     ){{#if args.length}},
+     { variables }{{/if}}
+   );
+
+   handleApolloError(__filename, error);
+
+   return { called, loading, data: transformResponse(data), error };
+ };
+
+ {{#if args.length}}
+ type Args = {
+ {{#each args}}
+   {{ name }}{{#if tsType.isOptional}}?{{/if}}: {{ tsType.typename }}{{#if tsType.isList}}[]{{/if}};
+ {{/each}}
+ };
+ {{/if}}
+
+ {{#each args}}
+   {{#unless tsType.isScalar}}
+ // TODO: Define these types
+ type {{ tsType.typename }} = any;
+   {{/unless}}
+ {{/each}}
+
+ type Result<T> = {
+   data?: T;
+   called: boolean;
+ } & State;

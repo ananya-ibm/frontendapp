@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Field /> component its snapshot matches story Default 1`] = `
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    >
+      <div
+        style="background-color: rgb(238, 238, 238); height: 3em;"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        style="background-color: rgb(238, 238, 238); height: 3em;"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        style="background-color: rgb(238, 238, 238); height: 3em;"
+      />
+    </div>
+  </div>
+</div>
+`;

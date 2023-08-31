@@ -1,0 +1,25 @@
+{
+    "features.chrome.chrome-ui": {
+        "smart-components.Footer": {
+       
+          "title.helpandinfo" : "Hjälp och information",
+          "title.help": "Hjälp",
+          "title.trackorder": "Spåra ordning",
+          "title.deliverandreturns":"Leverans och returer",
+          "title.ourstores":"Våra butiker",
+          "title.about":"Om",
+          "title.ourproduct":"Våra produkter",
+          "title.aboutus":"Om oss",
+          "title.contactus":"Kontakta oss",
+          "title.careers": "Karriär",
+          "header.subscribenewsletter":"Prenumerera på vårt nyhetsbrev",
+          "buttontext.signup":"Registrering",
+          "header.Home":"hem"
+          },
+          "smart-components.Header": {
+       
+          "profilelink.signin": "Logga in"
+          }
+      }
+    }
+    

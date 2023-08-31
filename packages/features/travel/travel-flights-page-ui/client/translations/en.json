@@ -1,0 +1,7 @@
+{
+  "features.travel-flights-page-ui": {
+    "pages.FlightsPage": {
+      "page.title": "I am a generated feature"
+    }
+  }
+}

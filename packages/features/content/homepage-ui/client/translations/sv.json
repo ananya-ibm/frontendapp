@@ -1,0 +1,13 @@
+{
+  "features.content.homepage-ui": {
+    "pages.HomePage": {
+      "hero.title": "iX EXO Webbutik",
+      "hero.subtitle": "IBM iX",
+      "hero.body": "Här hittar du vår senast React-baserade frontend ihopkopplad med vår Experience Orchestrator GraphQL adapters. Det här det standardinnheåll som visas om vi inte har kopplat in ett CMS.",
+      "hero.cta": "Visa Produkter",
+      "aspot.title": "En stor värld",
+      "aspot.subtitle": "Vi har allt du behöver!",
+      "aspot.buttonLabel": "Utforska"
+    }
+  }
+}

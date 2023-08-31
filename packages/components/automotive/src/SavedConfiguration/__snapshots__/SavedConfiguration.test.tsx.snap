@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SavedConfiguration /> component its snapshot matches 1`] = `
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c8:hover {
+  color: #0043ce;
+}
+
+.c8 svg {
+  color: #161616;
+}
+
+.c10 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c10 svg {
+  max-height: 100%;
+}
+
+.c13 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c0 {
+  border-bottom: 0.0625rem solid #d6d6d6;
+  border-left: 0.5rem solid #0062ff;
+  border-radius: 0.25rem;
+  border-right: 0.0625rem solid #d6d6d6;
+  border-top: 0.0625rem solid #d6d6d6;
+  font: 400 1rem/1.45rem 'IBM Plex Sans',Arial,sans-serif;
+  padding: 1rem;
+  -webkit-transition: box-shadow 100ms ease-in-out;
+  transition: box-shadow 100ms ease-in-out;
+}
+
+.c0 .bold {
+  font-weight: 700;
+}
+
+.c0 .brand-color {
+  color: #0062ff;
+  fill: #0062ff;
+}
+
+.c0 .warning-color {
+  color: #da1e28;
+  fill: #da1e28;
+}
+
+.c0 .with-spacing {
+  padding: 1rem 0;
+}
+
+.c0 .icon {
+  margin-right: 0.75rem;
+}
+
+.c0:hover {
+  box-shadow: 0 0 1rem rgba(0,0,0,0.2),0 0 1rem rgba(0,0,0,0.2);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: 400 1rem/1.45rem 'IBM Plex Sans',Arial,sans-serif;
+  outline: none;
+  padding: 0 2rem;
+}
+
+.c6 {
+  font: 700 1.75rem/2.25001rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c5 {
+  margin-right: 2rem;
+  width: 30%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 0;
+}
+
+.c9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 0.0625rem solid #d6d6d6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 0;
+}
+
+.c11 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.c12 {
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    Configuration Code: 
+    <strong>
+      12345678
+    </strong>
+    <div
+      class="c2"
+    >
+      <button
+        class="c3 brand-color bold"
+      >
+        <svg
+          aria-label="icon"
+          class="brand-color icon"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="16"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+         Print
+      </button>
+      <button
+        class="c3 brand-color bold"
+      >
+        <svg
+          aria-label="icon"
+          class="brand-color icon"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="16"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+         Download
+      </button>
+      <button
+        class="c3 warning-color bold"
+      >
+        <svg
+          aria-label="icon"
+          class="warning-color icon"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="16"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+        Delete
+      </button>
+    </div>
+  </div>
+  <div
+    class="c4"
+  >
+    <img
+      class="c5"
+      src="/static/automotive/exterior.png"
+    />
+    <div>
+      <div
+        class="c6 bold"
+      >
+        Your saved car
+      </div>
+      <div
+        class="c6 with-spacing"
+      >
+        Estimated delivery time:
+         
+        <span
+          class="bold brand-color"
+        >
+          August 2020
+        </span>
+      </div>
+      DeLorean description
+    </div>
+  </div>
+  <div
+    class="c7"
+  >
+    <svg
+      aria-label="icon"
+      class="brand-color icon"
+      fill="currentColor"
+      focusable="false"
+      height="20"
+      preserveAspectRatio="xMidYMid meet"
+      role="img"
+      size="16"
+      viewBox="0 0 32 32"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    />
+    <a
+      class="c8"
+    >
+      View Configuration
+    </a>
+  </div>
+  <div
+    class="c9"
+  >
+    <button
+      class="c10 cds--btn cds--btn--secondary"
+      tabindex="0"
+      type="button"
+    >
+      Add to cart
+       
+    </button>
+    <div
+      class="c11"
+    >
+      Estimated Total
+      <div
+        class="c12"
+      >
+        <span
+          class="c13"
+        >
+          <span
+            class="value"
+          >
+            £500
+          </span>
+        </span>
+      </div>
+      OTR price, no finance
+    </div>
+  </div>
+</div>
+`;

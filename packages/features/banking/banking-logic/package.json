@@ -1,0 +1,22 @@
+{
+  "name": "@exo/frontend-features-banking-logic",
+  "version": "1.0.0",
+  "scripts": {
+    "analyze": "root-exec NODE_ENV=development webpack --env analyze",
+    "prettier": "root-exec prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "npm run prettier -- --write"
+  },
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "description": "Banking App Logic, including List Accounts and View Account",
+  "main": "client/index.ts",
+  "author": "Daniel Sheard",
+  "dependencies": {
+    "@exo/frontend-common-apollo": "^1.0.0",
+    "@exo/frontend-common-utils": "^1.0.0",
+    "@exo/frontend-components-base": "^1.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0"
+  }
+}
+

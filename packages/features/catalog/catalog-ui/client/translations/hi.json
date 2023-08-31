@@ -1,0 +1,52 @@
+{
+    "features.catalog.catalog-ui": {
+         "components.AddToCart": {
+        
+            "button.addtocart":"कार्ट में डालें"
+         },
+         "components.Filters": {
+
+            "button.clearallfilters":"सभी फ़िल्टर साफ़ करें"
+         },
+         "components.ListingSortBy":{
+
+             "list.chooseoption":"विकल्प चुनें",
+             "list.sortby":"इसके अनुसार क्रमबद्ध करें:",
+             "sortoption.relevance":"प्रासंगिकता",
+             "sortoption.pricelowtohigh":"कीमतों का उतार - चढ़ाव)",
+             "sortoption.pricehightolow":"मूल्य (उच्च से निम्न)",
+             "sortoption.name":"नाम"
+         },
+         "components.ProductAvailibility":{
+             "title.availability":"उपलब्धता",
+             "title.availabilitynote":"उत्पाद उपलब्धता के बारे में कोई जानकारी नहीं",
+             "title.instock":"स्टॉक में",
+             "title.outofstock":"स्टॉक में नहीं",
+             "title.availableon":"पर उपलब्ध"
+         },
+         "components.ProductBundleOverview":{
+             "title.itembundle":"इस पैकेज में आइटम"
+         },
+         "components.ProductDetails":{
+            
+             "title.productattributes":"कोई उत्पाद विशेषता उपलब्ध नहीं है"
+         },
+         "components.SearchForm":{
+
+            "textinput.search":"मांगना"
+         },
+         "pages.ProductDetailsPage":{
+
+             "title.productadded":"कार्ट में जोड़ा गया उत्पाद",
+             "tab.productattribute":"उत्पाद की विशेषताएँ",
+             "tab.reviews":"समीक्षा",
+             "tab.attachments":"संलग्नक",
+             "button.loadmore":"और लोड करें..."
+         },
+         "pages.SearchPage":{
+             "label.search":"मांगना"
+         }
+}
+}
+    
+    

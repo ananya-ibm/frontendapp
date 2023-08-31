@@ -1,0 +1,33 @@
+{
+  "name": "@exo/frontend-components-automotive",
+  "version": "1.0.0",
+  "description": "Commerce React Components for ixl-frontend UIs",
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "keywords": [
+    "react",
+    "styled-components"
+  ],
+  "main": "src/index.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prettier": "root-exec prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "npm run prettier -- --write",
+    "check-format": "npm run prettier -- --list-different"
+  },
+  "dependencies": {
+    "@exo/frontend-common-utils": "^1.0.0",
+    "@exo/frontend-components-base": "^1.0.0",
+    "@exo/frontend-components-forms": "^1.0.0",
+    "@exo/frontend-common-hooks": "^1.0.0",
+    "@exo/frontend-common-style-utils": "^1.0.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "@exo/frontend-features-events-logic": "^1.0.0",
+    "@exo/frontend-common-i18n": "^1.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-link": "^1.0.0",
+    "@exo/frontend-common-root-exec": "^1.0.0",
+    "@exo/frontend-components-core": "^1.0.0",
+    "babel-plugin-module-resolver": "^4.0.0"
+  }
+}

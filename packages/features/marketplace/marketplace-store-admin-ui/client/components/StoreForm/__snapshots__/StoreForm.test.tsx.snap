@@ -1,0 +1,629 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StoreForm /> component its snapshot matches story Default 1`] = `
+.c3 {
+  margin-bottom: 1.5rem;
+}
+
+.c6 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c6 svg {
+  max-height: 100%;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.c2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c5 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            Store Name
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="name"
+              >
+                Store Name 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="name"
+                    name="name"
+                    placeholder="Store Name"
+                    required=""
+                    title="Store Name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="announcement"
+              >
+                Store Announcement 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="announcement"
+                    name="announcement"
+                    placeholder="Store Announcement"
+                    required=""
+                    title="Store Announcement"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            Store Details
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="address1"
+              >
+                Address Line 1 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="address1"
+                    name="address1"
+                    placeholder="Address Line 1"
+                    required=""
+                    title="Address Line 1"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="address2"
+              >
+                Address Line 2 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="address2"
+                    name="address2"
+                    placeholder="Address Line 2"
+                    required=""
+                    title="Address Line 2"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="city"
+              >
+                City 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="city"
+                    name="city"
+                    placeholder="City"
+                    required=""
+                    title="City"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="county"
+              >
+                County 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="county"
+                    name="county"
+                    placeholder="County"
+                    required=""
+                    title="County"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="zip"
+              >
+                Postcode 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="zip"
+                    name="zip"
+                    placeholder="Postcode"
+                    required=""
+                    title="Postcode"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--dropdown__wrapper cds--list-box__wrapper"
+            >
+              <label
+                class="cds--label"
+                for="downshift-0-toggle-button"
+                id="downshift-0-label"
+              >
+                Country (optional)
+              </label>
+              <div
+                class="cds--dropdown cds--list-box"
+                id="country"
+              >
+                <button
+                  aria-disabled="false"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-labelledby="downshift-0-label downshift-0-toggle-button"
+                  class="cds--list-box__field"
+                  id="downshift-0-toggle-button"
+                  title="Country"
+                  type="button"
+                >
+                  <span
+                    class="cds--list-box__label"
+                  >
+                    Country
+                  </span>
+                  <div
+                    class="cds--list-box__menu-icon"
+                  >
+                    <svg
+                      aria-label="Open menu"
+                      fill="currentColor"
+                      focusable="false"
+                      height="16"
+                      name="chevron--down"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                      />
+                      <title>
+                        Open menu
+                      </title>
+                    </svg>
+                  </div>
+                </button>
+                <div
+                  aria-labelledby="downshift-0-label"
+                  class="cds--list-box__menu"
+                  id="downshift-0-menu"
+                  role="listbox"
+                  tabindex="-1"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="phone"
+              >
+                Telephone 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="phone"
+                    name="phone"
+                    placeholder="Telephone"
+                    required=""
+                    title="Telephone"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="vatNo"
+              >
+                VAT Number 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="vatNo"
+                    name="vatNo"
+                    placeholder="VAT Number"
+                    required=""
+                    title="VAT Number"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            Store Theme
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--dropdown__wrapper cds--list-box__wrapper"
+            >
+              <label
+                class="cds--label"
+                for="downshift-1-toggle-button"
+                id="downshift-1-label"
+              >
+                Please chose your theme (optional)
+              </label>
+              <div
+                class="cds--dropdown cds--list-box"
+                id="theme"
+              >
+                <button
+                  aria-disabled="false"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-labelledby="downshift-1-label downshift-1-toggle-button"
+                  class="cds--list-box__field"
+                  id="downshift-1-toggle-button"
+                  title="Please chose your theme"
+                  type="button"
+                >
+                  <span
+                    class="cds--list-box__label"
+                  >
+                    Please chose your theme
+                  </span>
+                  <div
+                    class="cds--list-box__menu-icon"
+                  >
+                    <svg
+                      aria-label="Open menu"
+                      fill="currentColor"
+                      focusable="false"
+                      height="16"
+                      name="chevron--down"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                      />
+                      <title>
+                        Open menu
+                      </title>
+                    </svg>
+                  </div>
+                </button>
+                <div
+                  aria-labelledby="downshift-1-label"
+                  class="cds--list-box__menu"
+                  id="downshift-1-menu"
+                  role="listbox"
+                  tabindex="-1"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="logo"
+              >
+                Store Logo 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="logo"
+                    name="logo"
+                    placeholder="Store Logo"
+                    required=""
+                    title="Store Logo"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="image"
+              >
+                Store Image 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="image"
+                    name="image"
+                    placeholder="Store Image"
+                    required=""
+                    title="Store Image"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <button
+          class="c6 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Save
+           
+        </button>
+        <button
+          class="c6 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

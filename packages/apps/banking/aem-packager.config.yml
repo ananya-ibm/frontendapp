@@ -1,0 +1,8 @@
+options:
+  srcDir: dist/react-app
+  buildDir: dist/aem-package
+  jcrPath: /apps/carbon-commerce-ssr/clientlibs/react-app
+defines: 
+  artifactId: carbon-commerce-ssr
+  groupId: com.ibm.ix.adobe
+  version: 0.0.1

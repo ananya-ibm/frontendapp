@@ -1,0 +1,13 @@
+{
+  "features.b2b.b2b-homepage-ui": {
+    "pages.HomePage": {
+      "hero.title": "iX EXO Negozio",
+      "hero.subtitle": "IBM iX",
+      "hero.body": "Qui puoi vedere le nostre ultime componenti di React connesse agli adattatori GraphQL del nostro Experience Orchestrator. Questo è contento di default che vedrai se non sei connesso a un CMS.",
+      "hero.cta": "Vai al negozio",
+      "aspot.title": "Grande mondo",
+      "aspot.subtitle": "Abbiamo le spalle!",
+      "aspot.buttonLabel": "Esplora di più"
+    }
+  }
+}

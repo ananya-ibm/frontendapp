@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DealerDetails /> component its snapshot matches story normal 1`] = `
+.c1 {
+  max-width: var(--max-width);
+}
+
+.c1 .cds--row > * > .cds--grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c0 {
+  background: none;
+  border-bottom: 0.125rem solid rgba(0,0,0,0.1);
+  border-left: 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  border-right: 0.125rem solid rgba(0,0,0,0.1);
+  border-top: 0.5rem solid #0062ff;
+  padding: 1.25rem;
+}
+
+.c0 .information {
+  fill: #0062ff;
+}
+
+.c0 .infoCol {
+  text-align: right;
+}
+
+.c0 .row1 {
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  font-weight: 700;
+  text-align: left;
+}
+
+.c3 {
+  -webkit-flex: 0 0 8rem;
+  -ms-flex: 0 0 8rem;
+  flex: 0 0 8rem;
+  height: 10rem;
+  position: relative;
+  width: 10rem;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1476286768413-e7051cdb2179);
+  background-position: center;
+  background-size: cover;
+  border: 0.125rem solid #808080;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c5 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.c6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1 cds--grid"
+    >
+      <div
+        class="row1 cds--row"
+      >
+        <div
+          class="cds--col-sm-3 cds--col-md-7 cds--col-lg-11"
+        >
+          <h3
+            class="c2"
+          >
+            Your dealer
+          </h3>
+        </div>
+        <div
+          class="infoCol cds--col-sm-1 cds--col-md-1 cds--col-lg-1"
+        >
+          <svg
+            aria-label="More Information"
+            class="information"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="32"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </div>
+      </div>
+      <div
+        class="cds--row"
+      >
+        <div
+          class="cds--col-sm-1 cds--col-md-2 cds--col-lg-3"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4"
+            />
+          </div>
+        </div>
+        <div
+          class="cds--col-sm-3 cds--col-md-6 cds--col-lg-9"
+        >
+          <h4
+            class="c5"
+          >
+            John Smith
+          </h4>
+          <p
+            class="c6"
+          >
+            Car expert salesman
+          </p>
+          <p
+            class="c6"
+          >
+            1234 4532
+          </p>
+          <p
+            class="c6"
+          >
+            johnsmith@mail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+import React from 'react';
+import { useIntl } from '@exo/frontend-common-i18n';
+import { {{ properCase queryName }}Container } from '{{ featureLogicPackage }}';
+import { {{ properCase queryName }} } from '../../components/{{ properCase queryName }}/{{ properCase queryName }}';
+
+export const {{ pageName }} = ({ {{#if isSingleArg}}{{#each args}}{{name}}{{/each}}{{/if}} }: Props) => {
+  return (
+    <div>
+      <h1>{{ pageName }}</h1>
+
+      <{{ properCase queryName }}Container
+{{#each args}}
+        {{ name }}={ {{#if ../isSingleArg}}{{name}}{{else}}undefined as any /* You need to provide a value here */{{/if}} }
+{{/each}}     
+        render={(props) => <{{ properCase queryName }} {...props} />} />
+    </div>
+  );
+};
+
+type Props = {
+  {{#if isSingleArg}}
+  {{#each args}}
+  {{ name }}{{#if tsType.isOptional}}?{{/if}}: {{ tsType.typename }}{{#if tsType.isList}}[]{{/if}};
+  {{/each}}
+  {{/if}}
+}

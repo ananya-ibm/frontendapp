@@ -1,0 +1,37 @@
+{
+  "eslint.enable": true,
+  // Optional, if you have the prettier extension enabled
+  "prettier.disableLanguages": ["js"],
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "[handlebars]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "peacock.color": "#195ac3",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#2b72e4",
+    "activityBar.activeBackground": "#2b72e4",
+    "activityBar.activeBorder": "#f18eb4",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#f18eb4",
+    "activityBarBadge.foreground": "#15202b",
+    "titleBar.activeBackground": "#195ac3",
+    "titleBar.inactiveBackground": "#195ac399",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#195ac3",
+    "statusBarItem.hoverBackground": "#2b72e4",
+    "statusBar.foreground": "#e7e7e7"
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "features.catalog.catalog-ui": {
+         "components.AddToCart": {
+        
+            "button.addtocart":"In den Warenkorb legen"
+         },
+         "components.Filters": {
+
+            "button.clearallfilters":"Alle Filter löschen"
+         },
+         "components.ListingSortBy":{
+
+             "list.chooseoption":"Option wählen",
+             "list.sortby":"Sortieren nach:",
+             "sortoption.relevance":"Relevanz",
+             "sortoption.pricelowtohigh":"Preis niedrig bis hoch)",
+             "sortoption.pricehightolow":"Preis (hoch nach niedrig)",
+             "sortoption.name":"Name"
+         },
+         "components.ProductAvailibility":{
+             "title.availability":"Verfügbarkeit",
+             "title.availabilitynote":"Keine Informationen zur Produktverfügbarkeit",
+             "title.instock":"Auf Lager",
+             "title.outofstock":"Nicht vorrättig",
+             "title.availableon":"Verfügbar auf"
+         },
+         "components.ProductBundleOverview":{
+             "title.itembundle":"Artikel in diesem Paket"
+         },
+         "components.ProductDetails":{
+            
+             "title.productattributes":"Keine Produktattribute verfügbar"
+         },
+         "components.SearchForm":{
+
+            "textinput.search":"Suche"
+         },
+         "pages.ProductDetailsPage":{
+
+             "title.productadded":"Produkt zum Warenkorb hinzugefügt",
+             "tab.productattribute":"Produkteigenschaften",
+             "tab.reviews":"Bewertungen",
+             "tab.attachments":"Anhänge",
+             "button.loadmore":"Mehr laden..."
+         },
+         "pages.SearchPage":{
+             "label.search":"Suche"
+         }
+}
+}
+    
+    

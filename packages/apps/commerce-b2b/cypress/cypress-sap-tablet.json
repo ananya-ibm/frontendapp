@@ -1,0 +1,13 @@
+{
+  "chromeWebSecurity": false,
+  "responseTimeout": 50000,
+  "requestTimeout": 15000,
+  "watchForFileChanges": false,
+  "baseUrl": "http://localhost:3300",
+  "env": {
+    "fixtures": "sap",
+    "backendType": "sap"
+  },
+  "viewportWidth": 768,
+  "viewportHeight": 1024
+}

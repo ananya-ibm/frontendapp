@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CategoryFilter /> component its snapshot matches 1`] = `
+.c0 .heading {
+  text-align: left;
+}
+
+.c0 .subHeading {
+  font-weight: 400;
+}
+
+.c1 {
+  background-color: #e0e0e0;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.c2 {
+  background-color: #f4f4f4;
+  border-bottom: 0.1rem solid #e8e8e8;
+  font-size: .875rem;
+  padding: 1rem;
+}
+
+.c2:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.c2.isActive {
+  background-color: #e0e0e0;
+  font-weight: 700;
+}
+
+<div
+  class="c0"
+>
+  <div
+    aria-labelledby="search-category-search"
+    class="cds--search cds--search--lg"
+    role="search"
+  >
+    <div
+      class="cds--search-magnifier"
+    >
+      <svg
+        aria-hidden="true"
+        class="cds--search-magnifier-icon"
+        fill="currentColor"
+        focusable="false"
+        height="16"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15,14.3L10.7,10c1.9-2.3,1.6-5.8-0.7-7.7S4.2,0.7,2.3,3S0.7,8.8,3,10.7c2,1.7,5,1.7,7,0l4.3,4.3L15,14.3z M2,6.5 C2,4,4,2,6.5,2S11,4,11,6.5S9,11,6.5,11S2,9,2,6.5z"
+        />
+      </svg>
+    </div>
+    <label
+      class="cds--label"
+      for="search-category"
+      id="search-category-search"
+    >
+      Search
+    </label>
+    <input
+      autocomplete="off"
+      class="cds--search-input"
+      id="search-category"
+      name="search-in-header"
+      placeholder=""
+      role="searchbox"
+      type="text"
+      value=""
+    />
+    <button
+      aria-label="Clear search input"
+      class="cds--search-close cds--search-close--hidden"
+      title="Clear search input"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="currentColor"
+        focusable="false"
+        height="16"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    class="c1 category"
+  >
+    Primary category
+  </div>
+  <div
+    class="c2"
+    data-testid="openCategory"
+  >
+    Necklaces
+  </div>
+  <div
+    class="c2"
+    data-testid="openCategory"
+  >
+    Pendants
+  </div>
+  <div
+    class="c2"
+    data-testid="openCategory"
+  >
+    Bracelets
+  </div>
+  <div
+    class="c2"
+    data-testid="openCategory"
+  >
+    Earings
+  </div>
+  <div
+    class="c2"
+    data-testid="openCategory"
+  >
+    Rings
+  </div>
+  <div
+    class="cds--pagination cds--pagination--md"
+  >
+    <div
+      class="cds--pagination__left"
+    >
+      <label
+        class="cds--pagination__text"
+        for="cds-pagination-select-id-6"
+        id="cds-pagination-select-id-6-count-label"
+      >
+        Items per page:
+      </label>
+      <div
+        class="cds--form-item cds--select__item-count"
+      >
+        <div
+          class="cds--select cds--select--inline"
+        >
+          <div
+            class="cds--select-input--inline__wrapper"
+          >
+            <div
+              class="cds--select-input__wrapper"
+            >
+              <select
+                class="cds--select-input"
+                id="cds-pagination-select-id-6"
+              >
+                <option
+                  class="cds--select-option"
+                  value="10"
+                >
+                  10
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="20"
+                >
+                  20
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="30"
+                >
+                  30
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="40"
+                >
+                  40
+                </option>
+              </select>
+              <svg
+                aria-hidden="true"
+                class="cds--select__arrow"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span
+        class="cds--pagination__text cds--pagination__items-count"
+      >
+        1–5 of 5 items
+      </span>
+    </div>
+    <div
+      class="cds--pagination__right"
+    >
+      <div
+        class="cds--form-item cds--select__page-number"
+      >
+        <div
+          class="cds--select cds--select--inline"
+        >
+          <label
+            class="cds--label cds--visually-hidden"
+            for="cds-pagination-select-id-6-right"
+          >
+            Page number, of 1 pages
+          </label>
+          <div
+            class="cds--select-input--inline__wrapper"
+          >
+            <div
+              class="cds--select-input__wrapper"
+            >
+              <select
+                class="cds--select-input"
+                id="cds-pagination-select-id-6-right"
+              >
+                <option
+                  class="cds--select-option"
+                  value="1"
+                >
+                  1
+                </option>
+              </select>
+              <svg
+                aria-hidden="true"
+                class="cds--select__arrow"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span
+        class="cds--pagination__text"
+      >
+        of 1 page
+      </span>
+      <div
+        class="cds--pagination__control-buttons"
+      >
+        <span
+          class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top cds--tooltip cds--icon-tooltip"
+        >
+          <button
+            aria-labelledby="tooltip-3"
+            class="cds--btn--icon-only cds--pagination__button cds--pagination__button--backward cds--pagination__button--no-index cds--btn cds--btn--md cds--btn--ghost cds--btn--disabled"
+            disabled=""
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 24L10 16 20 8z"
+              />
+            </svg>
+          </button>
+          <span
+            aria-hidden="true"
+            class="cds--popover"
+            id="tooltip-3"
+            role="tooltip"
+          >
+            <span
+              class="cds--popover-content cds--tooltip-content"
+            >
+              Previous page
+            </span>
+            <span
+              class="cds--popover-caret"
+            />
+          </span>
+        </span>
+        <span
+          class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top-right cds--tooltip cds--icon-tooltip"
+        >
+          <button
+            aria-labelledby="tooltip-5"
+            class="cds--btn--icon-only cds--pagination__button cds--pagination__button--forward cds--pagination__button--no-index cds--btn cds--btn--md cds--btn--ghost cds--btn--disabled"
+            disabled=""
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 8L22 16 12 24z"
+              />
+            </svg>
+          </button>
+          <span
+            aria-hidden="true"
+            class="cds--popover"
+            id="tooltip-5"
+            role="tooltip"
+          >
+            <span
+              class="cds--popover-content cds--tooltip-content"
+            >
+              Next page
+            </span>
+            <span
+              class="cds--popover-caret"
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

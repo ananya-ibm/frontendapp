@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: boilerplate-deployment
+spec:
+  selector:
+    matchLabels:
+      app: boilerplate
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: boilerplate
+    spec:
+      containers:
+        - name: boilerplate
+          image: uk.icr.io/####-dev/boilerplate
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+          env:
+            - name: CMS_URL
+              value: '#######'
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: boilerplate-service
+spec:
+  selector:
+    app: boilerplate
+  ports:
+    - protocol: 'TCP'
+      port: 3000
+      targetPort: 3000
+  type: NodePort

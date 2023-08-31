@@ -1,0 +1,102 @@
+{
+  "name": "Page / Content page with Spots",
+  "description": "",
+  "displayField": "slug",
+  "fields": [
+    {
+      "id": "slug",
+      "name": "slug",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "hero",
+      "name": "hero",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "linkContentType": [
+            "componentHero"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
+    },
+    {
+      "id": "sections",
+      "name": "sections",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "componentDepartmentSelector",
+              "componentHero"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "f45y5cbscf95"
+      }
+    },
+    "id": "pageContentPageWithSpots",
+    "type": "ContentType",
+    "createdAt": "2022-05-18T18:15:10.184Z",
+    "updatedAt": "2022-05-18T18:15:10.557Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "publishedAt": "2022-05-18T18:15:10.557Z",
+    "firstPublishedAt": "2022-05-18T18:15:10.557Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "3HP7Rlb7FPIODfwLV33KHD"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "3HP7Rlb7FPIODfwLV33KHD"
+      }
+    },
+    "publishedCounter": 1,
+    "version": 2,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "3HP7Rlb7FPIODfwLV33KHD"
+      }
+    }
+  }
+}

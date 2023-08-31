@@ -1,0 +1,34 @@
+{
+  "name": "@exo/frontend-apps-base",
+  "version": "1.0.0",
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "description": "This includes base configuration that is same (or with small deviations) across all apps. The idea is to make it easier to maintain, by just having to make updates in one place",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:ixliberty/ix-liberty-boilerplate.git"
+  },
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "author": "Magnus Johansson",
+  "dependencies": {
+    "@exo/frontend-common-app-shell": "^1.0.0",
+    "@exo/frontend-components-content": "^1.0.0",
+    "@exo/frontend-content-provider-aem": "^1.0.0",
+    "@exo/frontend-content-provider-noop": "^1.0.0",
+    "@exo/frontend-content-provider-aem-core-components": "^1.0.0",
+    "@exo/frontend-features-dev-toolbar-extension-config-switch": "^1.0.0",
+    "@exo/frontend-features-dev-toolbar-extension-playground": "^1.0.0",
+    "@exo/frontend-features-dev-toolbar-extension-resources": "^1.0.0",
+    "@exo/frontend-features-dev-toolbar-extension-session": "^1.0.0",
+    "@exo/frontend-features-dev-toolbar-extension-theme": "^1.0.0",
+    "@exo/frontend-features-dev-toolbar-extension-grid": "^1.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0",
+    "start-server-and-test": "^1.11.2"
+  }
+}

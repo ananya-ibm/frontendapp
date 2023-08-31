@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ZipInDeliveryOptions /> component its snapshot matches story ZipInDeliveryOptions 1`] = `
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3:hover {
+  color: #0043ce;
+}
+
+.c3 svg {
+  color: #161616;
+}
+
+.c1 {
+  width: 100%;
+}
+
+.c2 {
+  margin-bottom: 1rem;
+}
+
+.c0 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+<div>
+  <p
+    class="c0"
+  >
+    Shipping
+  </p>
+  <form
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <p>
+        Available shipping methods for
+         
+          
+        <a
+          class="c3"
+        >
+          Change
+        </a>
+      </p>
+    </div>
+    <div
+      class="ZipInDeliveryOptionsstyles__OptionsList-sc-cylqk9-2"
+    />
+  </form>
+</div>
+`;

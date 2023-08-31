@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckoutStoreLocator /> component its snapshot matches 1`] = `
+<h3>
+  Select dealership
+</h3>
+`;

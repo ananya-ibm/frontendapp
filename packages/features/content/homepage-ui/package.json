@@ -1,0 +1,34 @@
+{
+  "name": "@exo/frontend-features-homepage-ui",
+  "version": "1.0.0",
+  "scripts": {
+    "prettier": "root-exec prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "npm run prettier -- --write"
+  },
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "sideEffects": false,
+  "description": "## Features",
+  "main": "/client/index.html",
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "author": "Magnus Johansson",
+  "dependencies": {
+    "@exo/frontend-components-core": "^1.0.0",
+    "@exo/frontend-components-base": "^1.0.0",
+    "@exo/frontend-common-app-shell": "^1.0.0",
+    "@exo/frontend-common-i18n": "^1.0.0",
+    "@exo/frontend-common-hooks": "^1.0.0",
+    "@exo/frontend-features-chrome-logic": "^1.0.0",
+    "@exo/frontend-components-content": "^1.0.0",
+    "@exo/frontend-content-api": "^1.0.0",
+    "@exo/frontend-features-chrome-ui": "^1.0.0",
+    "@exo/frontend-features-events-logic": "^1.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0",
+    "@exo/frontend-common-storybook": "^1.0.0"
+  }
+}

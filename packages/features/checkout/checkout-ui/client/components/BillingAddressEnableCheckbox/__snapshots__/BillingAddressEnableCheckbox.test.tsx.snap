@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BillingAddressEnableCheckbox /> component its snapshot matches story Default 1`] = `
+<div>
+  <div>
+    <div
+      class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+    >
+      <div
+        class="cds--form-item cds--checkbox-wrapper"
+      >
+        <input
+          class="cds--checkbox"
+          id="addressStep-billingAddressEnable"
+          type="checkbox"
+        />
+        <label
+          class="cds--checkbox-label"
+          for="addressStep-billingAddressEnable"
+        >
+          <span
+            class="cds--checkbox-label-text"
+            dir="auto"
+          >
+            Use a different billing address?
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BillingAddressEnableCheckbox /> component its snapshot matches story Enabled 1`] = `
+<div>
+  <div>
+    <div
+      class="Checkboxstyles__Checkbox-sc-1osmcwu-0"
+    >
+      <div
+        class="cds--form-item cds--checkbox-wrapper"
+      >
+        <input
+          checked=""
+          class="cds--checkbox"
+          id="addressStep-billingAddressEnable"
+          type="checkbox"
+        />
+        <label
+          class="cds--checkbox-label"
+          for="addressStep-billingAddressEnable"
+        >
+          <span
+            class="cds--checkbox-label-text"
+            dir="auto"
+          >
+            Use a different billing address?
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;

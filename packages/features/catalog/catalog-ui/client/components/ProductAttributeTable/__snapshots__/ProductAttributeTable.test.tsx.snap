@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductAttributeTable /> component its snapshot matches story Default 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+
+.c1 {
+  padding: 0.5rem 0;
+}
+
+<div>
+  <div
+    class="ProductAttributeTablestyles__Table-sc-raazgm-2"
+  >
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        Basematerial
+      </div>
+      <div
+        class="c1"
+      >
+        Particleboard, Paper foil, Plastic edging
+      </div>
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        Side panel
+      </div>
+      <div
+        class="c1"
+      >
+        Particleboard, Paper foil, Melamine foil, Plastic edging
+      </div>
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        Plinth front
+      </div>
+      <div
+        class="c1"
+      >
+        Particleboard, Paper foil
+      </div>
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        Back
+      </div>
+      <div
+        class="c1"
+      >
+        Fibreboard, Paint, Paper foil
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ProductAttributeTable /> component its snapshot matches story Skeleton 1`] = `
+.c2 {
+  width: 5.5em;
+  border-radius: 5px;
+  -webkit-animation: pulse 1.2s ease-in-out infinite;
+  animation: pulse 1.2s ease-in-out infinite;
+  background: linear-gradient(-90deg,#f0f0f0 0%,#f8f8f8 50%,#f0f0f0 100%);
+  background-size: 400% 400%;
+  display: inline-block;
+  height: 100%;
+}
+
+.c2::before {
+  content: '\\00a0';
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+
+.c1 {
+  padding: 0.5rem 0;
+}
+
+<div>
+  <div
+    class="ProductAttributeTablestyles__Table-sc-raazgm-2"
+  >
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        />
+      </div>
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        />
+      </div>
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        />
+      </div>
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        />
+      </div>
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        />
+      </div>
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

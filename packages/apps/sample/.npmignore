@@ -1,0 +1,4 @@
+# ignore files to be packaged
+cypress
+node_modules
+charts

@@ -1,0 +1,953 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubscriptionForm /> component its snapshot matches story Default 1`] = `
+.c3 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c3 svg {
+  max-height: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c2 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form
+    class="SubscriptionFormstyles__SubscriptionForm-sc-1cfpso4-0"
+  >
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="name"
+          >
+            Your name 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required=""
+                title="Name"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="email"
+          >
+            Your email address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="email"
+                name="email"
+                placeholder="Email address"
+                required=""
+                title="Email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          class="c3 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Subscribe
+           
+        </button>
+        <button
+          class="c3 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<SubscriptionForm /> component its snapshot matches story WithCustomChildren 1`] = `
+.c3 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c3 svg {
+  max-height: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c2 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form
+    class="SubscriptionFormstyles__SubscriptionForm-sc-1cfpso4-0"
+  >
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="name"
+          >
+            Your name 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required=""
+                title="Name"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="email"
+          >
+            Your email address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="email"
+                name="email"
+                placeholder="Email address"
+                required=""
+                title="Email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        The newsletter is sent every week.
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          class="c3 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Subscribe
+           
+        </button>
+        <button
+          class="c3 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<SubscriptionForm /> component its snapshot matches story WithCustomFooter 1`] = `
+.c2 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c2 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+<div>
+  <form
+    class="SubscriptionFormstyles__SubscriptionForm-sc-1cfpso4-0"
+  >
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="name"
+          >
+            Your name 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required=""
+                title="Name"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="email"
+          >
+            Your email address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="email"
+                name="email"
+                placeholder="Email address"
+                required=""
+                title="Email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <button
+        class="c2 cds--btn cds--btn--primary cds--btn--disabled"
+        disabled=""
+        tabindex="0"
+        type="submit"
+      >
+        Subscribe to Newsletter
+         
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<SubscriptionForm /> component its snapshot matches story WithCustomValidation 1`] = `
+.c3 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c3 svg {
+  max-height: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c2 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form
+    class="SubscriptionFormstyles__SubscriptionForm-sc-1cfpso4-0"
+  >
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="name"
+          >
+            Your name 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required=""
+                title="Name"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="email"
+          >
+            Your email address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="email"
+                name="email"
+                placeholder="Email address"
+                required=""
+                title="Email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          class="c3 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Subscribe
+           
+        </button>
+        <button
+          class="c3 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<SubscriptionForm /> component its snapshot matches story WithErrors 1`] = `
+.c3 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c3 svg {
+  max-height: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c2 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form
+    class="SubscriptionFormstyles__SubscriptionForm-sc-1cfpso4-0"
+  >
+    <div
+      class="FormHeaderstyles__FormHeader-sc-15gnw04-0"
+    >
+      <div
+        class="cds--inline-notification cds--inline-notification--error cds--inline-notification--hide-close-button"
+        role="status"
+      >
+        <div
+          class="cds--inline-notification__details"
+        >
+          <svg
+            aria-hidden="true"
+            class="cds--inline-notification__icon"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8,1C4.1,1,1,4.1,1,8s3.1,7,7,7s7-3.1,7-7S11.9,1,8,1z M10.7,11.5L4.5,5.3l0.8-0.8l6.2,6.2L10.7,11.5z"
+            />
+            <path
+              d="M10.7,11.5L4.5,5.3l0.8-0.8l6.2,6.2L10.7,11.5z"
+              data-icon-path="inner-path"
+              fill="none"
+              opacity="0"
+            />
+            <title>
+              error icon
+            </title>
+          </svg>
+          <div
+            class="cds--inline-notification__text-wrapper"
+          >
+            <div
+              class="cds--inline-notification__title"
+            >
+              Error
+            </div>
+            <div
+              class="cds--inline-notification__subtitle"
+            >
+              Cannot subscribe at this time. Please try again
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="name"
+          >
+            Your name 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required=""
+                title="Name"
+                type="text"
+                value="John Johnson"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="email"
+          >
+            Your email address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="email"
+                name="email"
+                placeholder="Email address"
+                required=""
+                title="Email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          class="c3 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Subscribe
+           
+        </button>
+        <button
+          class="c3 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<SubscriptionForm /> component its snapshot matches story WithIntl 1`] = `
+.c3 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c3 svg {
+  max-height: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c2 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form
+    class="SubscriptionFormstyles__SubscriptionForm-sc-1cfpso4-0"
+  >
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="name"
+          >
+            Namn 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="name"
+                name="name"
+                placeholder="Ange ditt namn"
+                required=""
+                title="Ange ditt namn"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="email"
+          >
+            Epost 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="email"
+                name="email"
+                placeholder="Ange din epostaddress"
+                required=""
+                title="Ange din epostaddress"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          class="c3 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Prenumerera
+           
+        </button>
+        <button
+          class="c3 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Avbryt
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

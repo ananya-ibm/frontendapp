@@ -1,0 +1,14 @@
+{
+  "chromeWebSecurity": false,
+  "responseTimeout": 50000,
+  "requestTimeout": 15000,
+  "watchForFileChanges": false,
+  "baseUrl": "http://localhost:3200",
+  "env": {
+    "fixtures": "hcl",
+    "backendType": "hcl",
+    "gqlEndpoint": "https://wcs-dev2.kkckkchosts.com:4002/graphql"
+  },
+  "viewportWidth": 2880,
+  "viewportHeight": 1800
+}

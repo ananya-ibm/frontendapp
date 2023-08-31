@@ -1,0 +1,14 @@
+{
+  "chromeWebSecurity": false,
+  "responseTimeout": 50000,
+  "requestTimeout": 15000,
+  "watchForFileChanges": false,
+  "baseUrl": "http://localhost:3300",
+  "env": {
+    "fixtures": "sap",
+    "backendType": "sap",
+    "gqlEndpoint": "http://boilerplate-ixl-adapter-commerce.apps.audi-commerce-cluster.redhat-engineroom.co.uk/graphql"
+  },
+  "viewportWidth": 2880,
+  "viewportHeight": 1800
+}

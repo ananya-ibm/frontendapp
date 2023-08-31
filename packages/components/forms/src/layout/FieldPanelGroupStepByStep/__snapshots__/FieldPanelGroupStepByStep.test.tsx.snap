@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldPanelGroupStepByStep /> component its snapshot matches story FieldPanelGroupStepByStep 1`] = `
+.c0 {
+  margin: 2rem 0 0 0;
+}
+
+<div>
+  <div
+    class="FieldPanelGroupStepByStepstyles__FieldPanelGroupStepByStep-sc-1kbm7vm-0"
+  >
+    <ul
+      class="cds--progress cds--progress--space-equal"
+    />
+    <div
+      class="c0"
+    />
+  </div>
+</div>
+`;

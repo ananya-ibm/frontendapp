@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> component its snapshot matches story Default 1`] = `
+<div>
+  <ul
+    class="cds--accordion cds--accordion--end cds--accordion--md"
+  >
+    <li
+      class="cds--accordion__item"
+    >
+      <button
+        aria-controls="accordion-item-1"
+        aria-expanded="false"
+        class="cds--accordion__heading"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="cds--accordion__arrow"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"
+          />
+        </svg>
+        <div
+          class="cds--accordion__title"
+          dir="auto"
+        >
+          Item 1
+        </div>
+      </button>
+      <div
+        class="cds--accordion__content"
+        id="accordion-item-1"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget tortor eu justo semper varius quis et libero. Duis volutpat lorem sit amet augue consequat, quis sollicitudin ligula imperdiet. Morbi sed arcu sit amet felis porttitor malesuada. Pellentesque sed enim ut arcu vulputate cursus vel id leo. In tempor mattis arcu eget ultricies. Nam sit amet mauris in turpis sodales porta. Cras eget fermentum lacus. Curabitur vitae pretium libero, in semper sapien. Vivamus eros felis, suscipit id malesuada ut, ornare et nisl. Donec ut feugiat est, at vehicula enim.
+        </p>
+      </div>
+    </li>
+    <li
+      class="cds--accordion__item cds--accordion__item--active"
+    >
+      <button
+        aria-controls="accordion-item-2"
+        aria-expanded="true"
+        class="cds--accordion__heading"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="cds--accordion__arrow"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"
+          />
+        </svg>
+        <div
+          class="cds--accordion__title"
+          dir="auto"
+        >
+          Item 2
+        </div>
+      </button>
+      <div
+        class="cds--accordion__content"
+        id="accordion-item-2"
+      >
+        <p>
+          Quisque efficitur consectetur placerat. Ut vitae tellus ac arcu tincidunt efficitur placerat id nisl. In sagittis dolor risus, nec mollis tellus consectetur vel. In id lacus in turpis dignissim eleifend. Maecenas eu vehicula tortor, nec scelerisque tortor. Praesent non bibendum massa, ac pulvinar risus. Mauris tempor nisl vel ex ornare elementum congue nec nibh. Nam porttitor diam ac rhoncus pharetra. Nulla posuere nibh non nibh volutpat, non efficitur nisi molestie. Vestibulum nec lectus sit amet ex vulputate pharetra. Praesent sit amet mauris enim. Nunc non porta nisi, sed aliquam risus.
+        </p>
+      </div>
+    </li>
+    <li
+      class="cds--accordion__item"
+    >
+      <button
+        aria-controls="accordion-item-3"
+        aria-expanded="false"
+        class="cds--accordion__heading"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="cds--accordion__arrow"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"
+          />
+        </svg>
+        <div
+          class="cds--accordion__title"
+          dir="auto"
+        >
+          Item 3
+        </div>
+      </button>
+      <div
+        class="cds--accordion__content"
+        id="accordion-item-3"
+      >
+        <p>
+          Aliquam vehicula malesuada malesuada. Cras accumsan lorem a sapien luctus porttitor. Ut euismod mi nunc. Mauris quis gravida metus, vel varius nibh. Pellentesque consequat libero lacus, eget sodales lorem elementum non. Ut fermentum sodales justo at ornare. Integer bibendum erat vitae rhoncus aliquam. Maecenas sodales ac diam eget tristique. Mauris dignissim urna enim, ac mollis enim pellentesque nec. Proin nec sapien risus. Duis nec sagittis orci, sit amet pellentesque mi. In tristique ipsum ultricies tellus rhoncus feugiat.
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

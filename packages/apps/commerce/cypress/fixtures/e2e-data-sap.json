@@ -1,0 +1,89 @@
+{
+  "category": {
+    "url": "/catalog/category/250",
+    "expect": "Sort by"
+  },
+  "pdp": {
+    "product_url": "/catalog/products/461359",
+    "product_variant_url": "/catalog/products/461359/14B3CE",
+    "product_selection_indexes": [0],
+    "skip_anonymous_add_to_cart": true
+  },
+  "search": {
+    "with_results": "prima",
+    "without_results": "jkdfjsldfjsdlf",
+    "skip": true
+  },
+  "signin": {
+    "valid_user": {
+      "username": "chiara.del.rio@ibm.com",
+      "password": "Commerce1!"
+    }
+  },
+  "register": {
+    "generated_password": "Passw0rd123*"
+  },
+  "cart": {
+    "items": [{ "partnumber": "14B386", "id": "14B386" }],
+    "skip": {
+      "updates": true,
+      "loadWithItems": true
+    }
+  },
+  "add_to_cart": {
+    "product_url": "/catalog/products/464426/14B386",
+    "skip": {
+      "anonymous": true,
+      "loggedIn": true
+    }
+  },
+  "contact": {
+    "skip": {
+      "loggedIn": true
+    }
+  },
+  "profile": {
+    "skip": true,
+    "options": [
+      "Home-Landing",
+      "Personal details",
+      "Manage addresses",
+      "Payment methods",
+      "My orders",
+      "My configurations",
+      "Messages",
+      "Account security",
+      "Preferences"
+    ],
+    "user": {
+      "first": "Hank",
+      "lastname": "Scorpio",
+      "address1": "15201 Maple Systems Road",
+      "city": "Cypress Creek",
+      "country": "United States",
+      "state": "Cypress",
+      "zip": "FA34 7IP",
+      "phone": "07777777777",
+      "email": "cypress@test.com",
+      "addressNo": 1,
+      "paymentNo": 3,
+      "cardToCheck": {
+        "name": "Visa Debit Card",
+        "person": "Visa Debit Card",
+        "expiry": "00/24",
+        "number": "4242424242424242"
+      }
+    }
+  },
+  "marketplace": {
+    "skip": true
+  },
+  "payment": {
+    "card": {
+      "method": "Credit Card",
+      "cardNo": "4242424242424242",
+      "cardExpiry": "1224",
+      "cardCVV": "444"
+    }
+  }
+}

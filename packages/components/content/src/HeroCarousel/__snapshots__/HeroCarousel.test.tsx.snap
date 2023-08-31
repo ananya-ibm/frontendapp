@@ -1,0 +1,455 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeroCarousel /> component its snapshot matches 1`] = `
+.c0 {
+  height: 32rem;
+  position: relative;
+}
+
+.c1 {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.c7 {
+  background: rgba(240,169,60,0.72);
+  bottom: 2rem;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem 2rem;
+  position: absolute;
+  -webkit-transition: 500ms -webkit-transform cubic-bezier(0.23,1,0.32,1);
+  -webkit-transition: 500ms transform cubic-bezier(0.23,1,0.32,1);
+  transition: 500ms transform cubic-bezier(0.23,1,0.32,1);
+  z-index: 3;
+}
+
+.c4 {
+  background: url(/static/content/heroCarousel/beach.jpg) no-repeat center bottom;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: 500ms all cubic-bezier(0.23,1,0.32,1);
+  transition: 500ms all cubic-bezier(0.23,1,0.32,1);
+  width: 100%;
+  z-index: 1;
+}
+
+.c12 {
+  background: url(static/content/heroCarousel/canyon.jpg) no-repeat center bottom;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: 500ms all cubic-bezier(0.23,1,0.32,1);
+  transition: 500ms all cubic-bezier(0.23,1,0.32,1);
+  width: 100%;
+  z-index: 1;
+}
+
+.c2 {
+  background: #e9ebeb;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: 300ms opacity cubic-bezier(0.23,1,0.32,1);
+  transition: 300ms opacity cubic-bezier(0.23,1,0.32,1);
+  width: 100%;
+  opacity: 1;
+  z-index: 2;
+}
+
+.c11 {
+  background: #e9ebeb;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: 300ms opacity cubic-bezier(0.23,1,0.32,1);
+  transition: 300ms opacity cubic-bezier(0.23,1,0.32,1);
+  width: 100%;
+}
+
+.c5 {
+  background: url(./static/content/heroCarousel/Starwars Car.png) no-repeat center bottom;
+  background-size: contain;
+  bottom: 50%;
+  height: 100%;
+  left: 5%;
+  position: absolute;
+  width: 80%;
+  z-index: 4;
+}
+
+.c13 {
+  background: url(./static/content/heroCarousel/Delorean Red.png) no-repeat center bottom;
+  background-size: contain;
+  bottom: 50%;
+  height: 100%;
+  left: 5%;
+  position: absolute;
+  width: 80%;
+  z-index: 4;
+}
+
+.c8 {
+  margin: auto;
+  padding: 2rem 2rem;
+}
+
+.c9 {
+  font: 700 1.5rem/2.0010000000000003rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c10 {
+  font: 300 1.5rem/2.0010000000000003rem 'IBM Plex Sans',Arial,sans-serif;
+  line-height: 1.75;
+  margin: 1rem 0 0;
+  max-width: 25rem;
+}
+
+.c14 {
+  bottom: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  width: 100%;
+}
+
+.c17 {
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0.25rem 0.25rem 1rem #161616,-0.25rem -0.25rem 1rem #161616;
+  cursor: pointer;
+  height: 60%;
+  margin: auto;
+  width: 60%;
+}
+
+.c15 {
+  background: transparent;
+  border: 0 none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2rem;
+  opacity: 0.4;
+  -webkit-transition: 200ms opacity ease-in;
+  transition: 200ms opacity ease-in;
+  width: 2rem;
+  z-index: 3;
+  opacity: 1;
+}
+
+.c15 .c16 {
+  background-color: #0062ff;
+}
+
+.c15:hover,
+.c15:focus {
+  opacity: 0.9;
+  outline: none;
+}
+
+.c18 {
+  background: transparent;
+  border: 0 none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2rem;
+  opacity: 0.4;
+  -webkit-transition: 200ms opacity ease-in;
+  transition: 200ms opacity ease-in;
+  width: 2rem;
+  z-index: 3;
+}
+
+.c18:hover,
+.c18:focus {
+  opacity: 0.9;
+  outline: none;
+}
+
+@media (min-width:672px) {
+  .c0 {
+    height: 35rem;
+  }
+}
+
+@media (min-width:1056px) {
+  .c0 {
+    height: 40rem;
+  }
+}
+
+@media (min-width:1312px) {
+  .c0 {
+    height: 50rem;
+  }
+}
+
+@media (min-width:672px) {
+  .c7 {
+    margin: 0;
+    min-height: 50%;
+    right: 0;
+    width: 50%;
+  }
+}
+
+@media (min-width:672px) {
+  .c4 {
+    height: calc(100% - 4rem);
+    width: calc(100% - 3rem);
+  }
+}
+
+@media (min-width:672px) {
+  .c12 {
+    height: calc(100% - 4rem);
+    width: calc(100% - 3rem);
+  }
+}
+
+@media (min-width:672px) {
+  .c2 {
+    height: 100%;
+  }
+
+  .c2:hover .c3,
+  .c2:focus .c3 {
+    -webkit-transform: translate(0.25rem,0.25rem);
+    -ms-transform: translate(0.25rem,0.25rem);
+    transform: translate(0.25rem,0.25rem);
+  }
+
+  .c2:hover .c6,
+  .c2:focus .c6 {
+    -webkit-transform: translate(-0.25rem,-0.25rem);
+    -ms-transform: translate(-0.25rem,-0.25rem);
+    transform: translate(-0.25rem,-0.25rem);
+  }
+}
+
+@media (min-width:672px) {
+  .c11 {
+    height: 100%;
+  }
+
+  .c11:hover .c3,
+  .c11:focus .c3 {
+    -webkit-transform: translate(0.25rem,0.25rem);
+    -ms-transform: translate(0.25rem,0.25rem);
+    transform: translate(0.25rem,0.25rem);
+  }
+
+  .c11:hover .c6,
+  .c11:focus .c6 {
+    -webkit-transform: translate(-0.25rem,-0.25rem);
+    -ms-transform: translate(-0.25rem,-0.25rem);
+    transform: translate(-0.25rem,-0.25rem);
+  }
+}
+
+@media (min-width:672px) {
+  .c5 {
+    bottom: 3rem;
+    height: 100%;
+    width: 50%;
+  }
+}
+
+@media (min-width:672px) {
+  .c13 {
+    bottom: 3rem;
+    height: 100%;
+    width: 50%;
+  }
+}
+
+@media (min-width:672px) {
+  .c8 {
+    padding: 3rem;
+  }
+}
+
+@media (min-width:1056px) {
+  .c9 {
+    line-height: 2.25001rem;
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width:1584px) {
+  .c9 {
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:1056px) {
+  .c10 {
+    line-height: 2.25001rem;
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width:1584px) {
+  .c10 {
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:672px) {
+  .c14 {
+    bottom: 1rem;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width:672px) {
+  .c17 {
+    background: #161616;
+    box-shadow: none;
+  }
+}
+
+@media (min-width:672px) {
+  .c15 {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+}
+
+@media (min-width:672px) {
+  .c18 {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <a
+      class="c2"
+      href="#a"
+      title="Desert off-roading"
+    >
+      <div
+        class="c3 c4"
+      />
+      <div
+        class="c5"
+      />
+      <div
+        class="c6 c7"
+      >
+        <div
+          class="c8"
+        >
+          <h2
+            class="c9"
+          >
+            Desert off-roading
+          </h2>
+          <p
+            class="c10"
+          >
+            Enjoy cruising in anti-gravity across desert-scapes. Now with newly fitted viewing dome for you to appreciate the night sky and 3 moons.
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      class="c11"
+      href="#c"
+      title="Travel through time"
+    >
+      <div
+        class="c3 c12"
+      />
+      <div
+        class="c13"
+      />
+      <div
+        class="c6 c7"
+      >
+        <div
+          class="c8"
+        >
+          <h2
+            class="c9"
+          >
+            Travel through time
+          </h2>
+          <p
+            class="c10"
+          >
+            Ever fancied travelling through time? Of course you have. With our DeLorean range that provides the ultimate mobility, you can do just that. Strap in ladies and gents, you're in for a wild ride.
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    class="c14"
+  >
+    <button
+      class="c15"
+      title="Slide 0"
+    >
+      <div
+        class="c16 c17"
+      />
+    </button>
+    <button
+      class="c18"
+      title="Slide 1"
+    >
+      <div
+        class="c16 c17"
+      />
+    </button>
+  </div>
+</div>
+`;

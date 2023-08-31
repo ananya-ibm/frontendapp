@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductList /> component its snapshot matches 1`] = `
+.c8 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c3 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0.2rem;
+  overflow: hidden;
+  padding: 0.5rem;
+  width: 10rem;
+}
+
+.c3 .image {
+  max-height: 5rem;
+  max-width: unset;
+  width: auto;
+}
+
+.c2 {
+  position: relative;
+}
+
+.c2 > .productrow-link {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 0.1rem solid #8d8d8d;
+  color: #161616;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 100%;
+  overflow: hidden;
+  padding: 1rem 0.0625rem;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: box-shadow 100ms ease-in-out;
+  transition: box-shadow 100ms ease-in-out;
+  width: 100%;
+}
+
+.c2 > .productrow-link:hover,
+.c2 > .productrow-link:focus,
+.c2 > .productrow-link:focus-within {
+  box-shadow: 0.0625rem 0.0625rem 0 #0050e6,-0.0625rem -0.0625rem 0 #0050e6;
+}
+
+.c4 {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 0 1rem;
+}
+
+.c5 {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c6 {
+  color: #161616;
+  font: 700 1rem/1.5rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-bottom: unset;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c7 {
+  color: #161616;
+  font: inherit;
+  margin: 0.3rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  list-style: none;
+}
+
+.c1 {
+  -webkit-animation: eIoHIQ 200ms linear forwards;
+  animation: eIoHIQ 200ms linear forwards;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+@media (min-width:320px) {
+  .c2 > .productrow-link {
+    padding: 0;
+  }
+}
+
+@media (min-width:320px) {
+  .c4 {
+    padding: 1rem 1rem;
+  }
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="product-row"
+      >
+        <a
+          class="productrow-link"
+          href="/undefined/Reading Tablet"
+          title="Reading Tablet"
+        >
+          <div
+            class="c3"
+          >
+            <img
+              alt="This is a Product"
+              class="image"
+              src="https://i.ytimg.com/vi/N1e_voQvHYk/maxresdefault.jpg"
+            />
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <h3
+                class="c6"
+              >
+                Reading Tablet
+              </h3>
+              <p
+                class="c7"
+              >
+                <span
+                  class="c8"
+                >
+                  <span
+                    class="value"
+                  >
+                    £375
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="product-row"
+      >
+        <a
+          class="productrow-link"
+          href="/undefined/Kitchen Tablet"
+          title="Kitchen Tablet"
+        >
+          <div
+            class="c3"
+          >
+            <img
+              alt="This is a Product"
+              class="image"
+              src="https://i.ytimg.com/vi/N1e_voQvHYk/maxresdefault.jpg"
+            />
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <h3
+                class="c6"
+              >
+                Kitchen Tablet
+              </h3>
+              <p
+                class="c7"
+              >
+                <span
+                  class="c8"
+                >
+                  <span
+                    class="value"
+                  >
+                    £390
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="product-row"
+      >
+        <a
+          class="productrow-link"
+          href="/undefined/Protable Tablet"
+          title="Protable Tablet"
+        >
+          <div
+            class="c3"
+          >
+            <img
+              alt="This is a Product"
+              class="image"
+              src="https://i.ytimg.com/vi/N1e_voQvHYk/maxresdefault.jpg"
+            />
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <h3
+                class="c6"
+              >
+                Protable Tablet
+              </h3>
+              <p
+                class="c7"
+              >
+                <span
+                  class="c8"
+                >
+                  <span
+                    class="value"
+                  >
+                    £475
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="product-row"
+      >
+        <a
+          class="productrow-link"
+          href="/undefined/Budget Tablet"
+          title="Budget Tablet"
+        >
+          <div
+            class="c3"
+          >
+            <img
+              alt="This is a Product"
+              class="image"
+              src="https://i.ytimg.com/vi/N1e_voQvHYk/maxresdefault.jpg"
+            />
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <h3
+                class="c6"
+              >
+                Budget Tablet
+              </h3>
+              <p
+                class="c7"
+              >
+                <span
+                  class="c8"
+                >
+                  <span
+                    class="value"
+                  >
+                    £300
+                  </span>
+                </span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </li>
+  </ul>
+  <div
+    class="c9"
+  />
+</div>
+`;

@@ -1,0 +1,31 @@
+{
+  "ci": {
+    "collect": {
+      "startServerCommand": "cd ./packages/apps/commerce/dist && NODE_GZIP=true npm run start",
+      "url": [
+        "http://localhost:3210/content/homepage",
+        "http://localhost:3210/catalog/category/Apparel_1"
+      ],
+      "settings": {
+        "emulatedFormFactor": "desktop",
+        "skipAudits": ["uses-http2"],
+        "disableStorageReset": "true",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "cpuSlowdownMultiplier": 1
+        }
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["warn", { "minScore": 0.9 }],
+        "categories:accessibility": ["warn", { "minScore": 0.9 }],
+        "categories:seo": ["warn", { "minScore": 0.9 }]
+      }
+    }
+  }
+}

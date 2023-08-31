@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> component its snapshot matches story Default 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--primary"
+    tabindex="0"
+    type="button"
+  >
+    Click me
+     
+  </button>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story OnlyIcon 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <span
+    class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top cds--tooltip cds--icon-tooltip"
+  >
+    <button
+      aria-describedby="danger-description-4"
+      aria-labelledby="tooltip-3"
+      class="cds--btn--icon-only c0 cds--btn cds--btn--danger cds--btn--icon-only cds--btn cds--btn--danger"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="cds--visually-hidden"
+        id="danger-description-4"
+      >
+        danger
+      </span>
+       
+      <div
+        class="cds--btn__icon"
+      >
+        <svg
+          aria-label="icon"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="16"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+      </div>
+    </button>
+    <span
+      aria-hidden="true"
+      class="cds--popover"
+      id="tooltip-3"
+      role="tooltip"
+    >
+      <span
+        class="cds--popover-content cds--tooltip-content"
+      >
+        icon
+      </span>
+      <span
+        class="cds--popover-caret"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story SizeDefault 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--md cds--btn--primary"
+    tabindex="0"
+    type="button"
+  >
+    Click me
+     
+  </button>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story SizeField 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--md cds--btn--primary"
+    tabindex="0"
+    type="button"
+  >
+    Click me
+     
+  </button>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story SizeLarge 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--primary"
+    tabindex="0"
+    type="button"
+  >
+    Click me
+     
+  </button>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story SizeSmall 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--sm cds--btn--primary"
+    tabindex="0"
+    type="button"
+  >
+    Click me
+     
+  </button>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story VariantDanger 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    aria-describedby="danger-description-9"
+    class="c0 cds--btn cds--btn--danger"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="cds--visually-hidden"
+      id="danger-description-9"
+    >
+      danger
+    </span>
+    Click me
+     
+  </button>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story VariantLight 1`] = `
+.c1 {
+  height: 1rem;
+  margin-bottom: 0.1rem;
+  margin-right: 0.75rem;
+}
+
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--ghost"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="c1"
+    >
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="16"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </div>
+    Click me
+     
+  </button>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story VariantLink 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0:hover {
+  color: #0043ce;
+}
+
+.c0 svg {
+  color: #161616;
+}
+
+.c1 {
+  line-height: 100%;
+  margin-right: 0.75rem;
+  margin-top: 0.2rem;
+}
+
+<div>
+  <a
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="16"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </span>
+    Click me
+  </a>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story VariantSecondary 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--secondary"
+    tabindex="0"
+    type="button"
+  >
+    Click me
+     
+  </button>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story VariantTertiary 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--tertiary"
+    tabindex="0"
+    type="button"
+  >
+    Click me
+     
+    <div
+      class="cds--btn__icon"
+    >
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="16"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </div>
+  </button>
+</div>
+`;
+
+exports[`<Button /> component its snapshot matches story WithAction 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--primary"
+    tabindex="0"
+    type="button"
+  >
+    My action
+     
+  </button>
+</div>
+`;

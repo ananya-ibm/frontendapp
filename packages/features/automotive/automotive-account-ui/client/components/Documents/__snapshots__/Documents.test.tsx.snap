@@ -1,0 +1,592 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Documents /> component its snapshot matches story Default 1`] = `
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c7:hover {
+  color: #0043ce;
+}
+
+.c7 svg {
+  color: #161616;
+}
+
+.c8 {
+  line-height: 100%;
+  margin-left: 0.6rem;
+  margin-top: 0.2rem;
+}
+
+.c2 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c2 svg {
+  max-height: 100%;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.c9 {
+  margin: -1rem -1rem -1rem -1rem;
+}
+
+.c10 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c4 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  height: 1.5rem;
+}
+
+.c0 {
+  height: 1rem;
+}
+
+.c1 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+  <div
+    class="Documentsstyles__Documents-sc-1oeklas-0"
+  >
+    <div
+      class="c0"
+    />
+    <div
+      class="cds--tabs"
+    >
+      <button
+        aria-hidden="true"
+        aria-label="Scroll left"
+        class="cds--tab--overflow-nav-button cds--tab--overflow-nav-button--previous cds--tab--overflow-nav-button--hidden"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 8L10 3 10.7 3.7 6.4 8 10.7 12.3 10 13z"
+          />
+        </svg>
+      </button>
+      <div
+        aria-label="Tabs"
+        class="cds--tab--list"
+        role="tablist"
+      >
+        <button
+          aria-controls="ccs-3-tabpanel-0"
+          aria-selected="true"
+          class="cds--tabs__nav-item cds--tabs__nav-link cds--tabs__nav-item--selected"
+          id="ccs-3-tab-0"
+          role="tab"
+          tabindex="0"
+          type="button"
+        >
+          Active
+        </button>
+        <button
+          aria-controls="ccs-3-tabpanel-1"
+          aria-selected="false"
+          class="cds--tabs__nav-item cds--tabs__nav-link"
+          id="ccs-3-tab-1"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Expire
+        </button>
+      </div>
+      <button
+        aria-hidden="true"
+        aria-label="Scroll right"
+        class="cds--tab--overflow-nav-button cds--tab--overflow-nav-button--next cds--tab--overflow-nav-button--hidden"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      aria-labelledby="ccs-3-tab-0"
+      class="cds--tab-content cds--tab-content--interactive"
+      id="ccs-3-tabpanel-0"
+      role="tabpanel"
+      tabindex="-1"
+    >
+      <div
+        class="c1"
+      >
+        <button
+          class="c2 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="button"
+        >
+          Upload Document
+           
+        </button>
+      </div>
+      <div
+        class="c3"
+      />
+      <div>
+        <div
+          class="cds--layer-two c4"
+        >
+          <h4
+            class="c5"
+          >
+            Document Name
+            <div
+              class="c6"
+            >
+              <a
+                class="c7"
+              >
+                View document
+                <span
+                  class="c8"
+                >
+                  <svg
+                    aria-label="icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="20"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    size="16"
+                    viewBox="0 0 32 32"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  />
+                </span>
+              </a>
+              <div
+                class="c9"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </h4>
+          <div
+            class="c10 card-section-undefined"
+          >
+            Expires: 14/07/2020
+          </div>
+        </div>
+        <div
+          class="c3"
+        />
+      </div>
+      <div>
+        <div
+          class="cds--layer-two c4"
+        >
+          <h4
+            class="c5"
+          >
+            Document Name
+            <div
+              class="c6"
+            >
+              <a
+                class="c7"
+              >
+                View document
+                <span
+                  class="c8"
+                >
+                  <svg
+                    aria-label="icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="20"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    size="16"
+                    viewBox="0 0 32 32"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  />
+                </span>
+              </a>
+              <div
+                class="c9"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </h4>
+          <div
+            class="c10 card-section-undefined"
+          >
+            Expires: 14/07/2020
+          </div>
+        </div>
+        <div
+          class="c3"
+        />
+      </div>
+    </div>
+    <div
+      aria-labelledby="ccs-3-tab-1"
+      class="cds--tab-content cds--tab-content--interactive"
+      hidden=""
+      id="ccs-3-tabpanel-1"
+      role="tabpanel"
+      tabindex="-1"
+    >
+      <div
+        class="c1"
+      >
+        <button
+          class="c2 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="button"
+        >
+          Expire Document
+           
+        </button>
+      </div>
+      <div
+        class="c3"
+      />
+      <div>
+        <div
+          class="cds--layer-two c4"
+        >
+          <h4
+            class="c5"
+          >
+            Expired Document Name
+            <div
+              class="c6"
+            >
+              <a
+                class="c7"
+              >
+                View document
+                <span
+                  class="c8"
+                >
+                  <svg
+                    aria-label="icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="20"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    size="16"
+                    viewBox="0 0 32 32"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  />
+                </span>
+              </a>
+              <div
+                class="c9"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </h4>
+          <div
+            class="c10 card-section-undefined"
+          >
+            Expires: 14/07/2020
+          </div>
+        </div>
+        <div
+          class="c3"
+        />
+      </div>
+      <div>
+        <div
+          class="cds--layer-two c4"
+        >
+          <h4
+            class="c5"
+          >
+            Expired Document Name
+            <div
+              class="c6"
+            >
+              <a
+                class="c7"
+              >
+                View document
+                <span
+                  class="c8"
+                >
+                  <svg
+                    aria-label="icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="20"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    size="16"
+                    viewBox="0 0 32 32"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  />
+                </span>
+              </a>
+              <div
+                class="c9"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </h4>
+          <div
+            class="c10 card-section-undefined"
+          >
+            Expires: 14/07/2020
+          </div>
+        </div>
+        <div
+          class="c3"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

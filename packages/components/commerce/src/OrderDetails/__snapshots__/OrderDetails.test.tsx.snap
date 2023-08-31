@@ -1,0 +1,606 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderDetails /> component its snapshot matches 1`] = `
+.c5 {
+  max-width: var(--max-width);
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+}
+
+.c5 .cds--row > * > .cds--grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c12 {
+  max-width: var(--max-width);
+}
+
+.c12 .cds--row > * > .cds--grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c10 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c11 .cds--grid {
+  padding-left: 0;
+}
+
+.c11 .cds--row {
+  margin-left: 0;
+}
+
+.c11 .priceColumn {
+  text-align: right;
+}
+
+.c11 .subRows {
+  margin-top: 0.75rem;
+}
+
+.c13 {
+  font-weight: 700;
+}
+
+.c14 {
+  font-weight: 700;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c0 .color {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c0 .orderNumber {
+  padding-left: 1rem;
+}
+
+.c0 .description {
+  margin-top: 0.75rem;
+}
+
+.c0 .priceTotal {
+  padding-top: 2.5rem;
+}
+
+.c0 .priceRow {
+  padding-left: 2.5rem;
+}
+
+.c1 {
+  font-weight: 700;
+}
+
+.c3 {
+  font-weight: 700;
+}
+
+.c2 {
+  margin-top: 2rem;
+}
+
+.c6 {
+  font-weight: 700;
+}
+
+.c7 {
+  background-color: #f4f4f4;
+  border: 0.1rem solid #f4f4f4;
+  border-bottom: 0.1rem solid #f4f4f4;
+  margin-top: 2rem;
+  padding: 1.5rem 2rem;
+}
+
+.c4 {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.c8 {
+  border: 0.1rem solid #f4f4f4;
+  border-top: none;
+  padding: 2rem;
+}
+
+.c9 {
+  max-width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <h3
+    class="c1"
+  >
+    Order Details
+  </h3>
+  <div
+    class="c2"
+  >
+    <h4
+      class="c3"
+    >
+      Order Number:
+      <span
+        class="orderNumber"
+      >
+        0003835
+      </span>
+    </h4>
+  </div>
+  <div
+    class="c2"
+  >
+    <div
+      class="c4"
+    >
+      Date ordered:
+      September 15, 2018
+       
+    </div>
+  </div>
+  <div
+    class="c5 cds--grid cds--grid--full-width"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="cds--row"
+      >
+        <div
+          class="cds--col-sm-4 cds--col-lg-5"
+        >
+          <div
+            class="c6"
+          >
+            <div
+              class="c4"
+            >
+              Billing Address
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            John Smith, 640, Hamilton circle Malvern, PA 19355
+          </div>
+        </div>
+        <div
+          class="cds--col-sm-4 cds--col-lg-5"
+        >
+          <div
+            class="c6"
+          >
+            <div
+              class="c4"
+            >
+              Shipping Address
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            John Smith, 640, Hamilton circle Malvern, PA 19355
+          </div>
+        </div>
+        <div
+          class="cds--col-sm-4 cds--col-lg-5"
+        >
+          <div
+            class="c6"
+          >
+            <div
+              class="c4"
+            >
+              Payment Method
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            visa********9257
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c7"
+    >
+      <div
+        class="cds--row"
+      >
+        <div
+          class="cds--col-sm-4 cds--col-lg-3"
+        >
+          <div
+            class="c6"
+          >
+            <div
+              class="c4"
+            >
+              Order Status
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            Shipped on Tuesday, June 23 USPS Priority Mail
+          </div>
+        </div>
+        <div
+          class="cds--col-sm-4 cds--col-lg-3"
+        >
+          <div
+            class="c6"
+          >
+            <div
+              class="c4"
+            >
+              Tracking #
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            097654334566111222221111
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c8"
+    >
+      <div
+        class="cds--row"
+      >
+        <div
+          class="cds--col-sm-1 cds--col-md-2 cds--col-lg-3"
+        >
+          <img
+            alt="An image of Titan Raga"
+            class="c9"
+            src="https://images.unsplash.com/photo-1476286768413-e7051cdb2179"
+          />
+        </div>
+        <div
+          class="description cds--col-sm-1 cds--col-md-3 cds--col-lg-10"
+        >
+          <div
+            class="c4"
+          >
+            Titan
+          </div>
+          <h4
+            class="c3"
+          >
+            Titan Raga
+          </h4>
+          <div
+            class="description cds--row"
+          >
+            <div
+              class="cds--col"
+            >
+               
+              <div
+                class="c4"
+              >
+                Size: 
+                Large
+              </div>
+            </div>
+            <div
+              class="color cds--col"
+            >
+               
+              <div
+                class="c4"
+              >
+                Color: 
+                Golden
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4 description"
+          >
+            Quantity: 
+            1
+          </div>
+        </div>
+        <div
+          class="priceTotal cds--col-sm-1 cds--col-md-3 cds--col-lg-3"
+        >
+          <div
+            class="priceRow cds--row"
+          >
+            Total Price:
+          </div>
+          <div
+            class="priceRow cds--row"
+          >
+            <h4
+              class="c3"
+            >
+              <span
+                class="c10"
+              >
+                <span
+                  class="value"
+                >
+                  $9.99
+                </span>
+              </span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c8"
+    >
+      <div
+        class="cds--row"
+      >
+        <div
+          class="cds--col-sm-1 cds--col-md-2 cds--col-lg-3"
+        >
+          <img
+            alt="An image of Athletic Shoes"
+            class="c9"
+            src="https://images.unsplash.com/photo-1596018589855-e9a2a91f687f"
+          />
+        </div>
+        <div
+          class="description cds--col-sm-1 cds--col-md-3 cds--col-lg-10"
+        >
+          <div
+            class="c4"
+          >
+            Rebook
+          </div>
+          <h4
+            class="c3"
+          >
+            Athletic Shoes
+          </h4>
+          <div
+            class="description cds--row"
+          >
+            <div
+              class="cds--col"
+            >
+               
+              <div
+                class="c4"
+              >
+                Size: 
+                7
+              </div>
+            </div>
+            <div
+              class="color cds--col"
+            >
+               
+              <div
+                class="c4"
+              >
+                Color: 
+                Black
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4 description"
+          >
+            Quantity: 
+            2
+          </div>
+        </div>
+        <div
+          class="priceTotal cds--col-sm-1 cds--col-md-3 cds--col-lg-3"
+        >
+          <div
+            class="priceRow cds--row"
+          >
+            Total Price:
+          </div>
+          <div
+            class="priceRow cds--row"
+          >
+            <h4
+              class="c3"
+            >
+              <span
+                class="c10"
+              >
+                <span
+                  class="value"
+                >
+                  $24.54
+                </span>
+              </span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="cds--row"
+    >
+      <div
+        class="cds--col-sm-0 cds--col-lg-10"
+      />
+      <div
+        class="cds--col-sm-4 cds--col-lg-6"
+      >
+        <div
+          class="c2"
+        >
+          <div
+            class="c11"
+          >
+            <div
+              class="c12 cds--grid"
+            >
+              <div
+                class="cds--row"
+              >
+                <div
+                  class="cds--col-sm-4"
+                >
+                  <h5
+                    class="c13"
+                  >
+                     
+                    ORDER SUMMARY
+                  </h5>
+                  <hr
+                    class="subRows"
+                  />
+                  <div
+                    class="subRows cds--row"
+                  >
+                    <div
+                      class="tableColumn cds--col-sm-2"
+                    >
+                      Subtotal
+                       (3 items)
+                    </div>
+                    <div
+                      class="priceColumn cds--col-sm-2"
+                    >
+                      <span
+                        class="c10"
+                      >
+                        <span
+                          class="value"
+                        >
+                          $59.99
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="subRows cds--row"
+                  >
+                    <div
+                      class="tableColumn cds--col-sm-2"
+                    >
+                      Rewards/Discounts
+                    </div>
+                    <div
+                      class="priceColumn cds--col-sm-2"
+                    >
+                      <span
+                        class="c10"
+                      >
+                        <span
+                          class="prefix"
+                        >
+                          -
+                        </span>
+                        <span
+                          class="value"
+                        >
+                          $10.99
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="subRows cds--row"
+                  >
+                    <div
+                      class="tableColumn cds--col-sm-2"
+                    >
+                      Shipping
+                       (2 Day)
+                    </div>
+                    <div
+                      class="priceColumn cds--col-sm-2"
+                    >
+                      <span
+                        class="c10"
+                      >
+                        <span
+                          class="value"
+                        >
+                          $5.50
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="subRows cds--row"
+                  >
+                    <div
+                      class="tableColumn cds--col-sm-2"
+                    >
+                      Tax
+                    </div>
+                    <div
+                      class="priceColumn cds--col-sm-2"
+                    >
+                      <span
+                        class="c10"
+                      >
+                        <span
+                          class="value"
+                        >
+                          $2.80
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="subRows cds--row"
+                  >
+                    <div
+                      class="tableColumn cds--col-sm-2"
+                    >
+                      <div
+                        class="c14"
+                      >
+                        Order Total:
+                      </div>
+                    </div>
+                    <div
+                      class="priceColumn cds--col-sm-2"
+                    >
+                      <div
+                        class="c14"
+                      >
+                        <span
+                          class="c10"
+                        >
+                          <span
+                            class="value"
+                          >
+                            $57.30
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

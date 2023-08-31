@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderSummary /> component its snapshot matches 1`] = `
+.c1 {
+  max-width: var(--max-width);
+}
+
+.c1 .cds--row > * > .cds--grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c3 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c0 .cds--grid {
+  padding-left: 0;
+}
+
+.c0 .cds--row {
+  margin-left: 0;
+}
+
+.c0 .priceColumn {
+  text-align: right;
+}
+
+.c0 .subRows {
+  margin-top: 0.75rem;
+}
+
+.c2 {
+  font-weight: 700;
+}
+
+.c4 {
+  font-weight: 700;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 cds--grid"
+  >
+    <div
+      class="cds--row"
+    >
+      <div
+        class="cds--col-sm-4"
+      >
+        <h5
+          class="c2"
+        >
+           
+          ORDER SUMMARY
+        </h5>
+        <hr
+          class="subRows"
+        />
+        <div
+          class="subRows cds--row"
+        >
+          <div
+            class="tableColumn cds--col-sm-2"
+          >
+            Subtotal
+             (3 items)
+          </div>
+          <div
+            class="priceColumn cds--col-sm-2"
+          >
+            <span
+              class="c3"
+            >
+              <span
+                class="value"
+              >
+                $59.99
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="subRows cds--row"
+        >
+          <div
+            class="tableColumn cds--col-sm-2"
+          >
+            Rewards/Discounts
+          </div>
+          <div
+            class="priceColumn cds--col-sm-2"
+          >
+            <span
+              class="c3"
+            >
+              <span
+                class="prefix"
+              >
+                -
+              </span>
+              <span
+                class="value"
+              >
+                $10.99
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="subRows cds--row"
+        >
+          <div
+            class="tableColumn cds--col-sm-2"
+          >
+            Shipping
+             (2 Day)
+          </div>
+          <div
+            class="priceColumn cds--col-sm-2"
+          >
+            <span
+              class="c3"
+            >
+              <span
+                class="value"
+              >
+                $5.50
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="subRows cds--row"
+        >
+          <div
+            class="tableColumn cds--col-sm-2"
+          >
+            Tax
+          </div>
+          <div
+            class="priceColumn cds--col-sm-2"
+          >
+            <span
+              class="c3"
+            >
+              <span
+                class="value"
+              >
+                $2.80
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="subRows cds--row"
+        >
+          <div
+            class="tableColumn cds--col-sm-2"
+          >
+            <div
+              class="c4"
+            >
+              Order Total:
+            </div>
+          </div>
+          <div
+            class="priceColumn cds--col-sm-2"
+          >
+            <div
+              class="c4"
+            >
+              <span
+                class="c3"
+              >
+                <span
+                  class="value"
+                >
+                  $57.30
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

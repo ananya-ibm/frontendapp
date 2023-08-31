@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SortByDropdown /> component its snapshot matches 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 .dropdown {
+  min-width: 12rem;
+}
+
+.c1 {
+  margin-right: 1rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    Sort by
+  </div>
+  <div
+    class="cds--dropdown__wrapper cds--list-box__wrapper dropdown"
+  >
+    <div
+      class="cds--dropdown cds--list-box"
+      id="test"
+    >
+      <button
+        aria-disabled="false"
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-0-label downshift-0-toggle-button"
+        class="cds--list-box__field"
+        id="downshift-0-toggle-button"
+        title="Sort by"
+        type="button"
+      >
+        <span
+          class="cds--list-box__label"
+        >
+          Sort by
+        </span>
+        <div
+          class="cds--list-box__menu-icon"
+        >
+          <svg
+            aria-label="Open menu"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            name="chevron--down"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+            />
+            <title>
+              Open menu
+            </title>
+          </svg>
+        </div>
+      </button>
+      <div
+        aria-labelledby="downshift-0-label"
+        class="cds--list-box__menu"
+        id="downshift-0-menu"
+        role="listbox"
+        tabindex="-1"
+      />
+    </div>
+  </div>
+</div>
+`;

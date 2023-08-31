@@ -1,0 +1,73 @@
+{
+  "name": "Component / DepartmentSelector",
+  "description": "",
+  "fields": [
+    {
+      "id": "departments",
+      "name": "Departments",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "componentDepartmentSelectorDepartment"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "f45y5cbscf95"
+      }
+    },
+    "id": "componentDepartmentSelector",
+    "type": "ContentType",
+    "createdAt": "2022-05-17T06:12:44.768Z",
+    "updatedAt": "2022-05-17T06:19:38.852Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 13,
+    "publishedAt": "2022-05-17T06:19:38.852Z",
+    "firstPublishedAt": "2022-05-17T06:12:45.090Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "3HP7Rlb7FPIODfwLV33KHD"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "3HP7Rlb7FPIODfwLV33KHD"
+      }
+    },
+    "publishedCounter": 7,
+    "version": 14,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "3HP7Rlb7FPIODfwLV33KHD"
+      }
+    }
+  }
+}

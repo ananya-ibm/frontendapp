@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PriceBar /> component its snapshot matches 1`] = `
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c6:hover {
+  color: #0043ce;
+}
+
+.c6 svg {
+  color: #161616;
+}
+
+.c8 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c8 svg {
+  max-height: 100%;
+}
+
+.c4 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c0 {
+  padding: 1.75rem 1.5rem;
+  width: 100%;
+}
+
+.c1 {
+  text-align: left;
+  width: 100%;
+}
+
+.c2 .prefix {
+  margin: auto 0.25rem auto 0;
+}
+
+.c2 .currencySymbol,
+.c2 .value,
+.c2 .rate {
+  color: #000000;
+  font: 600 1.875rem/2.25rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c2 .value,
+.c2 .rate {
+  margin: auto 0;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 1rem;
+  margin: 1rem auto 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.c5 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+@media (min-width:672px) {
+  .c0 {
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem;
+  }
+}
+
+@media (min-width:672px) {
+  .c1 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:672px) {
+  .c2 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width:672px) {
+  .c7 {
+    margin-left: 0 0 0 auto;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <span
+          class="c4"
+        >
+          <span
+            class="prefix"
+          >
+            From
+          </span>
+          <span
+            class="value"
+          >
+            £25,000
+          </span>
+        </span>
+        <div
+          class="c5"
+        >
+          Purchase Price
+        </div>
+      </div>
+       or 
+      <div
+        class="c3"
+      >
+        <span
+          class="c4"
+        >
+          <span
+            class="value"
+          >
+            £800
+          </span>
+          <span
+            class="rate"
+          >
+             
+            /month
+          </span>
+        </span>
+        <a
+          class="c6"
+        >
+          Customize Finance
+        </a>
+      </div>
+    </div>
+    <div
+      class="c7"
+    >
+      <button
+        class="c8 cds--btn cds--btn--secondary"
+        tabindex="0"
+        type="button"
+      >
+        Book test drive
+         
+      </button>
+      <button
+        class="c8 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="button"
+      >
+        Add to cart
+         
+      </button>
+    </div>
+  </div>
+</div>
+`;

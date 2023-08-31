@@ -1,0 +1,49 @@
+{ 
+    "features.cart.cart-ui" : {
+        "pages.CartPage": {
+            "Cart.header" : "Carrello",
+            "Title" :"Il carrello è vuoto",
+            "EmptyCart.primaryText" : "Continua a fare acquisti",
+            "CartButtons.next" : "Guardare"
+         },
+         "components" : {
+            "CartSubtotal" :
+            {
+                "Head.SubtotalRow.label" : "Totale Parziale",
+                "Foot.SubtotalRow.label" : "Totale",
+                "Body.SubtotalRow.SalesTax.label" : "Imposta sulle vendite",
+                "Body.SubtotalRow.Shipping.label" : "Spedizione", 
+                "Body.SubtotalRow.ShippingTax.label" : "Tasse di spedizione",
+                "Body.SubtotalRow.Adjustments.label" : "Regolazioni"
+            },
+            "Delivery":
+            {
+                "Options.Home" : "Consegna a domicilio",
+                "Options.Store" : "Area di ritiro"
+            },
+            "HomeDeliverySelector" :
+            {
+                "labeltext" : "metodo di consegna"
+            },
+            "ZipDeliveryOptions" :
+            {
+                "Title": "Spedizione",
+                "div.Text":"Metodi di spedizione disponibili per",
+                "SubTitle":"Clicca e ritira",
+                "SubTitle.HomeDelivery": "Consegna a domicilio",
+                "Button.Label" : "Ottenere"
+
+            },
+            "MiniCart":
+            {
+                "Title": "Mini carrello"
+            },
+            "CartItem":
+            {
+                "PropertyName.Quantity" : "Quantità"
+            }
+      
+        }
+        
+}
+}

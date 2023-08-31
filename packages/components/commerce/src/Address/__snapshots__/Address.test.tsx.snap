@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Address /> component its snapshot matches 1`] = `
+.c0 {
+  font-weight: 600;
+}
+
+<address
+  class="Addressstyles__AddressDetail-sc-cuy02r-1"
+>
+  <p
+    class="c0"
+  >
+    Address Test
+  </p>
+  <p
+    class="Addressstyles__AddressRow-sc-cuy02r-2"
+  >
+    test
+     
+    test
+     
+    , test
+  </p>
+  <p
+    class="Addressstyles__AddressRow-sc-cuy02r-2"
+  >
+    test
+  </p>
+  <p
+    class="Addressstyles__AddressRow-sc-cuy02r-2"
+  >
+    test
+  </p>
+  <p
+    class="Addressstyles__AddressRow-sc-cuy02r-2"
+  >
+    test
+  </p>
+  <p
+    class="Addressstyles__AddressRow-sc-cuy02r-2"
+  >
+    test
+  </p>
+  <p
+    class="Addressstyles__AddressRow-sc-cuy02r-2"
+  >
+    test
+  </p>
+</address>
+`;

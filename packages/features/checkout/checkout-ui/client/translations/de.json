@@ -1,0 +1,93 @@
+{
+  "features.checkout.checkout-ui": {
+    "pages.CheckoutPage": {
+      "breadcrumb.Home": "Heimat",
+      "breadcrumb.Checkout": "Auschecken",
+      "grid.Checkout": "Auschecken",
+      "billingaddresspanel.billingaddress": "Rechnungs Adresse",
+      "initial": "Initial",
+      "label.Shoppingcart": "Einkaufswagen",
+      "secondaryLabel.step1": "Schritt 1",
+      "label.billing": "Rechnungs",
+      "label.payment": "Zahlung",
+      "label.initial": "Initial",
+      "default.ordertotal": "Auftragssumme"
+    },
+    "panels.Paymentpanel": {
+      "paymentpanel.payment": "Zahlung",
+      "paymentpanel.note": "Diese Zahlung erfordert keine zusätzlichen Eingaben"
+    },
+    "panels.ShippingAddressPanel": {
+      "shippingadresspanel.shippingaddress": "Versand Adresse"
+    },
+    "pages.ConfirmationPage": {
+      "Checkoutaddress.shippingaddress": "Lieferanschrift",
+      "Checkoutaddress.billingaddress": "Rechnungsadresse",
+      "header.confirmation": "Bestätigung"
+    },
+    "components.CheckoutSidebar": {
+      "title.shippingaddress": "Lieferanschrift",
+      "title.billingaddress": "Rechnungsadresse",
+      "addressdetail.title": "Titel",
+      "addressdetail.firstname": "Vorname:",
+      "addressdetail.lastname": "Nachname:",
+      "addressdetail.company": "Företag:",
+      "addressdetail.addressline1": "Adressrad 1:",
+      "addressdetail.addressline2": "Adressrad 2:",
+      "addressdetail.city": "Stad:",
+      "addressdetail.province": "Provins:",
+      "addressdetail.county": "Distrikt:",
+      "addressdetail.country": "Land:",
+      "addressdetail.zip": "POSTKOD:"
+    },
+    "components.AddressInput": {
+      "AddressForm.Firstname.label": "Ihr Vorname",
+      "AddressForm.Firstname.placeholder": "Vorname",
+      "AddressForm.Lastname.label": "Ihr Nachname",
+      "AddressForm.Lastname.placeholder": "Nachname",
+      "AddressForm.Email.label": "Ihre E-Mail-Adresse",
+      "AddressForm.Email.placeholder": "E-Mail-Adresse",
+      "AddressForm.Phonenumber.label": "Deine Telefonnummer",
+      "AddressForm.Phonenumber.placeholder": "Telefonnummer",
+      "title.label": "Titel",
+      "title.placeholder": "Titel",
+      "addressSearch.label": "Suche nach deiner Adresse",
+      "addressSearch.placeholder": "13 Straßenname",
+      "AddressForm.Address.label": "Deine Adresse",
+      "AddressForm.Address.placeholder": "Deine Adresse",
+      "AddressForm.Additional.address.label": "Zusätzliche Adresszeile",
+      "AddressForm.Additional.address.placeholder": "Adresszeile 2",
+      "AddressForm.Country.label": "Land",
+      "AddressForm.Country.placeholder": "Land",
+      "AddressForm.City.label": "Stadt",
+      "AddressForm.City.placeholder": "Stadt",
+      "AddressForm.State.Province.label": "Bundesland/Provinz",
+      "AddressForm.State.Province.placeholder": "Bundesland/Provinz",
+      "AddressForm.Postal.zipcode.label": "Postleitzahl",
+      "AddressForm.Postal.zipcode.placeholder": "Postleitzahl",
+      "exoaddressform.back": "Zurück",
+      "exoaddressform.continue": "Weitermachen"
+    },
+    "components.CartSummary": {
+      "group.yourordersummary": "Sammanfattning av din beställning",
+      "group.youritemsummary": "Sammanfattning av dina artiklar",
+      "group.estimateddeliverydate": "Uppskattat leveransdatum:",
+      "group.termsandcondition": "Villkor",
+      "default.ordertotal": "total summa",
+      "default.adjustments": "Inställning",
+      "default.salestax": "moms",
+      "default.shipping": "Frakt",
+      "default.shippingtax": "Fraktskatt",
+      "default.sybtotal": "Delsumma för objekt"
+    },
+    "components.InvoicePDF": {
+      "invoice.generatepdf": "Generera PDF"
+    },
+    "component.BillingAddressEnableCheckbox": {
+      "checkbox.usediffbillingadd": "Använder du en annan faktureringsadress?"
+    },
+    "panels.BillingAddressPanel": {
+      "h1.billingaddress": "Faktureringsadress"
+    }
+  }
+}

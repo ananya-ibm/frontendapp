@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MobileCarousel /> component its snapshot matches 1`] = `
+.c2 {
+  background-image: url(https://images.unsplash.com/photo-1476286768413-e7051cdb2179?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding-top: 56.25%;
+  width: 100%;
+}
+
+.c4 {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.c5 {
+  font-size: 0.9rem;
+}
+
+.c3 {
+  margin-bottom: 0.5rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+  text-align: center;
+  box-shadow: 0.125rem 0.125rem 1rem rgba(0,0,0,0.1), -0.125rem -0.125rem 1rem rgba(0,0,0,0.1);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.c9 {
+  background: #161616;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 60%;
+  width: 60%;
+}
+
+.c7 {
+  background: transparent;
+  border: 0 none;
+  cursor: pointer;
+  height: 1.25rem;
+  opacity: 0.4;
+  -webkit-transition: 200ms opacity ease-in;
+  transition: 200ms opacity ease-in;
+  width: 1.25rem;
+  z-index: 3;
+  opacity: 1;
+}
+
+.c7 .c8 {
+  background-color: #0062ff;
+}
+
+.c7:hover,
+.c7:focus {
+  outline: none;
+}
+
+.c10 {
+  background: transparent;
+  border: 0 none;
+  cursor: pointer;
+  height: 1.25rem;
+  opacity: 0.4;
+  -webkit-transition: 200ms opacity ease-in;
+  transition: 200ms opacity ease-in;
+  width: 1.25rem;
+  z-index: 3;
+}
+
+.c10:hover,
+.c10:focus {
+  outline: none;
+}
+
+@media (min-width:672px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    style="overflow-x: hidden;"
+  >
+    <div
+      class="react-swipeable-view-container"
+      style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform;"
+    >
+      <div
+        aria-hidden="false"
+        data-swipeable="true"
+        style="width: 100%; flex-shrink: 0; overflow: auto; padding: 0px .5rem;"
+      >
+        <div
+          style="padding: .5rem 0px;"
+        >
+          <div
+            class="c1 content-card"
+          >
+            <div
+              class="c2"
+            />
+            <h4
+              class="ContentCardstyles__Title-sc-16fj6qq-3 card-title"
+            >
+              New Offer 1
+            </h4>
+            <h5
+              class="c3 card-subtitle"
+            >
+              Check out the latest offer
+            </h5>
+            <div
+              class="c4 card-content"
+            >
+              Isn't it a great offer. I bet you've never seen one like it.
+            </div>
+            <a
+              class="c5"
+              href="#"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="c6"
+  >
+    <button
+      class="c7"
+      title="Slide 0"
+    >
+      <div
+        class="c8 c9"
+      />
+    </button>
+    <button
+      class="c10"
+      title="Slide 1"
+    >
+      <div
+        class="c8 c9"
+      />
+    </button>
+    <button
+      class="c10"
+      title="Slide 2"
+    >
+      <div
+        class="c8 c9"
+      />
+    </button>
+  </div>
+</div>
+`;

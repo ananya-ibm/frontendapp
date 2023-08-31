@@ -1,0 +1,75 @@
+{
+  "name": "@exo/frontend-apps-sample",
+  "version": "1.0.0",
+  "exo": {
+    "type": "app"
+  },
+  "scripts": {
+    "build": "root-exec CUSTOM_ENV=ssr,client dotenv -e .env webpack",
+    "build:csr": "root-exec CUSTOM_ENV=csr,client dotenv -e .env webpack",
+    "build:ssr": "npm run build",
+    "build:app:b2c:csr": "npm run build:csr",
+    "build:app:b2c:ssr": "npm run build",
+    "dev": "npm run dev:csr",
+    "dev:apps": "npm run dev:csr",
+    "dev:app:b2c": "npm run dev:csr",
+    "dev:app:b2c:csr": "npm run dev:csr",
+    "dev:app:b2c:ssr": "npm run dev:ssr",
+    "dev:csr": "root-exec NODE_ENV=development CUSTOM_ENV=client dotenv -e ${FRONTEND_ENV_FILE:-.env} webpack serve --liveReload=false --hot=false --host 0.0.0.0",
+    "dev:ssr": "root-exec NODE_ENV=production CUSTOM_ENV=client,ssr dotenv -e ${FRONTEND_ENV_FILE:-.env} webpack && root-exec NODE_ENV=development dotenv -e .env npm start",
+    "analyze": "root-exec NODE_ENV=production CUSTOM_ENV=analyze webpack",
+    "start:prod": "root-exec NODE_ENV=production dotenv -e .env npm start",
+    "prod:app:b2c": "root-exec NODE_ENV=production npm run build && root-exec NODE_ENV=production npm start",
+    "start": "root-exec dotenv -e .env node ./dist/server.bundle.js ./dist/loadable-stats.json",
+    "start:csr": "node ./dist/csr-server.bundle.js",
+    "start:csr:b2c": "root-exec NODE_ENV=production dotenv -e .env npm run start:csr",
+    "build:docker": "docker build . -t clean-ssr-light",
+    "docker": "docker run -it -p 3000:3000 --env-file .env clean-ssr-light",
+    "lint": "root-exec eslint ./client ./server && stylelint ./client/components",
+    "lint:fix": "npm run lint -- --fix",
+    "stylelint": "root-exec stylelint ./client/components",
+    "stylelint:fix": "npm run stylelint -- --fix",
+    "aem:build": "rm -rf dist && root-exec NODE_ENV=development CMS_NAME=aem dotenv -e .env webpack",
+    "aem:package": "npx -p git+ssh://git@github.ibm.com:ixliberty/ixl-aem-tools.git#v0.3.0 package",
+    "aem:deploy": "root-exec dotenv -e .env deploy-aem dist/aem-package",
+    "aem:build-and-deploy": "npm run aem:build && npm run aem:package && npm run aem:deploy",
+    "test:e2e": "root-exec start-server-and-test 'npm run test:e2e:start-test-server:$BACKEND' http-get://localhost:$PORT 'npm run test:e2e:run-cypress'",
+    "test:e2e:run-cypress": "root-exec cypress run --spec 'cypress/integration/e2e-basic-flow/**/*' --config-file $CONFIG_FILE",
+    "test:e2e:open-cypress": "root-exec cypress open --config-file $CONFIG_FILE",
+    "test:e2e:start-test-server:hcl": "root-exec NODE_ENV=development CUSTOM_ENV=client dotenv -e cypress/.env.hcl webpack serve --watch-poll 6000000 --liveReload=false --hot=false --host 0.0.0.0",
+    "test:e2e:start-test-server:sap": "root-exec NODE_ENV=development CUSTOM_ENV=client dotenv -e cypress/.env.sap webpack serve --watch-poll 6000000 --liveReload=false --hot=false --host 0.0.0.0",
+    "test:e2e:open-cypress:hcl": "CONFIG_FILE=cypress/cypress-hcl.json npm run test:e2e:open-cypress",
+    "test:e2e:open-cypress:sap": "CONFIG_FILE=cypress/cypress-sap.json npm run test:e2e:open-cypress"
+  },
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "description": "## Features",
+  "main": "/client/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:ixliberty/ix-liberty-boilerplate.git"
+  },
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "author": "Magnus Johansson",
+  "dependencies": {
+    "@exo/frontend-common-app-shell": "^1.0.0",
+    "@exo/frontend-common-session-context": "^1.0.0",
+    "@exo/frontend-common-server": "^1.0.0",
+    "@exo/frontend-common-apollo": "^1.0.0",
+    "@exo/frontend-features-sample-ui": "^1.0.0",
+    "@exo/frontend-common-notification": "^1.0.0",
+    "@exo/frontend-apps-base": "^1.0.0",
+    "@exo/frontend-features-sample-chrome-ui": "^1.0.0",
+    "@exo/frontend-common-theme-proxy": "^1.0.0",
+    "@exo/frontend-content-api": "^1.0.0",
+    "@exo/frontend-features-events-logic": "^1.0.0",
+    "@exo/frontend-features-dev-toolbar-logic": "^1.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0",
+    "start-server-and-test": "^1.11.2"
+  }
+}

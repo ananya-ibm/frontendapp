@@ -1,0 +1,15 @@
+{
+  "short_name": "ixl-frontend-banking-main",
+  "name": "ixl-frontend-banking-main",
+  "icons": [
+    {
+      "src": "static/images/ix.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

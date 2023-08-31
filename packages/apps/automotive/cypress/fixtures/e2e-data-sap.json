@@ -1,0 +1,61 @@
+{
+  "category": {
+    "url": "/catalog/category/Vehicles",
+    "expect": "DMCDeLorean"
+  },
+
+  "pdp": {
+    "product_url": "/catalog/products/DMCDeLorean"
+  },
+  "register": {
+    "generated_password": "Passw0rd123*"
+  },
+  "signin": {
+    "valid_user": {
+      "username": "daniel.sheard@ibm.com",
+      "password": "12345678"
+    }
+  },
+  "configurator": {
+    "options": ["Exterior", "Interior", "Subscriptions", "Summary"]
+  },
+  "profile": {
+    "options": [
+      "Profile",
+      "Personal details",
+      "Payment methods",
+      "My orders",
+      "Preferences",
+      "Account security"
+    ],
+    "user": {
+      "first": "name",
+      "lastname": "lname",
+      "address1": "5th Floor, 2 Copthall Avenue",
+      "city": "London",
+      "country": "United Kingdom",
+      "zip": "EC2R 7DA",
+      "email": "mail@ibm.com",
+      "province": "London",
+      "addressNo": 2,
+      "paymentNo": 3,
+      "cardToCheck": {
+        "name": "Visa Debit Card",
+        "person": "Visa Debit Card",
+        "expiry": "00/24",
+        "number": "4242424242424242"
+      }
+    },
+    "addressBook": {
+      "skip": true
+    }
+  },
+  "payment": {
+    "card": {
+      "method": "Credit Card",
+      "cardNo": "4242424242424242",
+      "cardExpiry": "1224",
+      "cardCVV": "444"
+    }
+  }
+}

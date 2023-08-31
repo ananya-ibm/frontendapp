@@ -1,0 +1,378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarketingInfoTabs /> component its snapshot matches 1`] = `
+.c0 {
+  background: transparent;
+  margin: 2rem 0;
+  padding: 0 4rem;
+}
+
+.c0 .cds--tabs__nav {
+  width: 100%;
+}
+
+.c0 .cds--tabs__nav-item {
+  width: 33%;
+}
+
+.c0 .cds--tabs__nav-link {
+  color: inherit;
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  width: 100%;
+}
+
+.c0 .cds--tabs__nav-link:focus,
+.c0 .cds--tabs__nav-link:active {
+  border: none;
+  outline: 0;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  height: 21rem;
+  object-fit: cover;
+  width: 44%;
+}
+
+.c2 {
+  font: 700 2.625rem/3.1473750000000003rem 'IBM Plex Sans',Arial,sans-serif;
+  line-height: 4rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.c2:after {
+  background: #0062ff;
+  bottom: 0;
+  content: '';
+  height: 0.125rem;
+  left: 0;
+  position: absolute;
+  width: 14.3125rem;
+}
+
+.c3 {
+  font: 400 1rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  line-height: 1.5rem;
+  padding-right: 2rem;
+  padding-top: 1.375rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.c7 {
+  font: 700 1.25rem/1.75rem 'IBM Plex Sans',Arial,sans-serif;
+  padding-top: 0.75rem;
+  text-align: center;
+}
+
+.c8 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  padding: 0.75rem 0;
+  text-align: center;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="cds--tabs"
+  >
+    <button
+      aria-hidden="true"
+      aria-label="Scroll left"
+      class="cds--tab--overflow-nav-button cds--tab--overflow-nav-button--previous cds--tab--overflow-nav-button--hidden"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="currentColor"
+        focusable="false"
+        height="16"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5 8L10 3 10.7 3.7 6.4 8 10.7 12.3 10 13z"
+        />
+      </svg>
+    </button>
+    <div
+      aria-label="Tabs"
+      class="cds--tab--list"
+      role="tablist"
+    >
+      <button
+        aria-controls="ccs-1-tabpanel-0"
+        aria-selected="true"
+        class="cds--tabs__nav-item cds--tabs__nav-link cds--tabs__nav-item--selected"
+        id="ccs-1-tab-0"
+        role="tab"
+        tabindex="0"
+        type="button"
+      >
+        Our mission
+      </button>
+      <button
+        aria-controls="ccs-1-tabpanel-1"
+        aria-selected="false"
+        class="cds--tabs__nav-item cds--tabs__nav-link"
+        id="ccs-1-tab-1"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Environmental Awareness
+      </button>
+      <button
+        aria-controls="ccs-1-tabpanel-2"
+        aria-selected="false"
+        class="cds--tabs__nav-item cds--tabs__nav-link"
+        id="ccs-1-tab-2"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Our services
+      </button>
+    </div>
+    <button
+      aria-hidden="true"
+      aria-label="Scroll right"
+      class="cds--tab--overflow-nav-button cds--tab--overflow-nav-button--next cds--tab--overflow-nav-button--hidden"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="currentColor"
+        focusable="false"
+        height="16"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    aria-labelledby="ccs-1-tab-0"
+    class="cds--tab-content"
+    id="ccs-1-tabpanel-0"
+    role="tabpanel"
+    tabindex="0"
+  >
+    <div
+      class="c1"
+    >
+      <div>
+        <div
+          class="c2"
+        >
+          Our mission
+        </div>
+        <div
+          class="c3"
+        >
+          It is our mission to make the impossible journeys possible, with the simple click of a few buttons on your phone, tablet, or laptop, and in matter of days. We pride ourselves in being able to provide you with the unique mobility experiences that cannot be found anywhere else. We are able to meet, and exceed your expectations for adventure through space, time, dimensions and galaxies. Be it futuristic or retro, be it fighting crime or escaping capture, be it across deserts or underwater... you can find our answers here, with us.
+        </div>
+      </div>
+      <img
+        class="c4"
+        src="/static/automotive/marketingInfoTabs/tab1image.png"
+      />
+    </div>
+  </div>
+  <div
+    aria-labelledby="ccs-1-tab-1"
+    class="cds--tab-content"
+    hidden=""
+    id="ccs-1-tabpanel-1"
+    role="tabpanel"
+    tabindex="0"
+  >
+    <div
+      class="c1"
+    >
+      <div>
+        <div
+          class="c2"
+        >
+          Environmental Awareness
+        </div>
+        <div
+          class="c3"
+        >
+          As citizens of planet Earth, we are collectively facing an ever increasing threat: an environmental crisis. We understand this problem is bigger than just reducing our carbon footprint, but this is where we will start. We are committed to be 100% carbon neutral by 2035, with the ambition to be carbon positive thereafter. As a first step, we are on track to meeting EU requirements on CO2 ahead of time (before 2022). The environment is one of the biggest existential threats facing this generation, one that must demand our attention and efforts, so together, we will bring the future back to the automotive industry.
+        </div>
+      </div>
+      <img
+        class="c4"
+        src="/static/automotive/marketingInfoTabs/tab2image.png"
+      />
+    </div>
+  </div>
+  <div
+    aria-labelledby="ccs-1-tab-2"
+    class="cds--tab-content cds--tab-content--interactive"
+    hidden=""
+    id="ccs-1-tabpanel-2"
+    role="tabpanel"
+    tabindex="-1"
+  >
+    <div>
+      <div
+        class="c2"
+      >
+        Our services
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+        >
+          <svg
+            aria-label="icon"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="32"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <div
+            class="c7"
+          >
+            Book a Test Drive
+          </div>
+          <div
+            class="c8"
+          >
+            Get behind the driving wheel and experience the thrill yourself. Click below to arrange a test drive.
+          </div>
+          <a
+            href="/"
+          >
+            Find out more
+          </a>
+        </div>
+        <div
+          class="c6"
+        >
+          <svg
+            aria-label="icon"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="32"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <div
+            class="c7"
+          >
+            Book a service
+          </div>
+          <div
+            class="c8"
+          >
+            We can help you get back on track and stay safe on the road. Click below to arrange a check up.
+          </div>
+          <a
+            href="/"
+          >
+            Find out more
+          </a>
+        </div>
+        <div
+          class="c6"
+        >
+          <svg
+            aria-label="icon"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="32"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <div
+            class="c7"
+          >
+            Contact us
+          </div>
+          <div
+            class="c8"
+          >
+            What can we help you with? Click below to find the ways in which you can get assistance.
+          </div>
+          <a
+            href="/"
+          >
+            Find out more
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

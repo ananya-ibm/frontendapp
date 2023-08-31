@@ -1,0 +1,19 @@
+{
+  "features.authentication.authentication-ui": {
+    "components": {
+      "LoginPane": {
+        "form.username.label": "Användarnam eller e-postaddress",
+        "form.username.placeholder": "Användarnam",
+        "form.password.label": "Lösenord",
+        "form.password.placeholder": "Lösenord",
+        "form.login.label": "Logga in",
+        "form.error.generic": "Felaktig data",
+        "form.required_suffix": " ",
+        "form.optional_suffix": " (valfritt)",
+        "form.forgotPassword": "Har du glömt ditt lösenord",
+        "logout": "Logga ut",
+        "title": "Har du redan ett konto?"
+      }
+    }
+  }
+}

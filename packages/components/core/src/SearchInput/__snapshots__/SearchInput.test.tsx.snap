@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchInput /> component its snapshot matches 1`] = `
+.c0 {
+  display: none;
+}
+
+@media (min-width:320px) {
+  .c0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    width: 3rem;
+  }
+
+  .c0 .cds--search {
+    -webkit-transition: width 0.5s,padding 0.7s;
+    transition: width 0.5s,padding 0.7s;
+    visibility: hidden;
+    width: 0;
+  }
+
+  .c0 .cds--search .cds--search-input {
+    padding: 0;
+  }
+
+  .c0 .icon {
+    color: #161616;
+    fill: currentColor;
+  }
+}
+
+<div
+  class="cds--layer-two"
+>
+  <div
+    class="c0"
+    id="search-section"
+  >
+    <svg
+      aria-label="icon"
+      class="icon"
+      fill="currentColor"
+      focusable="false"
+      height="20"
+      preserveAspectRatio="xMidYMid meet"
+      role="img"
+      size="20"
+      viewBox="0 0 32 32"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    />
+    <div
+      aria-labelledby="search-1-search"
+      class="cds--search cds--search--sm"
+      role="search"
+    >
+      <div
+        class="cds--search-magnifier"
+      >
+        <svg
+          aria-hidden="true"
+          class="cds--search-magnifier-icon"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15,14.3L10.7,10c1.9-2.3,1.6-5.8-0.7-7.7S4.2,0.7,2.3,3S0.7,8.8,3,10.7c2,1.7,5,1.7,7,0l4.3,4.3L15,14.3z M2,6.5 C2,4,4,2,6.5,2S11,4,11,6.5S9,11,6.5,11S2,9,2,6.5z"
+          />
+        </svg>
+      </div>
+      <label
+        class="cds--label"
+        for="search-1"
+        id="search-1-search"
+      >
+        Search
+      </label>
+      <input
+        autocomplete="off"
+        class="cds--search-input"
+        id="search-1"
+        name="search-in-header"
+        placeholder="Placeholder Text"
+        role="searchbox"
+        type="text"
+        value=""
+      />
+      <button
+        aria-label="Clear search input"
+        class="cds--search-close cds--search-close--hidden"
+        title="Clear search input"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 32 32"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

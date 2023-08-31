@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 115 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="IBMPlexSans, IBM Plex Sans" font-size="36" font-weight="normal" letter-spacing="-1.2">
+        <text id="IBM-iX" fill="#FFFFFF">
+            <tspan x="3" y="35">IBM</tspan>
+            <tspan x="66.54" y="35" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="400"> </tspan>
+            <tspan x="73.836" y="35" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-weight="bold">iX</tspan>
+            <tspan x="105.96" y="35" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="400"> </tspan>
+        </text>
+    </g>
+</svg>

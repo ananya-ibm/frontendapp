@@ -1,0 +1,57 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+import { gql, useMutation } from '@apollo/client';
+
+{{#each mutationsDesc}}
+const {{ constantCase name }} = gql`
+  mutation {{ properCase name }}({{ mutationArgs }}) {
+    {{ name }}({{ argBinding }})
+  }
+`;
+
+{{/each}}
+
+export const use{{ properCase featureName }}Modification = () => {
+  {{#each mutationsDesc}}
+  const [{{ name }}] = useMutation({{ constantCase name }});
+  {{/each}}
+
+  return {
+    {{#each mutationsDesc}}
+      {{ name }}: async ({ {{ argNames }} }: {{ properCase name }}Args) => {
+        return {{ name }}({ variables: { {{argNames }} } });
+      },
+
+    {{/each}}
+  }
+};
+
+{{#each mutationsDesc}}
+type {{ properCase name }}Args = {
+  {{#each args}}
+  {{ name }}{{#if tsType.isOptional}}?{{/if}}: {{ tsType.typename }}{{#if tsType.isList}}[]{{/if}};
+  {{/each}}
+}
+
+{{/each}}
+
+{{#each mutationsDesc}}
+{{#each args}}
+  {{#unless tsType.isScalar}}
+export type {{ tsType.typename }} = {
+  // TODO: Add additional attributes
+  {{#each tsType.attributes}}
+  {{ name }}{{#if type.isOptional}}?{{/if}}: {{ type.tsName }}{{#if type.isList}}[]{{/if}};
+  {{/each}}
+};
+
+  {{/unless}}
+{{/each}}
+{{/each}}

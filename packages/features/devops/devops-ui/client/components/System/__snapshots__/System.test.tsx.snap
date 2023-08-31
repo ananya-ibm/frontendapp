@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<System /> component its snapshot matches story Default 1`] = `
+.c0 {
+  padding-top: 1rem;
+}
+
+.c1 {
+  padding-bottom: 1rem;
+}
+
+.c2 {
+  padding-bottom: 1rem;
+}
+
+.c3 {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+  border: 0.1rem solid #e0e0e0;
+  border-style: dashed;
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  padding-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <nav
+      aria-label="Breadcrumb"
+    >
+      <ol
+        class="cds--breadcrumb"
+      >
+        <li
+          class="cds--breadcrumb-item"
+        >
+          <a
+            class="cds--link"
+            href="/devops/reference-architecture"
+          >
+            Reference Architecture
+          </a>
+        </li>
+      </ol>
+    </nav>
+    <h2
+      class="c1"
+    >
+      Digital Commerce
+    </h2>
+    <p
+      class="c2"
+    >
+      Provides B2C and B2B commerce capabilities, including product catalog, cart and checkout
+    </p>
+    <div
+      class="cds--tag cds--tag--blue"
+      id="tag-1"
+    >
+      <span
+        title="Digital"
+      >
+        Digital
+      </span>
+    </div>
+    <div
+      class="cds--tile c3"
+    >
+      <h4
+        class="c4"
+      >
+        Digital Commerce
+      </h4>
+      <div
+        class="cds--row"
+      />
+    </div>
+  </div>
+</div>
+`;

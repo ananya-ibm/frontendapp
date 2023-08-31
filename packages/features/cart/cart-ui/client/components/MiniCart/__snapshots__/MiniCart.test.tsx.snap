@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MiniCart /> component its snapshot matches 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: unset;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.75rem;
+  position: relative;
+  width: 3rem;
+}
+
+<a
+  aria-label="Cart Link"
+  class="c0 hover-header"
+  href="/cart/cart"
+>
+  <span
+    class="sr"
+  >
+    Mini Cart
+  </span>
+  <svg
+    aria-label="icon"
+    fill="currentColor"
+    focusable="false"
+    height="20"
+    preserveAspectRatio="xMidYMid meet"
+    role="img"
+    size="20"
+    viewBox="0 0 32 32"
+    width="20"
+    xmlns="http://www.w3.org/2000/svg"
+  />
+</a>
+`;

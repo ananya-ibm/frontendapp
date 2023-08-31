@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hero /> component its snapshot matches 1`] = `
+.c7 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c7 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  background-image: url(https://rattanconsulting.com/wp/wp-content/uploads/2016/12/Light-Gray-polygon-IBM-Background-8.png);
+  background-position: 40%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 25rem;
+  max-height: 33rem;
+}
+
+.c3 {
+  color: #ffffff;
+  height: 25rem;
+  background: transparent;
+  padding: 2rem 2rem 2rem 0;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: var(--max-width);
+  padding: 0 1rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c5 {
+  font: 300 2.625rem/3.12375rem 'IBM Plex Sans',Arial,sans-serif;
+  padding: 0.5rem 0;
+}
+
+.c6 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  padding: 1rem 0 2rem;
+}
+
+@media (min-width:672px) {
+  .c1 {
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    background-position: center;
+    font-size: 1rem;
+    height: 60rem;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width:672px) {
+  .c3 {
+    height: initial;
+    width: 50%;
+  }
+}
+
+@media (min-width:672px) {
+  .c2 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:672px) {
+  .c5 {
+    line-height: 2.625rem;
+    font-size: 2.625rem;
+  }
+}
+
+@media (min-width:1056px) {
+  .c5 {
+    line-height: 3.375rem;
+    font-size: 3.375rem;
+  }
+}
+
+@media (min-width:1312px) {
+  .c5 {
+    line-height: 4.387499999999999rem;
+    font-size: 3.75rem;
+  }
+}
+
+@media (min-width:1584px) {
+  .c5 {
+    line-height: 5.3675rem;
+    font-size: 4.75rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          IBM iX
+        </div>
+        <h1
+          class="c5"
+        >
+          A Commerce Demo Store
+        </h1>
+        <div
+          class="c6"
+        >
+          Check out our latest products!
+        </div>
+        <button
+          class="c7 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="button"
+        >
+          View Shop
+           
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

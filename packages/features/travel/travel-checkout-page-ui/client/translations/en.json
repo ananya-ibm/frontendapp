@@ -1,0 +1,7 @@
+{
+    "features.express-checkout.express-checkout-ui": {
+        "pages.SamplePage": {
+        "page.title": "I am a generated feature"
+        }
+    }
+}

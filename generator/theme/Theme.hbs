@@ -1,0 +1,45 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+import { makeCarbonTheme } from '@exo/frontend-theme-base-carbon-theme';
+import carbonVariables from './CarbonVars';
+
+/* @ts-ignore */
+import Logo from './assets/generic-logo.svg';
+
+const base = {
+  byComponent: {
+    core_header: {
+      logoWidth: '3.5rem',
+      logoHeight: '2.5rem'
+    }
+  } as EXOComponentStyles,
+
+  // TODO: Find a better solution for assets ... and rename tempImg
+  static: {
+    tempImg: '/static/images/homepage/hero-1.jpg',
+    Logo
+  }
+};
+
+const Theme: any = makeCarbonTheme(
+  '{{ name }}',
+  '0.4',
+  carbonVariables,
+  {
+    heading: "'IBM Plex Sans', Arial, sans-serif",
+    body: "'IBM Plex Sans', Arial, sans-serif"
+  },
+  base as any,
+  `.cds--toast-notification--error {
+    margin-top: calc(var(--top) + 1rem) !important;
+  }`
+);
+
+export default Theme;

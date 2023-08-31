@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"]
+      },
+      "alias": {
+        "map": [
+          ["renderWithTheme", "./test/renderWithTheme"],
+          ["mockSiteData", "./test/mockSiteData"]
+        ]
+      }
+    }
+  },
+
+  "rules": {
+    "react/no-array-index-key": 0,
+    "react/jsx-props-no-spreading": 0
+  }
+}

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Subscribe /> component its snapshot matches 1`] = `
+.c1 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c1 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 100rem;
+}
+
+<form
+  class="c0"
+>
+  <div
+    class="cds--form-item cds--text-input-wrapper"
+  >
+    <label
+      class="cds--label cds--visually-hidden"
+      for="email"
+    >
+      Your email
+    </label>
+    <div
+      class="cds--text-input__field-outer-wrapper"
+    >
+      <div
+        class="cds--text-input__field-wrapper"
+      >
+        <input
+          class="cds--text-input cds--text__input cds--text-input--md"
+          id="email"
+          name="email"
+          placeholder="Enter email"
+          title="Enter email"
+          type="email"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    class="c1 cds--btn cds--btn--md cds--btn--primary"
+    tabindex="0"
+    type="submit"
+  >
+    Subscribe
+     
+  </button>
+</form>
+`;

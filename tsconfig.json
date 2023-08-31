@@ -1,0 +1,541 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "newLine": "LF",
+    "outDir": "dist",
+    "rootDir": ".",
+    "allowJs": true,
+    "target": "es2016",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "strict": true,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "composite": true,
+    "paths": {
+      "@exo/frontend-features-Y": [
+        "./client-packages/features/Share 2.0/Y/client/index.ts"
+      ],
+      "@exo/frontend-apps-automotive-dealer": [
+        "./packages/apps/automotive-dealer/client/index.js"
+      ],
+      "@exo/frontend-apps-automotive": [
+        "./packages/apps/automotive/client/index.js"
+      ],
+      "@exo/frontend-apps-banking": [
+        "./packages/apps/banking/client/index.js"
+      ],
+      "@exo/frontend-apps-commerce-b2b": [
+        "./packages/apps/commerce-b2b/client/index.js"
+      ],
+      "@exo/frontend-apps-commerce": [
+        "./packages/apps/commerce/client/index.js"
+      ],
+      "@exo/frontend-apps-devops": [
+        "./packages/apps/devops/client/index.js"
+      ],
+      "@exo/frontend-apps-sample": [
+        "./packages/apps/sample/client/index.js"
+      ],
+      "@exo/frontend-apps-studio": [
+        "./packages/apps/studio/client/index.js"
+      ],
+      "@exo/frontend-apps-travel": [
+        "./packages/apps/travel/client/index.js"
+      ],
+      "@exo/frontend-apps-utilities": [
+        "./packages/apps/utilities/client/index.js"
+      ],
+      "@exo/frontend-apps-work-management": [
+        "./packages/apps/work-management/client/index.js"
+      ],
+      "@exo/frontend-common-apollo": [
+        "./packages/common/apollo/client/index.ts"
+      ],
+      "@exo/frontend-common-app-shell": [
+        "./packages/common/app-shell/client/index.ts"
+      ],
+      "@exo/frontend-common-hooks": [
+        "./packages/common/hooks/lib/index.ts"
+      ],
+      "@exo/frontend-common-i18n": [
+        "./packages/common/i18n/client/index.ts"
+      ],
+      "@exo/frontend-common-link": [
+        "./packages/common/link/lib/index.ts"
+      ],
+      "@exo/frontend-common-notification": [
+        "./packages/common/notification/client/index.ts"
+      ],
+      "@exo/frontend-common-provider": [
+        "./packages/common/provider/lib/index.ts"
+      ],
+      "@exo/frontend-common-session-context": [
+        "./packages/common/session-context/client/index.ts"
+      ],
+      "@exo/frontend-common-state-machine": [
+        "./packages/common/state-machine/client/index.ts"
+      ],
+      "@exo/frontend-common-storybook": [
+        "./packages/common/storybook/client/index.ts"
+      ],
+      "@exo/frontend-common-style-utils": [
+        "./packages/common/style-utils/lib/index.ts"
+      ],
+      "@exo/frontend-common-theme-proxy": [
+        "./packages/common/theme-proxy/lib/index.ts"
+      ],
+      "@exo/frontend-common-utils": [
+        "./packages/common/utils/client/index.ts"
+      ],
+      "@exo/frontend-common-validator-factory": [
+        "./packages/common/validator-factory/client/index.ts"
+      ],
+      "@exo/frontend-components-automotive": [
+        "./packages/components/automotive/src/index.ts"
+      ],
+      "@exo/frontend-components-base-react-aria": [
+        "./packages/components/base-react-aria/src/index.ts"
+      ],
+      "@exo/frontend-components-base": [
+        "./packages/components/base/src/index.ts"
+      ],
+      "@exo/frontend-components-commerce": [
+        "./packages/components/commerce/src/index.ts"
+      ],
+      "@exo/frontend-components-content": [
+        "./packages/components/content/src/index.ts"
+      ],
+      "@exo/frontend-components-core": [
+        "./packages/components/core/src/index.ts"
+      ],
+      "@exo/frontend-components-extra": [
+        "./packages/components/extra/src/index.ts"
+      ],
+      "@exo/frontend-components-forms": [
+        "./packages/components/forms/src/index.ts"
+      ],
+      "@exo/frontend-components-travel": [
+        "./packages/components/travel/src/index.ts"
+      ],
+      "@exo/frontend-components-utilities": [
+        "./packages/components/utilities/src/index.ts"
+      ],
+      "@exo/frontend-features-account-address-search": [
+        "./packages/features/account/account-address-search/client/index.ts"
+      ],
+      "@exo/frontend-features-account-dashboard-ui": [
+        "./packages/features/account/account-dashboard-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-account-profile-logic": [
+        "./packages/features/account/account-profile-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-account-profile-ui": [
+        "./packages/features/account/account-profile-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-authentication-logic": [
+        "./packages/features/authentication/authentication-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-authentication-sap-gigya-ui": [
+        "./packages/features/authentication/authentication-sap-gigya-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-authentication-ui": [
+        "./packages/features/authentication/authentication-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-automotive-account-logic": [
+        "./packages/features/automotive/automotive-account-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-automotive-account-ui": [
+        "./packages/features/automotive/automotive-account-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-automotive-cart-automotive-logic": [
+        "./packages/features/automotive/automotive-cart-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-automotive-cart-automotive-ui": [
+        "./packages/features/automotive/automotive-cart-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-automotive-configurator-logic": [
+        "./packages/features/automotive/automotive-configurator-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-automotive-configurator-ui": [
+        "./packages/features/automotive/automotive-configurator-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-automotive-dealer-account-logic": [
+        "./packages/features/automotive/automotive-dealer-account-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-automotive-dealer-account-ui": [
+        "./packages/features/automotive/automotive-dealer-account-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-automotive-dealer-homepage-ui": [
+        "./packages/features/automotive/automotive-dealer-homepage-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-automotive-dealer-qr-ui": [
+        "./packages/features/automotive/automotive-dealer-qr-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-automotive-dealership-finder-logic": [
+        "./packages/features/automotive/automotive-dealership-finder-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-automotive-dealership-finder-ui": [
+        "./packages/features/automotive/automotive-dealership-finder-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-automotive-homepage-ui": [
+        "./packages/features/automotive/automotive-homepage-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-automotive-placeholder-ui": [
+        "./packages/features/automotive/automotive-placeholder-page/client/App.tsx"
+      ],
+      "@exo/frontend-features-automotive-vr-car-ui": [
+        "./packages/features/automotive/automotive-vr-car-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-b2b-account-logic": [
+        "./packages/features/b2b/b2b-account-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-b2b-account-ui": [
+        "./packages/features/b2b/b2b-account-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-b2b-chrome-ui": [
+        "./packages/features/b2b/b2b-chrome-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-b2b-homepage-ui": [
+        "./packages/features/b2b/b2b-homepage-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-b2b-quick-order-logic": [
+        "./packages/features/b2b/b2b-quick-order-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-b2b-quick-order-ui": [
+        "./packages/features/b2b/b2b-quick-order-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-b2b-shopping-ui": [
+        "./packages/features/b2b/b2b-shopping-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-banking-logic": [
+        "./packages/features/banking/banking-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-banking-ui": [
+        "./packages/features/banking/banking-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-cart-logic": [
+        "./packages/features/cart/cart-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-cart-ui": [
+        "./packages/features/cart/cart-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-advanced-search-logic": [
+        "./packages/features/catalog/advanced-search-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-advanced-search-ui": [
+        "./packages/features/catalog/advanced-search-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-catalog-logic": [
+        "./packages/features/catalog/catalog-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-catalog-ui": [
+        "./packages/features/catalog/catalog-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-speechly-search-api": [
+        "./packages/features/catalog/speechly-search/api/client/index.ts"
+      ],
+      "@exo/frontend-features-chat-sap-conversational-assistance-ui": [
+        "./packages/features/chat/sap-conversational-assistance-ui/lib/index.ts"
+      ],
+      "@exo/frontend-features-checkout-logic": [
+        "./packages/features/checkout/checkout-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-checkout-ui": [
+        "./packages/features/checkout/checkout-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-chrome-logic": [
+        "./packages/features/chrome/chrome-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-chrome-ui": [
+        "./packages/features/chrome/chrome-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-locale-selector-logic": [
+        "./packages/features/chrome/locale-selector-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-locale-selector-ui": [
+        "./packages/features/chrome/locale-selector-ui/client/index.ts"
+      ],
+      "@exo/frontend-content-api-types": [
+        "./packages/features/content/content-api-types/lib/index.ts"
+      ],
+      "@exo/frontend-content-api": [
+        "./packages/features/content/content-api/lib/index.ts"
+      ],
+      "@exo/frontend-content-provider-aem-core-components": [
+        "./packages/features/content/content-provider-aem-core-components/lib/index.ts"
+      ],
+      "@exo/frontend-content-provider-aem": [
+        "./packages/features/content/content-provider-aem/lib/index.ts"
+      ],
+      "@exo/frontend-content-provider-brxm": [
+        "./packages/features/content/content-provider-brxm/lib/index.ts"
+      ],
+      "@exo/frontend-content-provider-contentful": [
+        "./packages/features/content/content-provider-contentful/lib/index.ts"
+      ],
+      "@exo/frontend-content-provider-graphql": [
+        "./packages/features/content/content-provider-graphql/lib/index.ts"
+      ],
+      "@exo/frontend-content-provider-noop": [
+        "./packages/features/content/content-provider-noop/lib/index.ts"
+      ],
+      "@exo/frontend-content-provider-sample": [
+        "./packages/features/content/content-provider-sample/lib/index.ts"
+      ],
+      "@exo/frontend-features-content-ui": [
+        "./packages/features/content/content-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-homepage-ui": [
+        "./packages/features/content/homepage-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-dev-toolbar-extension-config-switch": [
+        "./packages/features/dev/dev-toolbar-extension-config-switch/client/index.ts"
+      ],
+      "@exo/frontend-features-dev-toolbar-extension-grid": [
+        "./packages/features/dev/dev-toolbar-extension-grid/client/index.ts"
+      ],
+      "@exo/frontend-features-dev-toolbar-extension-playground": [
+        "./packages/features/dev/dev-toolbar-extension-playground/client/index.ts"
+      ],
+      "@exo/frontend-features-dev-toolbar-extension-resources": [
+        "./packages/features/dev/dev-toolbar-extension-resources/client/index.ts"
+      ],
+      "@exo/frontend-features-dev-toolbar-extension-session": [
+        "./packages/features/dev/dev-toolbar-extension-session/client/index.ts"
+      ],
+      "@exo/frontend-features-dev-toolbar-extension-theme": [
+        "./packages/features/dev/dev-toolbar-extension-theme/client/index.ts"
+      ],
+      "@exo/frontend-features-dev-toolbar-logic": [
+        "./packages/features/dev/dev-toolbar-logic/lib/index.ts"
+      ],
+      "@exo/frontend-features-dev-toolbar-ui": [
+        "./packages/features/dev/dev-toolbar-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-devops-logic": [
+        "./packages/features/devops/devops-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-devops-ui": [
+        "./packages/features/devops/devops-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-events-logic": [
+        "./packages/features/events/events-logic/lib/index.ts"
+      ],
+      "@exo/frontend-features-events-provider-console": [
+        "./packages/features/events/events-provider-console/lib/index.ts"
+      ],
+      "@exo/frontend-features-events-provider-custom-dom-events": [
+        "./packages/features/events/events-provider-custom-dom-events/lib/index.ts"
+      ],
+      "@exo/frontend-features-events-provider-mqtt": [
+        "./packages/features/events/events-provider-mqtt/lib/index.ts"
+      ],
+      "@exo/frontend-features-events-types": [
+        "./packages/features/events/events-types/lib/index.ts"
+      ],
+      "@exo/frontend-features-marketplace-logic": [
+        "./packages/features/marketplace/marketplace-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-marketplace-store-admin-ui": [
+        "./packages/features/marketplace/marketplace-store-admin-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-marketplace-ui": [
+        "./packages/features/marketplace/marketplace-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-payments-logic": [
+        "./packages/features/payments/payments-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-payments-provider-account": [
+        "./packages/features/payments/payments-provider-account/client/index.ts"
+      ],
+      "@exo/frontend-features-payments-provider-apple-pay": [
+        "./packages/features/payments/payments-provider-apple-pay/client/index.ts"
+      ],
+      "@exo/frontend-features-payments-provider-stripe": [
+        "./packages/features/payments/payments-provider-stripe/client/index.ts"
+      ],
+      "@exo/frontend-features-sample-chrome-ui": [
+        "./packages/features/sample/sample-chrome-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-sample-logic": [
+        "./packages/features/sample/sample-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-sample-ui": [
+        "./packages/features/sample/sample-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-store-store-finder-ui": [
+        "./packages/features/store/store-finder-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-store-logic": [
+        "./packages/features/store/store-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-store-ui": [
+        "./packages/features/store/store-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-studio-logic": [
+        "./packages/features/studio/studio-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-studio-ui": [
+        "./packages/features/studio/studio-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-travel-ancillary-page-logic": [
+        "./packages/features/travel/travel-ancillary-page-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-travel-ancillary-page-ui": [
+        "./packages/features/travel/travel-ancillary-page-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-travel-checkout-page-logic": [
+        "./packages/features/travel/travel-checkout-page-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-travel-checkout-page-ui": [
+        "./packages/features/travel/travel-checkout-page-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-travel-flights-page-logic": [
+        "./packages/features/travel/travel-flights-page-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-travel-flights-page-ui": [
+        "./packages/features/travel/travel-flights-page-ui/client/index.ts"
+      ],
+      "@exo/frontend-features-travel-searchpage-logic": [
+        "./packages/features/travel/travel-searchpage-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-travel-searchpage-ui": [
+        "./packages/features/travel/travel-searchpage-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-tutorial": [
+        "./packages/features/tutorial/lib/index.ts"
+      ],
+      "@exo/frontend-features-utilities-homepage-ui": [
+        "./packages/features/utilities/utilities-homepage-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-wishlist-logic": [
+        "./packages/features/wishlist/wishlist-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-wishlist-ui": [
+        "./packages/features/wishlist/wishlist-ui/client/App.tsx"
+      ],
+      "@exo/frontend-features-work-management-logging-logic": [
+        "./packages/features/work-management/work-management-logging-logic/client/index.ts"
+      ],
+      "@exo/frontend-features-work-management-logging-ui": [
+        "./packages/features/work-management/work-management-logging-ui/client/App.tsx"
+      ],
+      "@exo/frontend-theme-automotive": [
+        "./packages/themes/automotive-theme/src/index.ts"
+      ],
+      "@exo/frontend-theme-b2b": [
+        "./packages/themes/b2b-theme/src/index.ts"
+      ],
+      "@exo/frontend-theme-base-carbon-theme": [
+        "./packages/themes/base-carbon-theme/src/index.ts"
+      ],
+      "@exo/frontend-theme-base-theme": [
+        "./packages/themes/base-theme/src/index.ts"
+      ],
+      "@exo/frontend-theme-carbon-g100": [
+        "./packages/themes/carbon-g100-theme/src/index.ts"
+      ],
+      "@exo/frontend-theme-dark": [
+        "./packages/themes/dark-theme/src/index.ts"
+      ],
+      "@exo/frontend-theme-default": [
+        "./packages/themes/default-theme/src/index.ts"
+      ],
+      "@exo/frontend-theme-ibm-consulting": [
+        "./packages/themes/ibm-consulting-theme/src/index.ts"
+      ],
+      "@exo/frontend-theme-impact-solution": [
+        "./packages/themes/impact-solution-theme/src/index.ts"
+      ],
+      "@exo/frontend-theme-sample": [
+        "./packages/themes/sample-theme/src/index.ts"
+      ],
+      "@exo/frontend-theme-utilities-default": [
+        "./packages/themes/utilities-default-theme/src/index.ts"
+      ],
+      "@testUtils": [
+        "./testUtils/index.ts"
+      ],
+      "@exo-provider/frontend-content-provider": [
+        "./packages/features/content/content-provider-noop/lib/index.ts"
+      ],
+      "@exo-provider/frontend-additional-configs-provider": [
+        "./packages/features/dev/dev-toolbar-extension-config-switch/client/defaultAdditionalConfigs.ts"
+      ],
+      "@exo-provider/frontend-theme": [
+        "./packages/themes/default-theme/src/index.ts"
+      ],
+      "@exo-provider/frontend-theme-0": [
+        "./buildUtils/theme/fakeTheme0.js"
+      ],
+      "@exo-provider/frontend-theme-1": [
+        "./buildUtils/theme/fakeTheme1.js"
+      ],
+      "@exo-provider/frontend-theme-2": [
+        "./buildUtils/theme/fakeTheme2.js"
+      ],
+      "@exo-provider/frontend-theme-3": [
+        "./buildUtils/theme/fakeTheme3.js"
+      ],
+      "@exo-provider/frontend-theme-4": [
+        "./buildUtils/theme/fakeTheme4.js"
+      ],
+      "@exo-provider/frontend-theme-5": [
+        "./buildUtils/theme/fakeTheme5.js"
+      ],
+      "@exo-provider/frontend-theme-6": [
+        "./buildUtils/theme/fakeTheme6.js"
+      ],
+      "@exo-provider/frontend-theme-7": [
+        "./buildUtils/theme/fakeTheme7.js"
+      ],
+      "@exo-provider/frontend-theme-8": [
+        "./buildUtils/theme/fakeTheme8.js"
+      ],
+      "@exo-provider/frontend-theme-9": [
+        "./buildUtils/theme/fakeTheme9.js"
+      ],
+      "@exo-original/frontend-common-link": [
+        "./packages\\common\\link\\lib\\index.ts"
+      ],
+      "@exo-original/frontend-components-base": [
+        "./packages\\components\\base\\src\\index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    ".git",
+    "**/node_modules",
+    "**/dist/**/*.js",
+    "babel.config.js"
+  ],
+  "include": [
+    "client-packages/**/*",
+    "client-packages/**/*.json",
+    "packages/**/*",
+    "packages/**/*.json",
+    "index.d.ts",
+    "webpack.config.js",
+    "testUtils/**/*",
+    "buildUtils/**/*",
+    "packages/features/content/content-app/client/translations/*.json",
+    "schema.json"
+  ]
+}

@@ -1,0 +1,1149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartItemList /> component its snapshot matches story Default 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c4:hover {
+  color: #0043ce;
+}
+
+.c4 svg {
+  color: #161616;
+}
+
+.c15 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c10 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  position: relative;
+  background: pink;
+}
+
+.c8 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: auto;
+}
+
+.c9 {
+  font: 400 0.75rem/0.9999974999999999rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.32px;
+  -moz-letter-spacing: 0.32px;
+  -ms-letter-spacing: 0.32px;
+  letter-spacing: 0.32px;
+  color: #525252;
+}
+
+.c11 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding: 0.15rem 1.75rem 0.15rem 0;
+  text-align: left;
+  width: auto;
+}
+
+.c12 {
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  right: 0.5rem;
+  width: 0.75rem;
+}
+
+.c1 {
+  border: solid 0.0625rem #e0e0e0;
+  padding: 1rem;
+  display: grid;
+  row-gap: 0.5rem;
+  -webkit-column-gap: 1rem;
+  column-gap: 1rem;
+  grid-template-areas: "thumbnail title" "thumbnail props" ".price" ". links";
+  grid-template-columns: minmax(0,min-content) minmax(0,1fr);
+}
+
+.c2 {
+  grid-area: thumbnail;
+}
+
+.c2 img {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  overflow: hidden;
+  border: 1px solid #dedede;
+}
+
+.c5 {
+  grid-area: title;
+}
+
+.c3 {
+  grid-area: links;
+  justify-self: end;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+}
+
+.c3 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.c7 {
+  grid-area: props;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(3,minmax(3rem,30%));
+}
+
+.c13 {
+  grid-area: price;
+  justify-self: end;
+}
+
+.c6 {
+  color: #525252;
+}
+
+.c14 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  color: #525252;
+  text-align: right;
+}
+
+.c16 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  font-weight: 600;
+  text-align: right;
+}
+
+@media (min-width:1056px) {
+  .c1 {
+    grid-template-areas: "thumbnail title price" "thumbnail props links";
+    grid-template-columns: minmax(0,min-content) minmax(0,1fr);
+  }
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          alt="Emb(race) T-shirt"
+          class="thumbnail"
+          src=""
+        />
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+        >
+          Remove item
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <p
+          class="CartItemstyles__Name-sc-8r37kl-7"
+        >
+          Emb(race) T-shirt
+        </p>
+        <p
+          class="c6"
+        >
+          abc
+        </p>
+      </div>
+      <div
+        class="c7"
+      >
+        <label
+          class="c8"
+        >
+          <span
+            class="c9"
+          >
+            Quantity
+          </span>
+          <div
+            class="c10"
+          >
+            <select
+              class="c11"
+            >
+              <option
+                value="0"
+              >
+                0
+              </option>
+              <option
+                value="1"
+              >
+                1
+              </option>
+              <option
+                value="2"
+              >
+                2
+              </option>
+              <option
+                value="3"
+              >
+                3
+              </option>
+              <option
+                value="4"
+              >
+                4
+              </option>
+              <option
+                value="5"
+              >
+                5
+              </option>
+              <option
+                value="6"
+              >
+                6
+              </option>
+              <option
+                value="7"
+              >
+                7
+              </option>
+              <option
+                value="8"
+              >
+                8
+              </option>
+              <option
+                value="9"
+              >
+                9
+              </option>
+              <option
+                value="10"
+              >
+                10
+              </option>
+              <option
+                value="20"
+              >
+                20
+              </option>
+              <option
+                value="30"
+              >
+                30
+              </option>
+              <option
+                value="40"
+              >
+                40
+              </option>
+              <option
+                value="50"
+              >
+                50
+              </option>
+              <option
+                value="100"
+              >
+                100
+              </option>
+              <option
+                value="200"
+              >
+                200
+              </option>
+            </select>
+            <svg
+              class="c12"
+              overflow="visible"
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M41 17L25 33 9 17"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="4"
+              />
+            </svg>
+          </div>
+        </label>
+      </div>
+      <div
+        class="c13"
+      >
+        <div
+          class="c14"
+        >
+          <span
+            class="c15"
+          >
+            <span
+              class="value"
+            >
+              €12.50
+            </span>
+          </span>
+           × 
+          3
+        </div>
+        <div
+          class="c16"
+        >
+          <span
+            class="c15"
+          >
+            <span
+              class="value"
+            >
+              €37.50
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          alt="Emb(race) T-shirt"
+          class="thumbnail"
+          src=""
+        />
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+        >
+          Remove item
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <p
+          class="CartItemstyles__Name-sc-8r37kl-7"
+        >
+          Emb(race) T-shirt
+        </p>
+        <p
+          class="c6"
+        >
+          abc
+        </p>
+      </div>
+      <div
+        class="c7"
+      >
+        <label
+          class="c8"
+        >
+          <span
+            class="c9"
+          >
+            Quantity
+          </span>
+          <div
+            class="c10"
+          >
+            <select
+              class="c11"
+            >
+              <option
+                value="0"
+              >
+                0
+              </option>
+              <option
+                value="1"
+              >
+                1
+              </option>
+              <option
+                value="2"
+              >
+                2
+              </option>
+              <option
+                value="3"
+              >
+                3
+              </option>
+              <option
+                value="4"
+              >
+                4
+              </option>
+              <option
+                value="5"
+              >
+                5
+              </option>
+              <option
+                value="6"
+              >
+                6
+              </option>
+              <option
+                value="7"
+              >
+                7
+              </option>
+              <option
+                value="8"
+              >
+                8
+              </option>
+              <option
+                value="9"
+              >
+                9
+              </option>
+              <option
+                value="10"
+              >
+                10
+              </option>
+              <option
+                value="20"
+              >
+                20
+              </option>
+              <option
+                value="30"
+              >
+                30
+              </option>
+              <option
+                value="40"
+              >
+                40
+              </option>
+              <option
+                value="50"
+              >
+                50
+              </option>
+              <option
+                value="100"
+              >
+                100
+              </option>
+              <option
+                value="200"
+              >
+                200
+              </option>
+            </select>
+            <svg
+              class="c12"
+              overflow="visible"
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M41 17L25 33 9 17"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="4"
+              />
+            </svg>
+          </div>
+        </label>
+      </div>
+      <div
+        class="c13"
+      >
+        <div
+          class="c14"
+        >
+          <span
+            class="c15"
+          >
+            <span
+              class="value"
+            >
+              €12.50
+            </span>
+          </span>
+           × 
+          3
+        </div>
+        <div
+          class="c16"
+        >
+          <span
+            class="c15"
+          >
+            <span
+              class="value"
+            >
+              €37.50
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          alt="Emb(race) T-shirt"
+          class="thumbnail"
+          src=""
+        />
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+        >
+          Remove item
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <p
+          class="CartItemstyles__Name-sc-8r37kl-7"
+        >
+          Emb(race) T-shirt
+        </p>
+        <p
+          class="c6"
+        >
+          abc
+        </p>
+      </div>
+      <div
+        class="c7"
+      >
+        <label
+          class="c8"
+        >
+          <span
+            class="c9"
+          >
+            Quantity
+          </span>
+          <div
+            class="c10"
+          >
+            <select
+              class="c11"
+            >
+              <option
+                value="0"
+              >
+                0
+              </option>
+              <option
+                value="1"
+              >
+                1
+              </option>
+              <option
+                value="2"
+              >
+                2
+              </option>
+              <option
+                value="3"
+              >
+                3
+              </option>
+              <option
+                value="4"
+              >
+                4
+              </option>
+              <option
+                value="5"
+              >
+                5
+              </option>
+              <option
+                value="6"
+              >
+                6
+              </option>
+              <option
+                value="7"
+              >
+                7
+              </option>
+              <option
+                value="8"
+              >
+                8
+              </option>
+              <option
+                value="9"
+              >
+                9
+              </option>
+              <option
+                value="10"
+              >
+                10
+              </option>
+              <option
+                value="20"
+              >
+                20
+              </option>
+              <option
+                value="30"
+              >
+                30
+              </option>
+              <option
+                value="40"
+              >
+                40
+              </option>
+              <option
+                value="50"
+              >
+                50
+              </option>
+              <option
+                value="100"
+              >
+                100
+              </option>
+              <option
+                value="200"
+              >
+                200
+              </option>
+            </select>
+            <svg
+              class="c12"
+              overflow="visible"
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M41 17L25 33 9 17"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="4"
+              />
+            </svg>
+          </div>
+        </label>
+      </div>
+      <div
+        class="c13"
+      >
+        <div
+          class="c14"
+        >
+          <span
+            class="c15"
+          >
+            <span
+              class="value"
+            >
+              €12.50
+            </span>
+          </span>
+           × 
+          3
+        </div>
+        <div
+          class="c16"
+        >
+          <span
+            class="c15"
+          >
+            <span
+              class="value"
+            >
+              €37.50
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<CartItemList /> component its snapshot matches story Skeleton 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.c1 {
+  border: solid 0.0625rem #e0e0e0;
+  padding: 1rem;
+  display: grid;
+  row-gap: 0.5rem;
+  -webkit-column-gap: 1rem;
+  column-gap: 1rem;
+  grid-template-areas: "thumbnail title" "thumbnail props" ".price" ". links";
+  grid-template-columns: minmax(0,min-content) minmax(0,1fr);
+}
+
+@media (min-width:1056px) {
+  .c1 {
+    grid-template-areas: "thumbnail title price" "thumbnail props links";
+    grid-template-columns: minmax(0,min-content) minmax(0,1fr);
+  }
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    <li
+      class="c1"
+    />
+  </ul>
+</div>
+`;
+
+exports[`<CartItemList /> component its snapshot matches story WithIsReadonly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.c9 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c1 {
+  border: solid 0.0625rem #e0e0e0;
+  padding: 1rem;
+  display: grid;
+  row-gap: 0.5rem;
+  -webkit-column-gap: 1rem;
+  column-gap: 1rem;
+  grid-template-areas: "thumbnail title" "thumbnail props" ".price" ". links";
+  grid-template-columns: minmax(0,min-content) minmax(0,1fr);
+}
+
+.c2 {
+  grid-area: thumbnail;
+}
+
+.c2 img {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  overflow: hidden;
+  border: 1px solid #dedede;
+}
+
+.c4 {
+  grid-area: title;
+}
+
+.c3 {
+  grid-area: links;
+  justify-self: end;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+}
+
+.c3 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.c6 {
+  grid-area: props;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(3,minmax(3rem,30%));
+}
+
+.c7 {
+  grid-area: price;
+  justify-self: end;
+}
+
+.c5 {
+  color: #525252;
+}
+
+.c8 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  color: #525252;
+  text-align: right;
+}
+
+.c10 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  font-weight: 600;
+  text-align: right;
+}
+
+@media (min-width:1056px) {
+  .c1 {
+    grid-template-areas: "thumbnail title price" "thumbnail props links";
+    grid-template-columns: minmax(0,min-content) minmax(0,1fr);
+  }
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          alt="Emb(race) T-shirt"
+          class="thumbnail"
+          src=""
+        />
+      </div>
+      <div
+        class="c3"
+      />
+      <div
+        class="c4"
+      >
+        <p
+          class="CartItemstyles__Name-sc-8r37kl-7"
+        >
+          Emb(race) T-shirt
+        </p>
+        <p
+          class="c5"
+        >
+          abc
+        </p>
+      </div>
+      <div
+        class="c6"
+      >
+        <div>
+          <p>
+            Quantity
+          </p>
+          <p>
+            3
+          </p>
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <span
+            class="c9"
+          >
+            <span
+              class="value"
+            >
+              €12.50
+            </span>
+          </span>
+           × 
+          3
+        </div>
+        <div
+          class="c10"
+        >
+          <span
+            class="c9"
+          >
+            <span
+              class="value"
+            >
+              €37.50
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          alt="Emb(race) T-shirt"
+          class="thumbnail"
+          src=""
+        />
+      </div>
+      <div
+        class="c3"
+      />
+      <div
+        class="c4"
+      >
+        <p
+          class="CartItemstyles__Name-sc-8r37kl-7"
+        >
+          Emb(race) T-shirt
+        </p>
+        <p
+          class="c5"
+        >
+          abc
+        </p>
+      </div>
+      <div
+        class="c6"
+      >
+        <div>
+          <p>
+            Quantity
+          </p>
+          <p>
+            3
+          </p>
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <span
+            class="c9"
+          >
+            <span
+              class="value"
+            >
+              €12.50
+            </span>
+          </span>
+           × 
+          3
+        </div>
+        <div
+          class="c10"
+        >
+          <span
+            class="c9"
+          >
+            <span
+              class="value"
+            >
+              €37.50
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          alt="Emb(race) T-shirt"
+          class="thumbnail"
+          src=""
+        />
+      </div>
+      <div
+        class="c3"
+      />
+      <div
+        class="c4"
+      >
+        <p
+          class="CartItemstyles__Name-sc-8r37kl-7"
+        >
+          Emb(race) T-shirt
+        </p>
+        <p
+          class="c5"
+        >
+          abc
+        </p>
+      </div>
+      <div
+        class="c6"
+      >
+        <div>
+          <p>
+            Quantity
+          </p>
+          <p>
+            3
+          </p>
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <span
+            class="c9"
+          >
+            <span
+              class="value"
+            >
+              €12.50
+            </span>
+          </span>
+           × 
+          3
+        </div>
+        <div
+          class="c10"
+        >
+          <span
+            class="c9"
+          >
+            <span
+              class="value"
+            >
+              €37.50
+            </span>
+          </span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

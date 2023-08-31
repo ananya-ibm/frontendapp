@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmptyCart /> component its snapshot matches 1`] = `
+.c3 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c3 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+.c1 {
+  font: 700 1.25rem/1.75rem 'IBM Plex Sans',Arial,sans-serif;
+  padding-bottom: 1rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    Your cart is currently empty
+  </div>
+  <div
+    class="c2"
+  >
+    <button
+      class="c3 cds--btn cds--btn--primary"
+      tabindex="0"
+      type="button"
+    >
+      Primary button text
+       
+    </button>
+  </div>
+</div>
+`;

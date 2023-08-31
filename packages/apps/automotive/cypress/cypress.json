@@ -1,0 +1,4 @@
+{
+  "chromeWebSecurity": false,
+  "responseTimeout": 50000
+}

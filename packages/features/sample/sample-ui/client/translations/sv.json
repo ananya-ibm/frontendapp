@@ -1,0 +1,16 @@
+{
+  "features.content.homepage-ui": {
+    "pages.HomePage": {
+      "hero.title": "EXO STARTER KIT",
+      "hero.subtitle": "IBM iX",
+      "hero.body": "Starta ett nytt EXO-projekt? Välkommen till gänget...",
+      "hero.cta": "Kom igång"
+    }
+  },
+  "localePreference": {
+    "country.label": "Välj land",
+    "language.label": "Välj språk",
+    "currency.label": "Välj valuta",
+    "required_suffix": " (obligatoriskt)"
+  }
+}

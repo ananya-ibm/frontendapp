@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "lint:js",
+			"problemMatcher": [
+				"$eslint-compact"
+			],
+			"label": "npm: lint:js",
+			"detail": "eslint packages/ --cache --color --fix --ext .ts,.js,.tsx"
+		}
+	]
+}

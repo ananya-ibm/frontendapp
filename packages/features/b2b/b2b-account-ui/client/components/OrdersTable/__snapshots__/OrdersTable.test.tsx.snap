@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrdersTable /> component its snapshot matches story Default 1`] = `
+<div>
+  <div>
+    <div
+      class="cds--data-table-container"
+    >
+      <section
+        aria-label="data table toolbar"
+        class="cds--table-toolbar"
+      >
+        <div
+          class="cds--toolbar-content"
+        >
+          <div
+            aria-labelledby="1-search"
+            class="cds--search cds--search--lg cds--toolbar-search-container-active cds--toolbar-search-container-expandable"
+            role="search"
+          >
+            <div
+              class="cds--search-magnifier"
+            >
+              <svg
+                aria-hidden="true"
+                class="cds--search-magnifier-icon"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15,14.3L10.7,10c1.9-2.3,1.6-5.8-0.7-7.7S4.2,0.7,2.3,3S0.7,8.8,3,10.7c2,1.7,5,1.7,7,0l4.3,4.3L15,14.3z M2,6.5 C2,4,4,2,6.5,2S11,4,11,6.5S9,11,6.5,11S2,9,2,6.5z"
+                />
+              </svg>
+            </div>
+            <label
+              class="cds--label"
+              for="1"
+              id="1-search"
+            >
+              Search
+            </label>
+            <input
+              autocomplete="off"
+              class="cds--search-input"
+              id="1"
+              placeholder="Search"
+              role="searchbox"
+              tabindex="0"
+              type="text"
+              value=""
+            />
+            <button
+              aria-label="Clear search input"
+              class="cds--search-close cds--search-close--hidden"
+              title="Clear search input"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div
+        class="cds--data-table-content"
+      >
+        <table
+          class="cds--data-table"
+          role="table"
+        >
+          <thead>
+            <tr>
+              <th
+                colspan="1"
+                role="columnheader"
+                scope="col"
+              >
+                <div
+                  class="cds--table-header-label"
+                >
+                  Order
+                </div>
+              </th>
+              <th
+                colspan="1"
+                role="columnheader"
+                scope="col"
+              >
+                <div
+                  class="cds--table-header-label"
+                >
+                  Order placed by
+                </div>
+              </th>
+              <th
+                colspan="1"
+                role="columnheader"
+                scope="col"
+              >
+                <div
+                  class="cds--table-header-label"
+                >
+                  Date
+                </div>
+              </th>
+              <th
+                colspan="1"
+                role="columnheader"
+                scope="col"
+              >
+                <div
+                  class="cds--table-header-label"
+                >
+                  Status
+                </div>
+              </th>
+              <th
+                scope="col"
+              />
+            </tr>
+          </thead>
+          <tbody
+            aria-live="polite"
+          >
+            <tr
+              role="row"
+            >
+              <td>
+                1
+              </td>
+              <td>
+                Anthony Lombardi
+              </td>
+              <td>
+                01/01/20
+              </td>
+              <td>
+                open
+              </td>
+              <td>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                2
+              </td>
+              <td>
+                Lars Bauer
+              </td>
+              <td>
+                01/01/20
+              </td>
+              <td>
+                approved
+              </td>
+              <td>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr
+              role="row"
+            >
+              <td>
+                3
+              </td>
+              <td>
+                Lars Bauer
+              </td>
+              <td>
+                01/01/20
+              </td>
+              <td>
+                rejected
+              </td>
+              <td>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  aria-label="Actions"
+                  class="cds--overflow-menu cds--overflow-menu--md"
+                  type="button"
+                >
+                  <svg
+                    aria-label="open and close list of options"
+                    class="cds--overflow-menu__icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="16"
+                      cy="8"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="16"
+                      r="2"
+                    />
+                    <circle
+                      cx="16"
+                      cy="24"
+                      r="2"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;

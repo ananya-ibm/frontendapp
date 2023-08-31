@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tile /> component its snapshot matches 1`] = `
+.c10 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c2 {
+  -webkit-flex: 0 0 6.75rem;
+  -ms-flex: 0 0 6.75rem;
+  flex: 0 0 6.75rem;
+  height: 6.75rem;
+  position: relative;
+  -webkit-transition: box-shadow 100ms ease-in-out;
+  transition: box-shadow 100ms ease-in-out;
+}
+
+.c2:hover {
+  box-shadow: 0.125rem 0.125rem 1rem rgba(0,0,0,0.1),-0.125rem -0.125rem 0.5rem rgba(0,0,0,0.1);
+}
+
+.c3 {
+  background: url(/yellow.png) no-repeat top center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.c5 {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  padding-left: 0.75rem;
+}
+
+.c12 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 0.75rem 0 0;
+}
+
+.c9 {
+  font: 700 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c7 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c0 {
+  color: #767676;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 3.75rem;
+}
+
+.c0 .c1 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  height: 3.75rem;
+}
+
+.c0 .c4 {
+  margin: 1rem 0 0;
+  padding-left: 0;
+}
+
+.c0 .c6,
+.c0 .c8,
+.c0 .c11 {
+  font: 400 65%/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 c2"
+  >
+    <div
+      class="c3"
+    />
+  </div>
+  <div
+    class="c4 c5"
+  >
+    <h3
+      class="c6 c7"
+    >
+      Yellow
+    </h3>
+    <div
+      class="c8 c9"
+    >
+      <span
+        class="c10"
+      >
+        <span
+          class="value"
+        >
+          £10
+        </span>
+      </span>
+    </div>
+    <p
+      class="c11 c12"
+    >
+      Porem ipsum dolor sit amet consectetur adipiscing elit
+    </p>
+  </div>
+</div>
+`;

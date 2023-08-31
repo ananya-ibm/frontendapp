@@ -1,0 +1,26 @@
+{
+  "name": "@exo/frontend-common-hooks",
+  "version": "1.0.0",
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "description": "## Features",
+  "main": "lib/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:ixliberty/ix-liberty-boilerplate.git"
+  },
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "exo": {
+    "overrides": "@exo/frontend-common-link"
+  },
+  "sideEffects": false,
+  "author": "Magnus Johansson",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0"
+  }
+}

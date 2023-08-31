@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TradeIn /> component its snapshot matches 1`] = `
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3:hover {
+  color: #0043ce;
+}
+
+.c3 svg {
+  color: #161616;
+}
+
+.c6 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c0 {
+  background: #fff;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 2rem 2rem;
+}
+
+.c4 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-top: 1.5rem;
+}
+
+.c5 {
+  display: inline;
+  font: 700 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-left: 0.2rem;
+}
+
+.c2 {
+  font: 700 1.75rem/2.25001rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c7 {
+  margin-top: 1.5rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      Your Trade-in
+    </div>
+    <a
+      class="c3"
+    >
+      Edit Trade-in
+    </a>
+  </div>
+  <div
+    class="c4"
+  >
+    Registration number:
+    <div
+      class="c5"
+      data-testid="registration-number"
+    >
+      BD51 SMR
+    </div>
+  </div>
+  <div
+    class="c4"
+  >
+    Estimated value:
+    <div
+      class="c5"
+      data-testid="estimated-value"
+    >
+      <span
+        class="c6"
+      >
+        <span
+          class="prefix"
+        >
+          +
+        </span>
+        <span
+          class="value"
+        >
+          £25,000
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    class="c4"
+  >
+    You added a car
+  </div>
+  <div
+    class="c7"
+  >
+    <a
+      href="#"
+    >
+      Terms and conditions
+    </a>
+  </div>
+</div>
+`;

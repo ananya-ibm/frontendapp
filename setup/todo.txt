@@ -1,0 +1,4 @@
+1) This should be moved to a sepereate repo/gist
+2) Documentation
+3) Editing of jest, generator and app package.json
+4) generate environment file

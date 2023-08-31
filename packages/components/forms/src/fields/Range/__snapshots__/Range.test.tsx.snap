@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Range /> component its snapshot matches story Default 1`] = `
+<div>
+  <div
+    class="cds--form-item"
+  >
+    <label
+      class="cds--label"
+      for="some_id"
+      id="some_id-label"
+    >
+      A text field (optional)
+    </label>
+    <div
+      class="cds--slider-container"
+    >
+      <span
+        class="cds--slider__range-label"
+      >
+        10
+      </span>
+      <div
+        class="cds--slider"
+        role="presentation"
+        tabindex="-1"
+        value="20"
+      >
+        <div
+          aria-valuemax="100"
+          aria-valuemin="10"
+          aria-valuenow="20"
+          class="cds--slider__thumb"
+          id="some_id"
+          role="slider"
+          style="left: 11.11111111111111%;"
+          tabindex="0"
+        />
+        <div
+          class="cds--slider__track"
+        />
+        <div
+          class="cds--slider__filled-track"
+          style="transform: translate(0%, -50%) scaleX(0.1111111111111111);"
+        />
+      </div>
+      <span
+        class="cds--slider__range-label"
+      >
+        100
+      </span>
+      <input
+        aria-labelledby="some_id-label"
+        class="cds--text-input cds--slider-text-input"
+        id="some_id-input-for-slider"
+        max="100"
+        min="10"
+        name="some_name"
+        step="1"
+        type="number"
+        value="20"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Range /> component its snapshot matches story TestOnForm 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        react-hook-form
+      </div>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <div>
+          <div
+            class="cds--form-item"
+          >
+            <label
+              class="cds--label"
+              for="field"
+              id="field-label"
+            >
+              A text field (optional)
+            </label>
+            <div
+              class="cds--slider-container"
+            >
+              <span
+                class="cds--slider__range-label"
+              >
+                10
+              </span>
+              <div
+                class="cds--slider"
+                role="presentation"
+                tabindex="-1"
+                value="50"
+              >
+                <div
+                  aria-valuemax="100"
+                  aria-valuemin="10"
+                  aria-valuenow="50"
+                  class="cds--slider__thumb"
+                  id="field"
+                  role="slider"
+                  style="left: 44.44444444444444%;"
+                  tabindex="0"
+                />
+                <div
+                  class="cds--slider__track"
+                />
+                <div
+                  class="cds--slider__filled-track"
+                  style="transform: translate(0%, -50%) scaleX(0.4444444444444444);"
+                />
+              </div>
+              <span
+                class="cds--slider__range-label"
+              >
+                100
+              </span>
+              <input
+                aria-labelledby="field-label"
+                class="cds--text-input cds--slider-text-input"
+                id="field-input-for-slider"
+                max="100"
+                min="10"
+                name="field"
+                step="1"
+                type="number"
+                value="50"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 25%; padding: 1rem; background: rgb(238, 238, 238);"
+        >
+          <div>
+            50
+          </div>
+          <div
+            style="margin-top: 1rem;"
+          >
+            <input
+              id="formData"
+              style="padding: 0.5rem;"
+              type="text"
+            />
+            <button
+              style="padding: 0.5rem;"
+            >
+              Set
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style="margin-top: 2rem;"
+    >
+      <div>
+        as standalone field
+      </div>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <div>
+          <div
+            class="cds--form-item"
+          >
+            <label
+              class="cds--label"
+              for="fieldStandalone"
+              id="fieldStandalone-label"
+            >
+              A text field (optional)
+            </label>
+            <div
+              class="cds--slider-container"
+            >
+              <span
+                class="cds--slider__range-label"
+              >
+                10
+              </span>
+              <div
+                class="cds--slider"
+                role="presentation"
+                tabindex="-1"
+                value="50"
+              >
+                <div
+                  aria-valuemax="100"
+                  aria-valuemin="10"
+                  aria-valuenow="50"
+                  class="cds--slider__thumb"
+                  id="fieldStandalone"
+                  role="slider"
+                  style="left: 44.44444444444444%;"
+                  tabindex="0"
+                />
+                <div
+                  class="cds--slider__track"
+                />
+                <div
+                  class="cds--slider__filled-track"
+                  style="transform: translate(0%, -50%) scaleX(0.4444444444444444);"
+                />
+              </div>
+              <span
+                class="cds--slider__range-label"
+              >
+                100
+              </span>
+              <input
+                aria-labelledby="fieldStandalone-label"
+                class="cds--text-input cds--slider-text-input"
+                id="fieldStandalone-input-for-slider"
+                max="100"
+                min="10"
+                name="some_name"
+                step="1"
+                type="number"
+                value="50"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 25%; padding: 1rem; background: rgb(238, 238, 238);"
+        >
+          <div>
+            50
+          </div>
+          <div
+            style="margin-top: 1rem;"
+          >
+            <input
+              id="sData"
+              style="padding: 0.5rem;"
+              type="text"
+            />
+            <button
+              style="padding: 0.5rem;"
+            >
+              Set
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

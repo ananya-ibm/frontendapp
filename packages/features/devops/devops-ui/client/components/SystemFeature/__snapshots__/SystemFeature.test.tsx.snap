@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SystemFeature /> component its snapshot matches story Default 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #ffffff;
+  border: #f4f4f4;
+  margin-bottom: 0.5rem;
+}
+
+<div>
+  <div
+    class="cds--tile c0"
+  >
+    <h6
+      class="SystemFeaturestyles__ArchitectureSubComponentTitle-sc-1n4uhfg-1"
+    >
+      Digital Commerce
+    </h6>
+    <p
+      class="SystemFeaturestyles__ArchitectureSubComponentDetail-sc-1n4uhfg-2"
+    >
+      Provides B2C and B2B commerce capabilities, including product catalog, cart and checkout
+    </p>
+  </div>
+</div>
+`;

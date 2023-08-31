@@ -1,0 +1,51 @@
+{ 
+    "features.cart.cart-ui" : {
+        "pages.CartPage": {
+            "Cart.header": "Vagn",
+            "Title" :"Din kundvagn är tom",
+            "EmptyCart.primaryText" : "Fortsätt handla",
+            "CartButtons.next" : "Kassa" 
+        },
+
+        "components" : {
+            "CartSubtotal" :
+            {
+                "Head.SubtotalRow.label" : "Delsumma",
+                "Foot.SubtotalRow.label" : "Total",
+                "Body.SubtotalRow.SalesTax.label" : "Försäljningstaxa",
+                "Body.SubtotalRow.Shipping.label" : "Frakt", 
+                "Body.SubtotalRow.ShippingTax.label" : "Fraktskatt",
+                "Body.SubtotalRow.Adjustments.label" : "Justeringar"
+            },
+            "Delivery":
+            {
+                "Options.Home" : "Hemleverans",
+                "Options.Store" : "Hämtning i butik"
+            },
+
+            "HomeDeliverySelector":
+            {
+                "labeltext" : "leverans metod"
+            },
+            "ZipDeliveryOptions" :
+            {
+                "Title": "Frakt",
+                "div.Text":"Tillgängliga leveransmetoder för",
+                "SubTitle":"Klicka och samla",
+                "SubTitle.HomeDelivery": "Hemleverans",
+                "Button.Label" : "Skaffa sig"
+
+            },
+            "MiniCart":
+            {
+                "Title": "Minivagn"
+            },
+            "CartItem":
+            {
+                "PropertyName.Quantity" : "Kvantitet"
+            }
+       
+        }
+        
+}
+}

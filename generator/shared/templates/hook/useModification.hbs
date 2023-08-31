@@ -1,0 +1,52 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+import { gql, useMutation } from '@apollo/client';
+
+const MUTATION_1 = gql`
+  mutation Mutation1($arg: MyType) {
+    mutationSetValue(arg: $arg)
+  }
+`;
+
+const MUTATION_2 = gql`
+  mutation Mutation2($arg: MyOtherType) {
+    mutationSetValue(arg: $arg)
+  }
+`;
+
+export const {{ name }} = () => {
+  const [mutation1] = useMutation(MUTATION_1);
+  const [mutation2] = useMutation(MUTATION_2);
+
+  return {
+    mutation1: async ({ arg }: Mutation1Args) => {
+      return mutation1({ variables: { arg } });
+    },
+    mutation2: async ({ arg }: Mutation2Args) => {
+      return mutation1({ variables: { arg } });
+    }
+  }
+};
+
+type Mutation1Args = {
+  arg: MyType;
+}
+
+type Mutation2Args = {
+  someOtherValue: MyOtherType;
+}
+
+export type MyType = {
+  value: string
+}
+
+export type MyOtherType = {
+  someOtherValue: number
+}

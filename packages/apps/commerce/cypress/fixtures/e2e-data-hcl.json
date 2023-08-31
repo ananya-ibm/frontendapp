@@ -1,0 +1,74 @@
+{
+  "category": {
+    "url": "/catalog/category/Apparel_1",
+    "expect": "Versatil"
+  },
+  "pdp": {
+    "product_url": "/catalog/products/AuroraWMDRS-1",
+    "product_selection_indexes": [0, 0],
+    "product_variant_url": "catalog/products/GDA035_350101/GDA035_350101"
+  },
+  "search": {
+    "with_results": "shirts",
+    "without_results": "jkdfjsldfjsdlf"
+  },
+  "signin": {
+    "valid_user": {
+      "username": "cypress-testuser-10",
+      "password": "Passw0rd"
+    }
+  },
+  "register": {
+    "generated_password": "Passw0rd123*"
+  },
+  "cart": {
+    "items": [{ "partnumber": "AuroraWMDRS-001" }]
+  },
+  "add_to_cart": {
+    "product_url": "/catalog/products/AuroraWMDRS-1/AuroraWMDRS-001",
+    "brand": "Hermitage"
+  },
+  "profile": {
+    "skip": true,
+    "options": [
+      "Profile",
+      "Personal details",
+      "Payment methods",
+      "My orders",
+      "Preferences",
+      "Account security"
+    ],
+    "user": {
+      "first": "Hank",
+      "lastname": "Scorpio",
+      "address1": "15201 Maple Systems Road",
+      "city": "Forth Valley",
+      "country": "Sweden",
+      "zip": "FK10 1AA",
+      "phone": "07777777777",
+      "email": "test@test.com",
+      "addressNo": 2,
+      "paymentNo": 3,
+      "cardToCheck": {
+        "name": "Visa Debit Card",
+        "person": "Visa Debit Card",
+        "expiry": "00/24",
+        "number": "4242424242424242"
+      }
+    },
+    "addressBook": {
+      "skip": true
+    }
+  },
+  "payment": {
+    "card": {
+      "method": "VISA",
+      "cardNo": "4242424242424242",
+      "cardExpiry": "1224",
+      "cardCVV": "444"
+    }
+  },
+  "contact": {
+    "skip": true
+  }
+}

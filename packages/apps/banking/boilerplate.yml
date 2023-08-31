@@ -1,0 +1,65 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+metadata:
+  name: ixl-frontend-app-banking
+objects:
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: ixl-frontend-app-banking-deployment
+    spec:
+      selector:
+        matchLabels:
+          app: ixl-frontend-app-banking
+      replicas: 1
+      template:
+        metadata:
+          labels:
+            app: ixl-frontend-app-banking
+        spec:
+          containers:
+            - name: ixl-frontend-app-banking
+              image: ${IMAGE}
+              imagePullPolicy: Always
+              ports:
+                - containerPort: 3000
+              env:
+                - name: GRAPHQL_ENDPOINT
+                  value: ${GRAPHQL_ENDPOINT}
+                - name: GRAPHQL_BATCH
+                  value: 'true'
+                - name: IMAGE_EXTENSION
+                  value: '.jpg'
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      name: ixl-frontend-app-banking
+    spec:
+      selector:
+        app: ixl-frontend-app-banking
+      ports:
+        - protocol: 'TCP'
+          port: 3100
+          targetPort: 3000
+      type: NodePort
+  - kind: Route
+    apiVersion: route.openshift.io/v1
+    metadata:
+      name: ixl-frontend-app-banking
+    spec:
+      to:
+        kind: Service
+        name: ixl-frontend-app-banking
+        weight: 100
+      port:
+        targetPort: 3000
+      tls:
+        termination: edge
+        insecureEdgeTerminationPolicy: Redirect
+      wildcardPolicy: None
+parameters:
+  - displayName: Image Location
+    name: IMAGE
+  - displayName: GraphQL Endpoint
+    name: GRAPHQL_ENDPOINT
+    value: 'INSERT-VAL-HERE'

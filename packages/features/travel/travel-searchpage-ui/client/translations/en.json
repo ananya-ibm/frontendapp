@@ -1,0 +1,7 @@
+{
+  "features.travel-searchpage.travel-searchpage-ui": {
+    "pages.SamplePage": {
+      "page.title": "I am a generated feature"
+    }
+  }
+}

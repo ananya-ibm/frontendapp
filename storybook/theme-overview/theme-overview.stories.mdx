@@ -1,0 +1,427 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs';
+import { ThemeConsumer } from 'styled-components';
+import {
+  Color,
+  InteractiveColor,
+  Title,
+  SubTitle,
+  Stack,
+  Inline,
+  Inset,
+  Font,
+  ColorPair,
+  ColorPairContrast,
+  IconColor,
+  TextColor,
+  PanelColor,
+  DelimiterColor,
+  Elevation,
+  Border,
+  Breakpoints,
+  MotionEntry,
+  MotionExit,
+  MotionInteractive,
+  Easing,
+  P
+} from './ThemeOverviewComponents';
+
+<Meta title="Intro/Theme Overview" />
+
+# Colors
+
+<Canvas>
+  <Story name="Color">
+    <Title>Colors</Title>
+    <SubTitle>Brand</SubTitle>
+    <P>
+      Brand colors are to be used by branding elements, which could including marketing related
+      components, logos and chrome elements.
+    </P>
+    <P>
+      Brand colors are not supposed to be used for regular buttons or any other regular interactive
+      elements - except for special effect or special circumstances.
+    </P>
+    <ColorPairContrast path="brand.brand1" />
+    <ColorPairContrast path="brand.brand2" />
+    <div></div>
+    <SubTitle>Interactive</SubTitle>
+    <P>
+      Interactive colors are to be used by buttons or any other element that allows the user to
+      trigger an action (with the exception of regular hyper-links that have its own set of colors).
+    </P>
+    <InteractiveColor
+      path="interactive.primary"
+      description="Primary action - only one per page or major section of page"
+    />
+    <InteractiveColor path="interactive.secondary" description="Secondary action" />
+    <InteractiveColor path="interactive.tertiary" />
+    <InteractiveColor
+      path="interactive.danger"
+      description="Actions that causes data to be deleted"
+    />
+    <ColorPair
+      path="interactive.disabled"
+      description="Disabled state for any interactive element"
+    />
+    <div></div>
+    <SubTitle>Information Messages</SubTitle>
+    <P>
+      Text colors to be used as the result of an action. Please note that the colors are shown on
+      the various panel backgrounds to highlight contrast.
+    </P>
+    <TextColor path="information.error" />
+    <TextColor path="information.success" />
+    <TextColor path="information.warning" />
+    <TextColor path="information.information" />
+    <div></div>
+    <SubTitle>Text</SubTitle>
+    <P>
+      Regular text colors for body text, heading and labels. Please note that the colors are shown
+      on the various panel backgrounds to highlight contrast.
+    </P>
+    <TextColor path="text.primary" />
+    <TextColor path="text.secondary" />
+    <TextColor path="text.tertiary" />
+    <div></div>
+    <SubTitle>Links</SubTitle>
+    <P>
+      Colors to be used by the various states of hyper-text links. Please note that the colors are
+      shown on the various panel backgrounds to highlight contrast.
+    </P>
+    <TextColor path="link.base" />
+    <TextColor path="link.disabled" />
+    <TextColor path="link.hover" />
+    <TextColor path="link.visited" />
+    <TextColor path="link.visited_hover" />
+    <div></div>
+    <SubTitle>Icons</SubTitle>
+    <P>Colors to be used for icons</P>
+    <IconColor path="icon.primary" />
+    <IconColor path="icon.secondary" />
+    <div></div>
+    <SubTitle>Backgrounds</SubTitle>
+    <P>
+      These colors are to be used by panels, cards and the like. They are in stacking order, and
+      should not be used out of stacking order.
+    </P>
+    <Color path="backgrounds.page" description="Page background" />
+    <PanelColor path="backgrounds.panels.primary" />
+    <PanelColor path="backgrounds.panels.secondary" />
+    <PanelColor path="backgrounds.panels.tertiary" />
+    <Color
+      path="backgrounds.overlay"
+      description="Page overlay to prevent actions to be taken - e.g. during loading states"
+    />
+    <div></div>
+    <SubTitle>Table</SubTitle>
+    <P>Colors to be used when displaying tabular data</P>
+    <Color path="table.row.odd" />
+    <Color path="table.row.even" />
+    <Color path="table.row.selected" />
+    <Color path="table.row.hover" />
+    <div></div>
+    <SubTitle>Inverse</SubTitle>
+    <P>
+      Sometimes you want high-contrast elements - to highlight specific actions or information. For
+      this, use the inverse colors. Please note that these are colour pairs - i.e. both foreground
+      and background
+    </P>
+    <ColorPair path="inverse.base" />
+    <ColorPair path="inverse.danger" />
+    <ColorPair path="inverse.success" />
+    <ColorPair path="inverse.support" />
+    <ColorPair path="inverse.information" />
+    <div></div>
+    <SubTitle>Delimiters</SubTitle>
+    <P>Colors to be used for rulers or line delimiters</P>
+    <DelimiterColor path="delimiters.primary" />
+    <DelimiterColor path="delimiters.highContrast" />
+    <DelimiterColor path="delimiters.lowContrast" />
+    <div></div>
+    <SubTitle>Form</SubTitle>
+    <P>Colors to be used in form elements</P>
+    <ColorPair path="form.field.base" />
+    <ColorPair path="form.field.onPanel" />
+    <ColorPair path="form.field.disabled" />
+    <TextColor path="form.field.placeholder" />
+  </Story>
+</Canvas>
+
+# Typography
+
+<Canvas>
+  <Story name="Typography">
+    <Title>Typography</Title>
+    <SubTitle>Heading</SubTitle>
+    <P>Regular headings - should be the default for most headings</P>
+    <Font path="heading.heading1" />
+    <Font path="heading.heading2" />
+    <Font path="heading.heading3" />
+    <Font path="heading.heading4" />
+    <Font path="heading.heading5" />
+    <Font path="heading.heading6" />
+    <SubTitle>Display Type</SubTitle>
+    <P>
+      Typography to be used in "bold" marketing components - where you want a stronger way to
+      present information than regular typography and headings
+    </P>
+    <Font path="display.heading1" />
+    <Font path="display.heading2" />
+    <Font path="display.heading3" />
+    <Font path="display.body1" text="lipsum" />
+    <Font path="display.body2" text="lipsum" />
+    <SubTitle>Body Text</SubTitle>
+    <P>Regular body text - should be the default for most body text</P>
+    <Font
+      path="body.long.XS"
+      text="lipsum"
+      description="Used for longer pieces of text - i.e. more than a paragraph"
+    />
+    <Font
+      path="body.long.S"
+      text="lipsum"
+      description="Used for longer pieces of text - i.e. more than a paragraph"
+    />
+    <Font
+      path="body.long.M"
+      text="lipsum"
+      description="Used for longer pieces of text - i.e. more than a paragraph"
+    />
+    <Font
+      path="body.long.L"
+      text="lipsum"
+      description="Used for longer pieces of text - i.e. more than a paragraph"
+    />
+    <Font
+      path="body.long.emM"
+      text="lipsum"
+      description="Used for longer pieces of text - i.e. more than a paragraph"
+    />
+    <Font
+      path="body.long.emL"
+      text="lipsum"
+      description="Used for longer pieces of text - i.e. more than a paragraph"
+    />
+    <Font
+      path="body.short.XS"
+      text="lipsum"
+      description="Used for shorter pieces of text - i.e. less than a paragraph"
+    />
+    <Font
+      path="body.short.S"
+      text="lipsum"
+      description="Used for shorter pieces of text - i.e. less than a paragraph"
+    />
+    <Font
+      path="body.short.M"
+      text="lipsum"
+      description="Used for shorter pieces of text - i.e. less than a paragraph"
+    />
+    <Font
+      path="body.short.L"
+      text="lipsum"
+      description="Used for shorter pieces of text - i.e. less than a paragraph"
+    />
+    <Font
+      path="body.short.emM"
+      text="lipsum"
+      description="Used for shorter pieces of text - i.e. less than a paragraph"
+    />
+    <Font
+      path="body.short.emL"
+      text="lipsum"
+      description="Used for shorter pieces of text - i.e. less than a paragraph"
+    />
+    <SubTitle>Labels</SubTitle>
+    <Font path="labels.help" />
+    <Font path="labels.label" />
+  </Story>
+</Canvas>
+
+# Spacings
+
+<Canvas>
+  <Story name="Spacings">
+    <Title>Spacings</Title>
+    <SubTitle>Stack</SubTitle>
+    <P>Spacings to be used when stacking components from top to bottom</P>
+    <Stack spacing="s1" description="Stacking within components" />
+    <Stack spacing="s2" description="Stacking within components" />
+    <Stack spacing="s3" description="Stacking within components" />
+    <Stack spacing="s4" description="Stacking within components" />
+    <Stack spacing="s5" description="Stacking within components" />
+    <Stack spacing="s6" description="Stacking within components" />
+    <Stack spacing="s7" description="Stacking within components" />
+    <Stack spacing="s8" description="Stacking within components" />
+    <Stack spacing="s9" description="Stacking within components" />
+    <Stack spacing="s10" description="Stacking within components" />
+    <Stack spacing="s11" description="Stacking within components" />
+    <Stack spacing="s12" description="Stacking within components" />
+    <Stack spacing="s13" description="Stacking within components" />
+    <div></div>
+    <SubTitle>Inline</SubTitle>
+    <P>Spacings to be used when stacking components from left to right</P>
+    <Inline spacing="s1" description="Side-stacking within components" />
+    <Inline spacing="s2" description="Side-stacking within components" />
+    <Inline spacing="s3" description="Side-stacking within components" />
+    <Inline spacing="s4" description="Side-stacking within components" />
+    <Inline spacing="s5" description="Side-stacking within components" />
+    <Inline spacing="s6" description="Side-stacking within components" />
+    <Inline spacing="s7" description="Side-stacking within components" />
+    <Inline spacing="s8" description="Side-stacking within components" />
+    <Inline spacing="s9" description="Side-stacking within components" />
+    <Inline spacing="s10" description="Side-stacking within components" />
+    <Inline spacing="s11" description="Side-stacking within components" />
+    <Inline spacing="s12" description="Side-stacking within components" />
+    <Inline spacing="s13" description="Side-stacking within components" />
+    <div></div>
+    <SubTitle>Inset</SubTitle>
+    <P>Equidistance inset</P>
+    <Inset path="inset.XS" description="" />
+    <Inset path="inset.S" description="" />
+    <Inset path="inset.M" description="" />
+    <Inset path="inset.L" description="" />
+    <Inset path="inset.XL" description="" />
+    <div></div>
+    <SubTitle>Squished Inset</SubTitle>
+    <P>Squished insets, top/bottom smaller than left/rigth. Typically used for buttons etc</P>
+    <Inset path="squishedInset.XS" description="" />
+    <Inset path="squishedInset.S" description="" />
+    <Inset path="squishedInset.M" description="" />
+    <Inset path="squishedInset.L" description="" />
+    <Inset path="squishedInset.XL" description="" />
+    <div></div>
+    <SubTitle>Stretch Inset</SubTitle>
+    <P>
+      Stretch insets, top/bottom bigger than left/rigth. Typically vertical elements - e.g. cards
+    </P>
+    <Inset path="stretchInset.XS" description="" />
+    <Inset path="stretchInset.S" description="" />
+    <Inset path="stretchInset.M" description="" />
+    <Inset path="stretchInset.L" description="" />
+    <Inset path="stretchInset.XL" description="" />
+  </Story>
+</Canvas>
+
+# Elevation
+
+<Canvas>
+  <Story name="Elevation">
+    <Title>Elevation</Title>
+    <SubTitle>Interactive</SubTitle>
+    <P>Elevation for interactive elements</P>
+    <Elevation
+      path="elevation.interactive.accented"
+      background="colors.interactive.primary.base.bg"
+      description="To be used for primary elements that are extra prominent"
+    />
+    <Elevation
+      path="elevation.interactive.primary"
+      background="colors.interactive.primary.base.bg"
+    />
+    <Elevation
+      path="elevation.interactive.secondary"
+      background="colors.interactive.secondary.base.bg"
+    />
+    <Elevation
+      path="elevation.interactive.tertiary"
+      background="colors.interactive.tertiary.base.bg"
+    />
+    <Elevation path="elevation.interactive.danger" background="colors.interactive.danger.base.bg" />
+    <SubTitle>Panels</SubTitle>
+    <P>Elevation for panels</P>
+    <Elevation
+      path="elevation.panels.accented"
+      background="colors.backgrounds.panels.primary.base"
+      description="To be used for panels that are extra prominent"
+    />
+    <Elevation
+      path="elevation.panels.primary"
+      background="colors.backgrounds.panels.primary.base"
+    />
+    <Elevation
+      path="elevation.panels.secondary"
+      background="colors.backgrounds.panels.secondary.base"
+    />
+    <Elevation
+      path="elevation.panels.tertiary"
+      background="colors.backgrounds.panels.tertiary.base"
+    />
+  </Story>
+</Canvas>
+
+# Borders
+
+<Canvas>
+  <Story name="Borders">
+    <Title>Borders</Title>
+    <P>Borders and corners</P>
+    <SubTitle>Interactive</SubTitle>
+    <Border
+      path="borders.interactive.accented"
+      background="colors.interactive.primary.base.bg"
+      description="To be used for primary elements that are extra prominent"
+    />
+    <Border path="borders.interactive.primary" background="colors.interactive.primary.base.bg" />
+    <Border
+      path="borders.interactive.secondary"
+      background="colors.interactive.secondary.base.bg"
+    />
+    <Border path="borders.interactive.tertiary" background="colors.interactive.tertiary.base.bg" />
+    <Border path="borders.interactive.danger" background="colors.interactive.danger.base.bg" />
+    <div></div>
+    <SubTitle>Panels</SubTitle>
+    <Border
+      path="borders.panels.accented"
+      background="colors.backgrounds.panels.primary.base"
+      description="To be used for panels that are extra prominent"
+    />
+    <Border path="borders.panels.primary" background="colors.backgrounds.panels.primary.base" />
+    <Border path="borders.panels.secondary" background="colors.backgrounds.panels.secondary.base" />
+    <Border path="borders.panels.tertiary" background="colors.backgrounds.panels.tertiary.base" />
+  </Story>
+</Canvas>
+
+# Motion
+
+<Canvas>
+  <Story name="Motion">
+    <Title>Motion</Title>
+    <SubTitle>Entry</SubTitle>
+    <P>Animations to be used when an element is added</P>
+    <MotionEntry path="motion.entry.slow" />
+    <MotionEntry path="motion.entry.regular" />
+    <MotionEntry path="motion.entry.fast" />
+    <div></div>
+    <SubTitle>Exit</SubTitle>
+    <P>Animations to be used when an element is removed</P>
+    <MotionExit path="motion.exit.slow" />
+    <MotionExit path="motion.exit.regular" />
+    <MotionExit path="motion.exit.fast" />
+    <div></div>
+    <SubTitle>Interactive</SubTitle>
+    <P>Animations to be used on interactive elements</P>
+    <MotionInteractive path="motion.interactive" />
+    <div></div>
+    <SubTitle>Easings</SubTitle>
+    <P>Library of reusable easings for custom animations</P>
+    <Easing path="motion.easings.easeIn.fast" />
+    <Easing path="motion.easings.easeIn.regular" />
+    <Easing path="motion.easings.easeIn.slow" />
+    <Easing path="motion.easings.easeOut.fast" />
+    <Easing path="motion.easings.easeOut.regular" />
+    <Easing path="motion.easings.easeOut.slow" />
+    <Easing path="motion.easings.easeInOut.fast" />
+    <Easing path="motion.easings.easeInOut.regular" />
+    <Easing path="motion.easings.easeInOut.slow" />
+  </Story>
+</Canvas>
+
+# Breakpoints
+
+<Canvas>
+  <Story name="Breakpoints">
+    <Title>Breakpoints</Title>
+    <Breakpoints />
+  </Story>
+</Canvas>

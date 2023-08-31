@@ -1,0 +1,40 @@
+{
+  "name": "@exo/frontend-features-travel-flights-page-ui",
+  "version": "0.2.0",
+  "scripts": {
+      "analyze": "root-exec NODE_ENV=development webpack --env analyze",
+      "prettier": "root-exec prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+      "format": "npm run prettier -- --write"
+  },
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "description": "@exo/frontend-features-travel-flights-page-ui was created by the EXO generator",
+  "main": "client/App.tsx",
+  "keywords": [
+      "ssr",
+      "react",
+      "ibm"
+  ],
+  "author": "EXO Generator",
+  "dependencies": {
+      "@exo/frontend-components-content": "^1.0.0",
+      "@exo/frontend-features-chrome-ui": "^1.0.0",
+      "@exo/frontend-features-events-logic": "^1.0.0",
+      "@exo/frontend-common-i18n": "^1.0.0",
+      "@exo/frontend-common-app-shell": "^1.0.0",
+      "@exo/frontend-content-api": "^1.0.0",
+      "@exo/frontend-common-session-context": "^1.0.0",
+      "@exo/frontend-components-core": "^1.0.0",
+      "@exo/frontend-common-storybook": "^1.0.0",
+      "@exo/frontend-features-chrome-logic": "^1.0.0",
+      "@exo/frontend-components-travel": "^1.0.0",
+      "@exo/frontend-common-style-utils": "^1.0.0",
+      "@exo/frontend-components-forms": "^1.0.0",
+      "@exo/frontend-components-base": "^1.0.0",
+      "@exo/frontend-common-hooks": "^1.0.0",
+      "@exo/frontend-features-travel-flights-page-logic": "^1.0.0",
+      "@exo/frontend-features-travel-checkout-page-logic": "^1.0.0"
+  },
+  "devDependencies": {
+      "@exo/frontend-common-root-exec": "^1.0.0"
+  }
+}

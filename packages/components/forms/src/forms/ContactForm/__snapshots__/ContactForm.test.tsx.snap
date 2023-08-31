@@ -1,0 +1,1691 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContactForm /> component its snapshot matches story Default 1`] = `
+.c7 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c7 svg {
+  max-height: 100%;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c3 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.c2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  margin-bottom: 1.5rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c6 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form
+    class="ContactFormstyles__ContactForm-sc-1i3tamg-0"
+  >
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            About you
+          </div>
+          <p
+            class="c3"
+          >
+            Tell us about you, so we can get this right
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="name"
+              >
+                Name 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required=""
+                    title="Your Name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="email"
+              >
+                Email address 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="email"
+                    name="email"
+                    placeholder="Your email"
+                    required=""
+                    title="Your email"
+                    type="email"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            Details of your inquiry
+          </div>
+          <p
+            class="c3"
+          >
+            Please tell us more about your enquiry
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="subject"
+              >
+                Subject 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject of your inquiry"
+                    required=""
+                    title="Subject of your inquiry"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item"
+            >
+              <div
+                class="cds--text-area__label-wrapper"
+              >
+                <label
+                  class="cds--label"
+                  for="message"
+                >
+                  Tell us more here... 
+                </label>
+              </div>
+              <div
+                class="cds--text-area__wrapper"
+              >
+                <textarea
+                  class="cds--text-area"
+                  cols="50"
+                  id="message"
+                  name="message"
+                  placeholder="What problem are you facing?"
+                  required=""
+                  rows="4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <div
+        class="c6"
+      >
+        <button
+          class="c7 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Continue
+           
+        </button>
+        <button
+          class="c7 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<ContactForm /> component its snapshot matches story WithCustomChildren 1`] = `
+.c7 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c7 svg {
+  max-height: 100%;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c3 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.c2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  margin-bottom: 1.5rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c6 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form
+    class="ContactFormstyles__ContactForm-sc-1i3tamg-0"
+  >
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            About you
+          </div>
+          <p
+            class="c3"
+          >
+            Tell us about you, so we can get this right
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="name"
+              >
+                Name 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required=""
+                    title="Your Name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="email"
+              >
+                Email address 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="email"
+                    name="email"
+                    placeholder="Your email"
+                    required=""
+                    title="Your email"
+                    type="email"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            Details of your inquiry
+          </div>
+          <p
+            class="c3"
+          >
+            Please tell us more about your enquiry
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="subject"
+              >
+                Subject 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject of your inquiry"
+                    required=""
+                    title="Subject of your inquiry"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item"
+            >
+              <div
+                class="cds--text-area__label-wrapper"
+              >
+                <label
+                  class="cds--label"
+                  for="message"
+                >
+                  Tell us more here... 
+                </label>
+              </div>
+              <div
+                class="cds--text-area__wrapper"
+              >
+                <textarea
+                  class="cds--text-area"
+                  cols="50"
+                  id="message"
+                  name="message"
+                  placeholder="What problem are you facing?"
+                  required=""
+                  rows="4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        For common questions, please see our 
+        <a
+          href="#"
+        >
+          FAQ
+        </a>
+        .
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <div
+        class="c6"
+      >
+        <button
+          class="c7 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Continue
+           
+        </button>
+        <button
+          class="c7 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<ContactForm /> component its snapshot matches story WithCustomFooter 1`] = `
+.c6 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c6 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c3 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.c2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  margin-bottom: 1.5rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+<div>
+  <form
+    class="ContactFormstyles__ContactForm-sc-1i3tamg-0"
+  >
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            About you
+          </div>
+          <p
+            class="c3"
+          >
+            Tell us about you, so we can get this right
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="name"
+              >
+                Name 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required=""
+                    title="Your Name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="email"
+              >
+                Email address 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="email"
+                    name="email"
+                    placeholder="Your email"
+                    required=""
+                    title="Your email"
+                    type="email"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            Details of your inquiry
+          </div>
+          <p
+            class="c3"
+          >
+            Please tell us more about your enquiry
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="subject"
+              >
+                Subject 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject of your inquiry"
+                    required=""
+                    title="Subject of your inquiry"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item"
+            >
+              <div
+                class="cds--text-area__label-wrapper"
+              >
+                <label
+                  class="cds--label"
+                  for="message"
+                >
+                  Tell us more here... 
+                </label>
+              </div>
+              <div
+                class="cds--text-area__wrapper"
+              >
+                <textarea
+                  class="cds--text-area"
+                  cols="50"
+                  id="message"
+                  name="message"
+                  placeholder="What problem are you facing?"
+                  required=""
+                  rows="4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <button
+        class="c6 cds--btn cds--btn--primary cds--btn--disabled"
+        disabled=""
+        tabindex="0"
+        type="submit"
+      >
+        Submit feedback
+         
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<ContactForm /> component its snapshot matches story WithCustomValidation 1`] = `
+.c7 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c7 svg {
+  max-height: 100%;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c3 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.c2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  margin-bottom: 1.5rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c6 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form
+    class="ContactFormstyles__ContactForm-sc-1i3tamg-0"
+  >
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            About you
+          </div>
+          <p
+            class="c3"
+          >
+            Tell us about you, so we can get this right
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="name"
+              >
+                Name 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required=""
+                    title="Your Name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="email"
+              >
+                Email address 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="email"
+                    name="email"
+                    placeholder="Your email"
+                    required=""
+                    title="Your email"
+                    type="email"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            Details of your inquiry
+          </div>
+          <p
+            class="c3"
+          >
+            Please tell us more about your enquiry
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="subject"
+              >
+                Subject 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject of your inquiry"
+                    required=""
+                    title="Subject of your inquiry"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item"
+            >
+              <div
+                class="cds--text-area__label-wrapper"
+              >
+                <label
+                  class="cds--label"
+                  for="message"
+                >
+                  Tell us more here... 
+                </label>
+              </div>
+              <div
+                class="cds--text-area__wrapper"
+              >
+                <textarea
+                  class="cds--text-area"
+                  cols="50"
+                  id="message"
+                  name="message"
+                  placeholder="What problem are you facing?"
+                  required=""
+                  rows="4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <div
+        class="c6"
+      >
+        <button
+          class="c7 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Continue
+           
+        </button>
+        <button
+          class="c7 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<ContactForm /> component its snapshot matches story WithErrors 1`] = `
+.c7 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c7 svg {
+  max-height: 100%;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c3 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.c2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  margin-bottom: 1.5rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c6 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form
+    class="ContactFormstyles__ContactForm-sc-1i3tamg-0"
+  >
+    <div
+      class="FormHeaderstyles__FormHeader-sc-15gnw04-0"
+    >
+      <div
+        class="cds--inline-notification cds--inline-notification--error cds--inline-notification--hide-close-button"
+        role="status"
+      >
+        <div
+          class="cds--inline-notification__details"
+        >
+          <svg
+            aria-hidden="true"
+            class="cds--inline-notification__icon"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8,1C4.1,1,1,4.1,1,8s3.1,7,7,7s7-3.1,7-7S11.9,1,8,1z M10.7,11.5L4.5,5.3l0.8-0.8l6.2,6.2L10.7,11.5z"
+            />
+            <path
+              d="M10.7,11.5L4.5,5.3l0.8-0.8l6.2,6.2L10.7,11.5z"
+              data-icon-path="inner-path"
+              fill="none"
+              opacity="0"
+            />
+            <title>
+              error icon
+            </title>
+          </svg>
+          <div
+            class="cds--inline-notification__text-wrapper"
+          >
+            <div
+              class="cds--inline-notification__title"
+            >
+              Error
+            </div>
+            <div
+              class="cds--inline-notification__subtitle"
+            >
+              Cannot submit feedback at this time. Please try again
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            About you
+          </div>
+          <p
+            class="c3"
+          >
+            Tell us about you, so we can get this right
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="name"
+              >
+                Name 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required=""
+                    title="Your Name"
+                    type="text"
+                    value="John Johnson"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="email"
+              >
+                Email address 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="email"
+                    name="email"
+                    placeholder="Your email"
+                    required=""
+                    title="Your email"
+                    type="email"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            Details of your inquiry
+          </div>
+          <p
+            class="c3"
+          >
+            Please tell us more about your enquiry
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="subject"
+              >
+                Subject 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject of your inquiry"
+                    required=""
+                    title="Subject of your inquiry"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item"
+            >
+              <div
+                class="cds--text-area__label-wrapper"
+              >
+                <label
+                  class="cds--label"
+                  for="message"
+                >
+                  Tell us more here... 
+                </label>
+              </div>
+              <div
+                class="cds--text-area__wrapper"
+              >
+                <textarea
+                  class="cds--text-area"
+                  cols="50"
+                  id="message"
+                  name="message"
+                  placeholder="What problem are you facing?"
+                  required=""
+                  rows="4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <div
+        class="c6"
+      >
+        <button
+          class="c7 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Continue
+           
+        </button>
+        <button
+          class="c7 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<ContactForm /> component its snapshot matches story WithIntl 1`] = `
+.c7 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c7 svg {
+  max-height: 100%;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c3 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.c2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.c4 {
+  margin-bottom: 1.5rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c6 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form
+    class="ContactFormstyles__ContactForm-sc-1i3tamg-0"
+  >
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            Om dig själv
+          </div>
+          <p
+            class="c3"
+          >
+            Fyll i din personuppgifter så vi kan hjälpa dig
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="name"
+              >
+                Namn 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="name"
+                    name="name"
+                    placeholder="Ange ditt namn"
+                    required=""
+                    title="Ange ditt namn"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="email"
+              >
+                Epost 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="email"
+                    name="email"
+                    placeholder="Ange din epostaddress"
+                    required=""
+                    title="Ange din epostaddress"
+                    type="email"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--layer-two c1"
+        >
+          <div
+            class="c2"
+          >
+            Ditt ärende
+          </div>
+          <p
+            class="c3"
+          >
+            Beskriv ditt ärende med så mycket detaljer som möjligt.
+          </p>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="subject"
+              >
+                Ämne 
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="subject"
+                    name="subject"
+                    placeholder="Ärenderubrik"
+                    required=""
+                    title="Ärenderubrik"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="cds--form-item"
+            >
+              <div
+                class="cds--text-area__label-wrapper"
+              >
+                <label
+                  class="cds--label"
+                  for="message"
+                >
+                  Meddelande 
+                </label>
+              </div>
+              <div
+                class="cds--text-area__wrapper"
+              >
+                <textarea
+                  class="cds--text-area"
+                  cols="50"
+                  id="message"
+                  name="message"
+                  placeholder="Beskriv ditt ärende"
+                  required=""
+                  rows="4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <div
+        class="c6"
+      >
+        <button
+          class="c7 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Skicka
+           
+        </button>
+        <button
+          class="c7 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Avbryt
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

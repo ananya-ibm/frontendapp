@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumb /> component its snapshot matches story Default 1`] = `
+.c0 {
+  display: none;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+.c0 .cds--breadcrumb-item {
+  display: none;
+}
+
+@media (min-width:672px) {
+  .c0 {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .c0 .cds--breadcrumb-item {
+    display: inline;
+  }
+}
+
+@media (max-width:672px) {
+  .c0 {
+    display: block;
+  }
+
+  .c0 .cds--breadcrumb-item:nth-last-child(2) {
+    display: inline;
+  }
+
+  .c0 .cds--breadcrumb-item:nth-last-child(2)::after {
+    content: '';
+  }
+
+  .c0 .cds--breadcrumb-item:nth-last-child(2)::before {
+    color: #161616;
+    content: '<';
+    margin-right: 0.5rem;
+  }
+}
+
+<div>
+  <nav
+    aria-label="Breadcrumb"
+    class="c0"
+  >
+    <ol
+      class="cds--breadcrumb cds--breadcrumb--no-trailing-slash"
+    >
+      <li
+        class="cds--breadcrumb-item"
+      >
+        <a
+          class="cds--link"
+          href="/"
+          title="Home"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        class="cds--breadcrumb-item"
+      >
+        <a
+          class="cds--link"
+          href="test"
+          title="test"
+        >
+          test
+        </a>
+      </li>
+      <li
+        class="cds--breadcrumb-item"
+      >
+        <a
+          class="cds--link"
+          href="test2"
+          title="test2"
+        >
+          test2
+        </a>
+      </li>
+      <li
+        class="cds--breadcrumb-item cds--breadcrumb-item--current"
+      >
+        <a
+          class="cds--link"
+          href="test3"
+          title="test3"
+        >
+          test3
+        </a>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
+
+exports[`<Breadcrumb /> component its snapshot matches story Skeleton 1`] = `
+.c1 {
+  width: 5.5em;
+  border-radius: 5px;
+  -webkit-animation: pulse 1.2s ease-in-out infinite;
+  animation: pulse 1.2s ease-in-out infinite;
+  background: linear-gradient(-90deg,#f0f0f0 0%,#f8f8f8 50%,#f0f0f0 100%);
+  background-size: 400% 400%;
+  display: inline-block;
+  height: 100%;
+}
+
+.c1::before {
+  content: '\\00a0';
+}
+
+.c0 {
+  display: none;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+.c0 .cds--breadcrumb-item {
+  display: none;
+}
+
+@media (min-width:672px) {
+  .c0 {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .c0 .cds--breadcrumb-item {
+    display: inline;
+  }
+}
+
+@media (max-width:672px) {
+  .c0 {
+    display: block;
+  }
+
+  .c0 .cds--breadcrumb-item:nth-last-child(2) {
+    display: inline;
+  }
+
+  .c0 .cds--breadcrumb-item:nth-last-child(2)::after {
+    content: '';
+  }
+
+  .c0 .cds--breadcrumb-item:nth-last-child(2)::before {
+    color: #161616;
+    content: '<';
+    margin-right: 0.5rem;
+  }
+}
+
+<div>
+  <nav
+    aria-label="Breadcrumb"
+    class="c0"
+  >
+    <ol
+      class="cds--breadcrumb cds--breadcrumb--no-trailing-slash"
+    >
+      <li
+        class="cds--breadcrumb-item"
+      >
+        <a
+          class="cds--link"
+          href="/"
+          title="Home"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        class="cds--breadcrumb-item"
+      >
+        <div
+          class="c1 cds--link"
+        />
+      </li>
+    </ol>
+  </nav>
+</div>
+`;

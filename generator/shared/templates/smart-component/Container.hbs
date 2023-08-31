@@ -1,0 +1,57 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+import { gql } from '@apollo/client';
+import {
+  renderDefaultError,
+  renderDefaultLoading,
+  SmartComponentProps
+} from '@exo/frontend-common-utils';
+
+export const {{ properCase name }} = ({
+  render,
+  renderLoading = renderDefaultLoading,
+  renderError = renderDefaultError
+}: Props) => {
+  // GENERATOR: This is a noop you need to replace
+  const { loading, data, error } = { loading: true, data: {}, error: undefined };
+
+  /*
+  GENERATOR: ...with something like this
+  const { loading, data, error } = use{{ properCase queryName }}<{{ properCase queryName }}Response{{#if returnType.isList}}[]{{/if}}>(
+    {{ properCase name }}Container.fragment  
+  );
+  */
+
+  if (loading || !data) return renderLoading();
+  if (error) return renderError(error);
+
+  return render({ data });
+};
+
+{{ properCase name }}.fragment = gql`
+  fragment {{ properCase name }} on {{ returnType.name }} {
+    # TODO: Add additional fields
+    {{#each returnType.attributes}}
+    {{ name }}
+    {{/each}}
+  }
+`;
+
+type {{ properCase queryName }}Response = {
+  // TODO: Add additional fields
+};
+
+export type {{ properCase queryName }}ContainerRenderProps = {
+  data: {{ properCase queryName }}Response{{#if returnType.isList}}[]{{/if}};
+};
+
+type Props = SmartComponentProps<{
+  render: (props: {{ properCase queryName }}ContainerRenderProps) => JSX.Element;
+}>;

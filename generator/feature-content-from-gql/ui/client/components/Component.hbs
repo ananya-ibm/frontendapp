@@ -1,0 +1,40 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+import React from 'react';
+import * as S from './{{ properCase queryName }}.styles';
+import { {{ properCase queryName }}ContainerRenderProps } from '{{ featureLogicPackage }}';
+
+export const {{ properCase queryName }} = ({ data }: Props) => {
+  {{#if returnType.isList}}
+  return (
+    <S.{{ properCase queryName }}>
+    { data.map(entry => (
+      <S.{{ properCase queryName }}Entry>
+        {{#each returnType.attributes }}
+        <S.{{ properCase name }}>{ entry.{{name}} }</S.{{ properCase name }}>
+        {{/each}}
+      </S.{{ properCase queryName }}Entry>
+    ))}
+    </S.{{ properCase queryName }}>
+  )
+  {{else}}
+  return (
+    <S.{{ properCase queryName }}>
+      {{#each returnType.attributes }}
+      <S.{{ properCase name }}>{ data.{{name}} }</S.{{ properCase name }}>
+      {{/each}}
+    </S.{{ properCase queryName }}>
+  )
+  {{/if}}
+}
+
+type Props = {{ properCase queryName }}ContainerRenderProps & {
+  // TODO: Add any additional props
+};

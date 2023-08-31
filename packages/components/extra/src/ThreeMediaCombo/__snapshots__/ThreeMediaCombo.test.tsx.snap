@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ThreeMediaCombo /> component its snapshot matches 1`] = `
+.c1 {
+  max-width: var(--max-width);
+}
+
+.c1 .cds--row > * > .cds--grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c0 .cds--aspect-ratio {
+  overflow: hidden;
+}
+
+.c2 {
+  font: 700 1.25rem/1.75rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-bottom: 1rem;
+}
+
+.c3 {
+  margin: 0.2rem 0 0.5rem 0;
+}
+
+.c4 {
+  height: auto;
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 cds--grid"
+  >
+    <h2
+      class="c2"
+    >
+      Subheading
+    </h2>
+    <div
+      class="cds--row"
+    >
+      <div
+        class="cds--col-sm-4"
+      >
+        <p
+          class="c3"
+        >
+          Minim non ex aliqua aliquip nisi excepteur qui est consequat duis ut duis excepteur. Culpa nisi reprehenderit reprehenderit ea exercitation cupidatat nisi aute ex dolor nisi. Sit culpa voluptate id proident elit reprehenderit id. Incididunt nisi do in dolor veniam incididunt anim consectetur pariatur nostrud.
+        </p>
+      </div>
+    </div>
+    <div
+      class="cds--row"
+    >
+      <div
+        class="cds--col-sm-2 cds--col-lg-11"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--16x9"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <img
+              alt="Subheading"
+              class="c4"
+              src="https://images.unsplash.com/photo-1578586524259-489a03948798"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="cds--col-sm-2 cds--col-lg-5"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--2x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <img
+              alt="rightTopTitle"
+              class="c4"
+              src="https://images.unsplash.com/photo-1575280768165-038666f3a978"
+            />
+          </div>
+        </div>
+        <p
+          class="c3"
+        >
+          rightTopTitle
+        </p>
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--2x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <img
+              alt="rightBottomTitle"
+              class="c4"
+              src="https://images.unsplash.com/photo-1519752594763-2633d8d4ea29"
+            />
+          </div>
+        </div>
+        <p
+          class="c3"
+        >
+          rightBottomTitle
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

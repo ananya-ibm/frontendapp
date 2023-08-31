@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["mockSiteData", "./test/mockSiteData"],
+          ["mockMyAccountData", "./test/mockMyAccountData"],
+          ["mockProductData", "./test/mockProductData"]
+        ]
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-props-no-spreading": 0
+  }
+}

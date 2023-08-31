@@ -1,0 +1,918 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginForm /> component its snapshot matches story Default 1`] = `
+.c2 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c2 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_username"
+          >
+            Your email address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="login_username"
+                name="username"
+                placeholder="Username"
+                required=""
+                title="Username"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper cds--password-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_password"
+          >
+            Password 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--password-input cds--text-input--md"
+                data-toggle-password-visibility="true"
+                id="login_password"
+                name="password"
+                type="password"
+                value=""
+              />
+              <button
+                class="cds--text-input--password__visibility__toggle cds--btn cds--btn--icon-only cds--tooltip__trigger cds--tooltip--a11y cds--tooltip--bottom cds--tooltip--align-center"
+                type="button"
+              >
+                <span
+                  class="cds--assistive-text"
+                >
+                  Show password
+                </span>
+                <svg
+                  aria-hidden="true"
+                  class="cds--icon-visibility-on"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.5,7.8C14.3,4.7,11.3,2.6,8,2.5C4.7,2.6,1.7,4.7,0.5,7.8c0,0.1,0,0.2,0,0.3c1.2,3.1,4.1,5.2,7.5,5.3 c3.3-0.1,6.3-2.2,7.5-5.3C15.5,8.1,15.5,7.9,15.5,7.8z M8,12.5c-2.7,0-5.4-2-6.5-4.5c1-2.5,3.8-4.5,6.5-4.5s5.4,2,6.5,4.5 C13.4,10.5,10.6,12.5,8,12.5z"
+                  />
+                  <path
+                    d="M8,5C6.3,5,5,6.3,5,8s1.3,3,3,3s3-1.3,3-3S9.7,5,8,5z M8,10c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2S9.1,10,8,10z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <button
+        class="c2 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="submit"
+      >
+        Login
+         
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<LoginForm /> component its snapshot matches story WithCustomChildren 1`] = `
+.c2 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c2 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_username"
+          >
+            Your email address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="login_username"
+                name="username"
+                placeholder="Username"
+                required=""
+                title="Username"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper cds--password-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_password"
+          >
+            Password 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--password-input cds--text-input--md"
+                data-toggle-password-visibility="true"
+                id="login_password"
+                name="password"
+                type="password"
+                value=""
+              />
+              <button
+                class="cds--text-input--password__visibility__toggle cds--btn cds--btn--icon-only cds--tooltip__trigger cds--tooltip--a11y cds--tooltip--bottom cds--tooltip--align-center"
+                type="button"
+              >
+                <span
+                  class="cds--assistive-text"
+                >
+                  Show password
+                </span>
+                <svg
+                  aria-hidden="true"
+                  class="cds--icon-visibility-on"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.5,7.8C14.3,4.7,11.3,2.6,8,2.5C4.7,2.6,1.7,4.7,0.5,7.8c0,0.1,0,0.2,0,0.3c1.2,3.1,4.1,5.2,7.5,5.3 c3.3-0.1,6.3-2.2,7.5-5.3C15.5,8.1,15.5,7.9,15.5,7.8z M8,12.5c-2.7,0-5.4-2-6.5-4.5c1-2.5,3.8-4.5,6.5-4.5s5.4,2,6.5,4.5 C13.4,10.5,10.6,12.5,8,12.5z"
+                  />
+                  <path
+                    d="M8,5C6.3,5,5,6.3,5,8s1.3,3,3,3s3-1.3,3-3S9.7,5,8,5z M8,10c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2S9.1,10,8,10z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#"
+      >
+        Forgot password
+      </a>
+    </div>
+    <div
+      class="c1"
+    >
+      <button
+        class="c2 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="submit"
+      >
+        Login
+         
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<LoginForm /> component its snapshot matches story WithCustomFooter 1`] = `
+.c3 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c3 svg {
+  max-height: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c2 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_username"
+          >
+            Your email address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="login_username"
+                name="username"
+                placeholder="Username"
+                required=""
+                title="Username"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper cds--password-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_password"
+          >
+            Password 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--password-input cds--text-input--md"
+                data-toggle-password-visibility="true"
+                id="login_password"
+                name="password"
+                type="password"
+                value=""
+              />
+              <button
+                class="cds--text-input--password__visibility__toggle cds--btn cds--btn--icon-only cds--tooltip__trigger cds--tooltip--a11y cds--tooltip--bottom cds--tooltip--align-center"
+                type="button"
+              >
+                <span
+                  class="cds--assistive-text"
+                >
+                  Show password
+                </span>
+                <svg
+                  aria-hidden="true"
+                  class="cds--icon-visibility-on"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.5,7.8C14.3,4.7,11.3,2.6,8,2.5C4.7,2.6,1.7,4.7,0.5,7.8c0,0.1,0,0.2,0,0.3c1.2,3.1,4.1,5.2,7.5,5.3 c3.3-0.1,6.3-2.2,7.5-5.3C15.5,8.1,15.5,7.9,15.5,7.8z M8,12.5c-2.7,0-5.4-2-6.5-4.5c1-2.5,3.8-4.5,6.5-4.5s5.4,2,6.5,4.5 C13.4,10.5,10.6,12.5,8,12.5z"
+                  />
+                  <path
+                    d="M8,5C6.3,5,5,6.3,5,8s1.3,3,3,3s3-1.3,3-3S9.7,5,8,5z M8,10c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2S9.1,10,8,10z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          class="c3 cds--btn cds--btn--tertiary"
+          tabindex="0"
+          type="button"
+        >
+          Register
+           
+        </button>
+        <button
+          class="c3 cds--btn cds--btn--primary cds--btn--disabled"
+          disabled=""
+          tabindex="0"
+          type="submit"
+        >
+          Log in
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<LoginForm /> component its snapshot matches story WithCustomValidation 1`] = `
+.c2 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c2 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_username"
+          >
+            Your email address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="login_username"
+                name="username"
+                placeholder="Username"
+                required=""
+                title="Username"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper cds--password-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_password"
+          >
+            Password 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--password-input cds--text-input--md"
+                data-toggle-password-visibility="true"
+                id="login_password"
+                name="password"
+                type="password"
+                value=""
+              />
+              <button
+                class="cds--text-input--password__visibility__toggle cds--btn cds--btn--icon-only cds--tooltip__trigger cds--tooltip--a11y cds--tooltip--bottom cds--tooltip--align-center"
+                type="button"
+              >
+                <span
+                  class="cds--assistive-text"
+                >
+                  Show password
+                </span>
+                <svg
+                  aria-hidden="true"
+                  class="cds--icon-visibility-on"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.5,7.8C14.3,4.7,11.3,2.6,8,2.5C4.7,2.6,1.7,4.7,0.5,7.8c0,0.1,0,0.2,0,0.3c1.2,3.1,4.1,5.2,7.5,5.3 c3.3-0.1,6.3-2.2,7.5-5.3C15.5,8.1,15.5,7.9,15.5,7.8z M8,12.5c-2.7,0-5.4-2-6.5-4.5c1-2.5,3.8-4.5,6.5-4.5s5.4,2,6.5,4.5 C13.4,10.5,10.6,12.5,8,12.5z"
+                  />
+                  <path
+                    d="M8,5C6.3,5,5,6.3,5,8s1.3,3,3,3s3-1.3,3-3S9.7,5,8,5z M8,10c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2S9.1,10,8,10z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <button
+        class="c2 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="submit"
+      >
+        Login
+         
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<LoginForm /> component its snapshot matches story WithErrors 1`] = `
+.c2 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c2 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+<div>
+  <form>
+    <div
+      class="FormHeaderstyles__FormHeader-sc-15gnw04-0"
+    >
+      <div
+        class="cds--inline-notification cds--inline-notification--error cds--inline-notification--hide-close-button"
+        role="status"
+      >
+        <div
+          class="cds--inline-notification__details"
+        >
+          <svg
+            aria-hidden="true"
+            class="cds--inline-notification__icon"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8,1C4.1,1,1,4.1,1,8s3.1,7,7,7s7-3.1,7-7S11.9,1,8,1z M10.7,11.5L4.5,5.3l0.8-0.8l6.2,6.2L10.7,11.5z"
+            />
+            <path
+              d="M10.7,11.5L4.5,5.3l0.8-0.8l6.2,6.2L10.7,11.5z"
+              data-icon-path="inner-path"
+              fill="none"
+              opacity="0"
+            />
+            <title>
+              error icon
+            </title>
+          </svg>
+          <div
+            class="cds--inline-notification__text-wrapper"
+          >
+            <div
+              class="cds--inline-notification__title"
+            >
+              Error
+            </div>
+            <div
+              class="cds--inline-notification__subtitle"
+            >
+              Non existend username and/or password
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_username"
+          >
+            Your email address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="login_username"
+                name="username"
+                placeholder="Username"
+                required=""
+                title="Username"
+                type="text"
+                value="john@ibm.com"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper cds--password-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_password"
+          >
+            Password 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--password-input cds--text-input--md"
+                data-toggle-password-visibility="true"
+                id="login_password"
+                name="password"
+                type="password"
+                value=""
+              />
+              <button
+                class="cds--text-input--password__visibility__toggle cds--btn cds--btn--icon-only cds--tooltip__trigger cds--tooltip--a11y cds--tooltip--bottom cds--tooltip--align-center"
+                type="button"
+              >
+                <span
+                  class="cds--assistive-text"
+                >
+                  Show password
+                </span>
+                <svg
+                  aria-hidden="true"
+                  class="cds--icon-visibility-on"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.5,7.8C14.3,4.7,11.3,2.6,8,2.5C4.7,2.6,1.7,4.7,0.5,7.8c0,0.1,0,0.2,0,0.3c1.2,3.1,4.1,5.2,7.5,5.3 c3.3-0.1,6.3-2.2,7.5-5.3C15.5,8.1,15.5,7.9,15.5,7.8z M8,12.5c-2.7,0-5.4-2-6.5-4.5c1-2.5,3.8-4.5,6.5-4.5s5.4,2,6.5,4.5 C13.4,10.5,10.6,12.5,8,12.5z"
+                  />
+                  <path
+                    d="M8,5C6.3,5,5,6.3,5,8s1.3,3,3,3s3-1.3,3-3S9.7,5,8,5z M8,10c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2S9.1,10,8,10z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <button
+        class="c2 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="submit"
+      >
+        Login
+         
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<LoginForm /> component its snapshot matches story WithIntl 1`] = `
+.c2 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c2 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_username"
+          >
+            Användarnam eller e-postaddress 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="login_username"
+                name="username"
+                placeholder="Användarnam"
+                required=""
+                title="Användarnam"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper cds--password-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="login_password"
+          >
+            Lösenord 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--password-input cds--text-input--md"
+                data-toggle-password-visibility="true"
+                id="login_password"
+                name="password"
+                type="password"
+                value=""
+              />
+              <button
+                class="cds--text-input--password__visibility__toggle cds--btn cds--btn--icon-only cds--tooltip__trigger cds--tooltip--a11y cds--tooltip--bottom cds--tooltip--align-center"
+                type="button"
+              >
+                <span
+                  class="cds--assistive-text"
+                >
+                  Show password
+                </span>
+                <svg
+                  aria-hidden="true"
+                  class="cds--icon-visibility-on"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.5,7.8C14.3,4.7,11.3,2.6,8,2.5C4.7,2.6,1.7,4.7,0.5,7.8c0,0.1,0,0.2,0,0.3c1.2,3.1,4.1,5.2,7.5,5.3 c3.3-0.1,6.3-2.2,7.5-5.3C15.5,8.1,15.5,7.9,15.5,7.8z M8,12.5c-2.7,0-5.4-2-6.5-4.5c1-2.5,3.8-4.5,6.5-4.5s5.4,2,6.5,4.5 C13.4,10.5,10.6,12.5,8,12.5z"
+                  />
+                  <path
+                    d="M8,5C6.3,5,5,6.3,5,8s1.3,3,3,3s3-1.3,3-3S9.7,5,8,5z M8,10c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2S9.1,10,8,10z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <button
+        class="c2 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="submit"
+      >
+        Logga in
+         
+      </button>
+    </div>
+  </form>
+</div>
+`;

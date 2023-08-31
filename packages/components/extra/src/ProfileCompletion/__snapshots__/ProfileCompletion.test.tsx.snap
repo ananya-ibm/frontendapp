@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProfileCompletion /> component its snapshot matches 1`] = `
+.c2 {
+  max-height: 20rem;
+  max-width: 20rem;
+  position: relative;
+}
+
+.c2 .CircularProgressbar {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.c2 .CircularProgressbar-path {
+  stroke: red;
+}
+
+.c2 .CircularProgressbar-trail {
+  stroke: gray;
+}
+
+.c2 .CircularProgressbar-text {
+  fill: yellow;
+}
+
+.c2 .CircularProgressbar-background {
+  fill: green;
+}
+
+.c2 .CircularProgressbar .CircularProgressbar-path {
+  stroke: #0062ff;
+  stroke-linecap: round;
+  -webkit-transition: stroke-dashoffset 0.5s ease 0s;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.c2 .CircularProgressbar .CircularProgressbar-trail {
+  stroke: #c6c6c6;
+  stroke-linecap: round;
+}
+
+.c2 .CircularProgressbar .CircularProgressbar-text {
+  -webkit-dominant-baseline: middle;
+  dominant-baseline: middle;
+  fill: #0062ff;
+  font-size: 1.3rem;
+  text-anchor: middle;
+}
+
+.c2 .CircularProgressbar .CircularProgressbar-background {
+  fill: #c6c6c6;
+}
+
+.c2 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+  fill: #c9deff;
+}
+
+.c2 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+  fill: #ffffff;
+}
+
+.c2 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+  stroke: #ffffff;
+}
+
+.c2 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+  stroke: transparent;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+.c1 {
+  color: #198038;
+  -webkit-flex: 0 0 8rem;
+  -ms-flex: 0 0 8rem;
+  flex: 0 0 8rem;
+  font: 700 2.625rem/3.1473750000000003rem 'IBM Plex Sans',Arial,sans-serif;
+  height: 8rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 8rem;
+}
+
+.c3 {
+  -webkit-flex: 0 0 75%;
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  list-style: none;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.c3 .ProfileCompletion-item {
+  margin: 1rem 0 0;
+}
+
+.c3 .ProfileCompletion-icon {
+  margin-right: 0.25rem;
+}
+
+.c3 .ProfileCompletion-icon.isComplete {
+  color: #198038;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <svg
+        class="CircularProgressbar "
+        data-test-id="CircularProgressbar"
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="CircularProgressbar-trail"
+          d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+          fill-opacity="0"
+          stroke-width="8"
+          style="stroke-dasharray: 289.02652413026095px 289.02652413026095px; stroke-dashoffset: 0px;"
+        />
+        <path
+          class="CircularProgressbar-path"
+          d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+          fill-opacity="0"
+          stroke-width="8"
+          style="stroke-dasharray: 289.02652413026095px 289.02652413026095px; stroke-dashoffset: 144.51326206513048px;"
+        />
+        <text
+          class="CircularProgressbar-text"
+          x="50"
+          y="50"
+        >
+          50%
+        </text>
+      </svg>
+    </div>
+  </div>
+  <ul
+    class="c3"
+  >
+    <li
+      class="ProfileCompletion-item"
+    >
+      <span
+        class="ProfileCompletion-icon  isComplete"
+      >
+        ✔
+      </span>
+      Personal details
+    </li>
+    <li
+      class="ProfileCompletion-item"
+    >
+      <span
+        class="ProfileCompletion-icon  isComplete"
+      >
+        ✔
+      </span>
+      Billing information
+    </li>
+    <li
+      class="ProfileCompletion-item"
+    >
+      <span
+        class="ProfileCompletion-icon "
+      >
+        —
+      </span>
+      Security preferences
+    </li>
+  </ul>
+</div>
+`;

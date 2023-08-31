@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Notification /> component its snapshot matches story Default 1`] = `
+<div>
+  <div
+    class="cds--inline-notification cds--inline-notification--info"
+    role="status"
+  >
+    <div
+      class="cds--inline-notification__details"
+    >
+      <svg
+        aria-hidden="true"
+        class="cds--inline-notification__icon"
+        fill="currentColor"
+        focusable="false"
+        height="16"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16,8a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,16,8Zm4,13.875H17.125v-8H13v2.25h1.875v5.75H12v2.25h8Z"
+          data-icon-path="inner-path"
+          fill="none"
+        />
+        <path
+          d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,6a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,16,8Zm4,16.125H12v-2.25h2.875v-5.75H13v-2.25h4.125v8H20Z"
+        />
+        <title>
+          info icon
+        </title>
+      </svg>
+      <div
+        class="cds--inline-notification__text-wrapper"
+      >
+        <div
+          class="cds--inline-notification__title"
+        >
+          Sample error
+        </div>
+        <div
+          class="cds--inline-notification__subtitle"
+        >
+          Some details
+        </div>
+      </div>
+    </div>
+    <button
+      aria-hidden="true"
+      aria-label="close notification"
+      class="cds--inline-notification__close-button"
+      tabindex="-1"
+      title="close notification"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="cds--inline-notification__close-icon"
+        fill="currentColor"
+        focusable="false"
+        height="16"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Notification /> component its snapshot matches story Floating 1`] = `
+<div>
+  <div
+    class="cds--toast-notification cds--toast-notification--error"
+    role="status"
+  >
+    <svg
+      aria-hidden="true"
+      class="cds--toast-notification__icon"
+      fill="currentColor"
+      focusable="false"
+      height="16"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8,1C4.1,1,1,4.1,1,8s3.1,7,7,7s7-3.1,7-7S11.9,1,8,1z M10.7,11.5L4.5,5.3l0.8-0.8l6.2,6.2L10.7,11.5z"
+      />
+      <path
+        d="M10.7,11.5L4.5,5.3l0.8-0.8l6.2,6.2L10.7,11.5z"
+        data-icon-path="inner-path"
+        fill="none"
+        opacity="0"
+      />
+      <title>
+        error icon
+      </title>
+    </svg>
+    <div
+      class="cds--toast-notification__details"
+    >
+      <div
+        class="cds--toast-notification__title"
+      >
+        Sample error
+      </div>
+      <div
+        class="cds--toast-notification__subtitle"
+      >
+        Some details
+      </div>
+    </div>
+    <button
+      aria-hidden="true"
+      aria-label="close notification"
+      class="cds--toast-notification__close-button"
+      tabindex="-1"
+      title="close notification"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="cds--toast-notification__close-icon"
+        fill="currentColor"
+        focusable="false"
+        height="16"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

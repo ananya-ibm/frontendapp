@@ -1,0 +1,28 @@
+{
+  "name": "@exo/frontend-features-events-provider-mqtt",
+  "version": "1.0.0",
+  "description": "## Features",
+  "main": "lib/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:ixliberty/ix-liberty-boilerplate.git"
+  },
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "author": "Magnus Johansson",
+  "dependencies": {
+    "mqtt-react-hooks": "^2.0.0",
+    "@exo/frontend-common-provider": "^1.0.0",
+    "@exo/frontend-features-events-types": "^1.0.0",
+    "@exo/frontend-common-session-context": "^1.0.0",
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0"
+  }
+}

@@ -1,0 +1,591 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShippingDetails /> component its snapshot matches 1`] = `
+.c6 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c6 svg {
+  max-height: 100%;
+}
+
+.c2 {
+  margin-bottom: 1.5rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c3 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c3 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c3 .c1 {
+  margin-bottom: 0;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.c0 {
+  -webkit-animation: exoFadeIn 110ms cubic-bezier(0,0,0.38,0.9);
+  animation: exoFadeIn 110ms cubic-bezier(0,0,0.38,0.9);
+  padding: 4rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.5rem 0 0;
+  width: 100%;
+}
+
+@media (max-width:672px) {
+  .c3 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c3 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c3 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div
+  class="c0"
+>
+  <h2>
+    Please fill in your contact details
+  </h2>
+  <br />
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--dropdown__wrapper cds--list-box__wrapper"
+        >
+          <label
+            class="cds--label"
+            for="downshift-0-toggle-button"
+            id="downshift-0-label"
+          >
+            Title 
+          </label>
+          <div
+            class="cds--dropdown cds--list-box"
+            id="address_title"
+          >
+            <button
+              aria-disabled="false"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="downshift-0-label downshift-0-toggle-button"
+              class="cds--list-box__field"
+              id="downshift-0-toggle-button"
+              title="Title"
+              type="button"
+            >
+              <span
+                class="cds--list-box__label"
+              >
+                Title
+              </span>
+              <div
+                class="cds--list-box__menu-icon"
+              >
+                <svg
+                  aria-label="Open menu"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  name="chevron--down"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                  />
+                  <title>
+                    Open menu
+                  </title>
+                </svg>
+              </div>
+            </button>
+            <div
+              aria-labelledby="downshift-0-label"
+              class="cds--list-box__menu"
+              id="downshift-0-menu"
+              role="listbox"
+              tabindex="-1"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="c3"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_firstName"
+            >
+              Your first name 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_firstName"
+                  name="firstName"
+                  placeholder="Your first name"
+                  required=""
+                  title="Your first name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_lastName"
+            >
+              Your last name 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_lastName"
+                  name="lastName"
+                  placeholder="Your last name"
+                  required=""
+                  title="Your last name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label cds--label--disabled"
+            for="address_email"
+          >
+            Your email address (optional)
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                disabled=""
+                id="address_email"
+                name="email"
+                placeholder="Your email address"
+                title="Your email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_phone"
+          >
+            Your phone number 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_phone"
+                name="phone"
+                placeholder="Your phone number"
+                required=""
+                title="Your phone number"
+                type="tel"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address1"
+          >
+            Your address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address1"
+                name="address1"
+                placeholder="Address"
+                required=""
+                title="Address"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address2"
+          >
+            Additional address line (optional)
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address2"
+                name="address2"
+                placeholder="Address line 2"
+                title="Address line 2"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--dropdown__wrapper cds--list-box__wrapper"
+        >
+          <label
+            class="cds--label"
+            for="downshift-1-toggle-button"
+            id="downshift-1-label"
+          >
+            Country 
+          </label>
+          <div
+            class="cds--dropdown cds--list-box"
+            id="address_country"
+          >
+            <button
+              aria-disabled="false"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="downshift-1-label downshift-1-toggle-button"
+              class="cds--list-box__field"
+              id="downshift-1-toggle-button"
+              title="Country"
+              type="button"
+            >
+              <span
+                class="cds--list-box__label"
+              >
+                Country
+              </span>
+              <div
+                class="cds--list-box__menu-icon"
+              >
+                <svg
+                  aria-label="Open menu"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  name="chevron--down"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                  />
+                  <title>
+                    Open menu
+                  </title>
+                </svg>
+              </div>
+            </button>
+            <div
+              aria-labelledby="downshift-1-label"
+              class="cds--list-box__menu"
+              id="downshift-1-menu"
+              role="listbox"
+              tabindex="-1"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="c3"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_city"
+            >
+              City 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_city"
+                  name="city"
+                  placeholder="City"
+                  required=""
+                  title="City"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--dropdown__wrapper cds--list-box__wrapper"
+          >
+            <label
+              class="cds--label cds--label--disabled"
+              for="downshift-2-toggle-button"
+              id="downshift-2-label"
+            >
+              State/province (optional)
+            </label>
+            <div
+              class="cds--dropdown cds--dropdown--disabled cds--list-box"
+              id="address_province"
+            >
+              <button
+                aria-disabled="true"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="downshift-2-label downshift-2-toggle-button"
+                class="cds--list-box__field"
+                disabled=""
+                id="downshift-2-toggle-button"
+                title="State/province"
+                type="button"
+              >
+                <span
+                  class="cds--list-box__label"
+                >
+                  State/province
+                </span>
+                <div
+                  class="cds--list-box__menu-icon"
+                >
+                  <svg
+                    aria-label="Open menu"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    name="chevron--down"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                    <title>
+                      Open menu
+                    </title>
+                  </svg>
+                </div>
+              </button>
+              <div
+                aria-labelledby="downshift-2-label"
+                class="cds--list-box__menu"
+                id="downshift-2-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_zip"
+            >
+              Postal/Zip Code 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_zip"
+                  name="zip"
+                  placeholder="Postal/Zip Code"
+                  required=""
+                  title="Postal/Zip Code"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <button
+          class="c6 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Back to cart
+           
+        </button>
+        <button
+          class="c6 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="submit"
+        >
+          Next
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

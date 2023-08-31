@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Leases /> component its snapshot matches story Default 1`] = `
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c7:hover {
+  color: #0043ce;
+}
+
+.c7 svg {
+  color: #161616;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 0.125rem solid #e0e0e0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+.c4 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c2 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.c1 {
+  height: 1rem;
+}
+
+.c0 .information {
+  fill: #161616;
+}
+
+.c0 .highlighted-row {
+  font-weight: bold;
+  margin: 2rem 0 1rem 0;
+}
+
+.c0 .link-top {
+  border-top: #acc0d8 0.1rem;
+  height: 0.1rem;
+  width: 55%;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <h4>
+      My leases
+    </h4>
+    <hr />
+    <div
+      class="c1"
+    />
+    <div
+      class="cds--tabs"
+    >
+      <button
+        aria-hidden="true"
+        aria-label="Scroll left"
+        class="cds--tab--overflow-nav-button cds--tab--overflow-nav-button--previous cds--tab--overflow-nav-button--hidden"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 8L10 3 10.7 3.7 6.4 8 10.7 12.3 10 13z"
+          />
+        </svg>
+      </button>
+      <div
+        aria-label="Tabs"
+        class="cds--tab--list"
+        role="tablist"
+      >
+        <button
+          aria-controls="ccs-1-tabpanel-0"
+          aria-selected="true"
+          class="cds--tabs__nav-item cds--tabs__nav-link cds--tabs__nav-item--selected"
+          id="ccs-1-tab-0"
+          role="tab"
+          tabindex="0"
+          type="button"
+        >
+          Active
+        </button>
+        <button
+          aria-controls="ccs-1-tabpanel-1"
+          aria-selected="false"
+          class="cds--tabs__nav-item cds--tabs__nav-link"
+          id="ccs-1-tab-1"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Expire
+        </button>
+      </div>
+      <button
+        aria-hidden="true"
+        aria-label="Scroll right"
+        class="cds--tab--overflow-nav-button cds--tab--overflow-nav-button--next cds--tab--overflow-nav-button--hidden"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      aria-labelledby="ccs-1-tab-0"
+      class="cds--tab-content"
+      id="ccs-1-tabpanel-0"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        class="c1"
+      />
+      <div
+        class="cds--layer-two c2"
+      >
+        <h4
+          class="c3"
+        >
+          Lease Agreement
+        </h4>
+        <div
+          class="c4 card-section-undefined"
+        >
+          <div>
+            Expires: 13/01/2021
+          </div>
+          <div
+            class="highlighted-row"
+          >
+            £59.99/Month
+          </div>
+          <div>
+            Paid with Direct Debit
+          </div>
+          <div
+            class="cds--row"
+          >
+            <div
+              class="cds--col-lg-2"
+            >
+              <div
+                class="highlighted-row"
+              >
+                Mileage Limit
+              </div>
+              <div>
+                100,000
+              </div>
+            </div>
+            <div
+              class="cds--col-lg-2"
+            >
+              <div
+                class="highlighted-row"
+              >
+                Term Duration
+              </div>
+              <div>
+                5 years
+              </div>
+            </div>
+            <div
+              class="cds--col-lg-3"
+            >
+              <div
+                class="highlighted-row"
+              >
+                Upfront Payment
+              </div>
+              <div>
+                £2,000.00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c5"
+        >
+          <div
+            class="c6"
+          >
+            <a
+              class="c7"
+            >
+              Manage Lease
+            </a>
+          </div>
+          <div />
+          <div
+            class="Cardstyles__FooterAdditionalActions-sc-10s0tle-7"
+          >
+            <div
+              class="c8"
+            >
+              <a
+                class="c7"
+              >
+                Terms and Conditions
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-labelledby="ccs-1-tab-1"
+      class="cds--tab-content"
+      hidden=""
+      id="ccs-1-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    >
+      <div
+        class="c1"
+      />
+      <div
+        class="cds--layer-two c2"
+      >
+        <h4
+          class="c3"
+        >
+          Lease Agreement
+        </h4>
+        <div
+          class="c4 card-section-undefined"
+        >
+          <div>
+            Expires: 13/01/2021
+          </div>
+          <div
+            class="highlighted-row"
+          >
+            £59.99/Month
+          </div>
+          <div>
+            Paid with Direct Debit
+          </div>
+          <div
+            class="cds--row"
+          >
+            <div
+              class="cds--col-lg-2"
+            >
+              <div
+                class="highlighted-row"
+              >
+                Mileage Limit
+              </div>
+              <div>
+                100,000
+              </div>
+            </div>
+            <div
+              class="cds--col-lg-2"
+            >
+              <div
+                class="highlighted-row"
+              >
+                Term Duration
+              </div>
+              <div>
+                5 years
+              </div>
+            </div>
+            <div
+              class="cds--col-lg-3"
+            >
+              <div
+                class="highlighted-row"
+              >
+                Upfront Payment
+              </div>
+              <div>
+                £2,000.00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c5"
+        >
+          <div
+            class="c6"
+          >
+            <a
+              class="c7"
+            >
+              Manage Lease
+            </a>
+          </div>
+          <div />
+          <div
+            class="Cardstyles__FooterAdditionalActions-sc-10s0tle-7"
+          >
+            <div
+              class="c8"
+            >
+              <a
+                class="c7"
+              >
+                Terms and Conditions
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

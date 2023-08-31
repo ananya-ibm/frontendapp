@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["renderWithTheme", "./test/renderWithTheme"],
+          ["mockSiteData", "./test/mockSiteData"]
+        ]
+      }
+    }
+  },
+
+  "rules": {
+    "react/jsx-props-no-spreading": 0
+  }
+}

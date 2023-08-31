@@ -1,0 +1,2830 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkout /> component Checkout renders correctly when finance is not selected 1`] = `
+.c29 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c29:hover {
+  color: #0043ce;
+}
+
+.c29 svg {
+  color: #161616;
+}
+
+.c8 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c8 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  max-width: var(--max-width);
+}
+
+.c0 .cds--row > * > .cds--grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c1 {
+  height: 1rem;
+}
+
+.c12 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c24 {
+  padding-right: 2rem;
+}
+
+.c25 {
+  border-bottom: 0.0625rem solid #f4f4f4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+
+.c26 {
+  padding: 1rem 0;
+}
+
+.c27 {
+  border-bottom: 0;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.c28 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  right: -2rem;
+  top: 0;
+  width: 2rem;
+}
+
+.c28 svg {
+  margin: auto;
+  max-width: 1rem;
+}
+
+.c4 {
+  margin-bottom: 1.5rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c5 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c5 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c5 .c3 {
+  margin-bottom: 0;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.c2 {
+  -webkit-animation: exoFadeIn 110ms cubic-bezier(0,0,0.38,0.9);
+  animation: exoFadeIn 110ms cubic-bezier(0,0,0.38,0.9);
+  padding: 4rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.5rem 0 0;
+  width: 100%;
+}
+
+.c9 {
+  max-width: 74rem;
+  padding: 4rem;
+  text-align: left;
+}
+
+.c15 {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  margin-top: 2.75rem;
+}
+
+.c15 .cost-title {
+  margin-top: 2.25rem;
+  text-align: left;
+}
+
+.c13:first-of-type {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.c13:nth-child(2) {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.c13:last-of-type {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c18 {
+  padding: 1.5rem 0 0 1.5rem;
+}
+
+.c10 {
+  font: 700 1.25rem 'IBM Plex Sans',Arial,sans-serif;
+  padding: 2rem 0;
+}
+
+.c11 {
+  color: #0062ff;
+}
+
+.c16 {
+  font: 700 1.25rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c19 {
+  font: 400 0.875rem 'IBM Plex Sans',Arial,sans-serif;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  max-width: 80%;
+}
+
+.c20 {
+  display: inline;
+  font: 700 0.875rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c17 {
+  margin-top: 1.25rem;
+  max-width: 13.75rem;
+  width: 100%;
+}
+
+.c21 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.c23 {
+  font: 400 0.875rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-left: 1.5rem;
+}
+
+.c22 {
+  max-width: 3.25rem;
+}
+
+@media (max-width:672px) {
+  .c5 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c5 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c5 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div
+  class="c0 cds--grid"
+>
+  <div
+    class="cds--row"
+  >
+    <div
+      class="c1"
+    />
+    <div
+      class="cds--col"
+    >
+      <ul
+        class="cds--progress"
+      >
+        <li
+          class="cds--progress-step cds--progress-step--incomplete"
+        >
+          <button
+            class="cds--progress-step-button cds--progress-step-button--unclickable"
+            index="0"
+            tabindex="-1"
+            title="Contact Details"
+            type="button"
+          >
+            <span
+              class="cds--assistive-text"
+            >
+              Incomplete
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.7 4.7a14.7 14.7 0 00-3 3.1L6.3 9A13.26 13.26 0 018.9 6.3zM4.6 12.3l-1.9-.6A12.51 12.51 0 002 16H4A11.48 11.48 0 014.6 12.3zM2.7 20.4a14.4 14.4 0 002 3.9l1.6-1.2a12.89 12.89 0 01-1.7-3.3zM7.8 27.3a14.4 14.4 0 003.9 2l.6-1.9A12.89 12.89 0 019 25.7zM11.7 2.7l.6 1.9A11.48 11.48 0 0116 4V2A12.51 12.51 0 0011.7 2.7zM24.2 27.3a15.18 15.18 0 003.1-3.1L25.7 23A11.53 11.53 0 0123 25.7zM27.4 19.7l1.9.6A15.47 15.47 0 0030 16H28A11.48 11.48 0 0127.4 19.7zM29.2 11.6a14.4 14.4 0 00-2-3.9L25.6 8.9a12.89 12.89 0 011.7 3.3zM24.1 4.6a14.4 14.4 0 00-3.9-2l-.6 1.9a12.89 12.89 0 013.3 1.7zM20.3 29.3l-.6-1.9A11.48 11.48 0 0116 28v2A21.42 21.42 0 0020.3 29.3z"
+              />
+              <title />
+            </svg>
+            <div
+              class="cds--progress-text"
+            >
+              <p
+                class="cds--progress-label"
+              >
+                Contact Details
+              </p>
+              <p
+                class="cds--progress-optional"
+              >
+                Step 1
+              </p>
+            </div>
+            <span
+              class="cds--progress-line"
+            />
+          </button>
+        </li>
+        <li
+          class="cds--progress-step cds--progress-step--incomplete"
+        >
+          <button
+            class="cds--progress-step-button cds--progress-step-button--unclickable"
+            index="1"
+            tabindex="-1"
+            title="Delivery Method"
+            type="button"
+          >
+            <span
+              class="cds--assistive-text"
+            >
+              Incomplete
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.7 4.7a14.7 14.7 0 00-3 3.1L6.3 9A13.26 13.26 0 018.9 6.3zM4.6 12.3l-1.9-.6A12.51 12.51 0 002 16H4A11.48 11.48 0 014.6 12.3zM2.7 20.4a14.4 14.4 0 002 3.9l1.6-1.2a12.89 12.89 0 01-1.7-3.3zM7.8 27.3a14.4 14.4 0 003.9 2l.6-1.9A12.89 12.89 0 019 25.7zM11.7 2.7l.6 1.9A11.48 11.48 0 0116 4V2A12.51 12.51 0 0011.7 2.7zM24.2 27.3a15.18 15.18 0 003.1-3.1L25.7 23A11.53 11.53 0 0123 25.7zM27.4 19.7l1.9.6A15.47 15.47 0 0030 16H28A11.48 11.48 0 0127.4 19.7zM29.2 11.6a14.4 14.4 0 00-2-3.9L25.6 8.9a12.89 12.89 0 011.7 3.3zM24.1 4.6a14.4 14.4 0 00-3.9-2l-.6 1.9a12.89 12.89 0 013.3 1.7zM20.3 29.3l-.6-1.9A11.48 11.48 0 0116 28v2A21.42 21.42 0 0020.3 29.3z"
+              />
+              <title />
+            </svg>
+            <div
+              class="cds--progress-text"
+            >
+              <p
+                class="cds--progress-label"
+              >
+                Delivery Method
+              </p>
+              <p
+                class="cds--progress-optional"
+              >
+                Step 2
+              </p>
+            </div>
+            <span
+              class="cds--progress-line"
+            />
+          </button>
+        </li>
+        <li
+          class="cds--progress-step cds--progress-step--incomplete"
+        >
+          <button
+            class="cds--progress-step-button cds--progress-step-button--unclickable"
+            index="2"
+            tabindex="-1"
+            title="Credit Check"
+            type="button"
+          >
+            <span
+              class="cds--assistive-text"
+            >
+              Incomplete
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.7 4.7a14.7 14.7 0 00-3 3.1L6.3 9A13.26 13.26 0 018.9 6.3zM4.6 12.3l-1.9-.6A12.51 12.51 0 002 16H4A11.48 11.48 0 014.6 12.3zM2.7 20.4a14.4 14.4 0 002 3.9l1.6-1.2a12.89 12.89 0 01-1.7-3.3zM7.8 27.3a14.4 14.4 0 003.9 2l.6-1.9A12.89 12.89 0 019 25.7zM11.7 2.7l.6 1.9A11.48 11.48 0 0116 4V2A12.51 12.51 0 0011.7 2.7zM24.2 27.3a15.18 15.18 0 003.1-3.1L25.7 23A11.53 11.53 0 0123 25.7zM27.4 19.7l1.9.6A15.47 15.47 0 0030 16H28A11.48 11.48 0 0127.4 19.7zM29.2 11.6a14.4 14.4 0 00-2-3.9L25.6 8.9a12.89 12.89 0 011.7 3.3zM24.1 4.6a14.4 14.4 0 00-3.9-2l-.6 1.9a12.89 12.89 0 013.3 1.7zM20.3 29.3l-.6-1.9A11.48 11.48 0 0116 28v2A21.42 21.42 0 0020.3 29.3z"
+              />
+              <title />
+            </svg>
+            <div
+              class="cds--progress-text"
+            >
+              <p
+                class="cds--progress-label"
+              >
+                Credit Check
+              </p>
+              <p
+                class="cds--progress-optional"
+              >
+                Step 3
+              </p>
+            </div>
+            <span
+              class="cds--progress-line"
+            />
+          </button>
+        </li>
+        <li
+          class="cds--progress-step cds--progress-step--incomplete"
+        >
+          <button
+            class="cds--progress-step-button cds--progress-step-button--unclickable"
+            index="3"
+            tabindex="-1"
+            title="PaymentDetails"
+            type="button"
+          >
+            <span
+              class="cds--assistive-text"
+            >
+              Incomplete
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.7 4.7a14.7 14.7 0 00-3 3.1L6.3 9A13.26 13.26 0 018.9 6.3zM4.6 12.3l-1.9-.6A12.51 12.51 0 002 16H4A11.48 11.48 0 014.6 12.3zM2.7 20.4a14.4 14.4 0 002 3.9l1.6-1.2a12.89 12.89 0 01-1.7-3.3zM7.8 27.3a14.4 14.4 0 003.9 2l.6-1.9A12.89 12.89 0 019 25.7zM11.7 2.7l.6 1.9A11.48 11.48 0 0116 4V2A12.51 12.51 0 0011.7 2.7zM24.2 27.3a15.18 15.18 0 003.1-3.1L25.7 23A11.53 11.53 0 0123 25.7zM27.4 19.7l1.9.6A15.47 15.47 0 0030 16H28A11.48 11.48 0 0127.4 19.7zM29.2 11.6a14.4 14.4 0 00-2-3.9L25.6 8.9a12.89 12.89 0 011.7 3.3zM24.1 4.6a14.4 14.4 0 00-3.9-2l-.6 1.9a12.89 12.89 0 013.3 1.7zM20.3 29.3l-.6-1.9A11.48 11.48 0 0116 28v2A21.42 21.42 0 0020.3 29.3z"
+              />
+              <title />
+            </svg>
+            <div
+              class="cds--progress-text"
+            >
+              <p
+                class="cds--progress-label"
+              >
+                PaymentDetails
+              </p>
+              <p
+                class="cds--progress-optional"
+              >
+                Step 4
+              </p>
+            </div>
+            <span
+              class="cds--progress-line"
+            />
+          </button>
+        </li>
+        <li
+          class="cds--progress-step cds--progress-step--incomplete"
+        >
+          <button
+            class="cds--progress-step-button cds--progress-step-button--unclickable"
+            index="4"
+            tabindex="-1"
+            title="Confirm Reservation"
+            type="button"
+          >
+            <span
+              class="cds--assistive-text"
+            >
+              Incomplete
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.7 4.7a14.7 14.7 0 00-3 3.1L6.3 9A13.26 13.26 0 018.9 6.3zM4.6 12.3l-1.9-.6A12.51 12.51 0 002 16H4A11.48 11.48 0 014.6 12.3zM2.7 20.4a14.4 14.4 0 002 3.9l1.6-1.2a12.89 12.89 0 01-1.7-3.3zM7.8 27.3a14.4 14.4 0 003.9 2l.6-1.9A12.89 12.89 0 019 25.7zM11.7 2.7l.6 1.9A11.48 11.48 0 0116 4V2A12.51 12.51 0 0011.7 2.7zM24.2 27.3a15.18 15.18 0 003.1-3.1L25.7 23A11.53 11.53 0 0123 25.7zM27.4 19.7l1.9.6A15.47 15.47 0 0030 16H28A11.48 11.48 0 0127.4 19.7zM29.2 11.6a14.4 14.4 0 00-2-3.9L25.6 8.9a12.89 12.89 0 011.7 3.3zM24.1 4.6a14.4 14.4 0 00-3.9-2l-.6 1.9a12.89 12.89 0 013.3 1.7zM20.3 29.3l-.6-1.9A11.48 11.48 0 0116 28v2A21.42 21.42 0 0020.3 29.3z"
+              />
+              <title />
+            </svg>
+            <div
+              class="cds--progress-text"
+            >
+              <p
+                class="cds--progress-label"
+              >
+                Confirm Reservation
+              </p>
+              <p
+                class="cds--progress-optional"
+              >
+                Step 5
+              </p>
+            </div>
+            <span
+              class="cds--progress-line"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="cds--row"
+  >
+    <div
+      class="main cds--row"
+    >
+      <div
+        class="cds--col"
+      >
+        <div
+          class="c2"
+        >
+          <h2>
+            Please fill in your contact details
+          </h2>
+          <br />
+          <form>
+            <div
+              class="FormBodystyles__FormBody-sc-12wq4uu-0"
+            >
+              <div
+                class="c3 c4"
+              >
+                <div
+                  class="cds--dropdown__wrapper cds--list-box__wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="downshift-3-toggle-button"
+                    id="downshift-3-label"
+                  >
+                    Title 
+                  </label>
+                  <div
+                    class="cds--dropdown cds--list-box"
+                    id="address_title"
+                  >
+                    <button
+                      aria-disabled="false"
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      aria-labelledby="downshift-3-label downshift-3-toggle-button"
+                      class="cds--list-box__field"
+                      id="downshift-3-toggle-button"
+                      title="Title"
+                      type="button"
+                    >
+                      <span
+                        class="cds--list-box__label"
+                      >
+                        Title
+                      </span>
+                      <div
+                        class="cds--list-box__menu-icon"
+                      >
+                        <svg
+                          aria-label="Open menu"
+                          fill="currentColor"
+                          focusable="false"
+                          height="16"
+                          name="chevron--down"
+                          preserveAspectRatio="xMidYMid meet"
+                          role="img"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                          />
+                          <title>
+                            Open menu
+                          </title>
+                        </svg>
+                      </div>
+                    </button>
+                    <div
+                      aria-labelledby="downshift-3-label"
+                      class="cds--list-box__menu"
+                      id="downshift-3-menu"
+                      role="listbox"
+                      tabindex="-1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c5"
+              >
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="address_firstName"
+                    >
+                      Your first name 
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="address_firstName"
+                          name="firstName"
+                          placeholder="Your first name"
+                          required=""
+                          title="Your first name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="address_lastName"
+                    >
+                      Your last name 
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="address_lastName"
+                          name="lastName"
+                          placeholder="Your last name"
+                          required=""
+                          title="Your last name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c3 c4"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label cds--label--disabled"
+                    for="address_email"
+                  >
+                    Your email address (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        disabled=""
+                        id="address_email"
+                        name="email"
+                        placeholder="Your email address"
+                        title="Your email address"
+                        type="email"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c3 c4"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="address_phone"
+                  >
+                    Your phone number 
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="address_phone"
+                        name="phone"
+                        placeholder="Your phone number"
+                        required=""
+                        title="Your phone number"
+                        type="tel"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c3 c4"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="address_address1"
+                  >
+                    Your address 
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="address_address1"
+                        name="address1"
+                        placeholder="Address"
+                        required=""
+                        title="Address"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c3 c4"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="address_address2"
+                  >
+                    Additional address line (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="address_address2"
+                        name="address2"
+                        placeholder="Address line 2"
+                        title="Address line 2"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c3 c4"
+              >
+                <div
+                  class="cds--dropdown__wrapper cds--list-box__wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="downshift-4-toggle-button"
+                    id="downshift-4-label"
+                  >
+                    Country 
+                  </label>
+                  <div
+                    class="cds--dropdown cds--list-box"
+                    id="address_country"
+                  >
+                    <button
+                      aria-disabled="false"
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      aria-labelledby="downshift-4-label downshift-4-toggle-button"
+                      class="cds--list-box__field"
+                      id="downshift-4-toggle-button"
+                      title="Country"
+                      type="button"
+                    >
+                      <span
+                        class="cds--list-box__label"
+                      >
+                        Country
+                      </span>
+                      <div
+                        class="cds--list-box__menu-icon"
+                      >
+                        <svg
+                          aria-label="Open menu"
+                          fill="currentColor"
+                          focusable="false"
+                          height="16"
+                          name="chevron--down"
+                          preserveAspectRatio="xMidYMid meet"
+                          role="img"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                          />
+                          <title>
+                            Open menu
+                          </title>
+                        </svg>
+                      </div>
+                    </button>
+                    <div
+                      aria-labelledby="downshift-4-label"
+                      class="cds--list-box__menu"
+                      id="downshift-4-menu"
+                      role="listbox"
+                      tabindex="-1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c5"
+              >
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="address_city"
+                    >
+                      City 
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="address_city"
+                          name="city"
+                          placeholder="City"
+                          required=""
+                          title="City"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--dropdown__wrapper cds--list-box__wrapper"
+                  >
+                    <label
+                      class="cds--label cds--label--disabled"
+                      for="downshift-5-toggle-button"
+                      id="downshift-5-label"
+                    >
+                      State/province (optional)
+                    </label>
+                    <div
+                      class="cds--dropdown cds--dropdown--disabled cds--list-box"
+                      id="address_province"
+                    >
+                      <button
+                        aria-disabled="true"
+                        aria-expanded="false"
+                        aria-haspopup="listbox"
+                        aria-labelledby="downshift-5-label downshift-5-toggle-button"
+                        class="cds--list-box__field"
+                        disabled=""
+                        id="downshift-5-toggle-button"
+                        title="State/province"
+                        type="button"
+                      >
+                        <span
+                          class="cds--list-box__label"
+                        >
+                          State/province
+                        </span>
+                        <div
+                          class="cds--list-box__menu-icon"
+                        >
+                          <svg
+                            aria-label="Open menu"
+                            fill="currentColor"
+                            focusable="false"
+                            height="16"
+                            name="chevron--down"
+                            preserveAspectRatio="xMidYMid meet"
+                            role="img"
+                            viewBox="0 0 16 16"
+                            width="16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                            />
+                            <title>
+                              Open menu
+                            </title>
+                          </svg>
+                        </div>
+                      </button>
+                      <div
+                        aria-labelledby="downshift-5-label"
+                        class="cds--list-box__menu"
+                        id="downshift-5-menu"
+                        role="listbox"
+                        tabindex="-1"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="address_zip"
+                    >
+                      Postal/Zip Code 
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="address_zip"
+                          name="zip"
+                          placeholder="Postal/Zip Code"
+                          required=""
+                          title="Postal/Zip Code"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c6"
+            >
+              <div
+                class="c7"
+              >
+                <button
+                  class="c8 cds--btn cds--btn--secondary"
+                  tabindex="0"
+                  type="button"
+                >
+                  Back to cart
+                   
+                </button>
+                <button
+                  class="c8 cds--btn cds--btn--primary"
+                  tabindex="0"
+                  type="submit"
+                >
+                  Next
+                   
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          class="c9"
+        >
+          <h2>
+            Your car summary
+          </h2>
+          <div
+            class="c10"
+          >
+            Amount payable now
+            : 
+            <span
+              class="c11"
+            >
+              <span
+                class="c12"
+              >
+                <span
+                  class="value"
+                >
+                  £79,999
+                </span>
+              </span>
+            </span>
+          </div>
+          <hr />
+          <div
+            class="c13"
+          >
+            <div
+              class="c14"
+            >
+              <div
+                class="c15"
+              >
+                <div
+                  class="c16"
+                >
+                  Your new car
+                </div>
+                <img
+                  class="c17"
+                  src="/static/images/products/configurator/thumbnails/DeLoreanTimeMachine_1.png"
+                />
+              </div>
+              <div
+                class="c18"
+              >
+                <div
+                  class="c19"
+                >
+                  Estimated delivery date:
+                  <div
+                    class="c20"
+                  >
+                     
+                    August 2020
+                  </div>
+                </div>
+                <div
+                  class="c19"
+                >
+                  1.21 GW coupe 2 door 2 seats nuclear 5-speed manual 3-speed automatic 2900 hp
+                </div>
+              </div>
+            </div>
+            <div
+              class="c15"
+            >
+              <div
+                class="c16 config"
+              >
+                Your configuration
+              </div>
+              <div>
+                <div
+                  class="c21"
+                >
+                  <img
+                    alt="Alloys"
+                    class="c22"
+                    src="/static/images/products/configurator/thumbnails/Standard_Alloys.png"
+                  />
+                  <div
+                    class="c23"
+                  >
+                    Alloys
+                    : 
+                    Standard Alloys
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c13"
+          >
+            <div
+              class="c15"
+            >
+              <hr />
+              <h2
+                class="cost-title"
+              >
+                Costs
+              </h2>
+              <div
+                class="c15"
+              >
+                <div
+                  class="c16"
+                >
+                  Your finance option
+                </div>
+                <div
+                  class="c19"
+                >
+                  Your selected finance option is 
+                  <strong>
+                    Cash
+                  </strong>
+                </div>
+              </div>
+              <div
+                class="c19"
+              />
+              <div
+                class="c24"
+              >
+                <div
+                  class="c25"
+                >
+                  <div
+                    class="c26"
+                  >
+                    On the road price (OTR)
+                  </div>
+                  <div
+                    class="c27"
+                  >
+                    <span
+                      class="c12"
+                    >
+                      <span
+                        class="value"
+                      >
+                        £79,999
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="c28"
+                    title="Helpful  about total price"
+                  >
+                    <svg
+                      aria-label="icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      size="32"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    />
+                    <span
+                      class="sr"
+                    >
+                      Helpful  about total price
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c25"
+                >
+                  <div
+                    class="c26"
+                  >
+                    VAT/Taxes
+                  </div>
+                  <div
+                    class="c27"
+                  >
+                    <span
+                      class="c12"
+                    >
+                      <span
+                        class="value"
+                      >
+                        £79,999
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c25"
+                >
+                  <div
+                    class="c26"
+                  >
+                    Balance from trade-in
+                  </div>
+                  <div
+                    class="c27"
+                  >
+                    <span
+                      class="c12"
+                    >
+                      <span
+                        class="value"
+                      >
+                        £0
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="c28"
+                    title="Helpful about balance from trade-in"
+                  >
+                    <svg
+                      aria-label="icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      size="32"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    />
+                    <span
+                      class="sr"
+                    >
+                      Helpful about balance from trade-in
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c25"
+                >
+                  <div
+                    class="c26"
+                  >
+                    Remaining Balance
+                  </div>
+                  <div
+                    class="c27"
+                  >
+                    <span
+                      class="c12"
+                    >
+                      <span
+                        class="value"
+                      >
+                        £79,999
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="c28"
+                    title="Helpful about remaining balance"
+                  >
+                    <svg
+                      aria-label="icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      size="32"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    />
+                    <span
+                      class="sr"
+                    >
+                      Helpful about remaining balance
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c25"
+                >
+                  <div
+                    class="c26"
+                  >
+                    Amount payable now
+                  </div>
+                  <div
+                    class="c27"
+                  >
+                    <span
+                      class="c12"
+                    >
+                      <span
+                        class="value"
+                      >
+                        £79,999
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="c28"
+                    title="Helpful  about amount payable now"
+                  >
+                    <svg
+                      aria-label="icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      size="32"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    />
+                    <span
+                      class="sr"
+                    >
+                      Helpful  about amount payable now
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c13"
+          >
+            <div
+              class="c15"
+            >
+              <a
+                class="c29"
+              >
+                Terms and conditions
+              </a>
+              <div
+                class="c19"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+              </div>
+            </div>
+            <div
+              class="c15"
+            >
+              <a
+                class="c29"
+              >
+                Legal Disclaimer
+              </a>
+              <div
+                class="c19"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Checkout /> component Checkout renders when finance is selected 1`] = `
+.c28 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c28:hover {
+  color: #0043ce;
+}
+
+.c28 svg {
+  color: #161616;
+}
+
+.c7 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c7 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  height: 1rem;
+}
+
+.c11 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c23 {
+  padding-right: 2rem;
+}
+
+.c24 {
+  border-bottom: 0.0625rem solid #f4f4f4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+
+.c25 {
+  padding: 1rem 0;
+}
+
+.c26 {
+  border-bottom: 0;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.c27 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  right: -2rem;
+  top: 0;
+  width: 2rem;
+}
+
+.c27 svg {
+  margin: auto;
+  max-width: 1rem;
+}
+
+.c3 {
+  margin-bottom: 1.5rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c4 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c4 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c4 .c2 {
+  margin-bottom: 0;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.c1 {
+  -webkit-animation: exoFadeIn 110ms cubic-bezier(0,0,0.38,0.9);
+  animation: exoFadeIn 110ms cubic-bezier(0,0,0.38,0.9);
+  padding: 4rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.5rem 0 0;
+  width: 100%;
+}
+
+.c8 {
+  max-width: 74rem;
+  padding: 4rem;
+  text-align: left;
+}
+
+.c14 {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  margin-top: 2.75rem;
+}
+
+.c14 .cost-title {
+  margin-top: 2.25rem;
+  text-align: left;
+}
+
+.c12:first-of-type {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.c12:nth-child(2) {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.c12:last-of-type {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c17 {
+  padding: 1.5rem 0 0 1.5rem;
+}
+
+.c9 {
+  font: 700 1.25rem 'IBM Plex Sans',Arial,sans-serif;
+  padding: 2rem 0;
+}
+
+.c10 {
+  color: #0062ff;
+}
+
+.c15 {
+  font: 700 1.25rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c18 {
+  font: 400 0.875rem 'IBM Plex Sans',Arial,sans-serif;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  max-width: 80%;
+}
+
+.c19 {
+  display: inline;
+  font: 700 0.875rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c16 {
+  margin-top: 1.25rem;
+  max-width: 13.75rem;
+  width: 100%;
+}
+
+.c20 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.c22 {
+  font: 400 0.875rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-left: 1.5rem;
+}
+
+.c21 {
+  max-width: 3.25rem;
+}
+
+@media (max-width:672px) {
+  .c4 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c4 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c4 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <div
+    class="cds--row"
+  >
+    <div
+      class="c0"
+    />
+    <div
+      class="cds--col"
+    >
+      <ul
+        class="cds--progress"
+      >
+        <li
+          class="cds--progress-step cds--progress-step--incomplete"
+        >
+          <button
+            class="cds--progress-step-button cds--progress-step-button--unclickable"
+            index="0"
+            tabindex="-1"
+            title="Contact Details"
+            type="button"
+          >
+            <span
+              class="cds--assistive-text"
+            >
+              Incomplete
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.7 4.7a14.7 14.7 0 00-3 3.1L6.3 9A13.26 13.26 0 018.9 6.3zM4.6 12.3l-1.9-.6A12.51 12.51 0 002 16H4A11.48 11.48 0 014.6 12.3zM2.7 20.4a14.4 14.4 0 002 3.9l1.6-1.2a12.89 12.89 0 01-1.7-3.3zM7.8 27.3a14.4 14.4 0 003.9 2l.6-1.9A12.89 12.89 0 019 25.7zM11.7 2.7l.6 1.9A11.48 11.48 0 0116 4V2A12.51 12.51 0 0011.7 2.7zM24.2 27.3a15.18 15.18 0 003.1-3.1L25.7 23A11.53 11.53 0 0123 25.7zM27.4 19.7l1.9.6A15.47 15.47 0 0030 16H28A11.48 11.48 0 0127.4 19.7zM29.2 11.6a14.4 14.4 0 00-2-3.9L25.6 8.9a12.89 12.89 0 011.7 3.3zM24.1 4.6a14.4 14.4 0 00-3.9-2l-.6 1.9a12.89 12.89 0 013.3 1.7zM20.3 29.3l-.6-1.9A11.48 11.48 0 0116 28v2A21.42 21.42 0 0020.3 29.3z"
+              />
+              <title />
+            </svg>
+            <div
+              class="cds--progress-text"
+            >
+              <p
+                class="cds--progress-label"
+              >
+                Contact Details
+              </p>
+              <p
+                class="cds--progress-optional"
+              >
+                Step 1
+              </p>
+            </div>
+            <span
+              class="cds--progress-line"
+            />
+          </button>
+        </li>
+        <li
+          class="cds--progress-step cds--progress-step--incomplete"
+        >
+          <button
+            class="cds--progress-step-button cds--progress-step-button--unclickable"
+            index="1"
+            tabindex="-1"
+            title="Delivery Method"
+            type="button"
+          >
+            <span
+              class="cds--assistive-text"
+            >
+              Incomplete
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.7 4.7a14.7 14.7 0 00-3 3.1L6.3 9A13.26 13.26 0 018.9 6.3zM4.6 12.3l-1.9-.6A12.51 12.51 0 002 16H4A11.48 11.48 0 014.6 12.3zM2.7 20.4a14.4 14.4 0 002 3.9l1.6-1.2a12.89 12.89 0 01-1.7-3.3zM7.8 27.3a14.4 14.4 0 003.9 2l.6-1.9A12.89 12.89 0 019 25.7zM11.7 2.7l.6 1.9A11.48 11.48 0 0116 4V2A12.51 12.51 0 0011.7 2.7zM24.2 27.3a15.18 15.18 0 003.1-3.1L25.7 23A11.53 11.53 0 0123 25.7zM27.4 19.7l1.9.6A15.47 15.47 0 0030 16H28A11.48 11.48 0 0127.4 19.7zM29.2 11.6a14.4 14.4 0 00-2-3.9L25.6 8.9a12.89 12.89 0 011.7 3.3zM24.1 4.6a14.4 14.4 0 00-3.9-2l-.6 1.9a12.89 12.89 0 013.3 1.7zM20.3 29.3l-.6-1.9A11.48 11.48 0 0116 28v2A21.42 21.42 0 0020.3 29.3z"
+              />
+              <title />
+            </svg>
+            <div
+              class="cds--progress-text"
+            >
+              <p
+                class="cds--progress-label"
+              >
+                Delivery Method
+              </p>
+              <p
+                class="cds--progress-optional"
+              >
+                Step 2
+              </p>
+            </div>
+            <span
+              class="cds--progress-line"
+            />
+          </button>
+        </li>
+        <li
+          class="cds--progress-step cds--progress-step--incomplete"
+        >
+          <button
+            class="cds--progress-step-button cds--progress-step-button--unclickable"
+            index="2"
+            tabindex="-1"
+            title="Credit Check"
+            type="button"
+          >
+            <span
+              class="cds--assistive-text"
+            >
+              Incomplete
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.7 4.7a14.7 14.7 0 00-3 3.1L6.3 9A13.26 13.26 0 018.9 6.3zM4.6 12.3l-1.9-.6A12.51 12.51 0 002 16H4A11.48 11.48 0 014.6 12.3zM2.7 20.4a14.4 14.4 0 002 3.9l1.6-1.2a12.89 12.89 0 01-1.7-3.3zM7.8 27.3a14.4 14.4 0 003.9 2l.6-1.9A12.89 12.89 0 019 25.7zM11.7 2.7l.6 1.9A11.48 11.48 0 0116 4V2A12.51 12.51 0 0011.7 2.7zM24.2 27.3a15.18 15.18 0 003.1-3.1L25.7 23A11.53 11.53 0 0123 25.7zM27.4 19.7l1.9.6A15.47 15.47 0 0030 16H28A11.48 11.48 0 0127.4 19.7zM29.2 11.6a14.4 14.4 0 00-2-3.9L25.6 8.9a12.89 12.89 0 011.7 3.3zM24.1 4.6a14.4 14.4 0 00-3.9-2l-.6 1.9a12.89 12.89 0 013.3 1.7zM20.3 29.3l-.6-1.9A11.48 11.48 0 0116 28v2A21.42 21.42 0 0020.3 29.3z"
+              />
+              <title />
+            </svg>
+            <div
+              class="cds--progress-text"
+            >
+              <p
+                class="cds--progress-label"
+              >
+                Credit Check
+              </p>
+              <p
+                class="cds--progress-optional"
+              >
+                Step 3
+              </p>
+            </div>
+            <span
+              class="cds--progress-line"
+            />
+          </button>
+        </li>
+        <li
+          class="cds--progress-step cds--progress-step--incomplete"
+        >
+          <button
+            class="cds--progress-step-button cds--progress-step-button--unclickable"
+            index="3"
+            tabindex="-1"
+            title="PaymentDetails"
+            type="button"
+          >
+            <span
+              class="cds--assistive-text"
+            >
+              Incomplete
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.7 4.7a14.7 14.7 0 00-3 3.1L6.3 9A13.26 13.26 0 018.9 6.3zM4.6 12.3l-1.9-.6A12.51 12.51 0 002 16H4A11.48 11.48 0 014.6 12.3zM2.7 20.4a14.4 14.4 0 002 3.9l1.6-1.2a12.89 12.89 0 01-1.7-3.3zM7.8 27.3a14.4 14.4 0 003.9 2l.6-1.9A12.89 12.89 0 019 25.7zM11.7 2.7l.6 1.9A11.48 11.48 0 0116 4V2A12.51 12.51 0 0011.7 2.7zM24.2 27.3a15.18 15.18 0 003.1-3.1L25.7 23A11.53 11.53 0 0123 25.7zM27.4 19.7l1.9.6A15.47 15.47 0 0030 16H28A11.48 11.48 0 0127.4 19.7zM29.2 11.6a14.4 14.4 0 00-2-3.9L25.6 8.9a12.89 12.89 0 011.7 3.3zM24.1 4.6a14.4 14.4 0 00-3.9-2l-.6 1.9a12.89 12.89 0 013.3 1.7zM20.3 29.3l-.6-1.9A11.48 11.48 0 0116 28v2A21.42 21.42 0 0020.3 29.3z"
+              />
+              <title />
+            </svg>
+            <div
+              class="cds--progress-text"
+            >
+              <p
+                class="cds--progress-label"
+              >
+                PaymentDetails
+              </p>
+              <p
+                class="cds--progress-optional"
+              >
+                Step 4
+              </p>
+            </div>
+            <span
+              class="cds--progress-line"
+            />
+          </button>
+        </li>
+        <li
+          class="cds--progress-step cds--progress-step--incomplete"
+        >
+          <button
+            class="cds--progress-step-button cds--progress-step-button--unclickable"
+            index="4"
+            tabindex="-1"
+            title="Confirm Reservation"
+            type="button"
+          >
+            <span
+              class="cds--assistive-text"
+            >
+              Incomplete
+            </span>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.7 4.7a14.7 14.7 0 00-3 3.1L6.3 9A13.26 13.26 0 018.9 6.3zM4.6 12.3l-1.9-.6A12.51 12.51 0 002 16H4A11.48 11.48 0 014.6 12.3zM2.7 20.4a14.4 14.4 0 002 3.9l1.6-1.2a12.89 12.89 0 01-1.7-3.3zM7.8 27.3a14.4 14.4 0 003.9 2l.6-1.9A12.89 12.89 0 019 25.7zM11.7 2.7l.6 1.9A11.48 11.48 0 0116 4V2A12.51 12.51 0 0011.7 2.7zM24.2 27.3a15.18 15.18 0 003.1-3.1L25.7 23A11.53 11.53 0 0123 25.7zM27.4 19.7l1.9.6A15.47 15.47 0 0030 16H28A11.48 11.48 0 0127.4 19.7zM29.2 11.6a14.4 14.4 0 00-2-3.9L25.6 8.9a12.89 12.89 0 011.7 3.3zM24.1 4.6a14.4 14.4 0 00-3.9-2l-.6 1.9a12.89 12.89 0 013.3 1.7zM20.3 29.3l-.6-1.9A11.48 11.48 0 0116 28v2A21.42 21.42 0 0020.3 29.3z"
+              />
+              <title />
+            </svg>
+            <div
+              class="cds--progress-text"
+            >
+              <p
+                class="cds--progress-label"
+              >
+                Confirm Reservation
+              </p>
+              <p
+                class="cds--progress-optional"
+              >
+                Step 5
+              </p>
+            </div>
+            <span
+              class="cds--progress-line"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="cds--row"
+  >
+    <div
+      class="main cds--row"
+    >
+      <div
+        class="cds--col"
+      >
+        <div
+          class="c1"
+        >
+          <h2>
+            Please fill in your contact details
+          </h2>
+          <br />
+          <form>
+            <div
+              class="FormBodystyles__FormBody-sc-12wq4uu-0"
+            >
+              <div
+                class="c2 c3"
+              >
+                <div
+                  class="cds--dropdown__wrapper cds--list-box__wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="downshift-0-toggle-button"
+                    id="downshift-0-label"
+                  >
+                    Title 
+                  </label>
+                  <div
+                    class="cds--dropdown cds--list-box"
+                    id="address_title"
+                  >
+                    <button
+                      aria-disabled="false"
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      aria-labelledby="downshift-0-label downshift-0-toggle-button"
+                      class="cds--list-box__field"
+                      id="downshift-0-toggle-button"
+                      title="Title"
+                      type="button"
+                    >
+                      <span
+                        class="cds--list-box__label"
+                      >
+                        Title
+                      </span>
+                      <div
+                        class="cds--list-box__menu-icon"
+                      >
+                        <svg
+                          aria-label="Open menu"
+                          fill="currentColor"
+                          focusable="false"
+                          height="16"
+                          name="chevron--down"
+                          preserveAspectRatio="xMidYMid meet"
+                          role="img"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                          />
+                          <title>
+                            Open menu
+                          </title>
+                        </svg>
+                      </div>
+                    </button>
+                    <div
+                      aria-labelledby="downshift-0-label"
+                      class="cds--list-box__menu"
+                      id="downshift-0-menu"
+                      role="listbox"
+                      tabindex="-1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c4"
+              >
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="address_firstName"
+                    >
+                      Your first name 
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="address_firstName"
+                          name="firstName"
+                          placeholder="Your first name"
+                          required=""
+                          title="Your first name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="address_lastName"
+                    >
+                      Your last name 
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="address_lastName"
+                          name="lastName"
+                          placeholder="Your last name"
+                          required=""
+                          title="Your last name"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c2 c3"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label cds--label--disabled"
+                    for="address_email"
+                  >
+                    Your email address (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        disabled=""
+                        id="address_email"
+                        name="email"
+                        placeholder="Your email address"
+                        title="Your email address"
+                        type="email"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c2 c3"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="address_phone"
+                  >
+                    Your phone number 
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="address_phone"
+                        name="phone"
+                        placeholder="Your phone number"
+                        required=""
+                        title="Your phone number"
+                        type="tel"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c2 c3"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="address_address1"
+                  >
+                    Your address 
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="address_address1"
+                        name="address1"
+                        placeholder="Address"
+                        required=""
+                        title="Address"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c2 c3"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="address_address2"
+                  >
+                    Additional address line (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="address_address2"
+                        name="address2"
+                        placeholder="Address line 2"
+                        title="Address line 2"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c2 c3"
+              >
+                <div
+                  class="cds--dropdown__wrapper cds--list-box__wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="downshift-1-toggle-button"
+                    id="downshift-1-label"
+                  >
+                    Country 
+                  </label>
+                  <div
+                    class="cds--dropdown cds--list-box"
+                    id="address_country"
+                  >
+                    <button
+                      aria-disabled="false"
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      aria-labelledby="downshift-1-label downshift-1-toggle-button"
+                      class="cds--list-box__field"
+                      id="downshift-1-toggle-button"
+                      title="Country"
+                      type="button"
+                    >
+                      <span
+                        class="cds--list-box__label"
+                      >
+                        Country
+                      </span>
+                      <div
+                        class="cds--list-box__menu-icon"
+                      >
+                        <svg
+                          aria-label="Open menu"
+                          fill="currentColor"
+                          focusable="false"
+                          height="16"
+                          name="chevron--down"
+                          preserveAspectRatio="xMidYMid meet"
+                          role="img"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                          />
+                          <title>
+                            Open menu
+                          </title>
+                        </svg>
+                      </div>
+                    </button>
+                    <div
+                      aria-labelledby="downshift-1-label"
+                      class="cds--list-box__menu"
+                      id="downshift-1-menu"
+                      role="listbox"
+                      tabindex="-1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c4"
+              >
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="address_city"
+                    >
+                      City 
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="address_city"
+                          name="city"
+                          placeholder="City"
+                          required=""
+                          title="City"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--dropdown__wrapper cds--list-box__wrapper"
+                  >
+                    <label
+                      class="cds--label cds--label--disabled"
+                      for="downshift-2-toggle-button"
+                      id="downshift-2-label"
+                    >
+                      State/province (optional)
+                    </label>
+                    <div
+                      class="cds--dropdown cds--dropdown--disabled cds--list-box"
+                      id="address_province"
+                    >
+                      <button
+                        aria-disabled="true"
+                        aria-expanded="false"
+                        aria-haspopup="listbox"
+                        aria-labelledby="downshift-2-label downshift-2-toggle-button"
+                        class="cds--list-box__field"
+                        disabled=""
+                        id="downshift-2-toggle-button"
+                        title="State/province"
+                        type="button"
+                      >
+                        <span
+                          class="cds--list-box__label"
+                        >
+                          State/province
+                        </span>
+                        <div
+                          class="cds--list-box__menu-icon"
+                        >
+                          <svg
+                            aria-label="Open menu"
+                            fill="currentColor"
+                            focusable="false"
+                            height="16"
+                            name="chevron--down"
+                            preserveAspectRatio="xMidYMid meet"
+                            role="img"
+                            viewBox="0 0 16 16"
+                            width="16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                            />
+                            <title>
+                              Open menu
+                            </title>
+                          </svg>
+                        </div>
+                      </button>
+                      <div
+                        aria-labelledby="downshift-2-label"
+                        class="cds--list-box__menu"
+                        id="downshift-2-menu"
+                        role="listbox"
+                        tabindex="-1"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="address_zip"
+                    >
+                      Postal/Zip Code 
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="address_zip"
+                          name="zip"
+                          placeholder="Postal/Zip Code"
+                          required=""
+                          title="Postal/Zip Code"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c5"
+            >
+              <div
+                class="c6"
+              >
+                <button
+                  class="c7 cds--btn cds--btn--secondary"
+                  tabindex="0"
+                  type="button"
+                >
+                  Back to cart
+                   
+                </button>
+                <button
+                  class="c7 cds--btn cds--btn--primary"
+                  tabindex="0"
+                  type="submit"
+                >
+                  Next
+                   
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        class="cds--col"
+      >
+        <div
+          class="c8"
+        >
+          <h2>
+            Your car summary
+          </h2>
+          <div
+            class="c9"
+          >
+            Amount payable now
+            : 
+            <span
+              class="c10"
+            >
+              <span
+                class="c11"
+              >
+                <span
+                  class="value"
+                >
+                  £79,999
+                </span>
+              </span>
+            </span>
+          </div>
+          <hr />
+          <div
+            class="c12"
+          >
+            <div
+              class="c13"
+            >
+              <div
+                class="c14"
+              >
+                <div
+                  class="c15"
+                >
+                  Your new car
+                </div>
+                <img
+                  class="c16"
+                  src="/static/images/products/configurator/thumbnails/DeLoreanTimeMachine_1.png"
+                />
+              </div>
+              <div
+                class="c17"
+              >
+                <div
+                  class="c18"
+                >
+                  Estimated delivery date:
+                  <div
+                    class="c19"
+                  >
+                     
+                    August 2020
+                  </div>
+                </div>
+                <div
+                  class="c18"
+                >
+                  1.21 GW coupe 2 door 2 seats nuclear 5-speed manual 3-speed automatic 2900 hp
+                </div>
+              </div>
+            </div>
+            <div
+              class="c14"
+            >
+              <div
+                class="c15 config"
+              >
+                Your configuration
+              </div>
+              <div>
+                <div
+                  class="c20"
+                >
+                  <img
+                    alt="Alloys"
+                    class="c21"
+                    src="/static/images/products/configurator/thumbnails/Standard_Alloys.png"
+                  />
+                  <div
+                    class="c22"
+                  >
+                    Alloys
+                    : 
+                    Standard Alloys
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c12"
+          >
+            <div
+              class="c14"
+            >
+              <hr />
+              <h2
+                class="cost-title"
+              >
+                Costs
+              </h2>
+              <div
+                class="c14"
+              >
+                <div
+                  class="c15"
+                >
+                  Your finance option
+                </div>
+                <div
+                  class="c18"
+                >
+                  Your selected finance option is 
+                  <strong>
+                    Cash
+                  </strong>
+                </div>
+              </div>
+              <div
+                class="c18"
+              />
+              <div
+                class="c23"
+              >
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                  >
+                    On the road price (OTR)
+                  </div>
+                  <div
+                    class="c26"
+                  >
+                    <span
+                      class="c11"
+                    >
+                      <span
+                        class="value"
+                      >
+                        £79,999
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="c27"
+                    title="Helpful  about total price"
+                  >
+                    <svg
+                      aria-label="icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      size="32"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    />
+                    <span
+                      class="sr"
+                    >
+                      Helpful  about total price
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                  >
+                    VAT/Taxes
+                  </div>
+                  <div
+                    class="c26"
+                  >
+                    <span
+                      class="c11"
+                    >
+                      <span
+                        class="value"
+                      >
+                        £79,999
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                  >
+                    Balance from trade-in
+                  </div>
+                  <div
+                    class="c26"
+                  >
+                    <span
+                      class="c11"
+                    >
+                      <span
+                        class="value"
+                      >
+                        £0
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="c27"
+                    title="Helpful about balance from trade-in"
+                  >
+                    <svg
+                      aria-label="icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      size="32"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    />
+                    <span
+                      class="sr"
+                    >
+                      Helpful about balance from trade-in
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                  >
+                    Remaining Balance
+                  </div>
+                  <div
+                    class="c26"
+                  >
+                    <span
+                      class="c11"
+                    >
+                      <span
+                        class="value"
+                      >
+                        £79,999
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="c27"
+                    title="Helpful about remaining balance"
+                  >
+                    <svg
+                      aria-label="icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      size="32"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    />
+                    <span
+                      class="sr"
+                    >
+                      Helpful about remaining balance
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="c24"
+                >
+                  <div
+                    class="c25"
+                  >
+                    Amount payable now
+                  </div>
+                  <div
+                    class="c26"
+                  >
+                    <span
+                      class="c11"
+                    >
+                      <span
+                        class="value"
+                      >
+                        £79,999
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="c27"
+                    title="Helpful  about amount payable now"
+                  >
+                    <svg
+                      aria-label="icon"
+                      fill="currentColor"
+                      focusable="false"
+                      height="20"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      size="32"
+                      viewBox="0 0 32 32"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    />
+                    <span
+                      class="sr"
+                    >
+                      Helpful  about amount payable now
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c12"
+          >
+            <div
+              class="c14"
+            >
+              <a
+                class="c28"
+              >
+                Terms and conditions
+              </a>
+              <div
+                class="c18"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+              </div>
+            </div>
+            <div
+              class="c14"
+            >
+              <a
+                class="c28"
+              >
+                Legal Disclaimer
+              </a>
+              <div
+                class="c18"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

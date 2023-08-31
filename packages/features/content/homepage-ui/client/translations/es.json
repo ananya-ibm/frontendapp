@@ -1,0 +1,10 @@
+{
+  "features.content.homepage-ui": {
+    "pages.HomePage": {
+      "hero.title": "iX EXO Tienda",
+      "hero.subtitle": "IBM iX",
+      "hero.body": "Aquí pueden ver nuestro último interfaz hecho con React y conectado a nuestro adaptador de GraphQL: ‘Experience Orchestrator’. El contenido que ven por defecto no está conectado a ningún CMS.",
+      "hero.cta": "Ver Tienda"
+    }
+  }
+}

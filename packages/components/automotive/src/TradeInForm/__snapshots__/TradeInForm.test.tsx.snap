@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TradeInForm /> component its snapshot matches 1`] = `
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2:hover {
+  color: #0043ce;
+}
+
+.c2 svg {
+  color: #161616;
+}
+
+.c4 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c4 svg {
+  max-height: 100%;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.c0 .submit {
+  display: block;
+  margin-top: 2rem;
+}
+
+<div
+  class="c0"
+>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="registration"
+          >
+            Registration Number
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="registration"
+                name="registration"
+                placeholder="Enter your registration number"
+                required=""
+                title="Enter your registration number"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="mileage"
+          >
+            Car Mileage
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="mileage"
+                name="mileage"
+                placeholder="Enter your car's mileage"
+                required=""
+                title="Enter your car's mileage"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1"
+      >
+        <div
+          class="cds--dropdown__wrapper cds--list-box__wrapper"
+        >
+          <label
+            class="cds--label"
+            for="downshift-0-toggle-button"
+            id="downshift-0-label"
+          >
+            Car Condition
+          </label>
+          <div
+            class="cds--dropdown cds--list-box"
+            id="condition"
+          >
+            <button
+              aria-disabled="false"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="downshift-0-label downshift-0-toggle-button"
+              class="cds--list-box__field"
+              id="downshift-0-toggle-button"
+              title="Enter your car's condition..."
+              type="button"
+            >
+              <span
+                class="cds--list-box__label"
+              >
+                Enter your car's condition...
+              </span>
+              <div
+                class="cds--list-box__menu-icon"
+              >
+                <svg
+                  aria-label="Open menu"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  name="chevron--down"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                  />
+                  <title>
+                    Open menu
+                  </title>
+                </svg>
+              </div>
+            </button>
+            <div
+              aria-labelledby="downshift-0-label"
+              class="cds--list-box__menu"
+              id="downshift-0-menu"
+              role="listbox"
+              tabindex="-1"
+            />
+          </div>
+        </div>
+      </div>
+      <a
+        class="c2"
+      >
+        Terms and conditions
+      </a>
+    </div>
+    <div
+      class="c3"
+    >
+      <button
+        class="c4 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="submit"
+      >
+        Search Vehicle
+         
+      </button>
+    </div>
+  </form>
+</div>
+`;

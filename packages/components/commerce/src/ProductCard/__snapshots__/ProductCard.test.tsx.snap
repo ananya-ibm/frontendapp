@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCard /> component its snapshot matches 1`] = `
+.c17 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c17 svg {
+  max-height: 100%;
+}
+
+.c9 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c18 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  left: 0;
+  margin-left: 0.75rem;
+  margin-top: 0.75rem;
+  outline: none;
+  position: absolute;
+  top: 0;
+}
+
+.c6 {
+  color: #161616;
+  font: 700 1.5rem/2rem "IBM Plex Sans",Arial,sans-serif;
+  -webkit-letterSpacing: 0.16px;
+  -moz-letterSpacing: 0.16px;
+  -ms-letterSpacing: 0.16px;
+  letterSpacing: 0.16px;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c2 {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  background: inherit;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid #dedede;
+  width: 100%;
+}
+
+.c2 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.c16 {
+  margin-top: 0.5rem;
+}
+
+.c0 {
+  background-color: inherit;
+  position: relative;
+  box-shadow: rgba(0,0,0,0) 0.125rem 0.125rem 1rem,rgba(0,0,0,0) -0.125rem -0.125rem 1rem;
+}
+
+.c0 > .productcard-link:hover .c1:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,67,206,0.2);
+  mix-blend-mode: multiply;
+}
+
+.c0 > .productcard-link:hover .c5 {
+  color: #0043ce;
+}
+
+.c0 > .productcard-link {
+  color: #161616;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  cursor: pointer;
+  height: 100%;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  padding: 1rem 0.0625rem;
+}
+
+.c0 > .productcard-link:hover .ProductCardstyles__Bag-sc-m0kbb4-3,
+.c0 > .productcard-link:focus .ProductCardstyles__Bag-sc-m0kbb4-3,
+.c0 > .productcard-link:focus-within .ProductCardstyles__Bag-sc-m0kbb4-3 {
+  opacity: 1;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0;
+}
+
+.c4 {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c7 {
+  color: #161616;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.c8 {
+  color: #161616;
+  font: 400 1.5rem / 2rem "IBM Plex Sans",Arial,sans-serif;
+  margin: 0.5rem 0;
+}
+
+.c8 > span > div {
+  margin-left: 0.5rem;
+  display: inline;
+}
+
+.c8 > span > div:first-of-type {
+  margin-left: 0;
+}
+
+.c10 {
+  color: #161616;
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 0.75rem 0 0;
+}
+
+.c11 {
+  margin: 1rem 0 0 0;
+  margin-top: auto;
+}
+
+.c12 {
+  color: #198038;
+}
+
+.c12:before {
+  content: '●';
+  margin-right: 1em;
+  color: #198038;
+}
+
+.c13 {
+  color: #ffa706;
+}
+
+.c13:before {
+  content: '●';
+  margin-right: 1em;
+  color: #ffa706;
+}
+
+.c14 {
+  color: #da1e28;
+}
+
+.c14:before {
+  content: '⨯';
+  margin-right: 1em;
+  color: #da1e28;
+}
+
+.c15 {
+  color: #161616;
+}
+
+.c15:before {
+  content: '?';
+  margin-right: 1em;
+  color: #161616;
+}
+
+@media (min-width:320px) {
+  .c0 > .productcard-link {
+    padding: 0;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    padding: 0.75rem 0 0 0;
+  }
+}
+
+<div
+  class="c0"
+  data-testid="product-card"
+>
+  <a
+    class="productcard-link"
+    href="//product//Product id"
+  >
+    <div
+      class="c1 c2"
+    >
+      <img
+        alt="Tripod"
+        class="image"
+        src="img.jpg"
+      />
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <h3
+          class="c5 c6"
+        >
+          Product A
+        </h3>
+        <p
+          class="c7"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        </p>
+        <div
+          class="c8"
+        >
+          <span
+            class="c9"
+          >
+            <span
+              class="value"
+            >
+              £13,000
+            </span>
+          </span>
+        </div>
+        <p
+          class="c10"
+        >
+          <span
+            class="c9"
+          >
+            <span
+              class="prefix"
+            >
+              From 
+            </span>
+            <span
+              class="value"
+            >
+              £500
+            </span>
+          </span>
+           per month
+        </p>
+        <p
+          class="ProductCardstyles__Subscription-sc-m0kbb4-10"
+        >
+          <span
+            class="c9"
+          >
+            <span
+              class="value"
+            >
+              £100
+            </span>
+            <span
+              class="rate"
+            >
+               
+              per month
+            </span>
+          </span>
+        </p>
+        <div
+          class="c11"
+        >
+          <div
+            class="c12"
+          >
+            Online
+          </div>
+          <div
+            class="c13"
+          >
+            Croydon Store
+          </div>
+          <div
+            class="c14"
+          >
+            Wembley Store
+          </div>
+          <div
+            class="c15"
+          >
+            Greenwich Store
+          </div>
+        </div>
+      </div>
+      <div
+        class="c16"
+      >
+        <button
+          class="c17 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Add To Cart
+           
+        </button>
+      </div>
+    </div>
+  </a>
+  <button
+    class="c18"
+    data-testid="FavoriteBtnTestId"
+    role="button"
+    tabindex="0"
+  >
+    <svg
+      aria-label="icon"
+      fill="currentColor"
+      focusable="false"
+      height="20"
+      preserveAspectRatio="xMidYMid meet"
+      role="img"
+      size="20"
+      viewBox="0 0 32 32"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    />
+  </button>
+</div>
+`;

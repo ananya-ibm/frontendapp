@@ -1,0 +1,141 @@
+{ 
+    "features.account.account-profile-ui" : {
+        "pages": 
+        {
+            "SecurityPage":
+            {
+                "Dashboard.title" : "Konto Sicherheit"
+            },
+            "AddressesPage":
+            {
+                "Addresses.title" : "Adressen"
+            },
+            "MyOrdersPage":
+            {
+               "Myorder.Title" : "meine Bestellungen"
+            },
+            "PaymentPage":
+            {
+                "Paymentmethod.Title": "Zahlungsmethoden"
+            },
+            "PersonalDetailsPage":
+            {
+                "Title": "Persönliche Daten"
+            },
+            "PreferencesPage":
+            {
+                "Title":"Einstellungen"
+            },
+            "ProfilePage":
+            {
+                "Title":"Mein Profil"
+            },
+            "RegisterPage":
+            {
+                "Title": "Registrieren"
+            }
+        },
+        "components": 
+        {
+            "AddressForm" :
+            {
+                "Firstname.label": "Ihr Vorname",
+                "Lastname.label" : "Ihr Nachname",
+                "Email.label"    : "Ihre E-Mail-Adresse",
+                "Phonenumber.label":"hre Telefonnummer",
+                "Address.label" : "Deine Adresse",
+                "Additional.address.label": "Zusätzliche Adresszeile",
+                "Country.label": "Land",
+                "City.label" : "Stadt",
+                "State.Province.label":"Bundesland/Provinz",
+                "Postal.zipcode.label":"Postleitzahl",
+                
+                "AddressForm.Firstname.placeholder":"Vorname",
+                "AddressForm.Lastname.placeholder":"Nachname",
+                "AddressForm.Email.placeholder":"E-Mail-Adresse",
+                "AddressForm.Phonenumber.placeholder":"Telefonnummer",  
+                "AddressForm.Address.placeholder":"Deine Adresse",
+                "AddressForm.Additional.address.placeholder":"Adresszeile 2",
+                "AddressForm.Country.placeholder":"Land",
+                "AddressForm.City.placeholder":"Stadt",
+                "AddressForm.State.Province.placeholder":"Bundesland/Provinz",   
+                "AddressForm.Postal.zipcode.placeholder":"Postleitzahl"
+            },
+            "Dashboard":
+            {
+                "LogoutButton":"Ausloggen"
+            },
+            "ResetPassword" :
+            {
+                "Password" : "Passwort",
+                "Confirm.Password":"Kennwort bestätigen",
+                "Update.Button": "Aktualisieren",
+                "Current.Password":"Aktuelles Passwort",
+                "Password.text": "Ihr Passwort wurde geändert"
+            },
+            "ManageAddresses" :
+            {
+                "Addnewaddress" : "Neue Adresse hinzufügen",
+                "Button.Cancel":"Abbrechen",
+                "Button.Save": "speichern",
+                "Title":"Bitte geben Sie Ihre Kontaktdaten ein"
+            },
+            "PaymentForm":
+            {
+                "Cardtype": "Speicherkarten-Typ",
+                "Cardtype.Placeholder": "Wählen Sie Ihren Kartentyp...",
+                "Cardnumber": "Kartennummer",
+                "Cardholdername":"Name des Karteninhaberse",
+                "Expirydate":"Verfallsdatum",
+                "Button.cancel":"Abbrechen",
+                "Button.UpadatePaymentMethod" : "Zahlungsmethode aktualisieren",
+                "PaymentMethod.Title":"Bitte geben Sie Ihre Zahlungsdaten ein",
+                "Button.save":"Speichern",
+                "PaymentMethod.Label":"Neue Zahlungsmethode hinzufügen"
+            },
+            "PersonalDetails":
+            {
+                "Button.Save": "Speichern"
+            },
+            "Preferences":
+            {
+                "Title":"Einstellungen",
+                "EmailPreferences": "E-Mail Einstellungen",
+                "EmailAddress":"Ihre E-Mail-Adresse lautet",
+                "Wanttochange":"Wenn Sie es ändern möchten",
+                "clickhere":"Klicke hier.",
+                "Marketing":"Marketing",
+                "Contacby":"Ich möchte kontaktiert werden von",
+                "SelectOption":"Wähle eine Option",
+                "SavePreferences": "Einstellungen speichern"
+            },
+            "AccountOverview":
+            {
+                "SubTitle":"Ihre letzten Bestellungen"
+            },
+            "RegistrationForm":
+            {
+                "Button.Register":"Registrieren",
+                "YourFirstname":"Ihr Vorname",
+                "Firstname":"Vorname",
+                "YourLastname":"Ihr Nachname",
+                "Lastname":"Nachname",
+                "YouremailAddress":"Ihre E-Mail-Adresse",
+                "emailAddress":"E-Mail-Addresse",
+                "Password": "Passwort",
+                "ConfirmPassword":"Kennwort bestätigen",
+                "Title":"Titel",
+                "YourPhonenumber":"Deine Telefonnummer",
+                "phonenumber":"Telefonnummer",
+                "YourAddress":"Deine Adresse",
+                "Address":"Die Anschrift",
+                "Country":"Land",
+                "City":"Stadt",
+                "Stateprovince":"Bundesland/Provinz",
+                "Postalzipcode":"Postleitzahl",
+                "Aggrement": "Ich habe unsere AGB gelesen und akzeptiere sie"
+            }
+        }
+            
+        }
+    }

@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StoreList /> component its snapshot matches story Default 1`] = `
+.c1 {
+  height: 1rem;
+}
+
+.c0 > * {
+  height: 100%;
+}
+
+<div>
+  <li
+    class="c0"
+  >
+    Store Name: 
+     
+    <div
+      class="c1"
+    />
+    Address: 
+    , 
+     ,
+     
+    <div
+      class="c1"
+    />
+    Opening Hours:
+    <div />
+    <div
+      class="c1"
+    />
+  </li>
+</div>
+`;
+
+exports[`<StoreList /> component its snapshot matches story Loading 1`] = `
+.c1 {
+  height: 1rem;
+}
+
+.c0 > * {
+  height: 100%;
+}
+
+<div>
+  <li
+    class="c0"
+  >
+    Store Name: 
+     
+    <div
+      class="c1"
+    />
+    Address: 
+    , 
+     ,
+     
+    <div
+      class="c1"
+    />
+    Opening Hours:
+    <div />
+    <div
+      class="c1"
+    />
+  </li>
+</div>
+`;
+
+exports[`<StoreList /> component its snapshot matches story NotYetOpened 1`] = `
+.c1 {
+  height: 1rem;
+}
+
+.c0 > * {
+  height: 100%;
+}
+
+<div>
+  <li
+    class="c0"
+  >
+    Store Name: 
+     
+    <div
+      class="c1"
+    />
+    Address: 
+    , 
+     ,
+     
+    <div
+      class="c1"
+    />
+    Opening Hours:
+    <div />
+    <div
+      class="c1"
+    />
+  </li>
+</div>
+`;
+
+exports[`<StoreList /> component its snapshot matches story WithError 1`] = `
+.c1 {
+  height: 1rem;
+}
+
+.c0 > * {
+  height: 100%;
+}
+
+<div>
+  <li
+    class="c0"
+  >
+    Store Name: 
+     
+    <div
+      class="c1"
+    />
+    Address: 
+    , 
+     ,
+     
+    <div
+      class="c1"
+    />
+    Opening Hours:
+    <div />
+    <div
+      class="c1"
+    />
+  </li>
+</div>
+`;
+
+exports[`<StoreList /> component its snapshot matches story WithResult 1`] = `
+.c1 {
+  height: 1rem;
+}
+
+.c0 > * {
+  height: 100%;
+}
+
+<div>
+  <li
+    class="c0"
+  >
+    Store Name: 
+     
+    <div
+      class="c1"
+    />
+    Address: 
+    , 
+     ,
+     
+    <div
+      class="c1"
+    />
+    Opening Hours:
+    <div />
+    <div
+      class="c1"
+    />
+  </li>
+</div>
+`;

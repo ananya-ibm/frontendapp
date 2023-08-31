@@ -1,0 +1,18 @@
+{
+  "name": "@exo/frontend-theme-{{ name }}",
+  "version": "0.2.0",
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "description": "{{ name }}",
+  "main": "src/index.js",
+  "scripts": {
+    "prettier": "root-exec prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "npm run prettier -- --write",
+    "build-theme": "root-exec webpack --config webpack.config.js && rm src/main.js"
+  },
+  "dependencies": {
+    "@exo/frontend-theme-base-carbon-theme": "^1.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^0.2.0"
+  }
+}

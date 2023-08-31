@@ -1,0 +1,13 @@
+{
+  "name": "@exo/frontend-common-root-exec",
+  "version": "1.0.0",
+  "bin": {
+    "root-exec": "./cli.js"
+  },
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "sideEffects": false,
+  "author": "Magnus Johansson",
+  "dependencies": {
+    "cross-env": "^7.0.2"
+  }
+}

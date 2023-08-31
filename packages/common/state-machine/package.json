@@ -1,0 +1,27 @@
+{
+  "name": "@exo/frontend-common-state-machine",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:open": "root-exec cypress open",
+    "test": "root-exec jest ./client ./server --colors",
+    "test:coverage": "npm run test -- --coverage",
+    "test:snapshots": "npm run test -- -u"
+  },
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "sideEffects": false,
+  "description": "## Features",
+  "main": "client/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:ixliberty/ix-liberty-boilerplate.git"
+  },
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "author": "Magnus Johansson",
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0"
+  }
+}

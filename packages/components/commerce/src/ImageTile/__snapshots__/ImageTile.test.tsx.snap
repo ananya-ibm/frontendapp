@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageTile /> component its snapshot matches 1`] = `
+<img
+  alt="alt"
+  class="image"
+  src="https://www.bluewolf.com/sites/default/files/ibm-ix-salesforce-consultant.jpg"
+/>
+`;

@@ -1,0 +1,73 @@
+{
+  "category": {
+    "url": "/catalog/category/Accessories_Accessories",
+    "expect": "Sort by"
+  },
+  "pdp": {
+    "product_url": "/catalog/products/walser-14754617",
+    "product_id": "walser-14754617"
+  },
+  "search": {
+    "with_results": "pioneer",
+    "without_results": "jkdfjsldfjsdlf"
+  },
+  "signin": {
+    "valid_user": {
+      "username": "linda.wolf@rustic-hw.com",
+      "password": "1234"
+    }
+  },
+  "register": {
+    "generated_password": "Passw0rd123*"
+  },
+  "cart": {
+    "items": [{ "partnumber": "walser-14754617", "id": "walser-14754617" }]
+  },
+  "add_to_cart": {
+    "product_url": "/catalog/products/pioneer-14347192/pioneer-14347192",
+    "skip": {
+      "anonymous": true
+    },
+    "brand": "walser"
+  },
+  "payment": {
+    "card": {
+      "method": "credit-card",
+      "cardNo": "4242424242424242",
+      "cardExpiry": "1224",
+      "cardCVV": "444"
+    },
+    "account": {
+      "method": "account-payment",
+      "reference": "cypressGeneratedPayment"
+    }
+  },
+  "profile": {
+    "options": [
+      "Profile",
+      "Personal details",
+      "My orders",
+      "Account security",
+      "Preferences",
+      "Payment methods"
+    ],
+    "addressBook": {
+      "skip": true
+    },
+    "user": {
+      "first": "tom",
+      "lastname": "dav",
+      "address1": "14 Brownsea View Avenue",
+      "city": "Poole",
+      "country": "United Kingdom",
+      "zip": "bh148lq",
+      "paymentNo": 3,
+      "cardToCheck": {
+        "name": "Visa Debit Card",
+        "person": "Visa Debit Card",
+        "expiry": "00/24",
+        "number": "4242424242424242"
+      }
+    }
+  }
+}

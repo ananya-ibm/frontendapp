@@ -1,0 +1,23 @@
+{
+  "name": "@exo/frontend-content-provider-graphql",
+  "version": "1.0.0",
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "description": "## Features",
+  "main": "lib/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:ixliberty/ix-liberty-boilerplate.git"
+  },
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "author": "Magnus Johansson",
+  "dependencies": {
+    "@exo/frontend-common-provider": "^1.0.0",
+    "@exo/frontend-common-apollo": "^1.0.0",
+    "@exo/frontend-content-api": "^1.0.0",
+    "@exo/frontend-content-api-types": "^1.0.0"
+  }
+}

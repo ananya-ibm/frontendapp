@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuCloseButton /> component its snapshot matches 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: #161616;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  padding: 0.75rem;
+  position: relative;
+  width: 3rem;
+}
+
+.c0 .menu-button-icon {
+  height: 100%;
+  width: 100%;
+}
+
+<button
+  class="c0 menu-button hover-header"
+>
+  <svg
+    class="menu-button-icon"
+    fill="none"
+    overflow="visible"
+    stroke="#000"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="4"
+    viewBox="0 0 50 50"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <span
+      class="sr"
+    >
+      Menu Open
+    </span>
+    <path
+      d="M10 40h30M10 25h30M10 10h30"
+    />
+  </svg>
+</button>
+`;

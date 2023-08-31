@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stack /> component its snapshot matches story Default 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+<div>
+  <div
+    style="border: 1px dashed #666666; width: 40rem; height: 40rem;"
+  >
+    <div
+      class="c0"
+      orientation="vertical"
+    >
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Stack /> component its snapshot matches story Large 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  gap: 1.5rem;
+}
+
+<div>
+  <div
+    style="border: 1px dashed #666666; width: 40rem; height: 40rem;"
+  >
+    <div
+      class="c0"
+      orientation="vertical"
+    >
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Stack /> component its snapshot matches story Medium 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  gap: 1rem;
+}
+
+<div>
+  <div
+    style="border: 1px dashed #666666; width: 40rem; height: 40rem;"
+  >
+    <div
+      class="c0"
+      orientation="vertical"
+    >
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Stack /> component its snapshot matches story XLarge 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  gap: 2rem;
+}
+
+<div>
+  <div
+    style="border: 1px dashed #666666; width: 40rem; height: 40rem;"
+  >
+    <div
+      class="c0"
+      orientation="vertical"
+    >
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+      <div
+        style="width: 10rem; height: 2rem; background-color: rgb(238, 170, 170);"
+      />
+    </div>
+  </div>
+</div>
+`;

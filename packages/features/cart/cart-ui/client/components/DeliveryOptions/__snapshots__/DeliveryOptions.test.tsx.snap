@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryOptions /> component its snapshot matches story Default 1`] = `
+.c0 {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="cds--tabs"
+    >
+      <button
+        aria-hidden="true"
+        aria-label="Scroll left"
+        class="cds--tab--overflow-nav-button cds--tab--overflow-nav-button--previous cds--tab--overflow-nav-button--hidden"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 8L10 3 10.7 3.7 6.4 8 10.7 12.3 10 13z"
+          />
+        </svg>
+      </button>
+      <div
+        aria-label="Tabs"
+        class="cds--tab--list"
+        role="tablist"
+      >
+        <button
+          aria-controls="ccs-1-tabpanel-0"
+          aria-selected="true"
+          class="cds--tabs__nav-item cds--tabs__nav-link cds--tabs__nav-item--selected"
+          id="ccs-1-tab-0"
+          role="tab"
+          tabindex="0"
+          type="button"
+        >
+          Home Delivery
+        </button>
+        <button
+          aria-controls="ccs-1-tabpanel-1"
+          aria-selected="false"
+          class="cds--tabs__nav-item cds--tabs__nav-link"
+          id="ccs-1-tab-1"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Store Pick-up
+        </button>
+      </div>
+      <button
+        aria-hidden="true"
+        aria-label="Scroll right"
+        class="cds--tab--overflow-nav-button cds--tab--overflow-nav-button--next cds--tab--overflow-nav-button--hidden"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      aria-labelledby="ccs-1-tab-0"
+      class="cds--tab-content cds--tab-content--interactive"
+      id="ccs-1-tabpanel-0"
+      role="tabpanel"
+      tabindex="-1"
+    >
+      <div
+        class="cds--dropdown__wrapper cds--list-box__wrapper"
+      >
+        <label
+          class="cds--label"
+          for="downshift-0-toggle-button"
+          id="downshift-0-label"
+        >
+          Delivery Method
+        </label>
+        <div
+          class="cds--dropdown cds--list-box"
+          id="deliveryMethod"
+        >
+          <button
+            aria-disabled="false"
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-labelledby="downshift-0-label downshift-0-toggle-button"
+            class="cds--list-box__field"
+            id="downshift-0-toggle-button"
+            title="Home Delivery"
+            type="button"
+          >
+            <span
+              class="cds--list-box__label"
+            >
+              Home Delivery
+            </span>
+            <div
+              class="cds--list-box__menu-icon"
+            >
+              <svg
+                aria-label="Open menu"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                name="chevron--down"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                />
+                <title>
+                  Open menu
+                </title>
+              </svg>
+            </div>
+          </button>
+          <div
+            aria-labelledby="downshift-0-label"
+            class="cds--list-box__menu"
+            id="downshift-0-menu"
+            role="listbox"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      aria-labelledby="ccs-1-tab-1"
+      class="cds--tab-content"
+      hidden=""
+      id="ccs-1-tabpanel-1"
+      role="tabpanel"
+      tabindex="0"
+    />
+  </div>
+</div>
+`;
+
+exports[`<DeliveryOptions /> component its snapshot matches story Skeleton 1`] = `
+<div>
+  <div />
+</div>
+`;

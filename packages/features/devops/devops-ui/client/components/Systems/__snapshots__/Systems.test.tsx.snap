@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Systems /> component its snapshot matches story Default 1`] = `
+.c0 {
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+  border: 0.1rem solid #e0e0e0;
+  border-style: dashed;
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  padding-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="cds--tile c0"
+  >
+    <h4
+      class="c1"
+    >
+      Digital Platforms
+    </h4>
+    <div
+      class="cds--row"
+    />
+  </div>
+</div>
+`;

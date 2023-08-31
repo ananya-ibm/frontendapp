@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FavoriteButton /> component its snapshot matches 1`] = `
+.c0 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  left: 0;
+  margin-left: 0.75rem;
+  margin-top: 0.75rem;
+  outline: none;
+  position: absolute;
+  top: 0;
+}
+
+<button
+  class="c0"
+  data-testid="FavoriteBtnTestId"
+  role="button"
+  tabindex="0"
+>
+  <svg
+    aria-label="icon"
+    fill="currentColor"
+    focusable="false"
+    height="20"
+    preserveAspectRatio="xMidYMid meet"
+    role="img"
+    size="20"
+    viewBox="0 0 32 32"
+    width="20"
+    xmlns="http://www.w3.org/2000/svg"
+  />
+</button>
+`;

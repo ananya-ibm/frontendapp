@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonalDetails /> component its snapshot matches 1`] = `
+.c1 {
+  -webkit-flex: 0 0 8rem;
+  -ms-flex: 0 0 8rem;
+  flex: 0 0 8rem;
+  height: 8rem;
+  position: relative;
+  width: 8rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #c9deff;
+  border-radius: 50%;
+  color: #0062ff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: 700 2.625rem/3.1473750000000003rem 'IBM Plex Sans',Arial,sans-serif;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.c3 {
+  color: #525252;
+  -webkit-flex: 0 0 75%;
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.c3 h1 {
+  color: #161616;
+  font: 700 1.25rem/1.75rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c3 div {
+  margin: 0.75rem 0 0;
+}
+
+.c3 dt {
+  display: inline-block;
+  position: relative;
+}
+
+.c3 dt::after {
+  content: ': ';
+  display: inline;
+}
+
+.c3 dd {
+  display: inline;
+  font-weight: 400;
+  margin-left: 0.25rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      JS
+    </div>
+  </div>
+  <div
+    class="c3"
+  >
+    <h1>
+      Mr John Smith
+    </h1>
+    <dl>
+      <div>
+        <dt>
+          Position
+        </dt>
+        <dd>
+          Lab manager
+        </dd>
+      </div>
+      <div>
+        <dt>
+          Organisation
+        </dt>
+        <dd>
+          University of Cambridge
+        </dd>
+      </div>
+      <div>
+        <dt>
+          Location
+        </dt>
+        <dd>
+          California
+        </dd>
+      </div>
+    </dl>
+  </div>
+</div>
+`;

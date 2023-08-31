@@ -1,0 +1,10 @@
+{
+  "features.b2b.b2b-homepage-ui": {
+    "pages.HomePage": {
+      "hero.title": "iX EXO Storefront",
+      "hero.subtitle": "IBM iX",
+      "hero.body": "Hier siehst Du unseres aktuelle React-Frontend mit der Verbindung zur Experience Orchestrator GraphQL Adapters. Ich bin ein Dummy-Inhalt falls es keine Verbindung zum CMS besteht.",
+      "hero.cta": "Browse Produkte"
+    }
+  }
+}

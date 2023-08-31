@@ -1,0 +1,9 @@
+{ 
+    "features.wishlist.wishlist-ui" : {
+        "pages.WishlistPage": {
+            "WishList.header" : "Lista dei desideri",
+            "AddToCart.Button" :"Aggiungi al carrello"
+         }
+        
+}
+}

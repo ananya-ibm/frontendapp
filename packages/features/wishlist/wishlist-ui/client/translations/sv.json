@@ -1,0 +1,9 @@
+{ 
+    "features.wishlist.wishlist-ui" : {
+        "pages.WishlistPage": {
+            "WishList.header" : "önskelista",
+            "AddToCart.Button" :"Lägg till i kundvagn"
+        }
+        
+}
+}

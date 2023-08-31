@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductBrowseCarousel /> component its snapshot matches 1`] = `
+.c11 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c11 svg {
+  max-height: 100%;
+}
+
+.c13 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.75rem 0 rgba(0,0,0,0.14);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: 400 1rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-width: 9rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  text-transform: none;
+}
+
+.c13:hover {
+  font: 700 1rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c0 {
+  background: transparent;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.c1 {
+  display: block;
+  padding: 3rem 3rem 0;
+}
+
+.c1 .title {
+  font: 600 2.625rem/3.12375rem 'IBM Plex Sans',Arial,sans-serif;
+  line-height: 4rem;
+  text-align: left;
+}
+
+.c1 .title::after {
+  height: 0.125rem;
+  margin-top: 0.5rem;
+  width: 28rem;
+}
+
+.c2 {
+  font: 700 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  line-height: 1.25rem;
+  padding: 1.5rem 0;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 16rem;
+  width: 100%;
+}
+
+.c4 {
+  height: 16rem;
+  width: 100%;
+}
+
+.c5 {
+  height: 16rem;
+  width: 100%;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 0;
+  width: 100%;
+}
+
+.c7 {
+  height: 100%;
+  margin: 0 2.375rem;
+  width: 100%;
+}
+
+.c7 .overlay {
+  opacity: 0.3;
+}
+
+.c8 {
+  height: 16rem;
+  width: 35rem;
+}
+
+.c9 {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.c10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1.5rem 1.5rem;
+}
+
+.c12 {
+  bottom: -2.62rem;
+  left: calc(50% - 4.5rem);
+  position: absolute;
+}
+
+@media (min-width:672px) {
+  .c1 .title {
+    line-height: 4.887499999999999rem;
+    font-size: 4.25rem;
+  }
+}
+
+@media (min-width:1056px) {
+  .c1 .title {
+    line-height: 6.3825rem;
+    font-size: 5.75rem;
+    -webkit-letter-spacing: -0.64px;
+    -moz-letter-spacing: -0.64px;
+    -ms-letter-spacing: -0.64px;
+    letter-spacing: -0.64px;
+  }
+}
+
+@media (min-width:1312px) {
+  .c1 .title {
+    line-height: 8.158750000000001rem;
+    font-size: 7.625rem;
+    -webkit-letter-spacing: -0.64px;
+    -moz-letter-spacing: -0.64px;
+    -ms-letter-spacing: -0.64px;
+    letter-spacing: -0.64px;
+  }
+}
+
+@media (min-width:1584px) {
+  .c1 .title {
+    line-height: 10.2375rem;
+    font-size: 9.75rem;
+    -webkit-letter-spacing: -0.96px;
+    -moz-letter-spacing: -0.96px;
+    -ms-letter-spacing: -0.96px;
+    letter-spacing: -0.96px;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h2
+      class="title"
+    >
+      A vehicle for any superhero
+    </h2>
+    <div
+      class="c2"
+    >
+      See our full range of vehicles and find the one that best fits your lifestyle
+    </div>
+  </div>
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <ul
+          class="c6"
+        >
+          <li
+            class="c7"
+          >
+            <div
+              class="c8"
+            >
+              <img
+                alt="Interceptor"
+                class="c9"
+                src="/static/automotive/products/thumbnails/interceptor.png"
+              />
+            </div>
+          </li>
+          <li
+            class="c7"
+          >
+            <div
+              class="c8"
+            >
+              <img
+                alt="Grantorino"
+                class="c9"
+                src="/static/automotive/products/thumbnails/grantorino.png"
+              />
+            </div>
+          </li>
+          <li
+            class="c7"
+          >
+            <div
+              class="c8"
+            >
+              <img
+                alt="OriginalBatMobile"
+                class="c9"
+                src="/static/automotive/products/thumbnails/OriginalBatMobile.png"
+              />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div
+    class="c10"
+  >
+    <a
+      href="/catalog/category/Vehicles"
+    >
+      <button
+        class="c11 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="button"
+      >
+        Browse our product range
+         
+      </button>
+    </a>
+    <button
+      class="c11 cds--btn cds--btn--secondary"
+      data-testid="set-budget-link"
+      tabindex="0"
+      type="button"
+    >
+      Set your budget
+       
+    </button>
+  </div>
+  <div
+    class="c12"
+  >
+    <button
+      class="c13"
+    >
+      See More
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="24"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </button>
+  </div>
+</div>
+`;

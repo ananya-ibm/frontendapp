@@ -1,0 +1,25 @@
+{
+    "features.chrome.chrome-ui": {
+        "smart-components.Footer": {
+       
+          "title.helpandinfo" : "सहायता और सूचना",
+          "title.help": "सहायता",
+          "title.trackorder": "ट्रैक ऑर्डर",
+          "title.deliverandreturns":"डिलीवरी और रिटर्न",
+          "title.ourstores":"हमारे स्टोर",
+          "title.about":"के ​​बारे में",
+          "title.ourproduct":"हमारे उत्पाद",
+          "title.aboutus":"हमारे बारे में",
+          "title.contactus":"हमसे संपर्क करें",
+          "title.careers": "कैरियर",
+          "header.subscribenewsletter":"हमारे न्यूज़लेटर की सदस्यता लें",
+          "buttontext.signup":"पंजीकरण",
+          "header.Home":"होम"
+          },
+          "smart-components.Header": {
+       
+          "profilelink.signin": "लॉगिन"
+          }
+      }
+    }
+    

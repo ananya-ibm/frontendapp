@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OptionCard /> component its snapshot matches 1`] = `
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2:hover {
+  color: #0043ce;
+}
+
+.c2 svg {
+  color: #161616;
+}
+
+.c3 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c3 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  background: #ffffff;
+  padding: 2rem;
+}
+
+.c0 .title {
+  text-align: left;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+<div
+  class="c0"
+>
+  <h4
+    class="title"
+  >
+    Personal Contract Purchase
+  </h4>
+  <div>
+    Children
+  </div>
+  <div
+    class="c1"
+  >
+    <a
+      class="c2"
+    >
+      More Info
+    </a>
+    <button
+      class="c3 cds--btn cds--btn--primary"
+      tabindex="0"
+      type="button"
+    >
+      Select
+       
+    </button>
+  </div>
+</div>
+`;

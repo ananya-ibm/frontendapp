@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> component its snapshot matches 1`] = `
+.c0 {
+  margin: 2rem 0 0;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="cds--pagination cds--pagination--md"
+  >
+    <div
+      class="cds--pagination__left"
+    >
+      <label
+        class="cds--pagination__text"
+        for="cds-pagination-select-id-5"
+        id="cds-pagination-select-id-5-count-label"
+      >
+        Items per page:
+      </label>
+      <div
+        class="cds--form-item cds--select__item-count"
+      >
+        <div
+          class="cds--select cds--select--inline"
+        >
+          <div
+            class="cds--select-input--inline__wrapper"
+          >
+            <div
+              class="cds--select-input__wrapper"
+            >
+              <select
+                class="cds--select-input"
+                id="cds-pagination-select-id-5"
+              >
+                <option
+                  class="cds--select-option"
+                  value="10"
+                >
+                  10
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="20"
+                >
+                  20
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="30"
+                >
+                  30
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="40"
+                >
+                  40
+                </option>
+              </select>
+              <svg
+                aria-hidden="true"
+                class="cds--select__arrow"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span
+        class="cds--pagination__text cds--pagination__items-count"
+      >
+        1–10 of 123 items
+      </span>
+    </div>
+    <div
+      class="cds--pagination__right"
+    >
+      <div
+        class="cds--form-item cds--select__page-number"
+      >
+        <div
+          class="cds--select cds--select--inline"
+        >
+          <label
+            class="cds--label cds--visually-hidden"
+            for="cds-pagination-select-id-5-right"
+          >
+            Page number, of 13 pages
+          </label>
+          <div
+            class="cds--select-input--inline__wrapper"
+          >
+            <div
+              class="cds--select-input__wrapper"
+            >
+              <select
+                class="cds--select-input"
+                id="cds-pagination-select-id-5-right"
+              >
+                <option
+                  class="cds--select-option"
+                  value="1"
+                >
+                  1
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="2"
+                >
+                  2
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="3"
+                >
+                  3
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="4"
+                >
+                  4
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="5"
+                >
+                  5
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="6"
+                >
+                  6
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="7"
+                >
+                  7
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="8"
+                >
+                  8
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="9"
+                >
+                  9
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="10"
+                >
+                  10
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="11"
+                >
+                  11
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="12"
+                >
+                  12
+                </option>
+                <option
+                  class="cds--select-option"
+                  value="13"
+                >
+                  13
+                </option>
+              </select>
+              <svg
+                aria-hidden="true"
+                class="cds--select__arrow"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span
+        class="cds--pagination__text"
+      >
+        of 13 pages
+      </span>
+      <div
+        class="cds--pagination__control-buttons"
+      >
+        <span
+          class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top cds--tooltip cds--icon-tooltip"
+        >
+          <button
+            aria-labelledby="tooltip-2"
+            class="cds--btn--icon-only cds--pagination__button cds--pagination__button--backward cds--pagination__button--no-index cds--btn cds--btn--md cds--btn--ghost cds--btn--disabled"
+            disabled=""
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 24L10 16 20 8z"
+              />
+            </svg>
+          </button>
+          <span
+            aria-hidden="true"
+            class="cds--popover"
+            id="tooltip-2"
+            role="tooltip"
+          >
+            <span
+              class="cds--popover-content cds--tooltip-content"
+            >
+              Previous page
+            </span>
+            <span
+              class="cds--popover-caret"
+            />
+          </span>
+        </span>
+        <span
+          class="cds--popover-container cds--popover--caret cds--popover--high-contrast cds--popover--top-right cds--tooltip cds--icon-tooltip"
+        >
+          <button
+            aria-labelledby="tooltip-4"
+            class="cds--btn--icon-only cds--pagination__button cds--pagination__button--forward cds--btn cds--btn--md cds--btn--ghost"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              height="16"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 8L22 16 12 24z"
+              />
+            </svg>
+          </button>
+          <span
+            aria-hidden="true"
+            class="cds--popover"
+            id="tooltip-4"
+            role="tooltip"
+          >
+            <span
+              class="cds--popover-content cds--tooltip-content"
+            >
+              Next page
+            </span>
+            <span
+              class="cds--popover-caret"
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

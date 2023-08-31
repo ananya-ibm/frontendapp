@@ -1,0 +1,528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldArray /> component its snapshot matches story Default 1`] = `
+.c4 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c4 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c5 {
+  background-color: #ffffff;
+}
+
+.c1 {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.c3 {
+  font-weight: bold;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 0.75rem;
+  margin-bottom: 1rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 > * {
+  margin-left: 1em;
+}
+
+.c6 > *:first-child {
+  margin-left: 0;
+}
+
+.c9 {
+  text-align: right;
+}
+
+.c7 {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c8 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c8 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c8 .Fieldstyles__Field-sc-1d8f4ec-0 {
+  margin-bottom: 0;
+}
+
+@media (max-width:672px) {
+  .c6 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c6 > * {
+    margin-left: 0em;
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  .c6 > *:first-child {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width:672px) {
+  .c8 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c8 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c8 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="c0"
+    >
+      <div
+        class="cds--layer-two c1"
+      >
+        <div
+          class="c2"
+        >
+          <div
+            class="c3"
+          >
+            Order Lines
+          </div>
+          <button
+            class="c4 cds--btn cds--btn--md cds--btn--tertiary"
+            tabindex="0"
+            type="button"
+          >
+            Add
+             
+            <div
+              class="cds--btn__icon"
+            >
+              <svg
+                aria-label="icon"
+                fill="currentColor"
+                focusable="false"
+                height="20"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                size="16"
+                viewBox="0 0 32 32"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              />
+            </div>
+          </button>
+        </div>
+        <div
+          class="c5"
+        >
+          <div
+            class="cds--layer-three c6"
+          >
+            <div
+              class="cds--layer-three c7"
+            >
+              <div
+                class="c8"
+              >
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="orderLines[0].partnumber"
+                    >
+                      Partnumber (optional)
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="orderLines[0].partnumber"
+                          name="orderLines[0].partnumber"
+                          placeholder="Partnumber"
+                          title="Partnumber"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="orderLines[0].quantity"
+                    >
+                      Quantity (optional)
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="orderLines[0].quantity"
+                          name="orderLines[0].quantity"
+                          placeholder="Quantity"
+                          title="Quantity"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c9"
+            >
+              <button
+                aria-describedby="danger-description-2"
+                class="c4 cds--btn cds--btn--md cds--btn--danger--tertiary"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="cds--visually-hidden"
+                  id="danger-description-2"
+                >
+                  danger
+                </span>
+                Delete
+                 
+                <div
+                  class="cds--btn__icon"
+                >
+                  <svg
+                    aria-label="icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="20"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    size="16"
+                    viewBox="0 0 32 32"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c5"
+        >
+          <div
+            class="cds--layer-three c6"
+          >
+            <div
+              class="cds--layer-three c7"
+            >
+              <div
+                class="c8"
+              >
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="orderLines[1].partnumber"
+                    >
+                      Partnumber (optional)
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="orderLines[1].partnumber"
+                          name="orderLines[1].partnumber"
+                          placeholder="Partnumber"
+                          title="Partnumber"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="orderLines[1].quantity"
+                    >
+                      Quantity (optional)
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="orderLines[1].quantity"
+                          name="orderLines[1].quantity"
+                          placeholder="Quantity"
+                          title="Quantity"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c9"
+            >
+              <button
+                aria-describedby="danger-description-3"
+                class="c4 cds--btn cds--btn--md cds--btn--danger--tertiary"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="cds--visually-hidden"
+                  id="danger-description-3"
+                >
+                  danger
+                </span>
+                Delete
+                 
+                <div
+                  class="cds--btn__icon"
+                >
+                  <svg
+                    aria-label="icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="20"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    size="16"
+                    viewBox="0 0 32 32"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c5"
+        >
+          <div
+            class="cds--layer-three c6"
+          >
+            <div
+              class="cds--layer-three c7"
+            >
+              <div
+                class="c8"
+              >
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="orderLines[2].partnumber"
+                    >
+                      Partnumber (optional)
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="orderLines[2].partnumber"
+                          name="orderLines[2].partnumber"
+                          placeholder="Partnumber"
+                          title="Partnumber"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="field-wrapper"
+                  style="flex-basis: 100%;"
+                >
+                  <div
+                    class="cds--form-item cds--text-input-wrapper"
+                  >
+                    <label
+                      class="cds--label"
+                      for="orderLines[2].quantity"
+                    >
+                      Quantity (optional)
+                    </label>
+                    <div
+                      class="cds--text-input__field-outer-wrapper"
+                    >
+                      <div
+                        class="cds--text-input__field-wrapper"
+                      >
+                        <input
+                          class="cds--text-input cds--text__input cds--text-input--md"
+                          id="orderLines[2].quantity"
+                          name="orderLines[2].quantity"
+                          placeholder="Quantity"
+                          title="Quantity"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c9"
+            >
+              <button
+                aria-describedby="danger-description-4"
+                class="c4 cds--btn cds--btn--md cds--btn--danger--tertiary"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="cds--visually-hidden"
+                  id="danger-description-4"
+                >
+                  danger
+                </span>
+                Delete
+                 
+                <div
+                  class="cds--btn__icon"
+                >
+                  <svg
+                    aria-label="icon"
+                    fill="currentColor"
+                    focusable="false"
+                    height="20"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    size="16"
+                    viewBox="0 0 32 32"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

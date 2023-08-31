@@ -1,0 +1,970 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhoneInput /> component its snapshot matches story Default 1`] = `
+.c1 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  margin-right: 0.25rem;
+}
+
+.c2 .cds--list-box__menu {
+  width: 300%;
+}
+
+.c0 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="CustomFormFieldWrapperstyles__CustomFormField-sc-ixh77f-0"
+  >
+    <div
+      class="CustomFormFieldWrapperstyles__Label-sc-ixh77f-2 cds--label"
+    >
+      A phone-number field (optional)
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        >
+          <div
+            class="cds--dropdown__wrapper cds--list-box__wrapper dropdown"
+          >
+            <div
+              class="cds--dropdown cds--list-box"
+              id="phone-prefix"
+            >
+              <button
+                aria-disabled="false"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="downshift-0-label downshift-0-toggle-button"
+                class="cds--list-box__field"
+                id="downshift-0-toggle-button"
+                title="+XX"
+                type="button"
+              >
+                <span
+                  class="cds--list-box__label"
+                >
+                  +XX
+                </span>
+                <div
+                  class="cds--list-box__menu-icon"
+                >
+                  <svg
+                    aria-label="Open menu"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    name="chevron--down"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                    <title>
+                      Open menu
+                    </title>
+                  </svg>
+                </div>
+              </button>
+              <div
+                aria-labelledby="downshift-0-label"
+                class="cds--list-box__menu"
+                id="downshift-0-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="phone"
+                name="phone"
+                placeholder="(0)8 3562376"
+                title="(0)8 3562376"
+                type="tel"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<PhoneInput /> component its snapshot matches story OnFieldPanel 1`] = `
+.c0 {
+  background-color: #f4f4f4;
+}
+
+.c4 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  margin-right: 0.25rem;
+}
+
+.c5 .cds--list-box__menu {
+  width: 300%;
+}
+
+.c3 {
+  position: relative;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.c2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="cds--layer-two c1"
+    >
+      <div
+        class="c2"
+      >
+        A fieldpanel
+      </div>
+      <div
+        class="CustomFormFieldWrapperstyles__CustomFormField-sc-ixh77f-0"
+      >
+        <div
+          class="CustomFormFieldWrapperstyles__Label-sc-ixh77f-2 cds--label"
+        >
+          A phone-number field (optional)
+        </div>
+        <div
+          class="c3"
+        >
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <div
+                class="cds--dropdown__wrapper cds--list-box__wrapper dropdown"
+              >
+                <div
+                  class="cds--dropdown cds--list-box"
+                  id="phone-prefix"
+                >
+                  <button
+                    aria-disabled="false"
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    aria-labelledby="downshift-1-label downshift-1-toggle-button"
+                    class="cds--list-box__field"
+                    id="downshift-1-toggle-button"
+                    title="+XX"
+                    type="button"
+                  >
+                    <span
+                      class="cds--list-box__label"
+                    >
+                      +XX
+                    </span>
+                    <div
+                      class="cds--list-box__menu-icon"
+                    >
+                      <svg
+                        aria-label="Open menu"
+                        fill="currentColor"
+                        focusable="false"
+                        height="16"
+                        name="chevron--down"
+                        preserveAspectRatio="xMidYMid meet"
+                        role="img"
+                        viewBox="0 0 16 16"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                        />
+                        <title>
+                          Open menu
+                        </title>
+                      </svg>
+                    </div>
+                  </button>
+                  <div
+                    aria-labelledby="downshift-1-label"
+                    class="cds--list-box__menu"
+                    id="downshift-1-menu"
+                    role="listbox"
+                    tabindex="-1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="phone"
+                    name="phone"
+                    placeholder="(0)8 3562376"
+                    title="(0)8 3562376"
+                    type="tel"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<PhoneInput /> component its snapshot matches story TestOnForm 1`] = `
+.c1 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  margin-right: 0.25rem;
+}
+
+.c2 .cds--list-box__menu {
+  width: 300%;
+}
+
+.c0 {
+  position: relative;
+}
+
+<div>
+  <div>
+    <div>
+      <div>
+        react-hook-form
+      </div>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <div>
+          <div
+            class="CustomFormFieldWrapperstyles__CustomFormField-sc-ixh77f-0"
+          >
+            <div
+              class="CustomFormFieldWrapperstyles__Label-sc-ixh77f-2 cds--label"
+            >
+              A phone-number field (optional)
+            </div>
+            <div
+              class="c0"
+            >
+              <div
+                class="c1"
+              >
+                <div
+                  class="c2"
+                >
+                  <div
+                    class="cds--dropdown__wrapper cds--list-box__wrapper dropdown"
+                  >
+                    <div
+                      class="cds--dropdown cds--list-box"
+                      id="phone-prefix"
+                    >
+                      <button
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-haspopup="listbox"
+                        aria-labelledby="downshift-2-label downshift-2-toggle-button"
+                        class="cds--list-box__field"
+                        id="downshift-2-toggle-button"
+                        title="+46"
+                        type="button"
+                      >
+                        <span
+                          class="cds--list-box__label"
+                        >
+                          +46
+                        </span>
+                        <div
+                          class="cds--list-box__menu-icon"
+                        >
+                          <svg
+                            aria-label="Open menu"
+                            fill="currentColor"
+                            focusable="false"
+                            height="16"
+                            name="chevron--down"
+                            preserveAspectRatio="xMidYMid meet"
+                            role="img"
+                            viewBox="0 0 16 16"
+                            width="16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                            />
+                            <title>
+                              Open menu
+                            </title>
+                          </svg>
+                        </div>
+                      </button>
+                      <div
+                        aria-labelledby="downshift-2-label"
+                        class="cds--list-box__menu"
+                        id="downshift-2-menu"
+                        role="listbox"
+                        tabindex="-1"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="phone"
+                        name="field"
+                        placeholder="(0)8 3562376"
+                        title="(0)8 3562376"
+                        type="tel"
+                        value="(0)70 525362"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 25%; padding: 1rem; background: rgb(238, 238, 238);"
+        >
+          <div>
+            "+46 (0)70 525362"
+          </div>
+          <div
+            style="margin-top: 1rem;"
+          >
+            <input
+              id="formData"
+              style="padding: 0.5rem;"
+              type="text"
+            />
+            <button
+              style="padding: 0.5rem;"
+            >
+              Set
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style="margin-top: 2rem;"
+    >
+      <div>
+        as standalone field
+      </div>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <div>
+          <div
+            class="CustomFormFieldWrapperstyles__CustomFormField-sc-ixh77f-0"
+          >
+            <div
+              class="CustomFormFieldWrapperstyles__Label-sc-ixh77f-2 cds--label"
+            >
+              A phone-number field (optional)
+            </div>
+            <div
+              class="c0"
+            >
+              <div
+                class="c1"
+              >
+                <div
+                  class="c2"
+                >
+                  <div
+                    class="cds--dropdown__wrapper cds--list-box__wrapper dropdown"
+                  >
+                    <div
+                      class="cds--dropdown cds--list-box"
+                      id="phone-prefix"
+                    >
+                      <button
+                        aria-disabled="false"
+                        aria-expanded="false"
+                        aria-haspopup="listbox"
+                        aria-labelledby="downshift-3-label downshift-3-toggle-button"
+                        class="cds--list-box__field"
+                        id="downshift-3-toggle-button"
+                        title="+46"
+                        type="button"
+                      >
+                        <span
+                          class="cds--list-box__label"
+                        >
+                          +46
+                        </span>
+                        <div
+                          class="cds--list-box__menu-icon"
+                        >
+                          <svg
+                            aria-label="Open menu"
+                            fill="currentColor"
+                            focusable="false"
+                            height="16"
+                            name="chevron--down"
+                            preserveAspectRatio="xMidYMid meet"
+                            role="img"
+                            viewBox="0 0 16 16"
+                            width="16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                            />
+                            <title>
+                              Open menu
+                            </title>
+                          </svg>
+                        </div>
+                      </button>
+                      <div
+                        aria-labelledby="downshift-3-label"
+                        class="cds--list-box__menu"
+                        id="downshift-3-menu"
+                        role="listbox"
+                        tabindex="-1"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="phone"
+                        name="phone"
+                        placeholder="(0)8 3562376"
+                        title="(0)8 3562376"
+                        type="tel"
+                        value="(0)70 525362"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 25%; padding: 1rem; background: rgb(238, 238, 238);"
+        >
+          <div>
+            "+46 (0)70 525362"
+          </div>
+          <div
+            style="margin-top: 1rem;"
+          >
+            <input
+              id="sData"
+              style="padding: 0.5rem;"
+              type="text"
+            />
+            <button
+              style="padding: 0.5rem;"
+            >
+              Set
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<PhoneInput /> component its snapshot matches story WithError 1`] = `
+.c1 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  margin-right: 0.25rem;
+}
+
+.c2 .cds--list-box__menu {
+  width: 300%;
+}
+
+.c0 {
+  position: relative;
+}
+
+.c0.c0::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  outline: 2px solid var(--cds-support-error,#da1e28);
+  outline-offset: -2px;
+}
+
+.c3 {
+  color: var(--cds-text-error,#da1e28);
+  display: block;
+  max-height: none;
+}
+
+<div>
+  <div
+    class="CustomFormFieldWrapperstyles__CustomFormField-sc-ixh77f-0"
+  >
+    <div
+      class="CustomFormFieldWrapperstyles__Label-sc-ixh77f-2 cds--label"
+    >
+      A phone-number field (optional)
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        >
+          <div
+            class="cds--dropdown__wrapper cds--list-box__wrapper dropdown"
+          >
+            <div
+              class="cds--dropdown cds--list-box"
+              id="phone-prefix"
+            >
+              <button
+                aria-disabled="false"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="downshift-6-label downshift-6-toggle-button"
+                class="cds--list-box__field"
+                id="downshift-6-toggle-button"
+                title="+XX"
+                type="button"
+              >
+                <span
+                  class="cds--list-box__label"
+                >
+                  +XX
+                </span>
+                <div
+                  class="cds--list-box__menu-icon"
+                >
+                  <svg
+                    aria-label="Open menu"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    name="chevron--down"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                    <title>
+                      Open menu
+                    </title>
+                  </svg>
+                </div>
+              </button>
+              <div
+                aria-labelledby="downshift-6-label"
+                class="cds--list-box__menu"
+                id="downshift-6-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="phone"
+                name="phone"
+                placeholder="(0)8 3562376"
+                title="(0)8 3562376"
+                type="tel"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c3 cds--form-requirement"
+    >
+      Some error text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<PhoneInput /> component its snapshot matches story WithHelpText 1`] = `
+.c1 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  margin-right: 0.25rem;
+}
+
+.c2 .cds--list-box__menu {
+  width: 300%;
+}
+
+.c0 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="CustomFormFieldWrapperstyles__CustomFormField-sc-ixh77f-0"
+  >
+    <div
+      class="CustomFormFieldWrapperstyles__Label-sc-ixh77f-2 cds--label"
+    >
+      A phone-number field (optional)
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        >
+          <div
+            class="cds--dropdown__wrapper cds--list-box__wrapper dropdown"
+          >
+            <div
+              class="cds--dropdown cds--list-box"
+              id="phone-prefix"
+            >
+              <button
+                aria-disabled="false"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="downshift-7-label downshift-7-toggle-button"
+                class="cds--list-box__field"
+                id="downshift-7-toggle-button"
+                title="+XX"
+                type="button"
+              >
+                <span
+                  class="cds--list-box__label"
+                >
+                  +XX
+                </span>
+                <div
+                  class="cds--list-box__menu-icon"
+                >
+                  <svg
+                    aria-label="Open menu"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    name="chevron--down"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                    <title>
+                      Open menu
+                    </title>
+                  </svg>
+                </div>
+              </button>
+              <div
+                aria-labelledby="downshift-7-label"
+                class="cds--list-box__menu"
+                id="downshift-7-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="phone"
+                name="phone"
+                placeholder="(0)8 3562376"
+                title="(0)8 3562376"
+                type="tel"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="CustomFormFieldWrapperstyles__Help-sc-ixh77f-3 cds--form__helper-text"
+    >
+      Some help text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<PhoneInput /> component its snapshot matches story WithValue 1`] = `
+.c1 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  margin-right: 0.25rem;
+}
+
+.c2 .cds--list-box__menu {
+  width: 300%;
+}
+
+.c0 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="CustomFormFieldWrapperstyles__CustomFormField-sc-ixh77f-0"
+  >
+    <div
+      class="CustomFormFieldWrapperstyles__Label-sc-ixh77f-2 cds--label"
+    >
+      A phone-number field (optional)
+    </div>
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        >
+          <div
+            class="cds--dropdown__wrapper cds--list-box__wrapper dropdown"
+          >
+            <div
+              class="cds--dropdown cds--list-box"
+              id="phone-prefix"
+            >
+              <button
+                aria-disabled="false"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby="downshift-8-label downshift-8-toggle-button"
+                class="cds--list-box__field"
+                id="downshift-8-toggle-button"
+                title="+46"
+                type="button"
+              >
+                <span
+                  class="cds--list-box__label"
+                >
+                  +46
+                </span>
+                <div
+                  class="cds--list-box__menu-icon"
+                >
+                  <svg
+                    aria-label="Open menu"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    name="chevron--down"
+                    preserveAspectRatio="xMidYMid meet"
+                    role="img"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                    />
+                    <title>
+                      Open menu
+                    </title>
+                  </svg>
+                </div>
+              </button>
+              <div
+                aria-labelledby="downshift-8-label"
+                class="cds--list-box__menu"
+                id="downshift-8-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="phone"
+                name="phone"
+                placeholder="(0)8 3562376"
+                title="(0)8 3562376"
+                type="tel"
+                value="12345265"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

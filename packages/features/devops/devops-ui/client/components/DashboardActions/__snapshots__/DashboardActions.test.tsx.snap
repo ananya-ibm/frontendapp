@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DashboardActions /> component its snapshot matches story Default 1`] = `
+.c0 {
+  padding-top: 1rem;
+}
+
+.c1 {
+  padding-bottom: 1rem;
+}
+
+.c2 {
+  padding-top: 1rem;
+  background-color: #0062ff;
+  margin-bottom: 2rem;
+  min-height: 14rem;
+}
+
+.c4 {
+  padding-top: 1rem;
+  background-color: #ffffff;
+  margin-bottom: 2rem;
+  min-height: 14rem;
+}
+
+.c3 {
+  padding-bottom: 1rem;
+}
+
+.c5 {
+  padding-top: 1rem;
+  position: absolute;
+  bottom: 0.8rem;
+}
+
+.c6 {
+  padding-left: 0.3rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="cds--tile"
+    >
+      <h5
+        class="c1"
+      >
+        Actions
+      </h5>
+      <div
+        class="cds--row"
+      >
+        <div
+          class="cds--col-sm-16 cds--col-md-4 cds--col-lg-4 cds--col-xlg-3"
+        >
+          <div
+            class="cds--tile c2"
+          >
+            <h4
+              class="c3"
+            >
+              Build
+            </h4>
+            <p>
+              Explore EXO Cloud with a selection of DevOps tools. From here you can spin up new Experience Orchestrator demo and test environments using pre-built templates or create your own.
+            </p>
+          </div>
+        </div>
+        <div
+          class="cds--col-sm-16 cds--col-md-4 cds--col-lg-4 cds--col-xlg-3"
+        >
+          <div
+            class="cds--tile c4"
+          >
+            <h4
+              class="c3"
+            >
+              Browse App Catalog
+            </h4>
+            <p>
+              Browse EXO application templates in the catalog to see a list of pre-configured Experience Orchestrator demos.
+            </p>
+            <a
+              class="cds--link c5"
+              href="/devops/catalog"
+            >
+              Browse App Catalog
+              <svg
+                aria-label="icon"
+                class="c6"
+                fill="currentColor"
+                focusable="false"
+                height="20"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                size="20"
+                viewBox="0 0 32 32"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="cds--col-sm-16 cds--col-md-4 cds--col-lg-4 cds--col-xlg-3"
+        >
+          <div
+            class="cds--tile c4"
+          >
+            <h4
+              class="c3"
+            >
+              View Deployed Instances
+            </h4>
+            <p>
+              View your live EXO applications.
+            </p>
+            <a
+              class="cds--link c5"
+              href="/devops/deployments"
+            >
+              View Deployments
+              <svg
+                aria-label="icon"
+                class="c6"
+                fill="currentColor"
+                focusable="false"
+                height="20"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                size="20"
+                viewBox="0 0 32 32"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="cds--col-sm-16 cds--col-md-4 cds--col-lg-4 cds--col-xlg-3"
+        >
+          <div
+            class="cds--tile c4"
+          >
+            <h4
+              class="c3"
+            >
+              EXO Docs
+            </h4>
+            <p>
+              Check out the EXO tutorials to get started building Experience Orchestrator applications.
+            </p>
+            <a
+              class="cds--link c5"
+              href="https://pages.github.ibm.com/ixliberty/ixl-tutorial-website/"
+            >
+              View Tutorials
+              <svg
+                aria-label="icon"
+                class="c6"
+                fill="currentColor"
+                focusable="false"
+                height="20"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                size="20"
+                viewBox="0 0 32 32"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

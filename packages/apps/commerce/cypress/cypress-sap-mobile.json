@@ -1,0 +1,14 @@
+{
+  "chromeWebSecurity": false,
+  "responseTimeout": 50000,
+  "requestTimeout": 15000,
+  "watchForFileChanges": false,
+  "baseUrl": "http://localhost:3300",
+  "env": {
+    "fixtures": "sap",
+    "backendType": "sap",
+    "gqlEndpoint": "https://ixl-adapter-b2c-commerce.uki-commerce-clus-382893-ed73e322e3ea12289f5ccd3b2effe14c-0000.eu-gb.containers.appdomain.cloud/graphql"
+  },
+  "viewportWidth": 375,
+  "viewportHeight": 812
+}

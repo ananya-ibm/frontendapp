@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchForm /> component its snapshot matches story Default 1`] = `
+.c1 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c1 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div>
+  <form
+    class="c0"
+  >
+    <div
+      class="cds--form-item cds--text-input-wrapper"
+    >
+      <div
+        class="cds--text-input__field-outer-wrapper"
+      >
+        <div
+          class="cds--text-input__field-wrapper"
+        >
+          <input
+            class="cds--text-input cds--text__input cds--text-input--lg"
+            id="searchField"
+            name="searchField"
+            placeholder="Search"
+            title="Search"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <button
+      class="c1 cds--btn cds--btn--md cds--btn--primary"
+      tabindex="0"
+      type="button"
+    >
+      Search
+       
+    </button>
+  </form>
+</div>
+`;

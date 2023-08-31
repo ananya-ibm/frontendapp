@@ -1,0 +1,102 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+/* eslint-disable func-names, camelcase */
+
+describe('Profile', () => {
+  beforeEach(() => {
+    cy.fixture(`e2e-data-${Cypress.env('fixtures')}`).as('data');
+  });
+
+  it('Profile contains the correct options', function() {
+    if (this.data?.profile?.skip) this.skip();
+
+    return cy
+      .login(
+        this.data.signin.valid_user.username,
+        this.data.signin.valid_user.password
+      )
+      .then(() => {
+        cy.visit(`/account-profile/profile`);
+        cy.wait(3000); 
+        this.data.profile.options.map(item => cy.contains(item));
+      });
+  });
+  it('Personal details contains the correct details', function() {
+    if (this.data?.profile?.skip) this.skip();
+
+    return cy
+      .login(
+        this.data.signin.valid_user.username,
+        this.data.signin.valid_user.password
+      )
+      .then(() => {
+        cy.visit(`/account-profile/details`);
+        cy.get('#first').should('have.value', this.data.profile.user.first);
+        cy.get('#lastname').should(
+          'have.value',
+          this.data.profile.user.lastname
+        );
+        cy.get('#address1').should(
+          'have.value',
+          this.data.profile.user.address1
+        );
+        cy.get('#city').should('have.value', this.data.profile.user.city);
+        cy.get('#country').should('have.value', this.data.profile.user.country);
+        cy.get('#zip').should('have.value', this.data.profile.user.zip);
+      });
+  });
+
+  // TODO: enable once payment screen is there again
+  it.skip('There is the correct payment information', function() {
+    // TODO: This should be re-enabled as we get reliable support for SAP commerce login
+    if (this.data?.profile?.skip) this.skip();
+
+    return cy
+      .login(
+        this.data.signin.valid_user.username,
+        this.data.signin.valid_user.password
+      )
+      .then(() => {
+        cy.visit(`/account-profile/payment`);
+        cy.contains(this.data.profile.user.cardToCheck.name).should(
+          'be.visible'
+        );
+        cy.contains(this.data.profile.user.cardToCheck.expiry).should(
+          'be.visible'
+        );
+        cy.contains(this.data.profile.user.cardToCheck.person).should(
+          'be.visible'
+        );
+        cy.contains(this.data.profile.user.cardToCheck.number).should(
+          'be.visible'
+        );
+        cy.get('.edit-button')
+          .should('have.length', this.data.profile.user.paymentNo)
+          .first()
+          .click();
+        cy.contains('Please fill in your payment details').should('be.visible');
+      });
+  });
+  it('Account security page contains the right elements', function() {
+    // TODO: This should be re-enabled as we get reliable support for SAP commerce login
+    if (this.data?.profile?.skip) this.skip();
+
+    return cy
+      .login(
+        this.data.signin.valid_user.username,
+        this.data.signin.valid_user.password
+      )
+      .then(() => {
+        cy.visit(`/account-profile/security`);
+        cy.get('#password').should('have.length', 1);
+        cy.contains('Update').should('be.visible');
+      });
+  });
+});

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AcknowledgeModal /> component its snapshot matches 1`] = `
+@media (max-width:672px) {
+
+}
+
+<div
+  class="AcknowledgeModalstyles__AcknowledgeModal-sc-hpfkad-0"
+/>
+`;

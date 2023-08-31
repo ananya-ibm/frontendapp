@@ -1,0 +1,106 @@
+language: node_js
+
+node_js:
+  - 16.11.1
+
+cache:
+  directories:
+    - ~/.cache
+    - ~/.npm
+
+before_cache:
+  - rm -f $HOME/.npm/_cacache/anonymous-cli-metrics.json
+  - rm -rf $HOME/.npm/_cacache/_logs
+
+addons:
+  chrome: stable
+
+notifications:
+  email:
+    if: type = cron
+
+install:
+  # Ensure no cli metrics file is generated that forces a new cache file to be generated, ~35s
+  - npm config set send-metrics false -g
+  - npm ci
+  - npm run bootstrap:ci
+
+branches:
+  only:
+    - master
+    - develop
+    - ual-virtual-showcase
+    - honda-poc
+    - castrol-navigation
+
+jobs:
+  include:
+    # ###############################################################################################
+    # Basic tests
+
+    - stage: Test
+      name: Lint
+      script: npm run lint
+      env:
+        - JOBNAME=Lint
+    - stage: Test
+      name: Typecheck
+      script: npm run typecheck
+      env:
+        - JOBNAME=Typecheck
+    - name: Test
+      script: npm run test
+      env:
+        - JOBNAME=Test
+        - JEST_MAX_WORKERS=100%
+    - name: Apps B2C
+      script:
+        - npm run build:app:b2c:csr
+      env:
+        - JOBNAME=Build Apps B2C
+    - name: Apps Automotive
+      script:
+        - npm run build:app:automotive:csr
+      env:
+        - JOBNAME=Build Apps Automotive
+
+    # ###############################################################################################
+    # Extended tests
+
+    - stage: Extended Tests
+      if: type = cron
+      name: Performance
+      before_install:
+        - npm install -g @lhci/cli@0.4.x
+      script: npm run test:perf:b2c
+      env:
+        - JOBNAME=Lighthouse
+
+    - stage: Extended Tests
+      name: Storybook
+      if: type = cron
+      script: npm run build:storybook -- --quiet
+      env:
+        - JOBNAME=Storybook
+
+    - stage: Extended Tests
+      if: type = cron
+      name: E2E Tests - HCL
+      before_install:
+        # Fixes an issue where the max file watch count is exceeded, triggering ENOSPC
+        # https://github.com/cypress-io/cypress/issues/4283
+        - echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+      script: npm run test:e2e:hcl
+      env:
+        - JOBNAME=E2E Tests HCL
+
+    - stage: Extended Tests
+      if: type = cron
+      name: E2E Tests - SAP
+      before_install:
+        # Fixes an issue where the max file watch count is exceeded, triggering ENOSPC
+        # https://github.com/cypress-io/cypress/issues/4283
+        - echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+      script: npm run test:e2e:sap
+      env:
+        - JOBNAME=E2E Tests SAP

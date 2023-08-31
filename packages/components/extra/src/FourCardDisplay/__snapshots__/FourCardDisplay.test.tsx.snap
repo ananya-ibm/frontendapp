@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FourCardDisplay /> component its snapshot matches 1`] = `
+.c0 {
+  max-width: var(--max-width);
+}
+
+.c0 .cds--row > * > .cds--grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c1 {
+  background: url(https://images.unsplash.com/photo-1530981279185-9f0960715267) center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 {
+  background: url(https://images.unsplash.com/photo-1530981254872-b77d0b6ca40c) center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c4 {
+  background: url(https://images.unsplash.com/photo-1515853191710-4db39aa5fe54) center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c5 {
+  background: url(https://images.unsplash.com/photo-1517026575980-3e1e2dedeab4) center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c2 {
+  margin-top: 1rem;
+}
+
+<div
+  class="FourCardDisplaystyles__FourCardDisplay-sc-1ww7aml-0"
+>
+  <div
+    class="c0 cds--grid"
+  >
+    <div
+      class="cds--row"
+    >
+      <div
+        class="cds--col-sm-1"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--1x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <div
+              class="c1"
+              src="https://images.unsplash.com/photo-1530981279185-9f0960715267"
+            />
+          </div>
+        </div>
+        <p
+          class="c2"
+        >
+          Front View
+        </p>
+      </div>
+      <div
+        class="cds--col-sm-1"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--1x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <div
+              class="c3"
+              src="https://images.unsplash.com/photo-1530981254872-b77d0b6ca40c"
+            />
+          </div>
+        </div>
+        <p
+          class="c2"
+        >
+          Rear View
+        </p>
+      </div>
+      <div
+        class="cds--col-sm-1"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--1x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <div
+              class="c4"
+              src="https://images.unsplash.com/photo-1515853191710-4db39aa5fe54"
+            />
+          </div>
+        </div>
+        <p
+          class="c2"
+        >
+          Left View
+        </p>
+      </div>
+      <div
+        class="cds--col-sm-1"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--1x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <div
+              class="c5"
+              src="https://images.unsplash.com/photo-1517026575980-3e1e2dedeab4"
+            />
+          </div>
+        </div>
+        <p
+          class="c2"
+        >
+          Right View
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

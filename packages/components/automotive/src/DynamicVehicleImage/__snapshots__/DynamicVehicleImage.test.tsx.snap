@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DynamicVehicleImage /> component its snapshot matches 1`] = `
+.c0 {
+  background-color: undefined;
+  background-image: url(undefined);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  left: 0;
+  padding-top: 50%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.c1 {
+  background-image: url(https://www.w3schools.com/w3css/img_lights.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 0;
+  left: 0%;
+  padding-top: 50%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.c2 {
+  background-image: url(http://www.pngmart.com/files/3/Spaceship-PNG-Photos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 0;
+  left: 0%;
+  padding-top: 50%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  />
+  <div
+    class="c2"
+  />
+</div>
+`;

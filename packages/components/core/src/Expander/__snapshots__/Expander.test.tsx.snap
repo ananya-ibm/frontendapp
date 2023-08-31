@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Expander /> component its snapshot matches 1`] = `
+.c0 {
+  border-top: solid 0.0625rem #8d8d8d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font: 700 1rem/1.45rem 'IBM Plex Sans',Arial,sans-serif;
+  padding-top: 0.5rem;
+  position: relative;
+}
+
+.c3 {
+  list-style: none;
+  max-height: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-transition: max-height 200ms ease-out;
+  transition: max-height 200ms ease-out;
+}
+
+.c2 {
+  position: absolute;
+  right: 0;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    data-testid="OpenMenu"
+  >
+    This is  a test
+    <div
+      class="c2"
+    >
+       
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="24"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </div>
+  </div>
+  <ol
+    class="c3"
+  >
+    <li>
+      Test content
+    </li>
+  </ol>
+</div>
+`;

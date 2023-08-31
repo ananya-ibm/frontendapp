@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Progress /> component its snapshot matches 1`] = `
+.c0 {
+  max-height: 20rem;
+  max-width: 20rem;
+  position: relative;
+}
+
+.c0 .CircularProgressbar {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.c0 .CircularProgressbar-path {
+  stroke: red;
+}
+
+.c0 .CircularProgressbar-trail {
+  stroke: gray;
+}
+
+.c0 .CircularProgressbar-text {
+  fill: yellow;
+}
+
+.c0 .CircularProgressbar-background {
+  fill: green;
+}
+
+.c0 .CircularProgressbar .CircularProgressbar-path {
+  stroke: #0062ff;
+  stroke-linecap: round;
+  -webkit-transition: stroke-dashoffset 0.5s ease 0s;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.c0 .CircularProgressbar .CircularProgressbar-trail {
+  stroke: #c6c6c6;
+  stroke-linecap: round;
+}
+
+.c0 .CircularProgressbar .CircularProgressbar-text {
+  -webkit-dominant-baseline: middle;
+  dominant-baseline: middle;
+  fill: #0062ff;
+  font-size: 1.3rem;
+  text-anchor: middle;
+}
+
+.c0 .CircularProgressbar .CircularProgressbar-background {
+  fill: #c6c6c6;
+}
+
+.c0 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+  fill: #c9deff;
+}
+
+.c0 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+  fill: #ffffff;
+}
+
+.c0 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+  stroke: #ffffff;
+}
+
+.c0 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+  stroke: transparent;
+}
+
+<div
+  class="c0"
+>
+  <svg
+    class="CircularProgressbar "
+    data-test-id="CircularProgressbar"
+    viewBox="0 0 100 100"
+  >
+    <path
+      class="CircularProgressbar-trail"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      fill-opacity="0"
+      stroke-width="8"
+      style="stroke-dasharray: 289.02652413026095px 289.02652413026095px; stroke-dashoffset: 0px;"
+    />
+    <path
+      class="CircularProgressbar-path"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      fill-opacity="0"
+      stroke-width="8"
+      style="stroke-dasharray: 289.02652413026095px 289.02652413026095px; stroke-dashoffset: 115.61060965210439px;"
+    />
+    <text
+      class="CircularProgressbar-text"
+      x="50"
+      y="50"
+    >
+      60%
+    </text>
+  </svg>
+</div>
+`;

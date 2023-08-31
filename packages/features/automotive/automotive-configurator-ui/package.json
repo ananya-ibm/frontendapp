@@ -1,0 +1,36 @@
+{
+  "name": "@exo/frontend-features-automotive-configurator-ui",
+  "version": "1.0.0",
+  "scripts": {
+    "prettier": "root-exec prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "npm run prettier -- --write"
+  },
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "description": "## Features",
+  "main": "client/index.ts",
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "author": "Magnus Johansson",
+  "dependencies": {
+    "@exo/frontend-common-session-context": "^1.0.0",
+    "@exo/frontend-common-app-shell": "^1.0.0",
+    "@exo/frontend-components-base": "^1.0.0",
+    "@exo/frontend-components-automotive": "^1.0.0",
+    "@exo/frontend-features-chrome-ui": "^1.0.0",
+    "@exo/frontend-features-chrome-logic": "^1.0.0",
+    "@exo/frontend-components-core": "^1.0.0",
+    "@exo/frontend-features-automotive-cart-automotive-logic": "^1.0.0",
+    "@exo/frontend-features-automotive-configurator-logic": "^1.0.0",
+    "@exo/frontend-features-automotive-dealership-finder-logic": "^1.0.0",
+    "@exo/frontend-features-automotive-dealership-finder-ui": "^1.0.0",
+    "@exo/frontend-features-events-logic": "^1.0.0",
+    "@exo/frontend-common-notification": "^1.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0",
+    "@exo/frontend-common-storybook": "^1.0.0"
+  }
+}

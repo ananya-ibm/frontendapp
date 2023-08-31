@@ -1,0 +1,51 @@
+{ 
+    "features.cart.cart-ui" : {
+        "pages.CartPage": {
+            "Cart.header" : "Wagen",
+            "Title" :"Ihr Warenkorb ist derzeit leer",
+            "EmptyCart.primaryText" : "Mit dem Einkaufen fortfahren",
+            "CartButtons.next" : "Auschecken"
+      
+        },
+        "components" : {
+            "CartSubtotal" :
+            {
+                "Head.SubtotalRow.label" : "Delsumma",
+                "Foot.SubtotalRow.label" : "Gesamt",
+                "Body.SubtotalRow.SalesTax.label" : "Mehrwertsteuer",
+                "Body.SubtotalRow.Shipping.label" : "Versand", 
+                "Body.SubtotalRow.ShippingTax.label" : "Versandsteuer",
+                "Body.SubtotalRow.Adjustments.label" : "Anpassungen"
+            },
+            "Delivery" :
+            {
+                "Options.Home" : "Hauslieferung",
+                "Options.Store" : "Abholung im Geschäft"
+            },
+            
+            "HomeDeliverySelector" :
+            {
+                "labeltext" : "Versandart"
+            },
+            "ZipDeliveryOptions" :
+            {
+                "Title": "Versand",
+                "div.Text":"Verfügbare Versandarten für",
+                "SubTitle":"Klicken und sammeln",
+                "SubTitle.HomeDelivery": "Hauslieferung",
+                "Button.Label" : "Werden"
+            },
+            "MiniCart":
+            {
+                "Title": "Mini-Wagen"
+            },
+            "CartItem":
+            {
+                "PropertyName.Quantity" : "Menge"
+            }
+
+        }
+    }
+    }
+    
+    

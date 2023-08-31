@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StoreFinder /> component its snapshot matches story Default 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--sm cds--btn--tertiary"
+    tabindex="0"
+    type="button"
+  >
+    Change store...
+     
+  </button>
+</div>
+`;
+
+exports[`<StoreFinder /> component its snapshot matches story Open 1`] = `
+.c0 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c0 svg {
+  max-height: 100%;
+}
+
+@media (max-width:672px) {
+
+}
+
+<div>
+  <button
+    class="c0 cds--btn cds--btn--sm cds--btn--tertiary"
+    tabindex="0"
+    type="button"
+  >
+    Change store...
+     
+  </button>
+</div>
+`;

@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SixThumbnailGrid /> component its snapshot matches 1`] = `
+.c1 {
+  max-width: var(--max-width);
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+}
+
+.c1 .cds--row > * > .cds--grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c0 .cds--aspect-ratio {
+  overflow: hidden;
+}
+
+.c0 .cds--col {
+  text-align: center;
+}
+
+.c2 {
+  background-image: url(https://images.unsplash.com/photo-1530981279185-9f0960715267);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c4 {
+  background-image: url(https://images.unsplash.com/photo-1530981254872-b77d0b6ca40c);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c5 {
+  background-image: url(https://images.unsplash.com/photo-1515853191710-4db39aa5fe54);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c6 {
+  background-image: url(https://images.unsplash.com/photo-1517026575980-3e1e2dedeab4);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c7 {
+  background-image: url(https://images.unsplash.com/photo-1524600976353-e33983229a3e);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c8 {
+  background-image: url(https://images.unsplash.com/photo-1538392881296-16b46c54ba6f);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 {
+  font: 700 1.25rem/1.75rem 'IBM Plex Sans',Arial,sans-serif;
+  margin: 1rem 0 5rem 0;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 cds--grid cds--grid--full-width"
+  >
+    <div
+      class="cds--row"
+    >
+      <div
+        class="cds--col-sm-4 cds--col-lg-3 cds--col-xlg-5"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--1x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <div
+              class="c2"
+              src="https://images.unsplash.com/photo-1530981279185-9f0960715267"
+            />
+          </div>
+        </div>
+        <h2
+          class="c3"
+        >
+          Front View
+        </h2>
+      </div>
+      <div
+        class="cds--col-sm-4 cds--col-lg-3 cds--col-xlg-5"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--1x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <div
+              class="c4"
+              src="https://images.unsplash.com/photo-1530981254872-b77d0b6ca40c"
+            />
+          </div>
+        </div>
+        <h2
+          class="c3"
+        >
+          Rear View
+        </h2>
+      </div>
+      <div
+        class="cds--col-sm-4 cds--col-lg-3 cds--col-xlg-5"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--1x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <div
+              class="c5"
+              src="https://images.unsplash.com/photo-1515853191710-4db39aa5fe54"
+            />
+          </div>
+        </div>
+        <h2
+          class="c3"
+        >
+          Left View
+        </h2>
+      </div>
+    </div>
+    <div
+      class="cds--row"
+    >
+      <div
+        class="cds--col-sm-4 cds--col-lg-3 cds--col-xlg-5"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--1x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <div
+              class="c6"
+              src="https://images.unsplash.com/photo-1517026575980-3e1e2dedeab4"
+            />
+          </div>
+        </div>
+        <h2
+          class="c3"
+        >
+          Meter
+        </h2>
+      </div>
+      <div
+        class="cds--col-sm-4 cds--col-lg-3 cds--col-xlg-5"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--1x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <div
+              class="c7"
+              src="https://images.unsplash.com/photo-1524600976353-e33983229a3e"
+            />
+          </div>
+        </div>
+        <h2
+          class="c3"
+        >
+          Gear
+        </h2>
+      </div>
+      <div
+        class="cds--col-sm-4 cds--col-lg-3 cds--col-xlg-5"
+      >
+        <div
+          class="cds--aspect-ratio cds--aspect-ratio--1x1"
+        >
+          <div
+            class="cds--aspect-ratio--object"
+          >
+            <div
+              class="c8"
+              src="https://images.unsplash.com/photo-1538392881296-16b46c54ba6f"
+            />
+          </div>
+        </div>
+        <h2
+          class="c3"
+        >
+          Heading
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,7 @@
+{
+  "features.Share 2.0.Y": {
+    "pages.SamplePage": {
+      "page.title": "I am a generated feature"
+    }
+  }
+}

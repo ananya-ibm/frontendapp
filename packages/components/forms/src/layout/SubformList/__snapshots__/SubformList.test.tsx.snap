@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubformList /> component its snapshot matches story Default 1`] = `
+.c1 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c1 svg {
+  max-height: 100%;
+}
+
+.c2 {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  padding: 0.75rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <form>
+    <div
+      class="SubformListstyles__SubformList-sc-1w4m7zj-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="cds--dropdown__wrapper cds--list-box__wrapper cds--dropdown__wrapper--inline cds--list-box__wrapper--inline"
+        >
+          <label
+            class="cds--label"
+            for="downshift-0-toggle-button"
+            id="downshift-0-label"
+          >
+            Choose Module to Add
+          </label>
+          <div
+            class="cds--dropdown cds--dropdown--inline cds--list-box"
+            id="__components_typeselector"
+          >
+            <button
+              aria-disabled="false"
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="downshift-0-label downshift-0-toggle-button"
+              class="cds--list-box__field"
+              id="downshift-0-toggle-button"
+              title="Name"
+              type="button"
+            >
+              <span
+                class="cds--list-box__label"
+              >
+                Name
+              </span>
+              <div
+                class="cds--list-box__menu-icon"
+              >
+                <svg
+                  aria-label="Open menu"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  name="chevron--down"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                  />
+                  <title>
+                    Open menu
+                  </title>
+                </svg>
+              </div>
+            </button>
+            <div
+              aria-labelledby="downshift-0-label"
+              class="cds--list-box__menu"
+              id="downshift-0-menu"
+              role="listbox"
+              tabindex="-1"
+            />
+          </div>
+        </div>
+        <button
+          class="c1 cds--btn cds--btn--md cds--btn--primary"
+          tabindex="0"
+          type="button"
+        >
+          Add
+           
+          <div
+            class="cds--btn__icon"
+          >
+            <svg
+              aria-label="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              size="16"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </div>
+        </button>
+      </div>
+      <div
+        class="c2"
+      >
+        Components
+      </div>
+    </div>
+  </form>
+</div>
+`;

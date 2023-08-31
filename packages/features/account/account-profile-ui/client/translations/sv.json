@@ -1,0 +1,142 @@
+{ 
+    "features.account.account-profile-ui" : {
+        "pages": 
+        {
+            "SecurityPage":
+            {
+                "Dashboard.title" : "Konto säkerhet"
+            },
+            "AddressesPage":
+            {
+                "Addresses.title" : "Adresser"
+            },
+            "MyOrdersPage":
+            {
+               "Myorder.Title" : "Mina beställningar"
+            },
+            "PaymentPage":
+            {
+                "Paymentmethod.Title": "Betalningsmetoder"
+            },
+            "PersonalDetailsPage":
+            {
+                "Title": "Personliga detaljer"
+            },
+            "PreferencesPage":
+            {
+                "Title":"Preferenser"
+            },
+            "ProfilePage":
+            {
+                "Title":"Min profil"
+            },
+            "RegisterPage":
+            {
+                "Title": "Registrera"
+            }
+        },
+        "components": 
+            {
+                "AddressForm" :
+                 {
+                  "Firstname.label": "Ditt förnamn",
+                  "Lastname.label" : "Ditt efternamn",
+                  "Email.label"    : "din e-postadress",
+                  "Phonenumber.label":"Ditt telefonnumme",
+                  "Address.label" : "Din adress",
+                  "Additional.address.label": "Ytterligare adressrad",
+                  "Country.label": "Land",
+                  "City.label" : "Stad",
+                  "State.Province.label":"Stat/provins",
+                  "Postal.zipcode.label":"Postnummer",
+
+                  "AddressForm.Firstname.placeholder":"Förnamn",
+                  "AddressForm.Lastname.placeholder":"Efternamn",
+                  "AddressForm.Email.placeholder":"E -postadress",
+                  "AddressForm.Phonenumber.placeholder":"Telefonnummer",
+                  "AddressForm.Address.placeholder":"Din adress",
+                  "AddressForm.Additional.address.placeholder":"Adressrad 2",
+                  "AddressForm.Country.placeholder":"Land",
+                  "AddressForm.City.placeholder":"Stad",
+                  "AddressForm.State.Province.placeholder":"Stat / provins",
+                  "AddressForm.Postal.zipcode.placeholder":"Postnummer"
+          
+                 },
+                "Dashboard":
+                {
+                    "LogoutButton":"Logga ut"
+                },
+                "ResetPassword" :
+                {
+                    "Password" : "Lösenord",
+                    "Confirm.Password":"Bekräfta lösenord",
+                    "Update.Button": "Uppdatering",
+                    "Current.Password":"Nuvarande lösenord",
+                    "Password.text": "Ditt lösenord har ändrats"
+                },
+                "ManageAddresses" :
+                 {
+                   "Addnewaddress" : "Lägg till ny adress",
+                   "Button.Cancel":"Avbryt",
+                   "Button.Save": "spara",
+                   "Title":"Fyll i dina kontaktuppgifter"
+                 },
+                 "PaymentForm":
+                 {
+                     "Cardtype": "Kort typ",
+                     "Cardtype.Placeholder": "Välj din korttyp ...",
+                     "Cardnumber": "Kortnummer",
+                     "Cardholdername":"Kortinnehavarens namn",
+                     "Expirydate":"Utgångsdatum",
+                     "Button.cancel":"Avbryt",
+                     "Button.UpadatePaymentMethod" : "Uppdatera betalningsmetod",
+                     "PaymentMethod.Title":"Fyll i dina betalningsuppgifter",
+                     "Button.save":"Spara",
+                     "PaymentMethod.Label":"Lägg till ny betalningsmetod"
+                 },
+                 "PersonalDetails":
+                {
+                     "Button.Save": "Spara"
+                },
+                "Preferences":
+                {
+                "Title":"Preferenser",
+                "EmailPreferences": "E-postinställningar",
+                "EmailAddress":"Din e -postadress är",
+                "Wanttochange":"Om du vill ändra det",
+                "clickhere":"Klicka här.",
+                "Marketing":"Marknadsföring",
+                "Contacby":"Jag vill bli kontaktad av",
+                "SelectOption":"Välj ett alternativ",
+                "SavePreferences": "Spara inställningar"
+             },
+             "AccountOverview":
+            {
+                "SubTitle":"Dina senaste beställningar"
+            },
+            "RegistrationForm":
+            {
+                "Button.Register":"Registrera",
+                "YourFirstname":"Ditt förnamn",
+                "Firstname":"Förnamn",
+                "YourLastname":"Ditt efternamn",
+                "Lastname":"efternamn",
+                "YouremailAddress":"din e-postadress",
+                "emailAddress":"E-postadress",
+                "Password": "Lösenord",
+                "ConfirmPassword":"Bekräfta lösenord",
+                "Title":"Titel",
+                "YourPhonenumber":"Ditt telefonnummer",
+                "phonenumber":"Telefonnummer",
+                "YourAddress":"Din adress",
+                "Address":"Adress",
+                "Country":"Land",
+                "City":"Stad",
+                "Stateprovince":"Stat/provins",
+                "Postalzipcode":"Postnummer",
+                "Aggrement": "Jag har läst och godkänt våra villkor"
+            }
+            }
+            
+        }
+    }

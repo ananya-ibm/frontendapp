@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EmptyFinance /> component its snapshot matches 1`] = `
+.c4 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c4 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  background: #ffffff;
+  padding: 2rem;
+}
+
+.c1 {
+  font: 700 1.75rem/2.25001rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c2 {
+  font: 700 0.875rem/.875rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-top: 1.5rem;
+}
+
+.c3 {
+  margin-top: 1.5rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    Your finance option
+  </div>
+  <div
+    class="c2"
+  >
+    You have no finance option selected at the moment
+  </div>
+  <div
+    class="c3"
+  >
+    <button
+      class="c4 cds--btn cds--btn--secondary"
+      tabindex="0"
+      type="button"
+    >
+      Choose Your Finance
+       
+    </button>
+  </div>
+</div>
+`;

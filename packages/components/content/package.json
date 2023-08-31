@@ -1,0 +1,32 @@
+{
+  "name": "@exo/frontend-components-content",
+  "version": "1.0.0",
+  "description": "Content React Components for ixl-frontend UIs",
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "sideEffects": false,
+  "keywords": [
+    "react",
+    "styled-components"
+  ],
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "root-exec jest --coverage",
+    "test:u": "root-exec jest -u",
+    "test:w": "root-exec jest --watch",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jtest.js --runInBand --watch",
+    "prettier": "root-exec prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "npm run prettier -- --write",
+    "check-format": "npm run prettier -- --list-different",
+    "validate": "npm run check-format && npm run lint:css && npm run test && npm run build"
+  },
+  "dependencies": {
+    "@exo/frontend-common-link": "^1.0.0",
+    "@exo/frontend-components-base": "^1.0.0",
+    "@exo/frontend-common-hooks": "^1.0.0",
+    "@exo/frontend-common-style-utils": "^1.0.0",
+    "babel-plugin-module-resolver": "^4.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0"
+  }
+}

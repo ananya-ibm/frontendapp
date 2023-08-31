@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MegaMenu /> component its snapshot matches 1`] = `
+.c0 {
+  background-color: #f4f4f4;
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 6rem;
+  width: 100%;
+  z-index: 10;
+}
+
+.c5 {
+  margin: 0 0 1rem 0;
+}
+
+.c3 {
+  background-color: white;
+  border: 0.1rem solid #dedede;
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+
+.c1 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4,25%);
+  padding: 2rem;
+}
+
+.c1 > .MegaMenustyles__SubCategory-sc-14o94dl-1:nth-child(1) {
+  grid-row: 1 / 100;
+}
+
+.c1 > .MegaMenustyles__SubCategory-sc-14o94dl-1:nth-child(2) {
+  grid-row: 1 / 100;
+}
+
+.c1 > .MegaMenustyles__SubCategory-sc-14o94dl-1:nth-child(3) {
+  grid-row: 1 / 100;
+}
+
+.c1 > .MegaMenustyles__SubCategory-sc-14o94dl-1:nth-child(4) {
+  grid-row: 1 / 100;
+}
+
+.c6 {
+  margin: 0.25rem 0;
+}
+
+.c4 {
+  font-weight: bold;
+}
+
+.c2 {
+  color: #161616;
+}
+
+.c2:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c7 {
+  color: #161616;
+}
+
+.c7:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media (max-width:672px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="MegaMenustyles__SubCategory-sc-14o94dl-1"
+    >
+      <a
+        class="c2"
+        href="/catalog/category/Men_2"
+      >
+        <img
+          class="c3"
+          loading="lazy"
+          src="https://wcs-dev1.kkckkchosts.com:8443/wcsstore/ExtendedSites…etStore/images/catalog/apparel/men/category/catr_app_men.png"
+        />
+      </a>
+      <div
+        class="c4"
+      >
+        <a
+          class="c2"
+          href="/catalog/category/Men_2"
+        >
+          Men
+        </a>
+      </div>
+      <ul
+        class="c5"
+      >
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Men-Jackets_10009"
+          >
+            Jackets
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Men-Shirts_10010"
+          >
+            Shirts
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Men-Suits_10011"
+          >
+            Suits
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Men-Pants_10012"
+          >
+            Pants
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Men-Accessories_10013"
+          >
+            Accessories
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Men-Shoes_10014"
+          >
+            Shoes
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="MegaMenustyles__SubCategory-sc-14o94dl-1"
+    >
+      <a
+        class="c2"
+        href="/catalog/category/Women_3"
+      >
+        <img
+          class="c3"
+          loading="lazy"
+          src="https://wcs-dev1.kkckkchosts.com:8443/wcsstore/ExtendedSites…ore/images/catalog/apparel/women/category/catr_app_women.png"
+        />
+      </a>
+      <div
+        class="c4"
+      >
+        <a
+          class="c2"
+          href="/catalog/category/Women_3"
+        >
+          Women
+        </a>
+      </div>
+      <ul
+        class="c5"
+      >
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Dresses_10001"
+          >
+            Dresses
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Women-Shirts-Blouses_10002"
+          >
+            Blouses
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Women-Sweaters_10003"
+          >
+            Sweaters
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Women-Skirts_10004"
+          >
+            Skirts
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Women-Pants_10005"
+          >
+            Pants
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Women-Shoes_10006"
+          >
+            Shoes
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Women-Handbags_10007"
+          >
+            Handbags
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Women-Accessories_10008"
+          >
+            Accessories
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="MegaMenustyles__SubCategory-sc-14o94dl-1"
+    >
+      <a
+        class="c2"
+        href="/catalog/category/Boys_4"
+      >
+        <img
+          class="c3"
+          loading="lazy"
+          src="https://wcs-dev1.kkckkchosts.com:8443/wcsstore/ExtendedSites…Store/images/catalog/apparel/boys/category/catr_app_boys.png"
+        />
+      </a>
+      <div
+        class="c4"
+      >
+        <a
+          class="c2"
+          href="/catalog/category/Boys_4"
+        >
+          Boys
+        </a>
+      </div>
+      <ul
+        class="c5"
+      >
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Boys-Pants_10019"
+          >
+            Pants
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Boys-Tops_10020"
+          >
+            Tops
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Boys-Shoes_10021"
+          >
+            Shoes
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="MegaMenustyles__SubCategory-sc-14o94dl-1"
+    >
+      <a
+        class="c2"
+        href="/catalog/category/Girls_5"
+      >
+        <img
+          class="c3"
+          loading="lazy"
+          src="https://wcs-dev1.kkckkchosts.com:8443/wcsstore/ExtendedSites…ore/images/catalog/apparel/girls/category/catr_app_girls.png"
+        />
+      </a>
+      <div
+        class="c4"
+      >
+        <a
+          class="c2"
+          href="/catalog/category/Girls_5"
+        >
+          Girls
+        </a>
+      </div>
+      <ul
+        class="c5"
+      >
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Girls-Shoes_10015"
+          >
+            Shoes
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Girls-Pants_10016"
+          >
+            Pants
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Girls-Dresses-Skirts_10017"
+          >
+            Skirts
+          </a>
+        </li>
+        <li
+          class="c6"
+        >
+          <a
+            class="c7"
+            href="/catalog/category/Girls-Tops_10018"
+          >
+            Tops
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

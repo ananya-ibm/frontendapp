@@ -1,0 +1,537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> component its snapshot matches 1`] = `
+.c10 {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c11 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0047bb;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2rem !important;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 0 0 0.5rem;
+  outline: none;
+  width: 2rem !important;
+}
+
+.c11 svg {
+  color: white;
+  height: 1.1rem;
+  width: 1.1rem;
+}
+
+.c11:hover,
+.c11:focus {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: -webkit-transform 200ms ease-out;
+  -webkit-transition: transform 200ms ease-out;
+  transition: transform 200ms ease-out;
+}
+
+.c0 {
+  background: #dcdcdc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.c2 {
+  color: #525252;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1rem 1rem;
+}
+
+.c3 {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.c8 {
+  color: #525252;
+  font: 400 0.875rem 'IBM Plex Sans',Arial,sans-serif;
+  outline: none;
+}
+
+.c8:hover,
+.c8:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c4 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c9 {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.c5 {
+  font: 600 0.875rem 'IBM Plex Sans',Arial,sans-serif;
+  text-align: left;
+}
+
+.c6 {
+  list-style: none;
+}
+
+.c7 {
+  margin: 0.75rem 0 0;
+}
+
+.c12 {
+  font: 400 0.74375rem 'IBM Plex Sans',Arial,sans-serif;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.c13 {
+  border-top: 1px solid #e0e0e0;
+  padding: 0.5rem 0.5rem;
+}
+
+@media (min-width:672px) {
+  .c10 {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width:1056px) {
+  .c10 {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 0;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    padding: 1rem 2rem 2rem;
+  }
+}
+
+@media (min-width:672px) {
+  .c3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width:672px) {
+  .c9 {
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+  }
+}
+
+@media (min-width:672px) {
+  .c7 {
+    margin: 0.5rem 0 0;
+  }
+}
+
+<footer
+  class="c0"
+>
+  <div
+    class="Footerstyles__ContentPanel-sc-e4rj2m-3"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <div
+            class="c4"
+          >
+            <h2
+              class="c5"
+            >
+              Help & Information
+            </h2>
+            <ul
+              class="c6"
+            >
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Help
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Track Order
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Delivery & Returns
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Our Stores
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="c4"
+          >
+            <h2
+              class="c5"
+            >
+              About IBM iX
+            </h2>
+            <ul
+              class="c6"
+            >
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Our Products
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  About Us
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Contact Us
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Careers
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="c4"
+          >
+            <h2
+              class="c5"
+            >
+              Help & Information
+            </h2>
+            <ul
+              class="c6"
+            >
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Help
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Track Order
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Delivery & Returns
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Our Stores
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="c4"
+          >
+            <h2
+              class="c5"
+            >
+              About IBM iX
+            </h2>
+            <ul
+              class="c6"
+            >
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Our Products
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  About Us
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Contact Us
+                </a>
+              </li>
+              <li
+                class="c7"
+              >
+                <a
+                  class="c8"
+                  href="#"
+                >
+                  Careers
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="c4 c9"
+          >
+            <div
+              class="c10"
+            >
+              <button
+                aria-label="Facebook"
+                class="c11"
+              >
+                <svg
+                  aria-label="icon"
+                  fill="currentColor"
+                  focusable="false"
+                  height="20"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  size="24"
+                  viewBox="0 0 32 32"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                />
+              </button>
+              <button
+                aria-label="Twitter"
+                class="c11"
+              >
+                <svg
+                  aria-label="icon"
+                  fill="currentColor"
+                  focusable="false"
+                  height="20"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  size="24"
+                  viewBox="0 0 32 32"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                />
+              </button>
+              <button
+                aria-label="YouTube"
+                class="c11"
+              >
+                <svg
+                  aria-label="icon"
+                  fill="currentColor"
+                  focusable="false"
+                  height="20"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  size="24"
+                  viewBox="0 0 32 32"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                />
+              </button>
+              <button
+                aria-label="LinkedIn"
+                class="c11"
+              >
+                <svg
+                  aria-label="icon"
+                  fill="currentColor"
+                  focusable="false"
+                  height="20"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  size="24"
+                  viewBox="0 0 32 32"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                />
+              </button>
+              <button
+                aria-label="Instagram"
+                class="c11"
+              >
+                <svg
+                  aria-label="icon"
+                  fill="currentColor"
+                  focusable="false"
+                  height="20"
+                  preserveAspectRatio="xMidYMid meet"
+                  role="img"
+                  size="24"
+                  viewBox="0 0 32 32"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Footerstyles__TermsPanel-sc-e4rj2m-12"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c12"
+      >
+        <div
+          class="c13"
+        >
+          Copyright © 2020 IBM All rights reserved.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

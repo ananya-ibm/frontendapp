@@ -1,0 +1,29 @@
+{
+  "name": "@exo/frontend-content-provider-aem-core-components",
+  "version": "1.0.0",
+  "license": "Licensed Materials - Property of IBM. 694906H. (c) Copyright IBM Corp. 2020 All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+  "description": "This module contains the EXO wrappers for AEM core components",
+  "main": "lib/index.ts",
+  "keywords": [
+    "ssr",
+    "react",
+    "ibm"
+  ],
+  "author": "Magnus Johansson",
+  "scripts": {
+    "prettier": "root-exec prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "npm run prettier -- --write"
+  },
+  "dependencies": {
+    "@adobe/aem-react-editable-components": "^1.0.0",
+    "@adobe/aem-spa-component-mapping": "^1.0.0",
+    "@adobe/aem-spa-page-model-manager": "^1.0.0",
+    "@exo/frontend-content-provider-aem": "^1.0.0",
+    "@exo/frontend-common-link": "^1.0.0",
+    "@exo/frontend-components-forms": "^1.0.0",
+    "@exo/frontend-components-base": "^1.0.0"
+  },
+  "devDependencies": {
+    "@exo/frontend-common-root-exec": "^1.0.0"
+  }
+}

@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CategoryNavigation /> component its snapshot matches story Default 1`] = `
+.c0 {
+  margin: 0 0 1.5rem;
+}
+
+.c0 .subcats {
+  list-style: '-  ';
+  margin-left: 1rem;
+}
+
+.c3 {
+  color: #161616;
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c4 {
+  color: #161616;
+  font: 700 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c2 {
+  margin-top: 0.75rem;
+  text-align: left;
+}
+
+.c2:last-of-type {
+  margin-bottom: 0.25rem;
+}
+
+.c1 {
+  font: 400 0.75rem/0.9999974999999999rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.32px;
+  -moz-letter-spacing: 0.32px;
+  -ms-letter-spacing: 0.32px;
+  letter-spacing: 0.32px;
+  color: #525252;
+  margin-bottom: 0.5rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      Categories
+    </div>
+    <ul
+      class="CategoryNavigationstyles__Items-sc-1si5myb-1"
+    >
+      <li
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/a"
+        >
+          Shirts
+        </a>
+      </li>
+      <li
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/b"
+        >
+          Trousers
+        </a>
+        <ul
+          class="subcats"
+        >
+          <li
+            class="c2"
+          >
+            <a
+              class="c3"
+              href="/b/1"
+            >
+              Jeans
+            </a>
+          </li>
+          <li
+            class="c2"
+          >
+            <a
+              class="c4"
+              href="/b/2"
+            >
+              Shorts
+            </a>
+          </li>
+          <li
+            class="c2"
+          >
+            <a
+              class="c3"
+              href="/b/3"
+            >
+              Slacks
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/c"
+        >
+          Shoes
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<CategoryNavigation /> component its snapshot matches story Skeleton 1`] = `
+.c3 {
+  width: 5.5em;
+  border-radius: 5px;
+  -webkit-animation: pulse 1.2s ease-in-out infinite;
+  animation: pulse 1.2s ease-in-out infinite;
+  background: linear-gradient(-90deg,#f0f0f0 0%,#f8f8f8 50%,#f0f0f0 100%);
+  background-size: 400% 400%;
+  display: inline-block;
+  height: 100%;
+}
+
+.c3::before {
+  content: '\\00a0';
+}
+
+.c0 {
+  margin: 0 0 1.5rem;
+}
+
+.c0 .subcats {
+  list-style: '-  ';
+  margin-left: 1rem;
+}
+
+.c2 {
+  margin-top: 0.75rem;
+  text-align: left;
+}
+
+.c2:last-of-type {
+  margin-bottom: 0.25rem;
+}
+
+.c1 {
+  font: 400 0.75rem/0.9999974999999999rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.32px;
+  -moz-letter-spacing: 0.32px;
+  -ms-letter-spacing: 0.32px;
+  letter-spacing: 0.32px;
+  color: #525252;
+  margin-bottom: 0.5rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      Categories
+    </div>
+    <ul
+      class="CategoryNavigationstyles__Items-sc-1si5myb-1"
+    >
+      <li
+        class="c2"
+      >
+        <div
+          class="c3"
+        />
+      </li>
+      <li
+        class="c2"
+      >
+        <div
+          class="c3"
+        />
+      </li>
+      <li
+        class="c2"
+      >
+        <div
+          class="c3"
+        />
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductAvailability /> component its snapshot matches story Default 1`] = `
+.c0 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-bottom: 0.5rem;
+}
+
+.c2 {
+  color: green;
+  float: right;
+}
+
+.c3 {
+  color: red;
+  float: right;
+}
+
+.c4 {
+  color: orange;
+  float: right;
+}
+
+.c1 {
+  float: left;
+  margin-right: 1.5rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="20"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </span>
+    Online
+    <span
+      class="c2"
+      type="available"
+    >
+      In stock
+    </span>
+  </div>
+  <div
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="20"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </span>
+    London
+    <span
+      class="c3"
+      type="not_available"
+    >
+      Out of stock
+    </span>
+  </div>
+  <div
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="20"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </span>
+    Glasgow
+    <span
+      class="c4"
+      type="future"
+    >
+       
+      Available on
+      2024-06-30
+    </span>
+  </div>
+  <div
+    style="margin-top: 1rem;"
+  />
+</div>
+`;
+
+exports[`<ProductAvailability /> component its snapshot matches story Skeleton 1`] = `
+.c2 {
+  width: 5.5em;
+  border-radius: 5px;
+  -webkit-animation: pulse 1.2s ease-in-out infinite;
+  animation: pulse 1.2s ease-in-out infinite;
+  background: linear-gradient(-90deg,#f0f0f0 0%,#f8f8f8 50%,#f0f0f0 100%);
+  background-size: 400% 400%;
+  display: inline-block;
+  height: 100%;
+}
+
+.c2::before {
+  content: '\\00a0';
+}
+
+.c0 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin-bottom: 0.5rem;
+}
+
+.c1 {
+  float: left;
+  margin-right: 1.5rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="20"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </span>
+    <div
+      class="c2"
+    />
+  </div>
+  <div
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="20"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </span>
+    <div
+      class="c2"
+    />
+  </div>
+</div>
+`;

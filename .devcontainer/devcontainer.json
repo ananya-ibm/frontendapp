@@ -1,0 +1,30 @@
+{
+	"name": "Node.js",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"eamodio.gitlens"
+	],
+
+	"forwardPorts": [3200, 6006],
+
+	"remoteUser": "node",
+
+	"initializeCommand": [ ".devcontainer/setup.bat" ],
+	"runArgs": [ "--network", "exo-net", "--hostname", "exo-frontend" ],
+
+	"mounts": [
+    "source=exo-frontend-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume",
+    "source=exo-frontend-coverage,target=${containerWorkspaceFolder}/coverage,type=volume",
+    "source=exo-frontend-npm,target=/home/node/.npm,type=volume"
+	],
+	"postCreateCommand": "sudo chown node /home/node/.npm && sudo chown node node_modules && sudo chown node coverage && npm install && npm run bootstrap"
+}

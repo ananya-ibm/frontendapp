@@ -1,0 +1,12 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+type TruthyOrFalsy = any | undefined | null;
+export const cond = (c: TruthyOrFalsy | (() => TruthyOrFalsy), v: string): string =>
+  (typeof c === 'function' ? c() : c) ? v : '';

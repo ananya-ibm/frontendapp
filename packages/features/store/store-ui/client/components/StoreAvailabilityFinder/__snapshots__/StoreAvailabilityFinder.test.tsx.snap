@@ -1,0 +1,412 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StoreAvailabilityFinder /> component its snapshot matches story Default 1`] = `
+.c1 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c1 svg {
+  max-height: 100%;
+}
+
+.c0 .cds--modal {
+  background-color: transparent;
+}
+
+.c0 .cds--modal-container {
+  padding: 1rem;
+}
+
+.c0 .cds--modal-container .cds--btn {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1.1;
+  margin: 0 1rem 1rem;
+  outline: none;
+  padding: 0.75rem 1.75rem;
+  text-transform: uppercase;
+  -webkit-transition: 160ms all cubic-bezier(0.645,0.045,0.355,1);
+  transition: 160ms all cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .cds--modal-content {
+  max-height: 25rem;
+  overflow: auto;
+}
+
+.c0 .cds--modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (max-width:672px) {
+
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      class="c1 StoreAvailabilityFinderstyles__AvailabilityButton-sc-1c5s2h1-5 cds--btn cds--btn--sm cds--btn--tertiary"
+      tabindex="0"
+      type="button"
+    >
+      Select store....
+       
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<StoreAvailabilityFinder /> component its snapshot matches story Loading 1`] = `
+.c1 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c1 svg {
+  max-height: 100%;
+}
+
+.c0 .cds--modal {
+  background-color: transparent;
+}
+
+.c0 .cds--modal-container {
+  padding: 1rem;
+}
+
+.c0 .cds--modal-container .cds--btn {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1.1;
+  margin: 0 1rem 1rem;
+  outline: none;
+  padding: 0.75rem 1.75rem;
+  text-transform: uppercase;
+  -webkit-transition: 160ms all cubic-bezier(0.645,0.045,0.355,1);
+  transition: 160ms all cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .cds--modal-content {
+  max-height: 25rem;
+  overflow: auto;
+}
+
+.c0 .cds--modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (max-width:672px) {
+
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      class="c1 StoreAvailabilityFinderstyles__AvailabilityButton-sc-1c5s2h1-5 cds--btn cds--btn--sm cds--btn--tertiary"
+      tabindex="0"
+      type="button"
+    >
+      Select store....
+       
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<StoreAvailabilityFinder /> component its snapshot matches story NotYetOpened 1`] = `
+.c1 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c1 svg {
+  max-height: 100%;
+}
+
+.c0 .cds--modal {
+  background-color: transparent;
+}
+
+.c0 .cds--modal-container {
+  padding: 1rem;
+}
+
+.c0 .cds--modal-container .cds--btn {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1.1;
+  margin: 0 1rem 1rem;
+  outline: none;
+  padding: 0.75rem 1.75rem;
+  text-transform: uppercase;
+  -webkit-transition: 160ms all cubic-bezier(0.645,0.045,0.355,1);
+  transition: 160ms all cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .cds--modal-content {
+  max-height: 25rem;
+  overflow: auto;
+}
+
+.c0 .cds--modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      class="c1 StoreAvailabilityFinderstyles__AvailabilityButton-sc-1c5s2h1-5 cds--btn cds--btn--sm cds--btn--tertiary"
+      tabindex="0"
+      type="button"
+    >
+      Select store....
+       
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<StoreAvailabilityFinder /> component its snapshot matches story WithError 1`] = `
+.c1 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c1 svg {
+  max-height: 100%;
+}
+
+.c0 .cds--modal {
+  background-color: transparent;
+}
+
+.c0 .cds--modal-container {
+  padding: 1rem;
+}
+
+.c0 .cds--modal-container .cds--btn {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1.1;
+  margin: 0 1rem 1rem;
+  outline: none;
+  padding: 0.75rem 1.75rem;
+  text-transform: uppercase;
+  -webkit-transition: 160ms all cubic-bezier(0.645,0.045,0.355,1);
+  transition: 160ms all cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .cds--modal-content {
+  max-height: 25rem;
+  overflow: auto;
+}
+
+.c0 .cds--modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (max-width:672px) {
+
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      class="c1 StoreAvailabilityFinderstyles__AvailabilityButton-sc-1c5s2h1-5 cds--btn cds--btn--sm cds--btn--tertiary"
+      tabindex="0"
+      type="button"
+    >
+      Select store....
+       
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<StoreAvailabilityFinder /> component its snapshot matches story WithResult 1`] = `
+.c1 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c1 svg {
+  max-height: 100%;
+}
+
+.c0 .cds--modal {
+  background-color: transparent;
+}
+
+.c0 .cds--modal-container {
+  padding: 1rem;
+}
+
+.c0 .cds--modal-container .cds--btn {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1.1;
+  margin: 0 1rem 1rem;
+  outline: none;
+  padding: 0.75rem 1.75rem;
+  text-transform: uppercase;
+  -webkit-transition: 160ms all cubic-bezier(0.645,0.045,0.355,1);
+  transition: 160ms all cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 .cds--modal-content {
+  max-height: 25rem;
+  overflow: auto;
+}
+
+.c0 .cds--modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (max-width:672px) {
+
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      class="c1 StoreAvailabilityFinderstyles__AvailabilityButton-sc-1c5s2h1-5 cds--btn cds--btn--sm cds--btn--tertiary"
+      tabindex="0"
+      type="button"
+    >
+      Select store....
+       
+    </button>
+  </div>
+</div>
+`;

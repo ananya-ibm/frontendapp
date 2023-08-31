@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TrimPriceBar /> component its snapshot matches 1`] = `
+@media (min-width:672px) {
+
+}
+
+@media (min-width:672px) {
+
+}
+
+@media (min-width:672px) {
+
+}
+
+@media (min-width:672px) {
+
+}
+
+@media (min-width:99rem) {
+
+}
+
+<div
+  class="cds--tabs"
+>
+  <button
+    aria-hidden="true"
+    aria-label="Scroll left"
+    class="cds--tab--overflow-nav-button cds--tab--overflow-nav-button--previous cds--tab--overflow-nav-button--hidden"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      fill="currentColor"
+      focusable="false"
+      height="16"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M5 8L10 3 10.7 3.7 6.4 8 10.7 12.3 10 13z"
+      />
+    </svg>
+  </button>
+  <div
+    aria-label="Tabs"
+    class="cds--tab--list"
+    role="tablist"
+  >
+    <button
+      aria-controls="ccs-9-tabpanel-0"
+      aria-selected="true"
+      class="cds--tabs__nav-item cds--tabs__nav-link cds--tabs__nav-item--selected"
+      id="ccs-9-tab-0"
+      role="tab"
+      tabindex="0"
+      type="button"
+    >
+      Car Trim 1
+    </button>
+    <button
+      aria-controls="ccs-9-tabpanel-1"
+      aria-selected="false"
+      class="cds--tabs__nav-item cds--tabs__nav-link"
+      id="ccs-9-tab-1"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      Car Trim 2
+    </button>
+    <button
+      aria-controls="ccs-9-tabpanel-2"
+      aria-selected="false"
+      class="cds--tabs__nav-item cds--tabs__nav-link"
+      id="ccs-9-tab-2"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      Car Trim 3
+    </button>
+    <button
+      aria-controls="ccs-9-tabpanel-3"
+      aria-selected="false"
+      class="cds--tabs__nav-item cds--tabs__nav-link"
+      id="ccs-9-tab-3"
+      role="tab"
+      tabindex="-1"
+      type="button"
+    >
+      Car Trim 4
+    </button>
+  </div>
+  <button
+    aria-hidden="true"
+    aria-label="Scroll right"
+    class="cds--tab--overflow-nav-button cds--tab--overflow-nav-button--next cds--tab--overflow-nav-button--hidden"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      fill="currentColor"
+      focusable="false"
+      height="16"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11 8L6 13 5.3 12.3 9.6 8 5.3 3.7 6 3z"
+      />
+    </svg>
+  </button>
+</div>
+`;

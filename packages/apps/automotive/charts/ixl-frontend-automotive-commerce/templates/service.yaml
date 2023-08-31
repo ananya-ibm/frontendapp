@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "ixl-frontend-automotive-commerce.name" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    {{- include "ixl-frontend-automotive-commerce.serviceLabels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - protocol: {{ .Values.ports.protocol }}
+      port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.targetPort }}
+      name: http
+  selector:
+    {{- include "ixl-frontend-automotive-commerce.selectorLabels" . | nindent 4 }}

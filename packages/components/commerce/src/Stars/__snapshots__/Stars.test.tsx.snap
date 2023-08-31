@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stars /> component its snapshot matches 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  color: #161616;
+}
+
+.c2 {
+  color: #f4f4f4;
+}
+
+<div
+  class="c0"
+>
+  <svg
+    aria-label="icon"
+    class="c1"
+    fill="currentColor"
+    focusable="false"
+    height="20"
+    preserveAspectRatio="xMidYMid meet"
+    role="img"
+    size="20"
+    viewBox="0 0 32 32"
+    width="20"
+    xmlns="http://www.w3.org/2000/svg"
+  />
+  <svg
+    aria-label="icon"
+    class="c1"
+    fill="currentColor"
+    focusable="false"
+    height="20"
+    preserveAspectRatio="xMidYMid meet"
+    role="img"
+    size="20"
+    viewBox="0 0 32 32"
+    width="20"
+    xmlns="http://www.w3.org/2000/svg"
+  />
+  <svg
+    aria-label="icon"
+    class="c1"
+    fill="currentColor"
+    focusable="false"
+    height="20"
+    preserveAspectRatio="xMidYMid meet"
+    role="img"
+    size="20"
+    viewBox="0 0 32 32"
+    width="20"
+    xmlns="http://www.w3.org/2000/svg"
+  />
+  <svg
+    aria-label="icon"
+    class="c2"
+    fill="currentColor"
+    focusable="false"
+    height="20"
+    preserveAspectRatio="xMidYMid meet"
+    role="img"
+    size="20"
+    viewBox="0 0 32 32"
+    width="20"
+    xmlns="http://www.w3.org/2000/svg"
+  />
+  <svg
+    aria-label="icon"
+    class="c2"
+    fill="currentColor"
+    focusable="false"
+    height="20"
+    preserveAspectRatio="xMidYMid meet"
+    role="img"
+    size="20"
+    viewBox="0 0 32 32"
+    width="20"
+    xmlns="http://www.w3.org/2000/svg"
+  />
+  <span>
+    (
+    309
+    )
+  </span>
+</div>
+`;

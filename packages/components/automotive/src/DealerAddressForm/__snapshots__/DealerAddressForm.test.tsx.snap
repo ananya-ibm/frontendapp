@@ -1,0 +1,2586 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddressForm /> component its snapshot matches story Default 1`] = `
+.c5 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c5 svg {
+  max-height: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c2 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c2 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c2 .c0 {
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c4 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:672px) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c2 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c2 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0 c1"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address1"
+          >
+            Your address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address1"
+                name="address1"
+                placeholder="Address"
+                required=""
+                title="Address"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="c0 c1"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="address_country"
+              >
+                Country (optional)
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="address_country"
+                    name="country"
+                    placeholder="Country"
+                    title="Country"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_zip"
+            >
+              Postal/Zip Code 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_zip"
+                  name="zip"
+                  placeholder="Postal/Zip Code"
+                  required=""
+                  title="Postal/Zip Code"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <button
+          class="c5 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="submit"
+        >
+          Save
+           
+        </button>
+        <button
+          class="c5 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<AddressForm /> component its snapshot matches story WithAddressSearch 1`] = `
+.c5 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c5 svg {
+  max-height: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c2 {
+  margin-bottom: 1.5rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c0 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c0 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c0 .c1 {
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c4 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:672px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c0 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c0 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_firstName"
+            >
+              Your first name (optional)
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_firstName"
+                  name="firstName"
+                  placeholder="Your first name"
+                  title="Your first name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_lastName"
+            >
+              Your last name 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_lastName"
+                  name="lastName"
+                  placeholder="Your last name"
+                  required=""
+                  title="Your last name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address1"
+          >
+            Your address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address1"
+                name="address1"
+                placeholder="Address"
+                required=""
+                title="Address"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="c1 c2"
+          >
+            <div
+              class="cds--dropdown__wrapper cds--list-box__wrapper"
+            >
+              <label
+                class="cds--label"
+                for="downshift-0-toggle-button"
+                id="downshift-0-label"
+              >
+                Country (optional)
+              </label>
+              <div
+                class="cds--dropdown cds--list-box"
+                id="address_country"
+              >
+                <button
+                  aria-disabled="false"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-labelledby="downshift-0-label downshift-0-toggle-button"
+                  class="cds--list-box__field"
+                  id="downshift-0-toggle-button"
+                  title="Country"
+                  type="button"
+                >
+                  <span
+                    class="cds--list-box__label"
+                  >
+                    Country
+                  </span>
+                  <div
+                    class="cds--list-box__menu-icon"
+                  >
+                    <svg
+                      aria-label="Open menu"
+                      fill="currentColor"
+                      focusable="false"
+                      height="16"
+                      name="chevron--down"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                      />
+                      <title>
+                        Open menu
+                      </title>
+                    </svg>
+                  </div>
+                </button>
+                <div
+                  aria-labelledby="downshift-0-label"
+                  class="cds--list-box__menu"
+                  id="downshift-0-menu"
+                  role="listbox"
+                  tabindex="-1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_zip"
+            >
+              Postal/Zip Code 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_zip"
+                  name="zip"
+                  placeholder="Postal/Zip Code"
+                  required=""
+                  title="Postal/Zip Code"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <button
+          class="c5 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="submit"
+        >
+          Save
+           
+        </button>
+        <button
+          class="c5 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<AddressForm /> component its snapshot matches story WithAllFields 1`] = `
+.c5 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c5 svg {
+  max-height: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c2 {
+  margin-bottom: 1.5rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c0 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c0 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c0 .c1 {
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c4 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:672px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c0 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c0 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_firstName"
+            >
+              Your first name (optional)
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_firstName"
+                  name="firstName"
+                  placeholder="Your first name"
+                  title="Your first name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_lastName"
+            >
+              Your last name 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_lastName"
+                  name="lastName"
+                  placeholder="Your last name"
+                  required=""
+                  title="Your last name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_email"
+          >
+            Your email address (optional)
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_email"
+                name="email"
+                placeholder="Your email address"
+                title="Your email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address1"
+          >
+            Your address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address1"
+                name="address1"
+                placeholder="Address"
+                required=""
+                title="Address"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="c1 c2"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="address_country"
+              >
+                Country (optional)
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="address_country"
+                    name="country"
+                    placeholder="Country"
+                    title="Country"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_zip"
+            >
+              Postal/Zip Code 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_zip"
+                  name="zip"
+                  placeholder="Postal/Zip Code"
+                  required=""
+                  title="Postal/Zip Code"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <button
+          class="c5 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="submit"
+        >
+          Save
+           
+        </button>
+        <button
+          class="c5 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<AddressForm /> component its snapshot matches story WithCountryStateDropdowns 1`] = `
+.c5 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c5 svg {
+  max-height: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c2 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c2 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c2 .c0 {
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c4 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:672px) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c2 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c2 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0 c1"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address1"
+          >
+            Your address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address1"
+                name="address1"
+                placeholder="Address"
+                required=""
+                title="Address"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="c0 c1"
+          >
+            <div
+              class="cds--dropdown__wrapper cds--list-box__wrapper"
+            >
+              <label
+                class="cds--label"
+                for="downshift-1-toggle-button"
+                id="downshift-1-label"
+              >
+                Country (optional)
+              </label>
+              <div
+                class="cds--dropdown cds--list-box"
+                id="address_country"
+              >
+                <button
+                  aria-disabled="false"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-labelledby="downshift-1-label downshift-1-toggle-button"
+                  class="cds--list-box__field"
+                  id="downshift-1-toggle-button"
+                  title="Country"
+                  type="button"
+                >
+                  <span
+                    class="cds--list-box__label"
+                  >
+                    Country
+                  </span>
+                  <div
+                    class="cds--list-box__menu-icon"
+                  >
+                    <svg
+                      aria-label="Open menu"
+                      fill="currentColor"
+                      focusable="false"
+                      height="16"
+                      name="chevron--down"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                      />
+                      <title>
+                        Open menu
+                      </title>
+                    </svg>
+                  </div>
+                </button>
+                <div
+                  aria-labelledby="downshift-1-label"
+                  class="cds--list-box__menu"
+                  id="downshift-1-menu"
+                  role="listbox"
+                  tabindex="-1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_zip"
+            >
+              Postal/Zip Code 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_zip"
+                  name="zip"
+                  placeholder="Postal/Zip Code"
+                  required=""
+                  title="Postal/Zip Code"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <button
+          class="c5 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="submit"
+        >
+          Save
+           
+        </button>
+        <button
+          class="c5 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<AddressForm /> component its snapshot matches story WithCustomChildren 1`] = `
+.c5 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c5 svg {
+  max-height: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c2 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c2 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c2 .c0 {
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c4 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:672px) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c2 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c2 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0 c1"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address1"
+          >
+            Your address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address1"
+                name="address1"
+                placeholder="Address"
+                required=""
+                title="Address"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="c0 c1"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="address_country"
+              >
+                Country (optional)
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="address_country"
+                    name="country"
+                    placeholder="Country"
+                    title="Country"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_zip"
+            >
+              Postal/Zip Code 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_zip"
+                  name="zip"
+                  placeholder="Postal/Zip Code"
+                  required=""
+                  title="Postal/Zip Code"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        By saving this address I agree to Acme Corp sending me marketing material
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <button
+          class="c5 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="submit"
+        >
+          Save
+           
+        </button>
+        <button
+          class="c5 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<AddressForm /> component its snapshot matches story WithCustomFooter 1`] = `
+.c4 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c4 svg {
+  max-height: 100%;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c2 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c2 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c2 .c0 {
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (max-width:672px) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c2 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c2 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0 c1"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address1"
+          >
+            Your address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address1"
+                name="address1"
+                placeholder="Address"
+                required=""
+                title="Address"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="c0 c1"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="address_country"
+              >
+                Country (optional)
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="address_country"
+                    name="country"
+                    placeholder="Country"
+                    title="Country"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_zip"
+            >
+              Postal/Zip Code 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_zip"
+                  name="zip"
+                  placeholder="Postal/Zip Code"
+                  required=""
+                  title="Postal/Zip Code"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <button
+        class="c4 cds--btn cds--btn--primary cds--btn--disabled"
+        disabled=""
+        tabindex="0"
+        type="submit"
+      >
+        Save address
+         
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<AddressForm /> component its snapshot matches story WithCustomValidation 1`] = `
+.c5 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c5 svg {
+  max-height: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c2 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c2 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c2 .c0 {
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c4 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:672px) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c2 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c2 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0 c1"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address1"
+          >
+            Your address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address1"
+                name="address1"
+                placeholder="Address"
+                required=""
+                title="Address"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="c0 c1"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="address_country"
+              >
+                Country (optional)
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="address_country"
+                    name="country"
+                    placeholder="Country"
+                    title="Country"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_zip"
+            >
+              Postal/Zip Code 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_zip"
+                  name="zip"
+                  placeholder="Postal/Zip Code"
+                  required=""
+                  title="Postal/Zip Code"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <button
+          class="c5 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="submit"
+        >
+          Save
+           
+        </button>
+        <button
+          class="c5 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<AddressForm /> component its snapshot matches story WithErrors 1`] = `
+.c5 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c5 svg {
+  max-height: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c1 {
+  margin-bottom: 1.5rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c2 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c2 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c2 .c0 {
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c4 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:672px) {
+  .c2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c2 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c2 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormHeaderstyles__FormHeader-sc-15gnw04-0"
+    >
+      <div
+        class="cds--inline-notification cds--inline-notification--error cds--inline-notification--hide-close-button"
+        role="status"
+      >
+        <div
+          class="cds--inline-notification__details"
+        >
+          <svg
+            aria-hidden="true"
+            class="cds--inline-notification__icon"
+            fill="currentColor"
+            focusable="false"
+            height="16"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8,1C4.1,1,1,4.1,1,8s3.1,7,7,7s7-3.1,7-7S11.9,1,8,1z M10.7,11.5L4.5,5.3l0.8-0.8l6.2,6.2L10.7,11.5z"
+            />
+            <path
+              d="M10.7,11.5L4.5,5.3l0.8-0.8l6.2,6.2L10.7,11.5z"
+              data-icon-path="inner-path"
+              fill="none"
+              opacity="0"
+            />
+            <title>
+              error icon
+            </title>
+          </svg>
+          <div
+            class="cds--inline-notification__text-wrapper"
+          >
+            <div
+              class="cds--inline-notification__title"
+            >
+              Error
+            </div>
+            <div
+              class="cds--inline-notification__subtitle"
+            >
+              Cannot save address
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0 c1"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address1"
+          >
+            Your address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address1"
+                name="address1"
+                placeholder="Address"
+                required=""
+                title="Address"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="c0 c1"
+          >
+            <div
+              class="cds--dropdown__wrapper cds--list-box__wrapper"
+            >
+              <label
+                class="cds--label"
+                for="downshift-2-toggle-button"
+                id="downshift-2-label"
+              >
+                Country (optional)
+              </label>
+              <div
+                class="cds--dropdown cds--list-box"
+                id="address_country"
+              >
+                <button
+                  aria-disabled="false"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-labelledby="downshift-2-label downshift-2-toggle-button"
+                  class="cds--list-box__field"
+                  id="downshift-2-toggle-button"
+                  title="United States"
+                  type="button"
+                >
+                  <span
+                    class="cds--list-box__label"
+                  >
+                    United States
+                  </span>
+                  <div
+                    class="cds--list-box__menu-icon"
+                  >
+                    <svg
+                      aria-label="Open menu"
+                      fill="currentColor"
+                      focusable="false"
+                      height="16"
+                      name="chevron--down"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                      />
+                      <title>
+                        Open menu
+                      </title>
+                    </svg>
+                  </div>
+                </button>
+                <div
+                  aria-labelledby="downshift-2-label"
+                  class="cds--list-box__menu"
+                  id="downshift-2-menu"
+                  role="listbox"
+                  tabindex="-1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_zip"
+            >
+              Postal/Zip Code 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_zip"
+                  name="zip"
+                  placeholder="Postal/Zip Code"
+                  required=""
+                  title="Postal/Zip Code"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <button
+          class="c5 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="submit"
+        >
+          Save
+           
+        </button>
+        <button
+          class="c5 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<AddressForm /> component its snapshot matches story WithIntl 1`] = `
+.c5 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c5 svg {
+  max-height: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c2 {
+  margin-bottom: 1.5rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.c0 > .field-wrapper {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-left: 1.5rem;
+}
+
+.c0 > .field-wrapper:first-child {
+  margin-left: 0;
+}
+
+.c0 .c1 {
+  margin-bottom: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c4 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:672px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .c0 > .field-wrapper {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .c0 > .field-wrapper:first-child {
+    margin-top: 0;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_firstName"
+            >
+              Your first name (valfritt)
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_firstName"
+                  name="firstName"
+                  placeholder="Your first name"
+                  title="Your first name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_lastName"
+            >
+              Your last name 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_lastName"
+                  name="lastName"
+                  placeholder="Your last name"
+                  required=""
+                  title="Your last name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_email"
+          >
+            Your email address (valfritt)
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_email"
+                name="email"
+                placeholder="Your email address"
+                title="Your email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1 c2"
+      >
+        <div
+          class="cds--form-item cds--text-input-wrapper"
+        >
+          <label
+            class="cds--label"
+            for="address_address1"
+          >
+            Your address 
+          </label>
+          <div
+            class="cds--text-input__field-outer-wrapper"
+          >
+            <div
+              class="cds--text-input__field-wrapper"
+            >
+              <input
+                class="cds--text-input cds--text__input cds--text-input--md"
+                id="address_address1"
+                name="address1"
+                placeholder="Address"
+                required=""
+                title="Address"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="c1 c2"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="address_country"
+              >
+                Country (valfritt)
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="address_country"
+                    name="country"
+                    placeholder="Country"
+                    title="Country"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="field-wrapper"
+          style="flex-basis: 100%;"
+        >
+          <div
+            class="cds--form-item cds--text-input-wrapper"
+          >
+            <label
+              class="cds--label"
+              for="address_zip"
+            >
+              Postal/Zip Code 
+            </label>
+            <div
+              class="cds--text-input__field-outer-wrapper"
+            >
+              <div
+                class="cds--text-input__field-wrapper"
+              >
+                <input
+                  class="cds--text-input cds--text__input cds--text-input--md"
+                  id="address_zip"
+                  name="zip"
+                  placeholder="Postal/Zip Code"
+                  required=""
+                  title="Postal/Zip Code"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <button
+          class="c5 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="submit"
+        >
+          Spara
+           
+        </button>
+        <button
+          class="c5 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Avbryt
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`<AddressForm /> component its snapshot matches story WithTitleHack 1`] = `
+.c2 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c2 svg {
+  max-height: 100%;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c1 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+<div>
+  <form>
+    <div
+      class="FormBodystyles__FormBody-sc-12wq4uu-0"
+    />
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <button
+          class="c2 cds--btn cds--btn--primary"
+          tabindex="0"
+          type="submit"
+        >
+          Save
+           
+        </button>
+        <button
+          class="c2 cds--btn cds--btn--secondary"
+          tabindex="0"
+          type="button"
+        >
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

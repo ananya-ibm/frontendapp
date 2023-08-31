@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdvancedFilterSearch /> component its snapshot matches story Default 1`] = `
+.c10 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c10 svg {
+  max-height: 100%;
+}
+
+.c9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.c0 {
+  background-color: #ffffff;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.1),0 0 1rem rgba(0,0,0,0.1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 0.25rem;
+  -ms-flex: 1 0 0.25rem;
+  flex: 1 0 0.25rem;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  gap: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-height: 25rem;
+  overflow: auto;
+}
+
+.c6 {
+  -webkit-flex-basis: 45%;
+  -ms-flex-preferred-size: 45%;
+  flex-basis: 45%;
+  margin-top: 1rem;
+}
+
+.c1 {
+  padding: 1rem 2rem;
+}
+
+.c2 {
+  color: #0062ff;
+  font: 700 1.75rem/2.25001rem 'IBM Plex Sans',Arial,sans-serif;
+  text-transform: uppercase;
+}
+
+.c5 {
+  font: 700 1.25rem/1.75rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c3 {
+  padding: 0 2rem 1rem 2rem;
+}
+
+.c4 {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width:672px) {
+  .c9 {
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width:672px) {
+  .c0 {
+    width: 35rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h2
+        class="c2"
+      >
+        Find the parts for your vehicle
+      </h2>
+    </div>
+    <div
+      class="c3"
+    >
+      <form>
+        <div
+          class="FormBodystyles__FormBody-sc-12wq4uu-0"
+        >
+          <div
+            class="c4"
+          >
+            <h3
+              class="c5"
+            >
+              Search by VIN
+            </h3>
+            <div
+              class="c6"
+            >
+              <div
+                class="cds--form-item cds--text-input-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-outer-wrapper"
+                >
+                  <div
+                    class="cds--text-input__field-wrapper"
+                  >
+                    <input
+                      class="cds--text-input cds--text__input cds--text-input--md"
+                      id="vin-number"
+                      name="vin-number"
+                      placeholder="VIN Number"
+                      required=""
+                      title="VIN Number"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <h3
+              class="c5"
+            >
+              Search by model
+            </h3>
+            <div
+              class="c7"
+            >
+              <div
+                class="c6"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="model"
+                  >
+                    Model (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="model"
+                        name="model"
+                        placeholder="Model"
+                        title="Model"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c6"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="doors"
+                  >
+                    Doors (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="doors"
+                        name="doors"
+                        placeholder="Doors"
+                        title="Doors"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c6"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="year"
+                  >
+                    Year (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="year"
+                        name="year"
+                        placeholder="Year"
+                        title="Year"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c6"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="cons"
+                  >
+                    Constructor (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="cons"
+                        name="cons"
+                        placeholder="Constructor"
+                        title="Constructor"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c6"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="area"
+                  >
+                    Area (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="area"
+                        name="area"
+                        placeholder="Area"
+                        title="Area"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c6"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="transmission"
+                  >
+                    Transmission (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="transmission"
+                        name="transmission"
+                        placeholder="Transmission"
+                        title="Transmission"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c6"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="color-exterior"
+                  >
+                    Color Exterior (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="color-exterior"
+                        name="color-exterior"
+                        placeholder="Color Exterior"
+                        title="Color Exterior"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c6"
+              >
+                <div
+                  class="cds--form-item cds--text-input-wrapper"
+                >
+                  <label
+                    class="cds--label"
+                    for="interior"
+                  >
+                    Interior (optional)
+                  </label>
+                  <div
+                    class="cds--text-input__field-outer-wrapper"
+                  >
+                    <div
+                      class="cds--text-input__field-wrapper"
+                    >
+                      <input
+                        class="cds--text-input cds--text__input cds--text-input--md"
+                        id="interior"
+                        name="interior"
+                        placeholder="Interior"
+                        title="Interior"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c8"
+        >
+          <div
+            class="c9"
+          >
+            <button
+              class="c10 cds--btn cds--btn--primary"
+              tabindex="0"
+              type="submit"
+            >
+              Search parts
+               
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

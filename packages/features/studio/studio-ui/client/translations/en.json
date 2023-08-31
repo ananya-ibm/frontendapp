@@ -1,0 +1,7 @@
+{
+  "features.studio.studio-ui": {
+    "pages.SamplePage": {
+      "page.title": "I am a generated feature"
+    }
+  }
+}

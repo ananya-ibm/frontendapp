@@ -1,0 +1,557 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Configurator /> component ProductGrid snapshot matches 1`] = `
+.c8 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c3 {
+  -webkit-flex: 0 0 6.75rem;
+  -ms-flex: 0 0 6.75rem;
+  flex: 0 0 6.75rem;
+  height: 6.75rem;
+  position: relative;
+  -webkit-transition: box-shadow 100ms ease-in-out;
+  transition: box-shadow 100ms ease-in-out;
+}
+
+.c3:hover {
+  box-shadow: 0.125rem 0.125rem 1rem rgba(0,0,0,0.1),-0.125rem -0.125rem 0.5rem rgba(0,0,0,0.1);
+}
+
+.c4 {
+  background: url(/automotive/thumbnails/Yellow-Car.png) no-repeat top center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.c9 {
+  background: url(/automotive/thumbnails/Nicer-Blue.png) no-repeat top center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.c10 {
+  background: url(/automotive/thumbnails/Shiny-Black.png) no-repeat top center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.c11 {
+  background: url(/automotive/thumbnails/Soft-Cream-Wheel.png) no-repeat top center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.c5 {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  padding-left: 0.75rem;
+}
+
+.c7 {
+  font: 700 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c6 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c2 {
+  color: #767676;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c0 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 0 0 -1.75rem;
+  width: 100%;
+  max-width: 95%;
+}
+
+.c1 {
+  background: none transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-flex: 0 0 33%;
+  -ms-flex: 0 0 33%;
+  flex: 0 0 33%;
+  padding: 1.75rem 0 0 1.75rem;
+  text-align: left;
+  -webkit-flex: 0 0 20%;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  margin: 1.75rem 0 0 1.75rem;
+  padding: 0;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1:hover {
+  box-shadow: none 0;
+}
+
+<div
+  class="c0"
+>
+  <button
+    class="c1"
+    type="button"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <h3
+          class="c6"
+        >
+          Yellow
+        </h3>
+        <div
+          class="c7"
+        >
+          <span
+            class="c8"
+          >
+            <span
+              class="prefix"
+            >
+              +
+            </span>
+            <span
+              class="value"
+            >
+              £500
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </button>
+  <button
+    class="c1"
+    type="button"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c9"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <h3
+          class="c6"
+        >
+          Blue
+        </h3>
+        <div
+          class="c7"
+        >
+          <span
+            class="c8"
+          >
+            <span
+              class="prefix"
+            >
+              +
+            </span>
+            <span
+              class="value"
+            >
+              £500
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </button>
+  <button
+    class="c1"
+    type="button"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c10"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <h3
+          class="c6"
+        >
+          Shiny Black
+        </h3>
+      </div>
+    </div>
+  </button>
+  <button
+    class="c1"
+    type="button"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c11"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <h3
+          class="c6"
+        >
+          Cream
+        </h3>
+      </div>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`<Configurator /> component its snapshot matches 1`] = `
+.c6 {
+  height: 1rem;
+  margin-bottom: 0.1rem;
+  margin-right: 0.75rem;
+}
+
+.c5 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c5 svg {
+  max-height: 100%;
+}
+
+.c0 {
+  background: #fff;
+  color: #161616;
+  min-height: 40rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.c3 {
+  background: rgba(255,255,255,0.85);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+}
+
+.c4 {
+  display: inline-block;
+  left: 1rem;
+  margin: auto auto auto 0;
+  position: absolute;
+  top: 1.25rem;
+}
+
+.c7 {
+  color: #161616;
+  cursor: pointer;
+  display: inline-block;
+  font: 400 1rem/1.2499987499999998rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 0 0 0 3rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c7:hover {
+  color: #0062FF;
+}
+
+.c7.active {
+  color: #0062FF;
+  font-weight: 700;
+}
+
+.c1 {
+  background: url(/exterior.png) no-repeat center bottom;
+  background-size: cover;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.c2 {
+  background: url() no-repeat center bottom;
+  background-size: cover;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.c8 {
+  background: #fff;
+  height: 100%;
+  max-width: 21rem;
+  padding: 0 1rem 2rem 2rem;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 1.5rem;
+  -webkit-transition: 500ms all cubic-bezier(0.23,1,0.32,1);
+  transition: 500ms all cubic-bezier(0.23,1,0.32,1);
+  width: 100%;
+}
+
+.c9 {
+  font: 700 1.75rem/2.25001rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c10 {
+  height: 100%;
+  margin: 1rem 0 0;
+}
+
+.c11 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: #161616;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: 400 1rem/1.45rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  margin: 0.075rem;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.c11:focus {
+  outline: none;
+}
+
+.c11 .Configurator-icon {
+  margin: auto 0 auto auto;
+  max-height: 1.25rem;
+}
+
+@media (min-width:672px) {
+
+}
+
+@media (min-width:672px) {
+
+}
+
+@media (min-width:672px) {
+
+}
+
+@media (min-width:672px) {
+
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  />
+  <div
+    class="c2"
+  />
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <button
+        class="c5 cds--btn cds--btn--ghost"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="c6"
+        >
+          <svg
+            aria-label="icon"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="16"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </div>
+        Go back
+         
+      </button>
+    </div>
+    <a
+      class="c7 active"
+      href="#"
+    >
+      Exterior
+    </a>
+    <a
+      class="c7"
+      href="#"
+    >
+      Interior
+    </a>
+    <a
+      class="c7"
+      href="#"
+    >
+      Extras
+    </a>
+    <a
+      class="c7"
+      href="#"
+    >
+      Summary
+    </a>
+  </div>
+  <div
+    class="c8"
+  >
+    <div
+      class="c9"
+    >
+      Customise your Exterior
+    </div>
+    <div
+      class="c10"
+    >
+      <button
+        class="c11"
+        type="button"
+      >
+        Choose a color
+        <svg
+          aria-label="icon"
+          class="Configurator-icon"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="32"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+      </button>
+      <button
+        class="c11"
+        type="button"
+      >
+        Wheels
+        <svg
+          aria-label="icon"
+          class="Configurator-icon"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="32"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

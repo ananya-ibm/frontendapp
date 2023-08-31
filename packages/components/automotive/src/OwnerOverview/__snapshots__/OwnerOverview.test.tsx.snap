@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OwnerOverview /> component its snapshot matches 1`] = `
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3:hover {
+  color: #0043ce;
+}
+
+.c3 svg {
+  color: #161616;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.c4 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c6 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  border-top: 0.125rem solid #e0e0e0;
+  color: #525252;
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  padding-top: 1rem;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.75rem 0;
+  width: 100%;
+}
+
+.c9 {
+  font-weight: bold;
+}
+
+.c10 {
+  margin-left: auto;
+  text-align: right;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+<div
+  class="cds--layer-two c0"
+>
+  <h4
+    class="c1"
+  >
+    Marty McFly's car
+    <div
+      class="c2"
+    >
+      <a
+        class="c3"
+      >
+        Edit
+      </a>
+    </div>
+  </h4>
+  <div
+    class="c4 card-section-undefined"
+  >
+    <div
+      class="c5"
+    >
+      DMC
+    </div>
+  </div>
+  <div
+    class="c6 card-section-secondary"
+    type="secondary"
+  >
+    <div
+      class="c7"
+    >
+      <div
+        class="c8"
+      >
+        <div
+          class="c9"
+        >
+          Total Distance
+        </div>
+        <div
+          class="c10"
+        >
+          36000 km
+        </div>
+      </div>
+      <div
+        class="c8"
+      >
+        <div
+          class="c9"
+        >
+          Car Review
+        </div>
+        <div
+          class="c10"
+        >
+          12/05/2020
+        </div>
+      </div>
+      <div
+        class="c8"
+      >
+        <div
+          class="c9"
+        >
+          Car Insurance
+        </div>
+        <div
+          class="c10"
+        >
+          12/05/2020
+        </div>
+      </div>
+      <div
+        class="c8"
+      >
+        <div
+          class="c9"
+        >
+          Year
+        </div>
+        <div
+          class="c10"
+        >
+          2020
+        </div>
+      </div>
+      <div
+        class="c8"
+      >
+        <div
+          class="c9"
+        >
+          Weight
+        </div>
+        <div
+          class="c10"
+        >
+          56.00 lb
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

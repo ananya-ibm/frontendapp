@@ -1,0 +1,93 @@
+{
+  "features.checkout.checkout-ui": {
+    "pages.CheckoutPage": {
+      "breadcrumb.Home": "Accueil",
+      "breadcrumb.Checkout": "Check out",
+      "grid.Checkout": "Check out",
+      "billingaddresspanel.billingaddress": "Adresse de facturation",
+      "initial": "Initial",
+      "label.Shoppingcart": "Panier",
+      "secondaryLabel.step1": "Étape 1",
+      "label.billing": "Facture",
+      "label.payment": "Paiement",
+      "label.initial": "Initial",
+      "default.ordertotal": "Montant de la commande"
+    },
+    "panels.Paymentpanel": {
+      "paymentpanel.payment": "Paiement",
+      "paymentpanel.note": "Ce paiement ne nécessite aucune saisie supplémentaire"
+    },
+    "panels.ShippingAddressPanel": {
+      "shippingadresspanel.shippingaddress": "Adresse de livraison"
+    },
+    "pages.ConfirmationPage": {
+      "Checkoutaddress.shippingaddress": "Adresse de livraison",
+      "Checkoutaddress.billingaddress": "Adresse de facturation",
+      "header.confirmation": "Confirmation"
+    },
+    "components.CheckoutSidebar": {
+      "title.shippingaddress": "Adresse de livraison",
+      "title.billingaddress": "Adresse du compte",
+      "addressdetail.title": "Titre",
+      "addressdetail.firstname": "Prénom :",
+      "addressdetail.lastname": "Nom :",
+      "addressdetail.company": "Société :",
+      "addressdetail.addressline1": "Ligne d'adresse 1 :",
+      "addressdetail.addressline2": "Ligne d'adresse 2:",
+      "addressdetail.city": "Ville :",
+      "addressdetail.province": "Province :",
+      "addressdetail.county": "District :",
+      "addressdetail.country": "Pays :",
+      "addressdetail.zip": "CODE POSTAL :"
+    },
+    "components.AddressInput": {
+      "AddressForm.Firstname.label": "Votre prénom",
+      "AddressForm.Firstname.placeholder": "prénom",
+      "AddressForm.Lastname.label": "Votre nom de famille",
+      "AddressForm.Lastname.placeholder": "Nom",
+      "AddressForm.Email.label": "votre adresse e-mail",
+      "AddressForm.Email.placeholder": "Adresse e-mail",
+      "AddressForm.Phonenumber.label": "Votre numéro de téléphone",
+      "AddressForm.Phonenumber.placeholder": "Numéro de téléphone",
+      "title.label": "Titre",
+      "title.placeholder": "Titre",
+      "addressSearch.label": "Recherchez votre adresse",
+      "addressSearch.placeholder": "13 nom de rue",
+      "AddressForm.Address.label": "Votre adresse",
+      "AddressForm.Address.placeholder": "Votre adresse",
+      "AddressForm.Additional.address.label": "Barre d'adresse supplémentaire",
+      "AddressForm.Additional.address.placeholder": "Adresse ligne 2",
+      "AddressForm.Country.label": "Pays",
+      "AddressForm.Country.placeholder": "Pays",
+      "AddressForm.City.label": "Ville",
+      "AddressForm.City.placeholder": "Ville",
+      "AddressForm.State.Province.label": "État / Province",
+      "AddressForm.State.Province.placeholder": "État / Province",
+      "AddressForm.Postal.zipcode.label": "Code postal",
+      "AddressForm.Postal.zipcode.placeholder": "Code postal",
+      "exoaddressform.back": "Retour",
+      "exoaddressform.continue": "Continuer"
+    },
+    "components.CartSummary": {
+      "group.yourordersummary": "Résumé de votre commande",
+      "group.youritemsummary": "Résumé de vos articles",
+      "group.estimateddeliverydate": "Date de livraison estimée :",
+      "group.termsandcondition": "Termes",
+      "default.ordertotal": "somme totale",
+      "default.adjustments": "Paramètres",
+      "default.salestax": "TVA",
+      "default.shipping": "Livraison",
+      "default.shippingtax": "Taxe d'expédition",
+      "default.sybtotal": "Sous-total pour les objets"
+    },
+    "components.InvoicePDF": {
+      "invoice.generatepdf": "Générer un PDF"
+    },
+    "component.BillingAddressEnableCheckbox": {
+      "checkbox.usediffbillingadd": "Utilisez-vous une adresse de facturation différente ?"
+    },
+    "panels.BillingAddressPanel": {
+      "h1.billingaddress": "Adresse de facturation"
+    }
+  }
+}

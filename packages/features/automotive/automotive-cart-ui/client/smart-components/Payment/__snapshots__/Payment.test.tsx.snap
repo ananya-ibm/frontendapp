@@ -1,0 +1,612 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Payment /> component its snapshot matches 1`] = `
+.c0 {
+  -webkit-animation: exoFadeIn 110ms cubic-bezier(0,0,0.38,0.9);
+  animation: exoFadeIn 110ms cubic-bezier(0,0,0.38,0.9);
+  padding: 4rem;
+}
+
+.c0 .copy {
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  margin: 2rem 0 0;
+}
+
+.c0 .copy:not(:first-of-type) {
+  margin: 0.75rem 0 0;
+}
+
+.c0 .copy.bold {
+  font-weight: 700;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem 0 0;
+}
+
+.c1 .copy {
+  font-weight: 700;
+  margin: 0 0 0 2rem;
+}
+
+.c2 {
+  -webkit-flex: 0 0 2rem;
+  -ms-flex: 0 0 2rem;
+  flex: 0 0 2rem;
+}
+
+.c2 svg {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.c3 {
+  margin: 2rem 0 0;
+}
+
+.c3 .StripeElement {
+  border: 0.125rem solid #8d8d8d;
+  margin: 2rem 0 0;
+  padding: 1rem;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 4rem 0 0;
+  width: 100%;
+}
+
+.c4 {
+  position: relative;
+}
+
+.c4 .billingInfo {
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  margin: 1rem 0;
+}
+
+.c7 {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c10 svg {
+  max-height: 100%;
+}
+
+.c5 {
+  height: 1rem;
+}
+
+.c6 {
+  margin-bottom: 1.5rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+<div
+  class="c0"
+>
+  <h2>
+    Purchase your vehicle now
+  </h2>
+  <p
+    class="copy"
+  >
+    Your car is nearly on it's way to you!
+  </p>
+  <p
+    class="copy"
+  >
+    To proceed with purchase you are required to pay the remaining cash balanced owed now. If you have chosen to trade in an existing vehicle the valuation amount has been debited from your total balance.
+  </p>
+  <p
+    class="copy"
+  >
+    Where you have chosen a vehicle from existing stock the vehicle you have a consideration period of 72 hours after the payment is received in which you can cancel your order. If you are buying a Build to Order vehicle then your have 14 days to notify us if you change your mind.
+  </p>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <svg
+        aria-label="icon"
+        fill="currentColor"
+        focusable="false"
+        height="20"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        size="32"
+        viewBox="0 0 32 32"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </div>
+    <p
+      class="copy"
+    >
+      You have elected to pay for your vehicle by upfront payment. Finance options are available if you wish to pay in installments.
+    </p>
+  </div>
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <h4>
+        Your billing address
+      </h4>
+      <div
+        class="billingInfo"
+      >
+        Please ensure the billing address matches the registered address of the card being used for the reservation fee payment.
+      </div>
+      <label
+        id="useShipping"
+      >
+        <input
+          id="useShipping"
+          name="useShipping"
+          type="checkbox"
+        />
+         
+        Is the billing address the same as the shipping address?
+      </label>
+      <div
+        class="c5"
+      />
+      <form>
+        <div
+          class="FormBodystyles__FormBody-sc-12wq4uu-0"
+        >
+          <div
+            class="c6"
+          >
+            <div
+              class="cds--dropdown__wrapper cds--list-box__wrapper"
+            >
+              <label
+                class="cds--label"
+                for="downshift-0-toggle-button"
+                id="downshift-0-label"
+              >
+                Title
+              </label>
+              <div
+                class="cds--dropdown cds--list-box"
+                id="title"
+              >
+                <button
+                  aria-disabled="false"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-labelledby="downshift-0-label downshift-0-toggle-button"
+                  class="cds--list-box__field"
+                  id="downshift-0-toggle-button"
+                  title="Choose an option"
+                  type="button"
+                >
+                  <span
+                    class="cds--list-box__label"
+                  >
+                    Choose an option
+                  </span>
+                  <div
+                    class="cds--list-box__menu-icon"
+                  >
+                    <svg
+                      aria-label="Open menu"
+                      fill="currentColor"
+                      focusable="false"
+                      height="16"
+                      name="chevron--down"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                      />
+                      <title>
+                        Open menu
+                      </title>
+                    </svg>
+                  </div>
+                </button>
+                <div
+                  aria-labelledby="downshift-0-label"
+                  class="cds--list-box__menu"
+                  id="downshift-0-menu"
+                  role="listbox"
+                  tabindex="-1"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="c6"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="firstName"
+              >
+                First name
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="First name"
+                    required=""
+                    title="First name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c6"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="lastName"
+              >
+                Last name
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Last name"
+                    required=""
+                    title="Last name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c6"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="zip"
+              >
+                Postcode
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="zip"
+                    name="zip"
+                    placeholder="Postcode"
+                    required=""
+                    title="Postcode"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c6"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="address1"
+              >
+                Address line 1
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="address1"
+                    name="address1"
+                    placeholder="Address line 1"
+                    required=""
+                    title="Address line 1"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c6"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="address2"
+              >
+                Address line 2 (optional)
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="address2"
+                    name="address2"
+                    placeholder="Address line 2"
+                    title="Address line 2"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c6"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="city"
+              >
+                Town
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="city"
+                    name="city"
+                    placeholder="Town"
+                    required=""
+                    title="Town"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c6"
+          >
+            <div
+              class="cds--form-item cds--text-input-wrapper"
+            >
+              <label
+                class="cds--label"
+                for="province"
+              >
+                County (optional)
+              </label>
+              <div
+                class="cds--text-input__field-outer-wrapper"
+              >
+                <div
+                  class="cds--text-input__field-wrapper"
+                >
+                  <input
+                    class="cds--text-input cds--text__input cds--text-input--md"
+                    id="province"
+                    name="province"
+                    placeholder="County"
+                    title="County"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c6"
+          >
+            <div
+              class="cds--dropdown__wrapper cds--list-box__wrapper"
+            >
+              <label
+                class="cds--label"
+                for="downshift-1-toggle-button"
+                id="downshift-1-label"
+              >
+                Country
+              </label>
+              <div
+                class="cds--dropdown cds--list-box"
+                id="country"
+              >
+                <button
+                  aria-disabled="false"
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-labelledby="downshift-1-label downshift-1-toggle-button"
+                  class="cds--list-box__field"
+                  id="downshift-1-toggle-button"
+                  title="Choose an option"
+                  type="button"
+                >
+                  <span
+                    class="cds--list-box__label"
+                  >
+                    Choose an option
+                  </span>
+                  <div
+                    class="cds--list-box__menu-icon"
+                  >
+                    <svg
+                      aria-label="Open menu"
+                      fill="currentColor"
+                      focusable="false"
+                      height="16"
+                      name="chevron--down"
+                      preserveAspectRatio="xMidYMid meet"
+                      role="img"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+                      />
+                      <title>
+                        Open menu
+                      </title>
+                    </svg>
+                  </div>
+                </button>
+                <div
+                  aria-labelledby="downshift-1-label"
+                  class="cds--list-box__menu"
+                  id="downshift-1-menu"
+                  role="listbox"
+                  tabindex="-1"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="c5"
+          />
+          <h4>
+            Your payment details
+          </h4>
+          <div />
+          <div
+            class="c5"
+          />
+          <label
+            id="confirm"
+          >
+            <input
+              data-testid="confirm"
+              id="confirm"
+              name="confirm"
+              type="checkbox"
+            />
+             
+            I agree to the 
+            <span
+              class="c7"
+            >
+              Terms and Conditions
+            </span>
+             and have read your
+             
+            <span
+              class="c7"
+            >
+              Privacy Policy
+            </span>
+          </label>
+        </div>
+        <div
+          class="c8"
+        >
+          <div
+            class="c9"
+          >
+            <button
+              class="c10 cds--btn cds--btn--secondary"
+              tabindex="0"
+              type="button"
+            >
+              Back
+               
+            </button>
+            <button
+              class="c10 cds--btn cds--btn--primary cds--btn--disabled"
+              disabled=""
+              tabindex="0"
+              type="submit"
+            >
+              Confirm payment
+               
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

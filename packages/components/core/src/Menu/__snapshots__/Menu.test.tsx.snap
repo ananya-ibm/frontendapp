@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> component its snapshot matches story Default 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.06rem 0;
+  padding: 1rem 1.5rem;
+}
+
+.c1 {
+  color: #161616;
+  display: block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font: 600 0.875rem/.875rem 'IBM Plex Sans',Arial,sans-serif,'Arial';
+  line-height: 1;
+}
+
+.c1:hover {
+  color: #161616;
+}
+
+.c2 {
+  border: none;
+  color: #161616;
+  cursor: pointer;
+  -webkit-flex: 0 0 1.5rem;
+  -ms-flex: 0 0 1.5rem;
+  flex: 0 0 1.5rem;
+  margin: auto 0 auto auto;
+}
+
+.c2:hover {
+  color: #161616;
+}
+
+.c3 {
+  background: #ffffff;
+  display: none;
+  display: block;
+}
+
+.c5 {
+  background: #ffffff;
+  display: none;
+}
+
+.c4 {
+  color: #161616;
+  cursor: pointer;
+  display: block;
+  font: 700 0.875rem 'IBM Plex Sans',Arial,sans-serif;
+  padding: 1rem 1rem 1rem calc(2 * 1.5rem);
+}
+
+.c4:hover {
+  background: #f4f4f4;
+  color: #0043ce;
+}
+
+.c4.isActive {
+  background: #f4f4f4;
+  color: #0043ce;
+}
+
+.c4.isActive:hover {
+  background: #f4f4f4;
+  color: #0043ce;
+}
+
+<div>
+  <div
+    style="max-width: 20rem;"
+  >
+    <div
+      class="Menustyles__Menu-sc-1ys5v2t-0"
+    >
+      <div
+        class="c0"
+      >
+        <a
+          class="c1"
+          href="#a"
+        >
+          My Account
+        </a>
+        <button
+          class="c2"
+        >
+          <svg
+            aria-label="icon"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="24"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </button>
+      </div>
+      <div
+        class="c3"
+      >
+        <div
+          class="Menustyles__Items-sc-1ys5v2t-5"
+        >
+          <a
+            class="c4"
+            href="#1"
+          >
+            Profile
+          </a>
+          <a
+            class="c4 isActive"
+            href="#2"
+          >
+            Personal details
+          </a>
+          <a
+            class="c4"
+            href="#3"
+          >
+            My orders
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Menustyles__Menu-sc-1ys5v2t-0"
+    >
+      <div
+        class="c0"
+      >
+        <a
+          class="c1"
+          href="#b"
+        >
+          My Stores
+        </a>
+        <button
+          class="c2"
+        >
+          <svg
+            aria-label="icon"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="24"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </button>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="Menustyles__Items-sc-1ys5v2t-5"
+        >
+          <a
+            class="c4"
+            href="#4"
+          >
+            Stores
+          </a>
+          <a
+            class="c4"
+            href="#5"
+          >
+            Brands
+          </a>
+          <a
+            class="c4"
+            href="#6"
+          >
+            Orders
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Menustyles__Menu-sc-1ys5v2t-0"
+    >
+      <div
+        class="c0"
+      >
+        <a
+          class="c1"
+          href="#c"
+        >
+          Consectetuer
+        </a>
+        <button
+          class="c2"
+        >
+          <svg
+            aria-label="icon"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="24"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </button>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="Menustyles__Items-sc-1ys5v2t-5"
+        >
+          <a
+            class="c4"
+            href="#7"
+          >
+            Lorem
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Menustyles__Menu-sc-1ys5v2t-0"
+    >
+      <div
+        class="c0"
+      >
+        <a
+          class="c1"
+          href="#d"
+        >
+          Adispcing
+        </a>
+        <button
+          class="c2"
+        >
+          <svg
+            aria-label="icon"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="24"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </button>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="Menustyles__Items-sc-1ys5v2t-5"
+        >
+          <a
+            class="c4"
+            href="#8"
+          >
+            Lorem
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

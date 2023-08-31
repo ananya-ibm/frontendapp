@@ -1,0 +1,9 @@
+{ 
+    "features.wishlist.wishlist-ui" : {
+        "pages.WishlistPage": {
+            "WishList.header" : "इच्छा-सूची",
+            "AddToCart.Button" :"कार्ट में जोड़ें"
+        }
+        
+    }
+}

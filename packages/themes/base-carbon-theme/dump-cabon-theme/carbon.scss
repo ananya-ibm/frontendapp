@@ -1,0 +1,63 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+// This is used to dump all variables from the Carbon SASS theme definitions
+// ... used in combination with dumpCarbonTheme.js, like
+// ../../../../node_modules/.bin/sass carbon.scss:carbon.css -I ../../../../node_modules 2>&1 >/dev/null | node dumpCarbonThemes.js
+
+@use '@carbon/styles/scss/themes';
+@use '@carbon/styles/scss/theme' with (
+  $theme: themes.$white
+);
+
+@use '@carbon/styles/scss/reset';
+@use '@carbon/styles/scss/grid';
+@use '@carbon/styles/scss/spacing';
+@use '@carbon/styles/scss/type';
+@use '@carbon/styles/scss/utilities';
+@use '@carbon/styles/scss/utilities/component-tokens';
+
+@use '@carbon/styles/scss/components';
+
+@use '@carbon/react/scss/components/button/tokens' as button;
+@use '@carbon/react/scss/components/notification/tokens' as notification;
+@use '@carbon/react/scss/components/tag/tokens' as tag;
+@use '@carbon/colors';
+
+
+@debug "white";
+@debug inspect(themes.$white);
+@debug component-tokens.get-tokens(button.$button-tokens, themes.$white);
+@debug component-tokens.get-tokens(notification.$notification-tokens, themes.$white);
+@debug component-tokens.get-tokens(tag.$tag-tokens, themes.$white);
+@debug colors.$colors;
+
+@debug "g10";
+@debug inspect(themes.$g10);
+@debug component-tokens.get-tokens(button.$button-tokens, themes.$g10);
+@debug component-tokens.get-tokens(notification.$notification-tokens, themes.$g10);
+@debug component-tokens.get-tokens(tag.$tag-tokens, themes.$g10);
+@debug colors.$colors;
+
+@debug "g90";
+@debug inspect(themes.$g90);
+@debug component-tokens.get-tokens(button.$button-tokens, themes.$g90);
+@debug component-tokens.get-tokens(notification.$notification-tokens, themes.$g90);
+@debug component-tokens.get-tokens(tag.$tag-tokens, themes.$g90);
+@debug colors.$colors;
+
+@debug "g100";
+@debug inspect(themes.$g100);
+@debug component-tokens.get-tokens(button.$button-tokens, themes.$g100);
+@debug component-tokens.get-tokens(notification.$notification-tokens, themes.$g100);
+@debug component-tokens.get-tokens(tag.$tag-tokens, themes.$g100);
+@debug colors.$colors;
+
+
+

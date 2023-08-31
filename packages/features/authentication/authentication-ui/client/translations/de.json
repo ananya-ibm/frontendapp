@@ -1,0 +1,9 @@
+{
+  "features.authentication.authentication-ui": {
+    "components": {
+      "LoginPane": {
+        "password.label": "Passwort"
+      }
+    }
+  }
+}

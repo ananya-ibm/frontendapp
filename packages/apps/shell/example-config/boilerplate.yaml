@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ixl-frontend-travel-deployment
+spec:
+  selector:
+    matchLabels:
+      app: ixl-frontend-travel
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: ixl-frontend-travel
+    spec:
+      containers:
+        - name: boilerplate
+          image: uk.icr.io/exo-devops-travel/ixl-frontend-travel
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+          envFrom: 
+            - configMapRef:
+                name: ixl-frontend-travel-env
+---              
+apiVersion: v1
+kind: Service
+metadata:
+  name: ixl-frontend-travel-service
+spec:
+  selector:
+    app: ixl-frontend-travel
+  ports:
+    - protocol: "TCP"
+      port: 3000
+      targetPort: 3000
+  type: NodePort
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: ixl-frontend-travel-route
+spec:
+  to:
+    kind: Service
+    name: ixl-frontend-travel-service
+    weight: 100
+  port:
+    targetPort: 3000
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+  wildcardPolicy: None

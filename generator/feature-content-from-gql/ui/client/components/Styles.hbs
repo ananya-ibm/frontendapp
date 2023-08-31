@@ -1,0 +1,31 @@
+/*
+Licensed Materials - Property of IBM
+694906H
+(c) Copyright IBM Corp.  2020 All Rights Reserved
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted
+by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+import styled from 'styled-components';
+import theme from './{{ properCase queryName }}.theme';
+
+export const {{ properCase queryName }} = styled.div`
+  border: ${props => theme(props).border};
+  padding: 1rem;
+`;
+
+{{#if returnType.isList }}
+export const {{ properCase queryName }}Entry = styled.div`
+  border: ${props => theme(props).border};
+  padding: 1rem;
+`;
+{{/if}}
+
+{{#each returnType.attributes}}
+export const {{ properCase name }} = styled.div`
+  border: ${props => theme(props).border};
+  padding: 1rem;
+`;
+
+{{/each}}

@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetailsGrid /> component its snapshot matches 1`] = `
+.c0 {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
+  list-style: none;
+  width: 100%;
+}
+
+.c1 {
+  color: #0062ff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c2 {
+  color: #161616;
+}
+
+<ul
+  class="c0"
+>
+  <li
+    class="c1"
+  >
+    <h4
+      class="c2"
+    >
+      test
+    </h4>
+    <span>
+      test
+    </span>
+  </li>
+  <li
+    class="c1"
+  >
+    <h4
+      class="c2"
+    >
+      test2
+    </h4>
+    <span>
+      test
+    </span>
+  </li>
+  <li
+    class="c1"
+  >
+    <h4
+      class="c2"
+    >
+      test3
+    </h4>
+    <span>
+      test
+    </span>
+  </li>
+  <li
+    class="c1"
+  >
+    <h4
+      class="c2"
+    >
+      test4
+    </h4>
+    <span>
+      test
+    </span>
+  </li>
+  <li
+    class="c1"
+  >
+    <h4
+      class="c2"
+    >
+      test5
+    </h4>
+    <span>
+      test
+    </span>
+  </li>
+</ul>
+`;

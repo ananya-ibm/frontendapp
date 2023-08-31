@@ -1,0 +1,251 @@
+{
+  "id": "1",
+  "optionCategories": [
+    {
+      "name": "Exterior",
+      "description": "Customise your car exterior",
+      "view": "exterior",
+      "optionClassifications": [
+        {
+          "description": "Choose a colour",
+          "name": "Colour",
+          "view": "exterior",
+          "options": [
+            {
+              "id": "option_1",
+              "selected": true,
+              "available": true,
+              "product": {
+                "id": "yellow-color",
+                "partnumber": "yellow-color",
+                "name": "Yellow",
+                "thumbnail": "/static/images/automotive/thumbnails/yellow.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            },
+            {
+              "id": "option_2",
+              "selected": false,
+              "available": true,
+              "product": {
+                "id": "blue-color",
+                "partnumber": "blue-color",
+                "name": "Blue",
+                "thumbnail": "/static/images/automotive/thumbnails/Nicer-Blue.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            },
+            {
+              "id": "option_3",
+              "selected": false,
+              "available": true,
+              "product": {
+                "id": "blue-color",
+                "partnumber": "cream-color",
+                "name": "Cream",
+                "thumbnail": "/static/images/automotive/thumbnails/Soft-Cream-Wheel.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            },
+            {
+              "id": "option_4",
+              "selected": false,
+              "available": false,
+              "product": {
+                "id": "shiny-black-color",
+                "partnumber": "shiny-black-color",
+                "name": "Shiny Black",
+                "thumbnail": "/static/images/automotive/thumbnails/Shiny-Black.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "description": "Upgrade your wheels",
+          "name": "Wheels",
+          "view": "/static/images/automotive/exterior.jpg",
+          "options": [
+            {
+              "id": "option_5",
+              "selected": false,
+              "available": true,
+              "product": {
+                "id": "big",
+                "partnumber": "big",
+                "name": "Big",
+                "thumbnail": "/static/images/automotive/thumbnails/Forest-Green-Wheel.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            },
+            {
+              "id": "option_6",
+              "selected": false,
+              "available": true,
+              "product": {
+                "id": "small",
+                "partnumber": "small",
+                "name": "Small",
+                "thumbnail": "/static/images/automotive/thumbnails/Matte-Grey-Wheel.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interior",
+      "description": "Customise your car interior",
+      "view": "interior",
+      "optionClassifications": [
+        {
+          "description": "Choose your upholstry",
+          "name": "Upholstry",
+          "view": "interior-seat",
+          "options": [
+            {
+              "id": "option_7",
+              "selected": true,
+              "available": true,
+              "product": {
+                "id": "yellow-color",
+                "partnumber": "yellow-color",
+                "name": "Yellow",
+                "thumbnail": "/static/images/automotive/thumbnails/yellow.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            },
+            {
+              "id": "option_8",
+              "selected": false,
+              "available": true,
+              "product": {
+                "id": "blue-color",
+                "partnumber": "blue-color",
+                "name": "Blue",
+                "thumbnail": "/static/images/automotive/thumbnails/Nicer-Blue.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            },
+            {
+              "id": "option_9",
+              "selected": false,
+              "available": true,
+              "product": {
+                "id": "cream-color",
+                "partnumber": "cream-color",
+                "name": "Cream",
+                "thumbnail": "/static/images/automotive/thumbnails/Soft-Cream-Wheel.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            },
+            {
+              "id": "option_10",
+              "selected": false,
+              "available": false,
+              "product": {
+                "id": "shiny-black-color",
+                "partnumber": "shiny-black-color",
+                "name": "Shiny Black",
+                "thumbnail": "/static/images/automotive/thumbnails/Shiny-Black.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "description": "Choose your interior trim",
+          "name": "Interior trim",
+          "view": "interior-dash",
+          "options": [
+            {
+              "id": "option_11",
+              "selected": false,
+              "available": true,
+              "product": {
+                "id": "big",
+                "partnumber": "big",
+                "name": "Big",
+                "thumbnail": "/static/images/automotive/thumbnails/Forest-Green-Wheel.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            },
+            {
+              "id": "option_12",
+              "selected": false,
+              "available": true,
+              "product": {
+                "id": "small",
+                "partnumber": "small",
+                "name": "Small",
+                "thumbnail": "/static/images/automotive/thumbnails/Matte-Grey-Wheel.png",
+                "price": {
+                  "list": {
+                    "value": "500",
+                    "currency": "GBP"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

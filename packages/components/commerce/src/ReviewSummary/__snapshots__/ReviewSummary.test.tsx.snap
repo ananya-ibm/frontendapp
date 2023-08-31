@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewSummary /> component its snapshot matches story Default 1`] = `
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  color: #f4f4f4;
+}
+
+.c0 {
+  font: 700 1.75rem/2.25001rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-bottom: 0.75rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 0.75rem;
+  column-gap: 0.75rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 0.5rem;
+  column-gap: 0.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  background-color: #f4f4f4;
+  border-radius: 0.25rem;
+  height: 0.75rem;
+  margin: 0 0.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.c8 {
+  background-color: #0062ff;
+  border-radius: 0.25rem;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 4.838709677419355%;
+}
+
+.c10 {
+  background-color: #0062ff;
+  border-radius: 0.25rem;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18.14516129032258%;
+}
+
+.c11 {
+  background-color: #0062ff;
+  border-radius: 0.25rem;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 31.451612903225808%;
+}
+
+.c12 {
+  background-color: #0062ff;
+  border-radius: 0.25rem;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 9.274193548387096%;
+}
+
+.c13 {
+  background-color: #0062ff;
+  border-radius: 0.25rem;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 36.29032258064516%;
+}
+
+.c9 {
+  min-width: 2.5rem;
+  text-align: right;
+}
+
+.c6 {
+  color: #161616;
+}
+
+<div>
+  <div
+    class="ReviewSummarystyles__ReviewSummary-sc-1t69avf-0"
+  >
+    <h3
+      class="c0"
+    >
+      Customer Reviews
+    </h3>
+    <div
+      class="c1"
+    >
+      <div
+        class="ReviewSummarystyles__SummaryStars-sc-1t69avf-3"
+      >
+        <div
+          class="c2"
+        >
+          <svg
+            aria-label="icon"
+            class="c3"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c3"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c3"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c3"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+          <svg
+            aria-label="icon"
+            class="c3"
+            fill="currentColor"
+            focusable="false"
+            height="20"
+            preserveAspectRatio="xMidYMid meet"
+            role="img"
+            size="20"
+            viewBox="0 0 32 32"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          />
+        </div>
+      </div>
+      <div
+        class="ReviewSummarystyles__SummaryText-sc-1t69avf-4"
+      >
+        Based on 
+        248
+         reviews
+      </div>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <div
+          class="ReviewSummarystyles__StarCount-sc-1t69avf-11"
+        >
+          1
+        </div>
+        <svg
+          aria-label="icon"
+          class="c6"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="20"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          />
+        </div>
+        <div
+          class="c9"
+        >
+          5
+          %
+        </div>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="ReviewSummarystyles__StarCount-sc-1t69avf-11"
+        >
+          2
+        </div>
+        <svg
+          aria-label="icon"
+          class="c6"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="20"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+        <div
+          class="c7"
+        >
+          <div
+            class="c10"
+          />
+        </div>
+        <div
+          class="c9"
+        >
+          18
+          %
+        </div>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="ReviewSummarystyles__StarCount-sc-1t69avf-11"
+        >
+          3
+        </div>
+        <svg
+          aria-label="icon"
+          class="c6"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="20"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+        <div
+          class="c7"
+        >
+          <div
+            class="c11"
+          />
+        </div>
+        <div
+          class="c9"
+        >
+          31
+          %
+        </div>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="ReviewSummarystyles__StarCount-sc-1t69avf-11"
+        >
+          4
+        </div>
+        <svg
+          aria-label="icon"
+          class="c6"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="20"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+        <div
+          class="c7"
+        >
+          <div
+            class="c12"
+          />
+        </div>
+        <div
+          class="c9"
+        >
+          9
+          %
+        </div>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="ReviewSummarystyles__StarCount-sc-1t69avf-11"
+        >
+          5
+        </div>
+        <svg
+          aria-label="icon"
+          class="c6"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="20"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+        <div
+          class="c7"
+        >
+          <div
+            class="c13"
+          />
+        </div>
+        <div
+          class="c9"
+        >
+          36
+          %
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Product /> component its snapshot matches 1`] = `
+.c8 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c8 svg {
+  max-height: 100%;
+}
+
+.c7 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c2 {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 2rem;
+}
+
+.c4 {
+  color: #0062ff;
+  font: 700 2rem/2.5rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c5 {
+  margin: 1rem 0 0;
+}
+
+.c6 {
+  color: #161616;
+  font: 700 1.25rem/1.75rem 'IBM Plex Sans',Arial,sans-serif;
+  margin: 1rem 0 0;
+}
+
+@media (min-width:672px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width:672px) {
+  .c1 {
+    background-color: #f4f4f4;
+    -webkit-flex: 0 0 30%;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="GR-80TP Extension Battery Grip/Tripod"
+      class="c2"
+      src="https://images.unsplash.com/photo-1534949119444-a092348af7dc"
+    />
+  </div>
+  <div
+    class="c3"
+  >
+    <h2
+      class="c4"
+    >
+      GR-80TP Extension Battery Grip/Tripod
+    </h2>
+    <div
+      class="c5"
+    />
+    <div
+      class="c6"
+    >
+      <span
+        class="c7"
+      >
+        <span
+          class="value"
+        >
+          £48.65
+        </span>
+      </span>
+    </div>
+    <div
+      class="c5"
+    >
+      <p>
+        GR-80TP Extension Battery Grip/Tripod
+      </p>
+    </div>
+    <div
+      class="c5"
+    >
+      <div
+        class="cds--form-item"
+      >
+        <div
+          class="cds--number cds--number--helpertext"
+        >
+          <label
+            class="cds--label"
+            for="quantity-number-input"
+          >
+            Quantity
+          </label>
+          <div
+            class="cds--number__input-wrapper"
+          >
+            <input
+              id="quantity-number-input"
+              min="1"
+              name="quantity-number-input"
+              pattern="[0-9]*"
+              step="1"
+              type="number"
+              value="1"
+            />
+            <div
+              class="cds--number__controls"
+            >
+              <button
+                aria-label="Decrement number"
+                class="cds--number__control-btn down-icon"
+                tabindex="-1"
+                title="Decrement number"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="down-icon"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 32 32"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 15H24V17H8z"
+                  />
+                </svg>
+              </button>
+              <div
+                class="cds--number__rule-divider"
+              />
+              <button
+                aria-label="Increment number"
+                class="cds--number__control-btn up-icon"
+                tabindex="-1"
+                title="Increment number"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="up-icon"
+                  fill="currentColor"
+                  focusable="false"
+                  height="16"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 32 32"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 15L17 8 15 8 15 15 8 15 8 17 15 17 15 24 17 24 17 17 24 17 24 15z"
+                  />
+                </svg>
+              </button>
+              <div
+                class="cds--number__rule-divider"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <button
+        class="c8 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="button"
+      >
+        Add to Basket
+         
+      </button>
+    </div>
+    <div
+      class="c5"
+    >
+      <span>
+        Collect 48 points with this purchase.
+      </span>
+    </div>
+  </div>
+</div>
+`;

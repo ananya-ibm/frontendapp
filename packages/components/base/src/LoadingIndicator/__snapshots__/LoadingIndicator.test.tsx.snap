@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingIndicator /> component its snapshot matches story Default 1`] = `
+<div>
+  <div
+    class="cds--loading-overlay"
+  >
+    <div
+      aria-atomic="true"
+      aria-labelledby="loading-id-1"
+      aria-live="assertive"
+      class="cds--loading"
+    >
+      <label
+        class="cds--visually-hidden"
+        id="loading-id-1"
+      >
+        Active loading indicator
+      </label>
+      <svg
+        class="cds--loading__svg"
+        viewBox="0 0 100 100"
+      >
+        <title>
+          Active loading indicator
+        </title>
+        <circle
+          class="cds--loading__stroke"
+          cx="50%"
+          cy="50%"
+          r="44"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LoadingIndicator /> component its snapshot matches story Inline 1`] = `
+<div>
+  <div
+    aria-live="assertive"
+    class="cds--inline-loading"
+  >
+    <div
+      class="cds--inline-loading__animation"
+    >
+      <div
+        aria-atomic="true"
+        aria-labelledby="loading-id-2"
+        aria-live="assertive"
+        class="cds--loading cds--loading--small"
+      >
+        <label
+          class="cds--visually-hidden"
+          id="loading-id-2"
+        >
+          Active loading indicator
+        </label>
+        <svg
+          class="cds--loading__svg"
+          viewBox="0 0 100 100"
+        >
+          <title>
+            Active loading indicator
+          </title>
+          <circle
+            class="cds--loading__background"
+            cx="50%"
+            cy="50%"
+            r="44"
+          />
+          <circle
+            class="cds--loading__stroke"
+            cx="50%"
+            cy="50%"
+            r="44"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

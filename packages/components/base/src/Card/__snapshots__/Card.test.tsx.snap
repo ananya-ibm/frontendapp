@@ -1,0 +1,1090 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> component its snapshot matches story Default 1`] = `
+.c1 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+  <div
+    style="max-width: 20rem;"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <div
+        class="c1 card-section-undefined"
+      >
+        Quo quis molestiae tempora eligendi omnis quisquam quisquam. Nihil dolor voluptatibus velit nobis culpa. Eos reprehenderit in nisi et qui.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> component its snapshot matches story Horizontal 1`] = `
+.c9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c9:hover {
+  color: #0043ce;
+}
+
+.c9 svg {
+  color: #161616;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 0.125rem solid #e0e0e0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+.c2 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  padding: 0;
+}
+
+.c5 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: grid;
+  grid-template-areas: 'left right2' 'left right3' 'left right4';
+  grid-template-rows: min-content 1fr min-content;
+}
+
+.c0 .c3 {
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+  grid-area: right2;
+  justify-self: start;
+}
+
+.c0 .c1.card-section-primary,
+.c0 .c1.card-section-secondary {
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+  grid-area: right3;
+  justify-self: start;
+}
+
+.c0 .c6 {
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  grid-area: right4;
+  justify-self: end;
+}
+
+.c0 .c1.card-section-media {
+  grid-area: left;
+}
+
+.c0 .c1.card-section-media > img {
+  height: 100%;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.c10 {
+  margin: -1rem -1rem -1rem -1rem;
+}
+
+<div>
+  <div
+    style="max-width: 60rem;"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <div
+        class="c1 c2 card-section-media"
+        type="media"
+      >
+        <img
+          src="http://placeimg.com/640/480/fashion"
+          style="width: 100%;"
+        />
+      </div>
+      <h4
+        class="c3 c4"
+      >
+        A title
+      </h4>
+      <div
+        class="c1 c5 card-section-undefined"
+      >
+        Odio et inventore eligendi in. Id harum sit odio quia vitae provident. Provident molestiae harum ullam pariatur quos est quod.
+      </div>
+      <div
+        class="c6 c7"
+      >
+        <div
+          class="c8"
+        >
+          <a
+            class="c9"
+          >
+            Save
+          </a>
+          <a
+            class="c9"
+          >
+            Delete
+          </a>
+        </div>
+        <div />
+        <div
+          class="Cardstyles__FooterAdditionalActions-sc-10s0tle-7"
+        >
+          <div
+            class="c10"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-label="Actions"
+              class="cds--overflow-menu cds--overflow-menu--md"
+              type="button"
+            >
+              <svg
+                aria-label="open and close list of options"
+                class="cds--overflow-menu__icon"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                viewBox="0 0 32 32"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="16"
+                  cy="8"
+                  r="2"
+                />
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="2"
+                />
+                <circle
+                  cx="16"
+                  cy="24"
+                  r="2"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> component its snapshot matches story Interactive 1`] = `
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c2 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:hover {
+  box-shadow: none;
+}
+
+<div>
+  <div
+    style="max-width: 20rem;"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <h4
+        class="c1"
+      >
+        A title
+      </h4>
+      <div
+        class="c2 card-section-undefined"
+      >
+        Ea quisquam esse quia expedita commodi autem. Ut exercitationem doloribus harum. Sunt omnis et accusantium et quia quos sequi molestiae.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> component its snapshot matches story WithFoldableSection 1`] = `
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3:hover {
+  color: #0043ce;
+}
+
+.c3 svg {
+  color: #161616;
+}
+
+.c1 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  padding: 0;
+}
+
+.c2 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+  <div
+    style="max-width: 20rem;"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <div
+        class="c1 card-section-media"
+        type="media"
+      >
+        <img
+          src="http://placeimg.com/640/480/fashion"
+          style="width: 100%;"
+        />
+      </div>
+      <div
+        class="c2 card-section-undefined"
+      >
+        Enim necessitatibus molestiae. Saepe eligendi rerum excepturi et laudantium fuga similique fugit. Voluptatem dolores esse nobis et.
+      </div>
+      <div
+        class="c2 card-section-primary"
+        type="primary"
+      >
+        <a
+          class="c3"
+        >
+          Click to see more...
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> component its snapshot matches story WithFooter 1`] = `
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 0.125rem solid #e0e0e0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+.c1 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  padding: 0;
+}
+
+.c3 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+  <div
+    style="max-width: 20rem;"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <div
+        class="c1 card-section-media"
+        type="media"
+      >
+        <img
+          src="http://placeimg.com/640/480/fashion"
+          style="width: 100%;"
+        />
+      </div>
+      <h4
+        class="c2"
+      >
+        A title
+      </h4>
+      <div
+        class="c3 card-section-undefined"
+      >
+        Est soluta accusamus officiis ut excepturi. Libero ut qui quo fuga enim. Non voluptas quia vitae ipsam voluptas necessitatibus et.
+      </div>
+      <div
+        class="c4"
+      >
+        <div>
+          Footer
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> component its snapshot matches story WithFooterActions 1`] = `
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c6:hover {
+  color: #0043ce;
+}
+
+.c6 svg {
+  color: #161616;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 0.125rem solid #e0e0e0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+.c1 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  padding: 0;
+}
+
+.c3 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.c7 {
+  margin: -1rem -1rem -1rem -1rem;
+}
+
+<div>
+  <div
+    style="max-width: 20rem;"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <div
+        class="c1 card-section-media"
+        type="media"
+      >
+        <img
+          src="http://placeimg.com/640/480/fashion"
+          style="width: 100%;"
+        />
+      </div>
+      <h4
+        class="c2"
+      >
+        A title
+      </h4>
+      <div
+        class="c3 card-section-undefined"
+      >
+        Adipisci dolores sunt non. Occaecati rerum nesciunt. Sint est asperiores sit voluptatum mollitia enim iste.
+      </div>
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <a
+            class="c6"
+          >
+            Save
+          </a>
+          <a
+            class="c6"
+          >
+            Delete
+          </a>
+        </div>
+        <div />
+        <div
+          class="Cardstyles__FooterAdditionalActions-sc-10s0tle-7"
+        >
+          <div
+            class="c7"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-label="Actions"
+              class="cds--overflow-menu cds--overflow-menu--md"
+              type="button"
+            >
+              <svg
+                aria-label="open and close list of options"
+                class="cds--overflow-menu__icon"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                viewBox="0 0 32 32"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="16"
+                  cy="8"
+                  r="2"
+                />
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="2"
+                />
+                <circle
+                  cx="16"
+                  cy="24"
+                  r="2"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> component its snapshot matches story WithMediaSection 1`] = `
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c1 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  padding: 0;
+}
+
+.c3 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+  <div
+    style="max-width: 20rem;"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <div
+        class="c1 card-section-media"
+        type="media"
+      >
+        <img
+          src="http://placeimg.com/640/480/fashion"
+          style="width: 100%;"
+        />
+      </div>
+      <h4
+        class="c2"
+      >
+        A title
+      </h4>
+      <div
+        class="c3 card-section-undefined"
+      >
+        Nesciunt minima sequi voluptas optio aut voluptatem. Eligendi voluptates iste eius iure commodi molestiae. Voluptas quo ex reprehenderit ipsa incidunt corporis vel in.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> component its snapshot matches story WithSecondarySection 1`] = `
+.c1 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  padding: 0;
+}
+
+.c2 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c3 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  border-top: 0.125rem solid #e0e0e0;
+  color: #525252;
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  padding-top: 1rem;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+  <div
+    style="max-width: 20rem;"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <div
+        class="c1 card-section-media"
+        type="media"
+      >
+        <img
+          src="http://placeimg.com/640/480/fashion"
+          style="width: 100%;"
+        />
+      </div>
+      <div
+        class="c2 card-section-undefined"
+      >
+        Nihil iste asperiores consequatur ex quidem omnis. Deserunt ipsa eligendi. Voluptatem nostrum in omnis labore consequatur nisi officiis excepturi doloremque.
+      </div>
+      <div
+        class="c3 card-section-secondary"
+        type="secondary"
+      >
+        Omnis odit labore magni rerum quia praesentium distinctio. Nulla exercitationem omnis illum. Natus eum cum ipsam consequatur ex accusamus ipsum quam.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> component its snapshot matches story WithTitle 1`] = `
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c2 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+  <div
+    style="max-width: 20rem;"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <h4
+        class="c1"
+      >
+        A title
+      </h4>
+      <div
+        class="c2 card-section-undefined"
+      >
+        Inventore laboriosam deleniti omnis occaecati culpa culpa occaecati nemo. Et doloribus expedita. Ut quia ut nostrum ducimus occaecati veniam ut exercitationem voluptatibus.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Card /> component its snapshot matches story WithTitleActions 1`] = `
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3:hover {
+  color: #0043ce;
+}
+
+.c3 svg {
+  color: #161616;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.c4 {
+  margin: -1rem -1rem -1rem -1rem;
+}
+
+.c5 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+.c0 {
+  background-color: #f4f4f4;
+  border: 0.5rem solid #0062ff 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1) 0.125rem solid rgba(0,0,0,0.1);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font: 400 1rem/1.375rem 'IBM Plex Sans',Arial,sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+  <div
+    style="max-width: 20rem;"
+  >
+    <div
+      class="cds--layer-two c0"
+    >
+      <h4
+        class="c1"
+      >
+        A title
+        <div
+          class="c2"
+        >
+          <a
+            class="c3"
+          >
+            Save
+          </a>
+          <div
+            class="c4"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-label="Actions"
+              class="cds--overflow-menu cds--overflow-menu--md"
+              type="button"
+            >
+              <svg
+                aria-label="open and close list of options"
+                class="cds--overflow-menu__icon"
+                fill="currentColor"
+                focusable="false"
+                height="16"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                viewBox="0 0 32 32"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="16"
+                  cy="8"
+                  r="2"
+                />
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="2"
+                />
+                <circle
+                  cx="16"
+                  cy="24"
+                  r="2"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </h4>
+      <div
+        class="c5 card-section-undefined"
+      >
+        Quaerat porro error sint aut aliquid qui. Minus officiis neque dolorem animi maiores et aliquid. Dolorem beatae et molestiae consequatur sed rerum qui voluptates unde.
+      </div>
+    </div>
+  </div>
+</div>
+`;

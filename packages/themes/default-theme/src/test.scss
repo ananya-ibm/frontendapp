@@ -1,0 +1,90 @@
+$exoTheme: (
+  background: 'teal',
+  spacing-03: '150rem',
+  button-primary: 'pink'
+);
+
+@use 'sass:map';
+
+// Configuration
+@use '@carbon/react/scss/config' with
+  ($css--default-type: true, $css--reset: true);
+
+@use '@carbon/react/scss/reset';
+@use '@carbon/react/scss/grid';
+
+@use '@carbon/react/scss/themes';
+@use '@carbon/react/scss/theme' with (
+  $theme: $exoTheme,
+  $fallback: themes.$white
+);
+@use '@carbon/react/scss/spacing';
+spacing.$spacing-03: map.get($exoTheme, 'spacing-03');
+
+@use '@carbon/react/scss/type';
+// Components
+@use '@carbon/react/scss/components/accordion';
+
+
+@use '@carbon/styles/scss/components/button/tokens' with (
+  $button-primary: map.get($exoTheme, 'button-primary')
+);
+//tokens.$button-primary: 'pink';
+
+@use '@carbon/styles/scss/components';
+
+/*
+@use '@carbon/styles/scss/components/button/button';
+@include button.button;
+@include theme.add-component-tokens(tokens.$button-tokens);
+*/
+
+//@use '@carbon/react/scss/components/button';
+
+
+/*@use '@carbon/react/scss/themes';
+@use '@carbon/react/scss/theme';
+@use '@carbon/react/scss/components/button/tokens' as button;
+@use '@carbon/react/scss/components/notification/tokens' as notification;
+@use '@carbon/react/scss/components/tag/tokens' as tag;
+
+@include theme.add-component-tokens(button.$button-tokens);
+@include theme.add-component-tokens(notification.$notification-tokens);
+@include theme.add-component-tokens(tag.$tag-tokens);
+
+.white {
+  @include theme(themes.$white);
+}
+
+.g10 {
+  @include theme(themes.$g10);
+}
+*/
+/*@use '@carbon/styles/scss/themes';
+@use '@carbon/styles/scss/theme' with (
+  $theme: (
+    background: 'teal',
+    button: (
+      button-primary: 'pink'
+    )
+  ),
+  $fallback: themes.$white
+);
+
+@use '@carbon/styles/scss/components/button'; with (
+  $button-primary: 'pink'
+);*/
+
+/*
+@use '@carbon/styles/scss/components/button/tokens' as tokens with (
+  $button-primary: 'pink'
+);
+@use '@carbon/styles/scss/components/button/button';
+@include button.button;
+
+@include theme.add-component-tokens(tokens.$button-tokens);
+*/
+//@use '@carbon/styles/scss/components/button/button';
+//@debug button.$button-primary
+//
+

@@ -1,0 +1,97 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+metadata:
+  name: ixl-frontend-b2b-commerce-template
+objects:
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: ixl-frontend-b2b-commerce-deployment
+    spec:
+      selector:
+        matchLabels:
+          app: ixl-frontend-b2b-commerce
+      replicas: 1
+      template:
+        metadata:
+          labels:
+            app: ixl-frontend-b2b-commerce
+        spec:
+          containers:
+            - name: ixl-frontend-b2b-commerce
+              image: ${IMAGE}
+              imagePullPolicy: Always
+              ports:
+                - containerPort: 3000
+              env:
+                - name: GRAPHQL_ENDPOINT
+                  value: ${GRAPHQL_ENDPOINT}
+                - name: GRAPHQL_BATCH
+                  value: 'true'
+                - name: THEME
+                  value: 'packages/themes/dark-theme/src/index.js'
+                - name: ADDITIONAL_THEMES
+                  value: 'file://./packages/themes/default-theme/src'
+                - name: NODE_GZIP
+                  value: 'true'
+                - name: PRODUCT_PLACEHOLDER
+                  value: '/static/images/ixl-b2b/default.jpg'
+                - name: IMAGE_EXTENSION
+                  value: '.jpg'
+                - name: USE_CATEGORIES_FOR_NAVIGATION
+                  value: 'true'
+                - name: AUTH
+                  value: 'hybris'
+                - name: HYBRIS_LOGIN_URL
+                  value: 'https://hybris-commerce-b2b.uki-commerce-clus-382893-ed73e322e3ea12289f5ccd3b2effe14c-0000.eu-gb.containers.appdomain.cloud/authorizationserver/oauth/token?'
+                - name: CLIENT_SECRET
+                  value: 'secret'
+                - name: CLIENT_ID
+                  value: 'ixaccelerator'
+                - name: BASE_PRODUCT_TYPE
+                  value: 'itemtype:Product'
+                - name: SKIP_SSR_QUERIES
+                  value: 'true'
+                - name: STRIPE_PUBLISHABLE_KEY
+                  value: 'pk_test_51GugpZLqwjzJa8ndCz5YJ1F9NWGsFjgOPju4SCteNRDKSZ1EnyGbNeGRPCz99ibSubzGIr6zCTwVkoE4TqD98NL700JtgsK53J'
+                - name: USE_EXPERIMENTAL_CHECKOUT
+                  value: sap
+                - name: CDN_URL
+                  value: 'https://res.cloudinary.com/ddjlhgzyy/poc-b2b'
+                - name: QUICK_ORDER_ENABLED
+                  value: 'true'
+                - name: GET_ADDRESS_API_KEY
+                  value: 0UF3sG7pkkq-YNjMEasWgw28749
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      name: ixl-frontend-b2b-commerce
+    spec:
+      selector:
+        app: ixl-frontend-b2b-commerce
+      ports:
+        - protocol: 'TCP'
+          port: 3100
+          targetPort: 3000
+      type: NodePort
+  - kind: Route
+    apiVersion: route.openshift.io/v1
+    metadata:
+      name: ixl-frontend-b2b-commerce
+    spec:
+      to:
+        kind: Service
+        name: ixl-frontend-b2b-commerce
+        weight: 100
+      port:
+        targetPort: 3000
+      tls:
+        termination: edge
+        insecureEdgeTerminationPolicy: Redirect
+      wildcardPolicy: None
+parameters:
+  - displayName: Image Location
+    name: IMAGE
+  - displayName: GraphQL Endpoint
+    name: GRAPHQL_ENDPOINT
+    value: 'https://ixl-adapter-b2b-commerce.uki-commerce-clus-382893-ed73e322e3ea12289f5ccd3b2effe14c-0000.eu-gb.containers.appdomain.cloud/graphql'

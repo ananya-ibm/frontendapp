@@ -1,0 +1,48 @@
+{ 
+    "features.cart.cart-ui" : {
+        "pages.CartPage": {
+            "Cart.header": "Carro",
+            "Title" :"Su carrito está vacío",
+            "EmptyCart.primaryText" : "Seguir comprando",
+            "CartButtons.next" : "Verificar" 
+        },
+        "components" : {
+            "CartSubtotal" :
+            {
+                "Head.SubtotalRow.label" : "Total parcial",
+                "Foot.SubtotalRow.label" : "Total",
+                "Body.SubtotalRow.SalesTax.label" : "Impuesto de venta",
+                "Body.SubtotalRow.Shipping.label" : "Transporte", 
+                "Body.SubtotalRow.ShippingTax.label" : "Impuesto de envío",
+                "Body.SubtotalRow.Adjustments.label" : "Ajustes"
+            },
+            "Delivery":
+            {
+                "Options.Home" : "Entrega a domicilio",
+                "Options.Store" : "Recoger en tienda"
+            },
+            "HomeDeliverySelector" :
+            {
+                "labeltext" : "Método de entrega"
+            
+            },
+            "ZipDeliveryOptions" :
+            {
+                "Title": "Transporte",
+                "div.Text":"Métodos de envío disponibles para",
+                "SubTitle":"Haga clic y recopile",
+                "SubTitle.HomeDelivery": "Entrega a domicilio",
+                "Button.Label" : "Obtener"
+            },
+            "MiniCart":
+            {
+                "Title": "Mini carro"
+            },
+            "CartItem":
+            {
+                "PropertyName.Quantity" : "Cantidad"
+            }
+        }
+        
+}
+}

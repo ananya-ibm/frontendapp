@@ -1,0 +1,93 @@
+{
+  "features.checkout.checkout-ui": {
+    "pages.CheckoutPage": {
+      "breadcrumb.Home": "होम",
+      "breadcrumb.Checkout": "चेकआउट",
+      "grid.Checkout": "चेकआउट",
+      "billingaddresspanel.billingaddress": "बिलिंग पता",
+      "initial": "प्रारंभिक",
+      "label.Shoppingcart": "शॉपिंग कार्ट",
+      "secondaryLabel.step1": "स्टेप 1",
+      "label.billing": "चालान",
+      "label.payment": "भुगतान",
+      "label.initial": "आरंभिक",
+      "default.ordertotal": "कुल ऑर्डर करें"
+    },
+    "panels.Paymentpanel": {
+      "paymentpanel.payment": "पेमेंट",
+      "paymentpanel.note": "इस भुगतान के लिए किसी अतिरिक्त प्रविष्टि की आवश्यकता नहीं है"
+    },
+    "panels.ShippingAddressPanel": {
+      "shippingadresspanel.shippingaddress": "शिपिंग पता"
+    },
+    "pages.ConfirmationPage": {
+      "Checkoutaddress.shippingaddress": "वितरण पता",
+      "Checkoutaddress.billingaddress": "बिलिंग पता",
+      "header.confirmation": "कन्फर्मेशन"
+    },
+    "components.CheckoutSidebar": {
+      "title.shippingaddress": "वितरण पता",
+      "title.billingaddress": "बिलिंग पता",
+      "addressdetail.title": "शीर्षक",
+      "addressdetail.firstname": "प्रथम नाम:",
+      "addressdetail.lastname": "अंतिम नाम:",
+      "addressdetail.company": "कंपनी",
+      "addressdetail.addressline1": "पता पहिया 1:",
+      "addressdetail.addressline2": "पता पहिया 2:",
+      "addressdetail.city": "सिटी",
+      "addressdetail.province": "प्रांत:",
+      "addressdetail.county": "जिला:",
+      "addressdetail.country": "देश:",
+      "addressdetail.zip": "पोस्टकोड:"
+    },
+    "components.AddressInput": {
+      "AddressForm.Firstname.label": "आपका प्रथम नाम",
+      "AddressForm.Firstname.placeholder": "प्रथम नाम",
+      "AddressForm.Lastname.label": "आपका अंतिम नाम",
+      "AddressForm.Lastname.placeholder": "अंतिम नाम",
+      "AddressForm.Email.label": "आपका ई-पोस्टड्रेस",
+      "AddressForm.Email.placeholder": "ई-पोस्टड्रेस",
+      "AddressForm.Phonenumber.label": "आपका टेलीफ़ोननमर",
+      "AddressForm.Phonenumber.placeholder": "टेलीफ़ोननमर",
+      "title.label": "शीर्षक",
+      "title.placeholder": "शीर्षक",
+      "addressSearch.label": "आपका पता धुंढे",
+      "addressSearch.placeholder": "13 गली का नंबर",
+      "AddressForm.Address.label": "आपका पता",
+      "AddressForm.Address.placeholder": "आपका पता",
+      "AddressForm.Additional.address.label": "आपका पता 2",
+      "AddressForm.Additional.address.placeholder": "आपका पता 2",
+      "AddressForm.Country.label": "देश",
+      "AddressForm.Country.placeholder": "देश",
+      "AddressForm.City.label": "शहर",
+      "AddressForm.City.placeholder": "शहर",
+      "AddressForm.State.Province.label": "स्टेट / प्रांत",
+      "AddressForm.State.Province.placeholder": "स्टेट / प्रांत",
+      "AddressForm.Postal.zipcode.label": "पोस्ट नंबर",
+      "AddressForm.Postal.zipcode.placeholder": "पोस्ट नंबर",
+      "exoaddressform.back": "पिछे",
+      "exoaddressform.continue": "जारी रखें"
+    },
+    "components.CartSummary": {
+      "group.yourordersummary": "आपका ऑर्डर सारांश",
+      "group.youritemsummary": "आपका आइटम सारांश",
+      "group.estimateddeliverydate": "अनुमानित डिलीवरी की तारीख:",
+      "group.termsandcondition": "नियम और शर्त",
+      "default.ordertotal": "कुल योग",
+      "default.adjustments": "समायोजन",
+      "default.salestax": "बिक्री कर",
+      "default.shipping": "शिपिंग",
+      "default.shippingtax": "शिपिंगटैक्स",
+      "default.sybtotal": "उप कुल"
+    },
+    "components.InvoicePDF": {
+      "invoice.generatepdf": "पीडीएफ जनरेट करें"
+    },
+    "component.BillingAddressEnableCheckbox": {
+      "checkbox.usediffbillingadd": "भिन्न बिलिंग पते का उपयोग करें?"
+    },
+    "panels.BillingAddressPanel": {
+      "h1.billingaddress": "बिल भेजने का पता"
+    }
+  }
+}

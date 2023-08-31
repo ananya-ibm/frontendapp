@@ -1,0 +1,69 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+metadata:
+  name: ixl-frontend-b2c-commerce-template
+objects:
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: ixl-frontend-b2c-commerce-deployment
+    spec:
+      selector:
+        matchLabels:
+          app: ixl-frontend-b2c-commerce
+      replicas: 1
+      template:
+        metadata:
+          labels:
+            app: ixl-frontend-b2c-commerce
+        spec:
+          containers:
+            - name: ixl-frontend-b2c-commerce
+              image: ${IMAGE}
+              imagePullPolicy: Always
+              ports:
+                - containerPort: 3000
+              env:
+                - name: GRAPHQL_ENDPOINT
+                  value: ${GRAPHQL_ENDPOINT}
+                - name: NODE_GZIP
+                  value: 'true'
+                - name: IMAGE_EXTENSION
+                  value: '.jpg'
+                - name: USE_CATEGORIES_FOR_NAVIGATION
+                  value: 'true'
+                - name: STRIPE_PUBLISHABLE_KEY
+                  value: 'pk_test_51GugpZLqwjzJa8ndCz5YJ1F9NWGsFjgOPju4SCteNRDKSZ1EnyGbNeGRPCz99ibSubzGIr6zCTwVkoE4TqD98NL700JtgsK53J'
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      name: ixl-frontend-b2c-commerce
+    spec:
+      selector:
+        app: ixl-frontend-b2c-commerce
+      ports:
+        - protocol: 'TCP'
+          port: 3100
+          targetPort: 3000
+      type: NodePort
+  - kind: Route
+    apiVersion: route.openshift.io/v1
+    metadata:
+      name: ixl-frontend-b2c-commerce
+    spec:
+      to:
+        kind: Service
+        name: ixl-frontend-b2c-commerce
+        weight: 100
+      port:
+        targetPort: 3000
+      tls:
+        termination: edge
+        insecureEdgeTerminationPolicy: Redirect
+      wildcardPolicy: None
+parameters:
+  - displayName: Image Location
+    name: IMAGE
+  - displayName: GraphQL Endpoint
+    name: GRAPHQL_ENDPOINT
+    value: 'http://wcs-dev1.kkckkchosts.com:4000/graphql'

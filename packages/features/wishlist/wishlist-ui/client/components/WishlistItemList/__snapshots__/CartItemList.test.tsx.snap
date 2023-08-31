@@ -1,0 +1,1998 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartItemList /> component its snapshot matches story Default 1`] = `
+.c0 li:last-child {
+  border-bottom: none;
+}
+
+.c22 .price-list {
+  color: #bebebe;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c17 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  border: solid 0.0625rem #8c8c8c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  position: relative;
+  -webkit-transition: border 200ms ease-out;
+  transition: border 200ms ease-out;
+}
+
+.c14 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: auto;
+}
+
+.c14:hover .c16,
+.c14:focus-within .c16 {
+  border: solid 0.0625rem black;
+}
+
+.c15 {
+  color: #565656;
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  line-height: 1rem;
+  margin-bottom: 0.1rem;
+  vertical-align: baseline;
+}
+
+.c18 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  padding-right: 1.75rem;
+  text-align: center;
+  width: auto;
+}
+
+.c19 {
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  right: 0.5rem;
+  width: 0.75rem;
+}
+
+.c1 {
+  border-bottom: solid 0.0625rem hsla(0,0%,80%,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c2 {
+  display: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 1rem 0 0;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: solid 0.0625rem hsla(0,0%,80%,1);
+  border-radius: 0.3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 45vw;
+}
+
+.c3 .thumbnail {
+  height: 100%;
+  width: auto;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0 0 0 1rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c10 {
+  background: none;
+  border: none;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  height: 2.5rem;
+  margin-left: 1rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+  outline: none;
+  outline: solid 0.0625rem transparent;
+  padding: 0 0.25rem;
+  -webkit-transition: outline 200ms ease-out;
+  transition: outline 200ms ease-out;
+  width: 2.5rem;
+}
+
+.c10:hover,
+.c10:focus {
+  outline: solid 0.0625rem black;
+}
+
+.c10 .icon {
+  -webkit-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  transform: scale(0.75);
+}
+
+.c7 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c8 {
+  font: 400 1.25rem/1.4 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c9 {
+  color: #565656;
+  font: 400 .875rem/1.29 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: .16px;
+  -moz-letter-spacing: .16px;
+  -ms-letter-spacing: .16px;
+  letter-spacing: .16px;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.c11 .column-alt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c13 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(5rem,1fr));
+  margin-top: 0.75rem;
+}
+
+.c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c23 {
+  font: 700 calc(1.2 * 1rem)/1.375 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c21 {
+  color: #8c8c8c;
+  font: 400 .875rem/1.29 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: .16px;
+  -moz-letter-spacing: .16px;
+  -ms-letter-spacing: .16px;
+  letter-spacing: .16px;
+}
+
+.c21 .price-list {
+  display: inline;
+  margin-right: 0.25rem;
+}
+
+.c21 .price-offer {
+  display: inline;
+}
+
+@media (min-width:320px) {
+  .c2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    height: 35vw;
+    width: 35vw;
+  }
+}
+
+@media (min-width:672px) {
+  .c3 {
+    height: 20vw;
+    width: 20vw;
+  }
+}
+
+@media (min-width:1056px) {
+  .c3 {
+    height: 15vw;
+    width: 15vw;
+  }
+}
+
+@media (min-width:320px) {
+  .c4 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c11 .column-alt {
+    display: none;
+  }
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <img
+            alt="Emb(race) T-shirt"
+            class="thumbnail"
+            src=""
+          />
+        </div>
+        <div
+          class="c4"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <h2
+              class="c8"
+            >
+              Emb(race) T-shirt
+            </h2>
+            <div
+              class="c9"
+            >
+              Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles
+            </div>
+          </div>
+          <button
+            aria-label="Delete Item"
+            class="c10"
+            data-testid="cart-CartItem-Delete"
+            name="Delete Item"
+            type="button"
+          >
+            <svg
+              aria-label="icon"
+              class="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </button>
+        </div>
+        <div
+          class="c11"
+        >
+          <div
+            class="c2 column-alt"
+          >
+            <div
+              class="c3"
+            >
+              <img
+                alt="Emb(race) T-shirt"
+                src=""
+              />
+            </div>
+            <div
+              class="c4"
+            />
+          </div>
+          <div
+            class="c12"
+          >
+            <div
+              class="c13"
+            />
+            <div
+              class="c13"
+            >
+              <label
+                class="c14"
+              >
+                <span
+                  class="c15"
+                >
+                  Quantity
+                </span>
+                <div
+                  class="c16 c17"
+                >
+                  <select
+                    class="c18"
+                  >
+                    <option
+                      value="0"
+                    >
+                      0
+                    </option>
+                    <option
+                      value="1"
+                    >
+                      1
+                    </option>
+                    <option
+                      value="2"
+                    >
+                      2
+                    </option>
+                    <option
+                      value="3"
+                    >
+                      3
+                    </option>
+                    <option
+                      value="4"
+                    >
+                      4
+                    </option>
+                    <option
+                      value="5"
+                    >
+                      5
+                    </option>
+                    <option
+                      value="6"
+                    >
+                      6
+                    </option>
+                    <option
+                      value="7"
+                    >
+                      7
+                    </option>
+                    <option
+                      value="8"
+                    >
+                      8
+                    </option>
+                    <option
+                      value="9"
+                    >
+                      9
+                    </option>
+                    <option
+                      value="10"
+                    >
+                      10
+                    </option>
+                    <option
+                      value="20"
+                    >
+                      20
+                    </option>
+                    <option
+                      value="30"
+                    >
+                      30
+                    </option>
+                    <option
+                      value="40"
+                    >
+                      40
+                    </option>
+                    <option
+                      value="50"
+                    >
+                      50
+                    </option>
+                    <option
+                      value="100"
+                    >
+                      100
+                    </option>
+                    <option
+                      value="200"
+                    >
+                      200
+                    </option>
+                  </select>
+                  <svg
+                    class="c19"
+                    overflow="visible"
+                    viewBox="0 0 50 50"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M41 17L25 33 9 17"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-width="4"
+                    />
+                  </svg>
+                </div>
+              </label>
+              <div
+                class="c20"
+              >
+                <span
+                  class="c21"
+                >
+                  <span
+                    class="c22"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €12.50
+                    </span>
+                  </span>
+                   ×
+                   
+                  3
+                </span>
+                <span
+                  class="c23"
+                >
+                  <span
+                    class="c22"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €37.50
+                    </span>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <img
+            alt="Emb(race) T-shirt"
+            class="thumbnail"
+            src=""
+          />
+        </div>
+        <div
+          class="c4"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <h2
+              class="c8"
+            >
+              Emb(race) T-shirt
+            </h2>
+            <div
+              class="c9"
+            >
+              Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles
+            </div>
+          </div>
+          <button
+            aria-label="Delete Item"
+            class="c10"
+            data-testid="cart-CartItem-Delete"
+            name="Delete Item"
+            type="button"
+          >
+            <svg
+              aria-label="icon"
+              class="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </button>
+        </div>
+        <div
+          class="c11"
+        >
+          <div
+            class="c2 column-alt"
+          >
+            <div
+              class="c3"
+            >
+              <img
+                alt="Emb(race) T-shirt"
+                src=""
+              />
+            </div>
+            <div
+              class="c4"
+            />
+          </div>
+          <div
+            class="c12"
+          >
+            <div
+              class="c13"
+            />
+            <div
+              class="c13"
+            >
+              <label
+                class="c14"
+              >
+                <span
+                  class="c15"
+                >
+                  Quantity
+                </span>
+                <div
+                  class="c16 c17"
+                >
+                  <select
+                    class="c18"
+                  >
+                    <option
+                      value="0"
+                    >
+                      0
+                    </option>
+                    <option
+                      value="1"
+                    >
+                      1
+                    </option>
+                    <option
+                      value="2"
+                    >
+                      2
+                    </option>
+                    <option
+                      value="3"
+                    >
+                      3
+                    </option>
+                    <option
+                      value="4"
+                    >
+                      4
+                    </option>
+                    <option
+                      value="5"
+                    >
+                      5
+                    </option>
+                    <option
+                      value="6"
+                    >
+                      6
+                    </option>
+                    <option
+                      value="7"
+                    >
+                      7
+                    </option>
+                    <option
+                      value="8"
+                    >
+                      8
+                    </option>
+                    <option
+                      value="9"
+                    >
+                      9
+                    </option>
+                    <option
+                      value="10"
+                    >
+                      10
+                    </option>
+                    <option
+                      value="20"
+                    >
+                      20
+                    </option>
+                    <option
+                      value="30"
+                    >
+                      30
+                    </option>
+                    <option
+                      value="40"
+                    >
+                      40
+                    </option>
+                    <option
+                      value="50"
+                    >
+                      50
+                    </option>
+                    <option
+                      value="100"
+                    >
+                      100
+                    </option>
+                    <option
+                      value="200"
+                    >
+                      200
+                    </option>
+                  </select>
+                  <svg
+                    class="c19"
+                    overflow="visible"
+                    viewBox="0 0 50 50"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M41 17L25 33 9 17"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-width="4"
+                    />
+                  </svg>
+                </div>
+              </label>
+              <div
+                class="c20"
+              >
+                <span
+                  class="c21"
+                >
+                  <span
+                    class="c22"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €12.50
+                    </span>
+                  </span>
+                   ×
+                   
+                  3
+                </span>
+                <span
+                  class="c23"
+                >
+                  <span
+                    class="c22"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €37.50
+                    </span>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <img
+            alt="Emb(race) T-shirt"
+            class="thumbnail"
+            src=""
+          />
+        </div>
+        <div
+          class="c4"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <h2
+              class="c8"
+            >
+              Emb(race) T-shirt
+            </h2>
+            <div
+              class="c9"
+            >
+              The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality
+            </div>
+          </div>
+          <button
+            aria-label="Delete Item"
+            class="c10"
+            data-testid="cart-CartItem-Delete"
+            name="Delete Item"
+            type="button"
+          >
+            <svg
+              aria-label="icon"
+              class="icon"
+              fill="currentColor"
+              focusable="false"
+              height="20"
+              preserveAspectRatio="xMidYMid meet"
+              role="img"
+              viewBox="0 0 32 32"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            />
+          </button>
+        </div>
+        <div
+          class="c11"
+        >
+          <div
+            class="c2 column-alt"
+          >
+            <div
+              class="c3"
+            >
+              <img
+                alt="Emb(race) T-shirt"
+                src=""
+              />
+            </div>
+            <div
+              class="c4"
+            />
+          </div>
+          <div
+            class="c12"
+          >
+            <div
+              class="c13"
+            />
+            <div
+              class="c13"
+            >
+              <label
+                class="c14"
+              >
+                <span
+                  class="c15"
+                >
+                  Quantity
+                </span>
+                <div
+                  class="c16 c17"
+                >
+                  <select
+                    class="c18"
+                  >
+                    <option
+                      value="0"
+                    >
+                      0
+                    </option>
+                    <option
+                      value="1"
+                    >
+                      1
+                    </option>
+                    <option
+                      value="2"
+                    >
+                      2
+                    </option>
+                    <option
+                      value="3"
+                    >
+                      3
+                    </option>
+                    <option
+                      value="4"
+                    >
+                      4
+                    </option>
+                    <option
+                      value="5"
+                    >
+                      5
+                    </option>
+                    <option
+                      value="6"
+                    >
+                      6
+                    </option>
+                    <option
+                      value="7"
+                    >
+                      7
+                    </option>
+                    <option
+                      value="8"
+                    >
+                      8
+                    </option>
+                    <option
+                      value="9"
+                    >
+                      9
+                    </option>
+                    <option
+                      value="10"
+                    >
+                      10
+                    </option>
+                    <option
+                      value="20"
+                    >
+                      20
+                    </option>
+                    <option
+                      value="30"
+                    >
+                      30
+                    </option>
+                    <option
+                      value="40"
+                    >
+                      40
+                    </option>
+                    <option
+                      value="50"
+                    >
+                      50
+                    </option>
+                    <option
+                      value="100"
+                    >
+                      100
+                    </option>
+                    <option
+                      value="200"
+                    >
+                      200
+                    </option>
+                  </select>
+                  <svg
+                    class="c19"
+                    overflow="visible"
+                    viewBox="0 0 50 50"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M41 17L25 33 9 17"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-width="4"
+                    />
+                  </svg>
+                </div>
+              </label>
+              <div
+                class="c20"
+              >
+                <span
+                  class="c21"
+                >
+                  <span
+                    class="c22"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €12.50
+                    </span>
+                  </span>
+                   ×
+                   
+                  3
+                </span>
+                <span
+                  class="c23"
+                >
+                  <span
+                    class="c22"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €37.50
+                    </span>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<CartItemList /> component its snapshot matches story Skeleton 1`] = `
+.c0 li:last-child {
+  border-bottom: none;
+}
+
+.c9 {
+  width: 5.5em;
+  border-radius: 5px;
+  -webkit-animation: pulse 1.2s ease-in-out infinite;
+  animation: pulse 1.2s ease-in-out infinite;
+  background: linear-gradient(-90deg,#f0f0f0 0%,#f8f8f8 50%,#f0f0f0 100%);
+  background-size: 400% 400%;
+  display: inline-block;
+  height: 100%;
+}
+
+.c9::before {
+  content: '\\00a0';
+}
+
+.c1 {
+  border-bottom: solid 0.0625rem hsla(0,0%,80%,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c2 {
+  display: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 1rem 0 0;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: solid 0.0625rem hsla(0,0%,80%,1);
+  border-radius: 0.3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 45vw;
+}
+
+.c3 .thumbnail {
+  height: 100%;
+  width: auto;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0 0 0 1rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c7 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c8 {
+  font: 400 1.25rem/1.4 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c10 {
+  color: #565656;
+  font: 400 .875rem/1.29 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: .16px;
+  -moz-letter-spacing: .16px;
+  -ms-letter-spacing: .16px;
+  letter-spacing: .16px;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.c11 .column-alt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c13 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(5rem,1fr));
+  margin-top: 0.75rem;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c16 {
+  font: 700 calc(1.2 * 1rem)/1.375 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c15 {
+  color: #8c8c8c;
+  font: 400 .875rem/1.29 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: .16px;
+  -moz-letter-spacing: .16px;
+  -ms-letter-spacing: .16px;
+  letter-spacing: .16px;
+}
+
+.c15 .price-list {
+  display: inline;
+  margin-right: 0.25rem;
+}
+
+.c15 .price-offer {
+  display: inline;
+}
+
+@media (min-width:320px) {
+  .c2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    height: 35vw;
+    width: 35vw;
+  }
+}
+
+@media (min-width:672px) {
+  .c3 {
+    height: 20vw;
+    width: 20vw;
+  }
+}
+
+@media (min-width:1056px) {
+  .c3 {
+    height: 15vw;
+    width: 15vw;
+  }
+}
+
+@media (min-width:320px) {
+  .c4 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c11 .column-alt {
+    display: none;
+  }
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <img
+            class="thumbnail"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP88B8AAuUB8e2ujYwAAAAASUVORK5CYII="
+          />
+        </div>
+        <div
+          class="c4"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <h2
+              class="c8"
+            >
+              <div
+                class="c9"
+              />
+            </h2>
+            <div
+              class="c10"
+            >
+              <div
+                class="c9"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="c11"
+        >
+          <div
+            class="c2 column-alt"
+          >
+            <div
+              class="c3"
+            >
+              <img
+                class="thumbnail"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP88B8AAuUB8e2ujYwAAAAASUVORK5CYII="
+              />
+            </div>
+            <div
+              class="c4"
+            />
+          </div>
+          <div
+            class="c12"
+          >
+            <div
+              class="c13"
+            />
+            <div
+              class="c13"
+            >
+              <div
+                class="c9"
+              />
+              <div
+                class="c14"
+              >
+                <span
+                  class="c15"
+                >
+                  <div
+                    class="c9"
+                  />
+                </span>
+                <span
+                  class="c16"
+                >
+                  <div
+                    class="c9"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<CartItemList /> component its snapshot matches story WithIsReadonly 1`] = `
+.c0 li:last-child {
+  border-bottom: none;
+}
+
+.c17 .price-list {
+  color: #bebebe;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c1 {
+  border-bottom: solid 0.0625rem hsla(0,0%,80%,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c2 {
+  display: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 1rem 0 0;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: solid 0.0625rem hsla(0,0%,80%,1);
+  border-radius: 0.3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 45vw;
+}
+
+.c3 .thumbnail {
+  height: 100%;
+  width: auto;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0 0 0 1rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c7 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c8 {
+  font: 400 1.25rem/1.4 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c9 {
+  color: #565656;
+  font: 400 .875rem/1.29 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: .16px;
+  -moz-letter-spacing: .16px;
+  -ms-letter-spacing: .16px;
+  letter-spacing: .16px;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.c10 .column-alt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c12 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(5rem,1fr));
+  margin-top: 0.75rem;
+}
+
+.c13 {
+  color: #565656;
+  font: 400 calc(0.85 * .875rem)/1.29 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: .16px;
+  -moz-letter-spacing: .16px;
+  -ms-letter-spacing: .16px;
+  letter-spacing: .16px;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  vertical-align: baseline;
+}
+
+.c14 {
+  padding-top: 0.5rem;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c18 {
+  font: 700 calc(1.2 * 1rem)/1.375 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c16 {
+  color: #8c8c8c;
+  font: 400 .875rem/1.29 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: .16px;
+  -moz-letter-spacing: .16px;
+  -ms-letter-spacing: .16px;
+  letter-spacing: .16px;
+}
+
+.c16 .price-list {
+  display: inline;
+  margin-right: 0.25rem;
+}
+
+.c16 .price-offer {
+  display: inline;
+}
+
+@media (min-width:320px) {
+  .c2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    height: 35vw;
+    width: 35vw;
+  }
+}
+
+@media (min-width:672px) {
+  .c3 {
+    height: 20vw;
+    width: 20vw;
+  }
+}
+
+@media (min-width:1056px) {
+  .c3 {
+    height: 15vw;
+    width: 15vw;
+  }
+}
+
+@media (min-width:320px) {
+  .c4 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c10 .column-alt {
+    display: none;
+  }
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <img
+            alt="Emb(race) T-shirt"
+            class="thumbnail"
+            src=""
+          />
+        </div>
+        <div
+          class="c4"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <h2
+              class="c8"
+            >
+              Emb(race) T-shirt
+            </h2>
+            <div
+              class="c9"
+            >
+              Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles
+            </div>
+          </div>
+        </div>
+        <div
+          class="c10"
+        >
+          <div
+            class="c2 column-alt"
+          >
+            <div
+              class="c3"
+            >
+              <img
+                alt="Emb(race) T-shirt"
+                src=""
+              />
+            </div>
+            <div
+              class="c4"
+            />
+          </div>
+          <div
+            class="c11"
+          >
+            <div
+              class="c12"
+            />
+            <div
+              class="c12"
+            >
+              <div>
+                <h3
+                  class="c13"
+                >
+                  Quantity
+                </h3>
+                <div
+                  class="c14"
+                >
+                  3
+                </div>
+              </div>
+              <div
+                class="c15"
+              >
+                <span
+                  class="c16"
+                >
+                  <span
+                    class="c17"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €12.50
+                    </span>
+                  </span>
+                   ×
+                   
+                  3
+                </span>
+                <span
+                  class="c18"
+                >
+                  <span
+                    class="c17"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €37.50
+                    </span>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <img
+            alt="Emb(race) T-shirt"
+            class="thumbnail"
+            src=""
+          />
+        </div>
+        <div
+          class="c4"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <h2
+              class="c8"
+            >
+              Emb(race) T-shirt
+            </h2>
+            <div
+              class="c9"
+            >
+              Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles
+            </div>
+          </div>
+        </div>
+        <div
+          class="c10"
+        >
+          <div
+            class="c2 column-alt"
+          >
+            <div
+              class="c3"
+            >
+              <img
+                alt="Emb(race) T-shirt"
+                src=""
+              />
+            </div>
+            <div
+              class="c4"
+            />
+          </div>
+          <div
+            class="c11"
+          >
+            <div
+              class="c12"
+            />
+            <div
+              class="c12"
+            >
+              <div>
+                <h3
+                  class="c13"
+                >
+                  Quantity
+                </h3>
+                <div
+                  class="c14"
+                >
+                  3
+                </div>
+              </div>
+              <div
+                class="c15"
+              >
+                <span
+                  class="c16"
+                >
+                  <span
+                    class="c17"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €12.50
+                    </span>
+                  </span>
+                   ×
+                   
+                  3
+                </span>
+                <span
+                  class="c18"
+                >
+                  <span
+                    class="c17"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €37.50
+                    </span>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <img
+            alt="Emb(race) T-shirt"
+            class="thumbnail"
+            src=""
+          />
+        </div>
+        <div
+          class="c4"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <h2
+              class="c8"
+            >
+              Emb(race) T-shirt
+            </h2>
+            <div
+              class="c9"
+            >
+              The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality
+            </div>
+          </div>
+        </div>
+        <div
+          class="c10"
+        >
+          <div
+            class="c2 column-alt"
+          >
+            <div
+              class="c3"
+            >
+              <img
+                alt="Emb(race) T-shirt"
+                src=""
+              />
+            </div>
+            <div
+              class="c4"
+            />
+          </div>
+          <div
+            class="c11"
+          >
+            <div
+              class="c12"
+            />
+            <div
+              class="c12"
+            >
+              <div>
+                <h3
+                  class="c13"
+                >
+                  Quantity
+                </h3>
+                <div
+                  class="c14"
+                >
+                  3
+                </div>
+              </div>
+              <div
+                class="c15"
+              >
+                <span
+                  class="c16"
+                >
+                  <span
+                    class="c17"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €12.50
+                    </span>
+                  </span>
+                   ×
+                   
+                  3
+                </span>
+                <span
+                  class="c18"
+                >
+                  <span
+                    class="c17"
+                  >
+                    <span
+                      class="value"
+                    >
+                      €37.50
+                    </span>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConfigurationSummary /> component its snapshot matches 1`] = `
+.c12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c12:hover {
+  color: #0043ce;
+}
+
+.c12 svg {
+  color: #161616;
+}
+
+.c10 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c10 svg {
+  max-height: 100%;
+}
+
+.c8 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c5 {
+  border-bottom: 0.0625rem solid #f4f4f4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+
+.c6 {
+  padding: 1rem 0;
+}
+
+.c7 {
+  border-bottom: 0;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 6.25rem;
+  width: 15rem;
+}
+
+.c18 {
+  background: url(/yellow.png) no-repeat top center;
+  background-size: contain;
+  height: 0;
+  max-width: 6rem;
+  overflow: hidden;
+  padding-top: 100%;
+  width: 100%;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  padding: 0 1rem;
+}
+
+.c20 {
+  font: 400 1rem/1.5rem 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.c22 {
+  font: 400 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c21 {
+  font: 600 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 74rem;
+}
+
+.c1 {
+  background-color: #ffffff;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  padding: 2rem;
+}
+
+.c13 {
+  background-color: #ffffff;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  padding: 2rem;
+}
+
+.c13 .selection {
+  margin: 1rem 0 0;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 50%;
+  -ms-flex: 0 50%;
+  flex: 0 50%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1rem 0 0;
+}
+
+.c16 {
+  -webkit-flex: 0 50%;
+  -ms-flex: 0 50%;
+  flex: 0 50%;
+  padding: 1rem 0;
+}
+
+.c2 {
+  font: 700 1.75rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-top: 1rem;
+}
+
+.c3 {
+  font: 400 1rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-top: 1rem;
+}
+
+.c14 {
+  display: inline;
+  font: 700 1rem 'IBM Plex Sans',Arial,sans-serif;
+  margin-top: 2rem;
+}
+
+.c9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin: 2rem 0 0;
+}
+
+.c4 {
+  margin: 3rem 0 0;
+}
+
+.c11 {
+  margin-left: 2rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h2
+      class="c2"
+    >
+      Your new car
+    </h2>
+    <div
+      class="c3"
+    >
+      The original DMC Delorean from the Back to the Future franchise, with the real ability to travel in time and Michael J Fox’s phone number included.
+    </div>
+    <div
+      class="c3"
+    >
+      Your configuration code:
+      <strong>
+         
+        waitaminutedoc
+      </strong>
+    </div>
+    <div
+      class="c3"
+    >
+      Estimated delivery date:
+      <strong>
+         
+        June 2021
+      </strong>
+    </div>
+    <div
+      class="c4"
+    >
+      <h2
+        class="c2"
+      >
+        Price breakdown
+      </h2>
+      <div
+        class="c3"
+      >
+        Lorem ipsum dolor sit amet
+      </div>
+      <div
+        class="PriceTablestyles__PriceTable-sc-12x6422-0"
+      >
+        <div
+          class="c5"
+        >
+          <div
+            class="c6"
+          >
+            Base Price
+          </div>
+          <div
+            class="c7"
+          >
+            <span
+              class="c8"
+            >
+              <span
+                class="prefix"
+              >
+                +
+              </span>
+              <span
+                class="value"
+              >
+                £500
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c9"
+    >
+      <button
+        class="c10 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="button"
+      >
+        Save Configuration
+         
+      </button>
+      <div
+        class="c11"
+      >
+        <a
+          class="c12"
+        >
+          Delete Configuration
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="c13"
+  >
+    <h2
+      class="c2"
+    >
+      Summary
+    </h2>
+    <div
+      class="selection"
+    >
+      <h4
+        class="c14"
+      >
+        Your chosen exterior
+      </h4>
+      <div
+        class="c15"
+      >
+        <div
+          class="c16"
+        >
+          <div
+            class="c17"
+          >
+            <div
+              class="c18"
+            />
+            <div
+              class="c19"
+            >
+              <div
+                class="c20"
+              >
+                 
+                Colour 1
+                 
+              </div>
+              <div>
+                <div
+                  class="c21"
+                >
+                  Blue
+                   
+                </div>
+                <div
+                  class="c22"
+                >
+                  <span
+                    class="c8"
+                  >
+                    <span
+                      class="prefix"
+                    >
+                      +
+                    </span>
+                    <span
+                      class="value"
+                    >
+                      £300
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <a
+                class="c12"
+              >
+                Change selection
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="c16"
+        >
+          <div
+            class="c17"
+          >
+            <div
+              class="c18"
+            />
+            <div
+              class="c19"
+            >
+              <div
+                class="c20"
+              >
+                 
+                Colour 2
+                 
+              </div>
+              <div>
+                <div
+                  class="c21"
+                >
+                  Yellow
+                   
+                </div>
+                <div
+                  class="c22"
+                >
+                  <span
+                    class="c8"
+                  >
+                    <span
+                      class="prefix"
+                    >
+                      +
+                    </span>
+                    <span
+                      class="value"
+                    >
+                      £300
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <a
+                class="c12"
+              >
+                Change selection
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

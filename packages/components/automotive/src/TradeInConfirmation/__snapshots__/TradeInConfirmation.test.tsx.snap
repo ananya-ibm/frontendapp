@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TradeInConfirmation /> component its snapshot matches 1`] = `
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c4:hover {
+  color: #0043ce;
+}
+
+.c4 svg {
+  color: #161616;
+}
+
+.c10 {
+  font-size: 105%;
+  font-weight: 700;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.c10 svg {
+  max-height: 100%;
+}
+
+.c6 .price-list {
+  color: rgba(22,22,22,0.25);
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c0 {
+  font-weight: 700;
+}
+
+.c1 {
+  font-size: 1rem;
+}
+
+.c2 {
+  display: inline-block;
+  font-weight: 400;
+  padding: 1.5rem 0.2rem 0 0;
+}
+
+.c3 {
+  padding: 1.5rem 0;
+}
+
+.c5 {
+  border-top: 0.0625rem solid #8d8d8d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: auto;
+  padding-top: 1.5rem;
+}
+
+.c8 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.c11 {
+  margin-left: auto;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    Estimated Valuation for your current car at 
+    25/12/2019
+    :
+  </div>
+  <div>
+    <span
+      class="c2"
+    >
+      Car model:
+    </span>
+    DeLorean
+     
+    Time Machine
+    , 
+    1980
+  </div>
+  <div>
+    <span
+      class="c2"
+    >
+      Registration number:
+    </span>
+    ABC123
+  </div>
+  <div>
+    <span
+      class="c2"
+    >
+      Mileage:
+    </span>
+    20,000
+  </div>
+  <div
+    class="c3"
+  >
+    <a
+      class="c4"
+    >
+      Not your car?
+    </a>
+  </div>
+  <div
+    class="c5"
+  >
+    <div>
+      <div>
+        <span
+          class="c2"
+        >
+          Valuation in 1 month:
+        </span>
+        <span
+          class="c6"
+        >
+          <span
+            class="value"
+          >
+            £8,000
+          </span>
+        </span>
+      </div>
+      <div>
+        <span
+          class="c2"
+        >
+          Valuation in 2 months:
+        </span>
+        <span
+          class="c6"
+        >
+          <span
+            class="value"
+          >
+            £60,000
+          </span>
+        </span>
+      </div>
+    </div>
+    <div
+      class="c7"
+    >
+      Valuation Today:
+      <div
+        class="c8"
+      >
+        <span
+          class="c6"
+        >
+          <span
+            class="value"
+          >
+            £10,000
+          </span>
+        </span>
+      </div>
+      <a
+        class="c4"
+      >
+        Terms and conditions
+      </a>
+    </div>
+  </div>
+  <div
+    class="c9"
+  >
+    <button
+      class="c10 cds--btn cds--btn--secondary"
+      tabindex="0"
+      type="button"
+    >
+      Remove
+       
+    </button>
+    <div
+      class="c11"
+    >
+      <button
+        class="c10 cds--btn cds--btn--primary"
+        tabindex="0"
+        type="button"
+      >
+        Accept
+         
+      </button>
+    </div>
+  </div>
+</div>
+`;

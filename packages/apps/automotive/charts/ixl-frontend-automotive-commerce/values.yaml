@@ -1,0 +1,33 @@
+replicaCount: 1
+
+configMap: ixl-frontend-config
+
+version: v1
+
+annotations:
+  sidecarInject: true
+
+containers:
+  containerName: boilerplate
+
+image:
+  repository: uk.icr.io/ix-liberty/ixl-frontend-automotive-commerce
+  pullPolicy: Always
+
+securityContext: {}
+
+ports:
+  containerPort: 3000
+  protocol: TCP
+
+resources: {}
+
+service: 
+  type: ClusterIP
+  port: 3200
+  targetPort: 3000
+
+gateway:
+  name: helm-exo-helm-gateway
+
+host: uki-commerce-clus-382893-ed73e322e3ea12289f5ccd3b2effe14c-0000.eu-gb.containers.appdomain.cloud

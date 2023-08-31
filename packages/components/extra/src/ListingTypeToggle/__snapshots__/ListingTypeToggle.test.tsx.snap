@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListingTypeToggle /> component its snapshot matches story Default 1`] = `
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #0f62fe;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: bold 0.875rem/1.125005rem 'IBM Plex Sans',Arial,sans-serif;
+  -webkit-letter-spacing: 0.16px;
+  -moz-letter-spacing: 0.16px;
+  -ms-letter-spacing: 0.16px;
+  letter-spacing: 0.16px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c1:hover {
+  color: #0043ce;
+}
+
+.c1 svg {
+  color: #161616;
+}
+
+.c3 {
+  line-height: 100%;
+  margin-left: 0.6rem;
+  margin-top: 0.2rem;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c2 {
+  max-width: 3rem;
+  padding-right: 0.5rem;
+}
+
+.c2 .light {
+  fill: #c6c6c6;
+}
+
+.c2 .dark {
+  fill: #161616;
+}
+
+.c2 svg {
+  color: #161616;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <a
+      aria-label="grid"
+      class="c1 c2"
+    >
+      <span
+        class="c3"
+      >
+        <svg
+          aria-label="icon"
+          class="dark"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="24"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+      </span>
+    </a>
+    <a
+      aria-label="list"
+      class="c1 c2"
+    >
+      <span
+        class="c3"
+      >
+        <svg
+          aria-label="icon"
+          class="light"
+          fill="currentColor"
+          focusable="false"
+          height="20"
+          preserveAspectRatio="xMidYMid meet"
+          role="img"
+          size="24"
+          viewBox="0 0 32 32"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        />
+      </span>
+    </a>
+  </div>
+</div>
+`;

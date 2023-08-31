@@ -1,0 +1,149 @@
+@use 'sass:map';
+
+@use '@carbon/react/scss/config' with (
+  $css--default-type: true, 
+  $css--font-face: true,
+  $css--reset: true,
+  $use-flexbox-grid: true
+);
+
+@use '@carbon/type' with (
+  $heading-01: map.get($exoTheme, 'heading-01'),
+  $heading-02: map.get($exoTheme, 'heading-02'),
+  $heading-03: map.get($exoTheme, 'heading-03'),
+  $heading-04: map.get($exoTheme, 'heading-04'),
+  $heading-05: map.get($exoTheme, 'heading-05'),
+  $heading-06: map.get($exoTheme, 'heading-06'),
+//  $caption-01: map.get($exoTheme, 'caption-01'),
+//  $caption-02: map.get($exoTheme, 'caption-02'),
+  $label-01: map.get($exoTheme, 'label-01'),
+//  $label-02: map.get($exoTheme, 'label-02'),
+  $helper-text-01: map.get($exoTheme, 'helper-text-01'),
+//  $helper-text-02: map.get($exoTheme, 'helper-text-02'),
+  $body-short-01: map.get($exoTheme, 'body-short-01'),
+  $body-short-02: map.get($exoTheme, 'body-short-02'),
+  $body-long-01: map.get($exoTheme, 'body-long-01'),
+  $body-long-02: map.get($exoTheme, 'body-long-02'),
+  $code-01: map.get($exoTheme, 'code-01'),
+  $code-02: map.get($exoTheme, 'code-02'),
+  $productive-heading-01: map.get($exoTheme, 'productive-heading-01'),
+  $productive-heading-02: map.get($exoTheme, 'productive-heading-02'),
+  $productive-heading-03: map.get($exoTheme, 'productive-heading-03'),
+  $productive-heading-04: map.get($exoTheme, 'productive-heading-04'),
+  $productive-heading-05: map.get($exoTheme, 'productive-heading-05'),
+  $productive-heading-06: map.get($exoTheme, 'productive-heading-06'),
+  $productive-heading-07: map.get($exoTheme, 'productive-heading-07'),
+//  $expressive-paragraph-01: map.get($exoTheme, 'expressive-paragraph-01'),
+  $expressive-heading-01: map.get($exoTheme, 'expressive-heading-01'),
+  $expressive-heading-02: map.get($exoTheme, 'expressive-heading-02'),
+  $expressive-heading-03: map.get($exoTheme, 'expressive-heading-03'),
+  $expressive-heading-04: map.get($exoTheme, 'expressive-heading-04'),
+  $expressive-heading-05: map.get($exoTheme, 'expressive-heading-05'),
+  $expressive-heading-06: map.get($exoTheme, 'expressive-heading-06'),
+  $quotation-01: map.get($exoTheme, 'quotation-01'),
+  $quotation-02: map.get($exoTheme, 'quotation-02'),
+  $display-01: map.get($exoTheme, 'display-01'),
+  $display-02: map.get($exoTheme, 'display-02'),
+  $display-03: map.get($exoTheme, 'display-03'),
+  $display-04: map.get($exoTheme, 'display-04'),
+  $legal-01: map.get($exoTheme, 'legal-01'),
+  $legal-02: map.get($exoTheme, 'legal-02'),
+  $body-compact-01: map.get($exoTheme, 'body-compact-01'),
+  $body-compact-02: map.get($exoTheme, 'body-compact-02'),
+  $heading-compact-01: map.get($exoTheme, 'heading-compact-01'),
+  $heading-compact-02: map.get($exoTheme, 'heading-compact-02'),
+  $body-01: map.get($exoTheme, 'body-01'),
+  $body-02: map.get($exoTheme, 'body-02'),
+  $fluid-heading-03: map.get($exoTheme, 'fluid-heading-03'),
+  $fluid-heading-04: map.get($exoTheme, 'fluid-heading-04'),
+  $fluid-heading-05: map.get($exoTheme, 'fluid-heading-05'),
+  $fluid-heading-06: map.get($exoTheme, 'fluid-heading-06'),
+  $fluid-paragraph-01: map.get($exoTheme, 'fluid-paragraph-01'),
+  $fluid-quotation-01: map.get($exoTheme, 'fluid-quotation-01'),
+  $fluid-quotation-02: map.get($exoTheme, 'fluid-quotation-02'),
+  $fluid-display-01: map.get($exoTheme, 'fluid-display-01'),
+  $fluid-display-02: map.get($exoTheme, 'fluid-display-02'),
+  $fluid-display-03: map.get($exoTheme, 'fluid-display-03'),
+  $fluid-display-04: map.get($exoTheme, 'fluid-display-04')
+);
+
+@use '@carbon/styles/scss/themes';
+@use '@carbon/styles/scss/theme' with (
+  $theme: $exoTheme
+);
+
+
+@use '@carbon/react/scss/reset';
+@use '@carbon/react/scss/grid';
+
+
+@use '@carbon/react/scss/layer';
+
+@use '@carbon/react/scss/spacing';
+spacing.$spacing-01: map.get($exoTheme, 'spacing-01');
+spacing.$spacing-02: map.get($exoTheme, 'spacing-02');
+spacing.$spacing-03: map.get($exoTheme, 'spacing-03');
+spacing.$spacing-04: map.get($exoTheme, 'spacing-04');
+spacing.$spacing-05: map.get($exoTheme, 'spacing-05');
+spacing.$spacing-06: map.get($exoTheme, 'spacing-06');
+spacing.$spacing-07: map.get($exoTheme, 'spacing-07');
+spacing.$spacing-08: map.get($exoTheme, 'spacing-08');
+spacing.$spacing-09: map.get($exoTheme, 'spacing-09');
+spacing.$spacing-10: map.get($exoTheme, 'spacing-10');
+spacing.$spacing-11: map.get($exoTheme, 'spacing-11');
+spacing.$spacing-12: map.get($exoTheme, 'spacing-12');
+spacing.$spacing-13: map.get($exoTheme, 'spacing-13');
+
+
+@use '@carbon/styles/scss/components/button/tokens';
+tokens.$button-separator: map.get($exoTheme, 'button-separator');
+tokens.$button-primary: map.get($exoTheme, 'button-primary');
+tokens.$button-secondary: map.get($exoTheme, 'button-secondary');
+tokens.$button-tertiary: map.get($exoTheme, 'button-tertiary');
+tokens.$button-danger-primary: map.get($exoTheme, 'button-danger-primary');
+tokens.$button-danger-secondary: map.get($exoTheme, 'button-danger-secondary');
+tokens.$button-danger-active: map.get($exoTheme, 'button-danger-active');
+tokens.$button-primary-active: map.get($exoTheme, 'button-primary-active');
+tokens.$button-secondary-active: map.get($exoTheme, 'button-secondary-active');
+tokens.$button-tertiary-active: map.get($exoTheme, 'button-tertiary-active');
+tokens.$button-danger-hover: map.get($exoTheme, 'button-danger-hover');
+tokens.$button-primary-hover: map.get($exoTheme, 'button-primary-hover');
+tokens.$button-secondary-hover: map.get($exoTheme, 'button-secondary-hover');
+tokens.$button-tertiary-hover: map.get($exoTheme, 'button-tertiary-hover');
+tokens.$button-disabled: map.get($exoTheme, 'button-disabled');
+
+@use '@carbon/styles/scss/components';
+
+:root {
+  --cds-notification-action-hover: #{map.get($exoTheme, 'notification-action-hover')};
+  --cds-notification-action-tertiary-inverse: #{map.get($exoTheme, 'notification-action-tertiary-inverse')};
+  --cds-notification-action-tertiary-inverse-active: #{map.get($exoTheme, 'notification-action-tertiary-inverse-active')};
+  --cds-notification-action-tertiary-inverse-hover: #{map.get($exoTheme, 'notification-action-tertiary-inverse-hover')};
+  --cds-notification-action-tertiary-inverse-text: #{map.get($exoTheme, 'notification-action-tertiary-inverse-text')};
+  --cds-notification-action-tertiary-inverse-text-on-color-disabled: #{map.get($exoTheme, 'notification-action-tertiary-inverse-text-on-color-disabled')};
+}
+// --------------------------------------------
+// Set custom properties
+/*body {
+  --cds-heading-06-font-weight: #{map.get($exoTheme, 'heading-06', 'font-weight')};
+  --cds-heading-05-font-weight: #{map.get($exoTheme, 'heading-05', 'font-weight')};
+  --cds-heading-04-font-weight: #{map.get($exoTheme, 'heading-04', 'font-weight')};
+  --cds-heading-03-font-weight: #{map.get($exoTheme, 'heading-03', 'font-weight')};
+  --cds-heading-03-font-weight: #{map.get($exoTheme, 'heading-02', 'font-weight')};
+  --cds-heading-03-font-weight: #{map.get($exoTheme, 'heading-01', 'font-weight')};
+}*/
+
+//-------------------------
+// 🍕 Components
+
+.cds--dropdown-list,
+.cds--list-box__menu {
+  z-index: 10000 !important;
+}
+
+.cds--toast-notification {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 11;
+}
